@@ -24,3 +24,20 @@ If anyone want to get into ruby, start with the official site and you will find 
 
 
 **Link to work:** [Day-1 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day001.rb)
+----
+
+
+### Day 2: September 19, 2019
+
+**Today's Progress:** Learned the Basics of ruby String Methods.
+
+**Thoughts:** As expected from an object orianted programming (OOP) methods are always present. the syntax is also very simple. By using the dot (.) after the string, you can apply a method into the string. Well, I learned about these methods today:
+```ruby
+ .upcase
+ .downcase
+ .capitalize
+ .reverse
+ .length
+```
+
+**Link to work:** [Day-2 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day002.rb)
