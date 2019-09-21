@@ -54,3 +54,13 @@ If anyone want to get into ruby, start with the official site and you will find 
 Ruby variables is also self declarative as you dont have to declare a string before you assign a string to a variable. I had to use some of yesterday string methods with the variables to make things much more intersting.
 
 **Link to work:** [Day-3 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day003.rb)
+----
+
+
+### Day 4: September 21, 2019
+
+**Today's Progress:** I learned the basics of getting user input in Ruby
+
+**Thoughts:** By using `gets` to get the user input, you can store the input into a seperate variable to use it later. for example, I use it to print it out on the console screen by using `puts`
+
+**Link to work:** [Day-4 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day004.rb)
