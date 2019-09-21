@@ -25,9 +25,9 @@ If anyone want to get into ruby, start with the official site and you will find 
 
 **Link to work:** [Day-1 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day001.rb)
 
+
+
 ----
-
-
 ### Day 2: September 19, 2019
 
 **Today's Progress:** Learned the Basics of ruby String Methods.
@@ -42,9 +42,9 @@ If anyone want to get into ruby, start with the official site and you will find 
 ```
 
 **Link to work:** [Day-2 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day002.rb)
+
+
 ----
-
-
 ### Day 3: September 20, 2019
 
 **Today's Progress:** Basics of Variables in Ruby
@@ -54,9 +54,9 @@ If anyone want to get into ruby, start with the official site and you will find 
 Ruby variables is also self declarative as you dont have to declare a string before you assign a string to a variable. I had to use some of yesterday string methods with the variables to make things much more intersting.
 
 **Link to work:** [Day-3 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day003.rb)
+
+
 ----
-
-
 ### Day 4: September 21, 2019
 
 **Today's Progress:** I learned the basics of getting user input in Ruby
