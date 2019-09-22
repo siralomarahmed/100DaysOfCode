@@ -2,6 +2,16 @@
 
 ## Ruby
 
+Released in 1995 by Yukihiro Matsumoto anslo known as ("Matz")
+
+Ruby is a:
+1. high-level programming language
+2. an interpreted language
+3. Object-orianted programming language
+4. Open-source
+5. Ruby on Rails backend
+
+
 Main Commitment
 
 I will code in **Ruby** programming language for at least an hour every day for the next 100 days.
@@ -26,8 +36,9 @@ If anyone want to get into ruby, start with the official site and you will find 
 **Link to work:** [Day-1 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day001.rb)
 
 
-
 ----
+
+
 ### Day 2: September 19, 2019
 
 **Today's Progress:** Learned the Basics of ruby String Methods.
@@ -45,6 +56,8 @@ If anyone want to get into ruby, start with the official site and you will find 
 
 
 ----
+
+
 ### Day 3: September 20, 2019
 
 **Today's Progress:** Basics of Variables in Ruby
@@ -57,6 +70,8 @@ Ruby variables is also self declarative as you dont have to declare a string bef
 
 
 ----
+
+
 ### Day 4: September 21, 2019
 
 **Today's Progress:** I learned the basics of getting user input in Ruby
@@ -64,3 +79,15 @@ Ruby variables is also self declarative as you dont have to declare a string bef
 **Thoughts:** By using `gets` to get the user input, you can store the input into a seperate variable to use it later. for example, I use it to print it out on the console screen by using `puts`
 
 **Link to work:** [Day-4 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day004.rb)
+
+----
+
+
+### Day 5: September 22, 2019
+
+**Today's Progress:** Basic String concatenation and interpolation.
+
+**Thoughts:** I realized that `puts` and `gets` will give a newline in the putput. So, I make use of a new string method `.chomp`. this method will just chop off the new line givin after the `gets`.
+So cool, I ended up simulating a comversation using what I learned so far.
+
+**Link to work:** [Day-5 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day005.rb)
