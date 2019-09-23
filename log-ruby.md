@@ -91,3 +91,14 @@ Ruby variables is also self declarative as you dont have to declare a string bef
 So cool, I ended up simulating a comversation using what I learned so far.
 
 **Link to work:** [Day-5 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day005.rb)
+
+----
+
+
+### Day 6: September 23, 2019
+
+**Today's Progress:** Basic Math Using Ruby
+
+**Thoughts:** The basic math operation are similar to diffrent programming languages. In other hand numbers are treated a bit diffrently, as for numbers that are less than zero, you must write the zero on the left "0.5" or it will output an error. Also, numbers that are less than zero are float, and if you are dealing with floats, you need to input floats to output floats. Because ruby will assume you want an integer if you input an integer, not a float.
+
+**Link to work:** [Day-6 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day006.rb)
