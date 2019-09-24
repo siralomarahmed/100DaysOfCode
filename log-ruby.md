@@ -102,3 +102,14 @@ So cool, I ended up simulating a comversation using what I learned so far.
 **Thoughts:** The basic math operation are similar to diffrent programming languages. In other hand numbers are treated a bit diffrently, as for numbers that are less than zero, you must write the zero on the left "0.5" or it will output an error. Also, numbers that are less than zero are float, and if you are dealing with floats, you need to input floats to output floats. Because ruby will assume you want an integer if you input an integer, not a float.
 
 **Link to work:** [Day-6 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day006.rb)
+
+----
+
+### Day 7: September 24, 2019
+
+**Today's Progress:** Basic Numbers Strings Conversion
+
+**Thoughts:** You can't add a number to a string in Ruby. It will print an error, "no implicit conversion of Integer to String (TypeError)". Because `gets` will get string, and `puts` will put a string. To convert the numbers, you can use the `.to_` method and specify the type of the number. For integer `.to_i` and for a float `.to_f` to convert.
+I also learned that to convert a number to a string, you can use the `to_s` method.
+
+**Link to work:** [Day-7 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day007.rb)
