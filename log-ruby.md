@@ -113,3 +113,25 @@ So cool, I ended up simulating a comversation using what I learned so far.
 I also learned that to convert a number to a string, you can use the `to_s` method.
 
 **Link to work:** [Day-7 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day007.rb)
+
+----
+
+
+### Day 8: September 25, 2019
+
+**Today's Progress:** Comparision Operators
+
+**Thoughts:** I learned the basic 6 comparision operator and they are:
+
+| Operator |   function               |
+|----------|--------------------------|
+|    ==    | Equal                    |
+|    !=    | Not Equal                |
+|    >     | Greater than             |
+|    <     | Less than                |
+|    <     | Greater than or equal to |
+|    <     | Less than or equal to    |
+
+The output of a comparision operator is going to be a booloian true or false.
+
+**Link to work:** [Day-8 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day008.rb)
