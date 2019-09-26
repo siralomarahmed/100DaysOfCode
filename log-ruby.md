@@ -21,8 +21,6 @@ September 18th, 2019.
 
 
 ----
-
-
 ### Day 1: September 18, 2019
 
 **Today's Progress:** Installed Ruby on my computer and coded my first console app. I also learned two different ways to print data into the console screen. Using "puts" and "print".
@@ -37,8 +35,6 @@ If anyone want to get into ruby, start with the official site and you will find 
 
 
 ----
-
-
 ### Day 2: September 19, 2019
 
 **Today's Progress:** Learned the Basics of ruby String Methods.
@@ -56,8 +52,6 @@ If anyone want to get into ruby, start with the official site and you will find 
 
 
 ----
-
-
 ### Day 3: September 20, 2019
 
 **Today's Progress:** Basics of Variables in Ruby
@@ -70,8 +64,6 @@ Ruby variables is also self declarative as you dont have to declare a string bef
 
 
 ----
-
-
 ### Day 4: September 21, 2019
 
 **Today's Progress:** I learned the basics of getting user input in Ruby
@@ -80,9 +72,8 @@ Ruby variables is also self declarative as you dont have to declare a string bef
 
 **Link to work:** [Day-4 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day004.rb)
 
+
 ----
-
-
 ### Day 5: September 22, 2019
 
 **Today's Progress:** Basic String concatenation and interpolation.
@@ -92,9 +83,8 @@ So cool, I ended up simulating a comversation using what I learned so far.
 
 **Link to work:** [Day-5 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day005.rb)
 
+
 ----
-
-
 ### Day 6: September 23, 2019
 
 **Today's Progress:** Basic Math Using Ruby
@@ -103,8 +93,8 @@ So cool, I ended up simulating a comversation using what I learned so far.
 
 **Link to work:** [Day-6 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day006.rb)
 
-----
 
+----
 ### Day 7: September 24, 2019
 
 **Today's Progress:** Basic Numbers Strings Conversion
@@ -114,12 +104,11 @@ I also learned that to convert a number to a string, you can use the `to_s` meth
 
 **Link to work:** [Day-7 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day007.rb)
 
+
 ----
-
-
 ### Day 8: September 25, 2019
 
-**Today's Progress:** Comparision Operators
+**Today's Progress:** Basic Comparision Operators
 
 **Thoughts:** I learned the basic 6 comparision operator and they are:
 
@@ -135,3 +124,25 @@ I also learned that to convert a number to a string, you can use the `to_s` meth
 The output of a comparision operator is going to be a booloian true or false.
 
 **Link to work:** [Day-8 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day008.rb)
+
+
+----
+### Day 9: September 26, 2019
+
+**Today's Progress:** Basic Assignment Operators
+
+**Thoughts:** assignment operatos are used to assign value to something. Just as in variable assignments. there are 7 aassignment operators in Ruby and they are:
+
+| Operator |   function                             |
+|----------|----------------------------------------|
+|     =    | Assign the right side to the left side |
+|    +=    | add and assign                         |
+|    -=    | subtract and assign                    |
+|    *=    | multiply and assign                    |
+|   **=    | exponent then assign                   |
+|    /=    | Divide then assign                     |
+|    %=    | Modulus then assign                    |
+
+
+**Link to work:** [Day-9 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day009.rb)
+
