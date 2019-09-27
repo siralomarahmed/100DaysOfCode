@@ -146,3 +146,14 @@ The output of a comparision operator is going to be a booloian true or false.
 
 **Link to work:** [Day-9 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day009.rb)
 
+
+----
+### Day 10: September 27, 2019
+
+**Today's Progress:** If - Conditional Statement
+
+**Thoughts:** Conditional statements let us use conditional operators and then do something based on the condition. the syntax of the if statement is very simple. At first I thought it wont work haha XD, But it actually worked and I realy like it.
+
+
+**Link to work:** [Day-10 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day010.rb)
+
