@@ -157,3 +157,14 @@ The output of a comparision operator is going to be a booloian true or false.
 
 **Link to work:** [Day-10 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day010.rb)
 
+
+----
+### Day 11: September 28, 2019
+
+**Today's Progress:** Conditional Statement - if else & elsif
+
+**Thoughts:** This type of conditional statement is very useful to make a multiple If statements in one block of code. I wonder why Ruby made the "else if" into a "elsif" ! like I would rather type the "elseif" rather than the "elsif", It is just one letter diffreance.
+
+
+**Link to work:** [Day-11 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day011.rb)
+
