@@ -168,3 +168,14 @@ The output of a comparision operator is going to be a booloian true or false.
 
 **Link to work:** [Day-11 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day011.rb)
 
+
+----
+### Day 12: September 29, 2019
+
+**Today's Progress:** Basic Arrays in Ruby
+
+**Thoughts:** I see you can create an array just like variables, and enclose them in a square brackets. By creating arrays, you can then call them as a list. it is better than using `puts` several times to print a list of names. Arrays can hold numbers, strings or another arrays.
+
+
+**Link to work:** [Day-12 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day012.rb)
+
