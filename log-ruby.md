@@ -179,3 +179,15 @@ The output of a comparision operator is going to be a booloian true or false.
 
 **Link to work:** [Day-12 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day012.rb)
 
+
+----
+### Day 13: September 30, 2019
+
+**Today's Progress:** Basic Arrays Interactions in Ruby
+
+**Thoughts:** You can access a specific data in the array by calling it according to its index number. `array_name[index_Number]`.
+You can use methods on the array as the `.length` method to get the lenth of the array according to how maney items inside it. You can utilize the method to get other things if you combine it with a bit of math, like getting the last item in the array.
+
+
+**Link to work:** [Day-13 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day013.rb)
+
