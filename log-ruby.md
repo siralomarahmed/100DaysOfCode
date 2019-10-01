@@ -191,3 +191,13 @@ You can use methods on the array as the `.length` method to get the lenth of the
 
 **Link to work:** [Day-13 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day013.rb)
 
+----
+### Day 14: October 1, 2019
+
+**Today's Progress:** Basic Arrays and the Multidimensional Arrays in Ruby
+
+**Thoughts:** Multidimensional Arrays means an array inside of an array. Basically a nested arrays. You can retreve data from the demensions of the array by utilizing the index positions.
+
+
+**Link to work:** [Day-14 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day014.rb)
+
