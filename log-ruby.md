@@ -201,3 +201,19 @@ You can use methods on the array as the `.length` method to get the lenth of the
 
 **Link to work:** [Day-14 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day014.rb)
 
+
+----
+### Day 15: October 2, 2019
+
+**Today's Progress:** Basic Loops in Ruby - While Loop
+
+**Thoughts:** Just like the if statement, but instead with an "if" you write "while". One IMPORTANT thing.. . Dont do infinite loop hahaha. Make sure you have a condition so that your loop is going to end.
+basically the syntax of the while loop is this:
+```Ruby
+while CONDITION
+  DO SOMETHING
+end
+```
+
+**Link to work:** [Day-15 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day015.rb)
+
