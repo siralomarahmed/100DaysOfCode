@@ -217,3 +217,18 @@ end
 
 **Link to work:** [Day-15 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day015.rb)
 
+
+----
+### Day 16: October 3, 2019
+
+**Today's Progress:** Basic Loops in Ruby - Each Loop
+
+**Thoughts:** This loop is totaly new to me. It is the most object orianted loop. You use it by calling "each" as a method on a range. It is very useful loop, you can iterate through an array or run a condition a cople of times. the syntax is simple too:
+```Ruby
+(CONDITION).each DO SOMETHING
+end 
+```
+
+
+**Link to work:** [Day-16 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day016.rb)
+
