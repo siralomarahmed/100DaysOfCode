@@ -232,3 +232,15 @@ end
 
 **Link to work:** [Day-16 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day016.rb)
 
+
+----
+### Day 17: October 4, 2019
+
+**Today's Progress:** Hashes in Ruby
+
+**Thoughts:** Hashes are a little bit like an array, but the diffrence is that hashes take the approach of "key, value" pair. as an object. Another thing is that the index will be the key, and its value will be... it's value, hahaha.
+Hashes are useful for more complex data. As in a database, you can pull multiple things from there.
+
+
+**Link to work:** [Day-17 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day017.rb)
+
