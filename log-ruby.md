@@ -244,3 +244,14 @@ Hashes are useful for more complex data. As in a database, you can pull multiple
 
 **Link to work:** [Day-17 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day017.rb)
 
+
+----
+### Day 18: October 5, 2019
+
+**Today's Progress:** Ruby Basic about Methods!
+
+**Thoughts:** I thought methods are just methods, but in Ruby, methods are actually a mechanisim that represent a function. Because functions need to be defined to be used later. a function is like a variable but it does a lot more.
+
+
+**Link to work:** [Day-18 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day018.rb)
+
