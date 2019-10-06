@@ -255,3 +255,14 @@ Hashes are useful for more complex data. As in a database, you can pull multiple
 
 **Link to work:** [Day-18 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day018.rb)
 
+
+----
+### Day 19: October 6, 2019
+
+**Today's Progress:** More on Ruby Methods
+
+**Thoughts:** Methods can have more than one parameter. So it is a function =-=\ Fine, I will call it a method just because *Ruby*. :) so, methods can also return values and be stored in a variables to be used later in the program.
+
+
+**Link to work:** [Day-19 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day019.rb)
+
