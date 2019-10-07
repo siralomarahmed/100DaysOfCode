@@ -266,3 +266,17 @@ Hashes are useful for more complex data. As in a database, you can pull multiple
 
 **Link to work:** [Day-19 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day019.rb)
 
+
+----
+### Day 20: October 7, 2019
+
+**Today's Progress:** Basics of Classes in Ruby - part 1
+
+**Thoughts:** A class is like a factory. It take an input, do something with it and then puts out an output. 
+Today I practiced class declarations. Classes use a capitalized name. I think I am getting used to the syntax now, because classes look like Methods at a first glimps. The name of the class will become initilized and assigned into a global constant.
+
+I think I am going to spend some days understanding the Ruby class. It is a bit challenging so, breaking the topic down into smaller parts to fully understand it.
+
+
+**Link to work:** [Day-20 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day020.rb)
+
