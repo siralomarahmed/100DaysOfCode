@@ -2,14 +2,14 @@
 
 ## Ruby
 
-Released in 1995 by Yukihiro Matsumoto anslo known as ("Matz")
+Released in 1995 by Yukihiro Matsumoto Anslo known as ("Matz")
 
 Ruby is a:
-1. high-level programming language
-2. an interpreted language
-3. Object-orianted programming language
-4. Open-source
-5. Ruby on Rails backend
+1. Dynamically and strongly typed programming language
+2. High-level programming language
+3. An interpreted language
+4. Object-orianted programming language
+5. Open-source
 
 
 Main Commitment
@@ -279,4 +279,19 @@ I think I am going to spend some days understanding the Ruby class. It is a bit 
 
 
 **Link to work:** [Day-20 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day020.rb)
+
+
+----
+### Day 21: October 8, 2019
+
+**Today's Progress:** Basics of Classes in Ruby - part 2
+
+**Thoughts:** classes are made up of a bunch of methods. and the first method is "initilize". initilize will have a parameter. where you can do stuff to it.. .
+
+The steps I learned to create class in ruby so far:
+1. Class declaration
+2. Class initilization
+
+
+**Link to work:** [Day-21 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day021.rb)
 
