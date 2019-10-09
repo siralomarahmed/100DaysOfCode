@@ -295,3 +295,19 @@ The steps I learned to create class in ruby so far:
 
 **Link to work:** [Day-21 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day021.rb)
 
+
+----
+### Day 22: October 9, 2019
+
+**Today's Progress:** Basics of Classes in Ruby - part 3
+
+**Thoughts:** Classes methods do not use normal variables, The use instance variables. An instance variable has a name beginning with "@". Those type of variables cannot be altered or even observed, and it has a much narrow scope in the program, 
+
+The steps I learned to create class in ruby so far:
+1. Class declaration
+2. Class initilization
+3. Class variables and jobs!
+
+
+**Link to work:** [Day-22 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day022.rb)
+
