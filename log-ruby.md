@@ -311,3 +311,20 @@ The steps I learned to create class in ruby so far:
 
 **Link to work:** [Day-22 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day022.rb)
 
+
+----
+### Day 23: October 10, 2019
+
+**Today's Progress:** Basics of Classes in Ruby - part 4
+
+**Thoughts:** To run the class, You need to turn the class on. and you do that by calling the `.new` method and not the initialize method.. I know it is weird, but this is how Ruby do it. What this will do is, Creating a new instance of our class. I also learned about the `.inspect` method to inspect things.
+
+The steps I learned to create class in ruby so far:
+1. Class declaration
+2. Class initilization
+3. Class variables and jobs!
+4. Inspect some information about the class.. 
+
+
+**Link to work:** [Day-23 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day023.rb)
+
