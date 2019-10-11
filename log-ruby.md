@@ -328,3 +328,21 @@ The steps I learned to create class in ruby so far:
 
 **Link to work:** [Day-23 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day023.rb)
 
+
+----
+### Day 24: October 11, 2019
+
+**Today's Progress:** Basics of Classes in Ruby - part 5
+
+**Thoughts:** Today I learned how to get something out of a class in Ruby. It is called a getter. Getter is a method where usually will be named as the instance variable in the initialize method, and this method will return something that you can call to the output.
+
+The steps I learned to create class in ruby so far:
+1. Class declaration
+2. Class initilization
+3. Class variables and jobs!
+4. Inspect some information about the class..
+5. Use Getter with class
+
+
+**Link to work:** [Day-24 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day024.rb)
+
