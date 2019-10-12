@@ -346,3 +346,20 @@ The steps I learned to create class in ruby so far:
 
 **Link to work:** [Day-24 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day024.rb)
 
+
+----
+### Day 25: October 12, 2019
+
+**Today's Progress:** Basics of Classes in Ruby - part 6
+
+**Thoughts:** Today I learned about setters. and it is how to set something or change something from the class. Remember, you cant have two methods with the exact name, you may get an error.
+
+My knowledge of Ruby class now is:
+* A class will include three main methods
+  1. Initilaize method
+  2. Getter method
+  3. Setter method
+
+
+**Link to work:** [Day-25 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day025.rb)
+
