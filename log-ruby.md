@@ -4,7 +4,7 @@
 
 Released in 1995 by Yukihiro Matsumoto Anslo known as ("Matz")
 
-Ruby is a:
+Ruby is:
 1. Dynamically and strongly typed programming language
 2. High-level programming language
 3. An interpreted language
@@ -12,7 +12,7 @@ Ruby is a:
 5. Open-source
 
 
-Main Commitment
+*Main Commitment*:
 
 I will code in **Ruby** programming language for at least an hour every day for the next 100 days.
 
@@ -362,4 +362,13 @@ My knowledge of Ruby class now is:
 
 
 **Link to work:** [Day-25 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day025.rb)
+
+----
+### Day 26: October 13, 2019
+
+**Today's Progress:** Practice making random classes in Ruby
+
+**Thoughts:** Yes Today I can say I have mastered the basics of making a class in Ruby.
+
+**Link to work:** [Day-26 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day026.rb)
 
