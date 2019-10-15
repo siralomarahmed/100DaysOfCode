@@ -338,3 +338,19 @@ My knowledge of Ruby class now is:
 **Thoughts:** Today I simulate how to calculate the perimeter of a square using a class in ruby. I learned how to output all the methods that has been declared in the class in one line, wchich is better than outputting them one by one. I have to say writting the getters and setters are a long way to go. Tomorrow I want to find a way to make the code more clear.
 
 **Link to work:** [Day-27 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day027.rb)
+
+----
+### Day 28: October 15, 2019
+
+**Today's Progress:** The useful lovely Class Attr Accessor <3
+
+**Thoughts:** This is a blessing, from having to type the getters and the setters. Just use class atter, and you are done. I have to say this is very satisfying. I rewrite the Square class of yesterday useing class attr.
+
+In the adventure of learning classes in Ruby, make sure you know:
+1. attr_reader   => this one will create the getter
+2. attr_writter  => this one will create the setter
+3. attr_accessor => This one will create both the getter and setter !
+
+and the accessor is the best <3
+
+**Link to work:** [Day-28 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day028.rb)
