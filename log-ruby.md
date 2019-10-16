@@ -354,3 +354,12 @@ In the adventure of learning classes in Ruby, make sure you know:
 and the accessor is the best <3
 
 **Link to work:** [Day-28 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day028.rb)
+
+----
+### Day 29: October 16, 2019
+
+**Today's Progress:** Being more creative with classes.
+
+**Thoughts:** Trying to do more things using the square class of yesterday. Drawing it sounded cool.
+
+**Link to work:** [Day-29 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day029.rb)
