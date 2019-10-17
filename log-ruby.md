@@ -363,3 +363,13 @@ and the accessor is the best <3
 **Thoughts:** Trying to do more things using the square class of yesterday. Drawing it sounded cool.
 
 **Link to work:** [Day-29 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day029.rb)
+
+----
+### Day 30: October 17, 2019
+
+**Today's Progress:** Intermediate practice on printing in Ruby
+
+**Thoughts:** Using `puts` and `print` is good, but you know me, I like to get into the rabbit hole and here we go, I am learning another way.. and it is by using the `p`. The `p` method will offer an accurate way of the type of the data. the `p` method will also interpret the input like it is a code. for example, a new line will be written as `\n` instead of just outputting a newline. A more discriptive way to view things.
+`puts` always print out a newline even if there is nothing in it. So I make use of it to output the code in a visible manner. Also `puts` can have multiple lines string and it will take the new lines as, new lines!.
+
+**Link to work:** [Day-30 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day030.rb)
