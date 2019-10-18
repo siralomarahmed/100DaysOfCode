@@ -373,3 +373,30 @@ and the accessor is the best <3
 `puts` always print out a newline even if there is nothing in it. So I make use of it to output the code in a visible manner. Also `puts` can have multiple lines string and it will take the new lines as, new lines!.
 
 **Link to work:** [Day-30 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day030.rb)
+
+----
+### Day 31: October 18, 2019
+
+**Today's Progress:** Deep dive into Variables
+
+**Thoughts:** Today I just enhanced my knowledge with Variables. As for now, I know that:
+
+
+* A variable is a reference to an object
+* That object is a subject to change. 
+* They are called pointers or identifiers 
+* Where the variable itself is not an object 
+* The variable itself is a placeholder for an object
+* And because Ruby is dynamically typed, variables types do not have to be declared.
+* The same variable can be reassigned to an object of another data type.
+
+
+Variable Syntax:
+1. Variables are pointed to an object with the equal sign (=)
+2. The right side of the equal sign is always evaluated first
+3. Variable names should start with a lowercase letter or underscore
+4. Spaces are not allowed. Use underscores instead. It is also called (lower_snake_case)
+5. Variables names are case-sensitive
+6. DOn't use any Ruby's reserved keywords
+
+**Link to work:** [Day-31 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day031.rb)
