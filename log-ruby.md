@@ -400,3 +400,12 @@ Variable Syntax:
 6. DOn't use any Ruby's reserved keywords
 
 **Link to work:** [Day-31 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day031.rb)
+
+----
+### Day 32: October 19, 2019
+
+**Today's Progress:** Intermediate Variable - Parallel Variable
+
+**Thoughts:** Parallel variable is very useful when you are dealing with multiple variables. You can write all the variables in one line, comma seperated. It saves time and makes the code more clean.
+
+**Link to work:** [Day-32 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day032.rb)
