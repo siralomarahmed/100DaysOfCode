@@ -409,3 +409,12 @@ Variable Syntax:
 **Thoughts:** Parallel variable is very useful when you are dealing with multiple variables. You can write all the variables in one line, comma seperated. It saves time and makes the code more clean.
 
 **Link to work:** [Day-32 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day032.rb)
+
+----
+### Day 33: October 20, 2019
+
+**Today's Progress:** Intermediate Variable - Parallel Variable Reassignment
+
+**Thoughts:** Today I Learned that you can also assign variables in a parallel way. So basically, parallel assginment of variable is really good for dealing with many variables.
+
+**Link to work:** [Day-33 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day033.rb)
