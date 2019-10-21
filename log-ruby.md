@@ -418,3 +418,19 @@ Variable Syntax:
 **Thoughts:** Today I Learned that you can also assign variables in a parallel way. So basically, parallel assginment of variable is really good for dealing with many variables.
 
 **Link to work:** [Day-33 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day033.rb)
+
+----
+### Day 34: October 21, 2019
+
+**Today's Progress:** Ruby Constants
+
+**Thoughts:** Ruby Constants operate like a variable. The idea is about something that will not change over time. So a constant variable is a variable that will not change over time.
+
+Even so, Ruby allow this constant to be changed. because Ruby is very flexable language. However this is not recommended.
+
+Rules:
+* name the constant in a capitalized way
+* It is better if you write it all in caps (uppercase)
+
+
+**Link to work:** [Day-34 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day034.rb)
