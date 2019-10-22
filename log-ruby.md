@@ -434,3 +434,12 @@ Rules:
 
 
 **Link to work:** [Day-34 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day034.rb)
+
+----
+### Day 35: October 22, 2019
+
+**Today's Progress:** Ruby nil Object!
+
+**Thoughts:** `nil` is an object in ruby which represent nothingness. Diving a bit more into the subject, I learned that I can use `nil` to represent that the object has nothing. It represent the absence of a value `puts` return nothing, and nothing is represented as a blank space. A bit confusing but I got the hold of it for now. 
+
+**Link to work:** [Day-35 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day035.rb)
