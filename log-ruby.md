@@ -443,3 +443,12 @@ Rules:
 **Thoughts:** `nil` is an object in ruby which represent nothingness. Diving a bit more into the subject, I learned that I can use `nil` to represent that the object has nothing. It represent the absence of a value `puts` return nothing, and nothing is represented as a blank space. A bit confusing but I got the hold of it for now. 
 
 **Link to work:** [Day-35 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day035.rb)
+
+----
+### Day 36: October 23, 2019
+
+**Today's Progress:** Intermediate Object method and string interpolation in Ruby
+
+**Thoughts:** Adding a string with a number will output an error. Best practice is to convert the data when dealing with it. String interpolation make things easier.
+
+**Link to work:** [Day-36 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day036.rb)
