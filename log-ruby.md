@@ -452,3 +452,18 @@ Rules:
 **Thoughts:** Adding a string with a number will output an error. Best practice is to convert the data when dealing with it. String interpolation make things easier.
 
 **Link to work:** [Day-36 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day036.rb)
+
+----
+### Day 37: October 24, 2019
+
+**Today's Progress:** Input output program
+
+**Thoughts:** Today I created a program that will accept the user input for a name and age, then output the result. There is alot of cases I have encountred while making this program.
+
+* `puts` will always return nil and create a new line
+* `gets` will output a string
+* `.chomp` A method that will take off the new line
+* `to_i` will convert to an integer
+* `to_s` will convert to a string
+
+**Link to work:** [Day-37 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day037.rb)
