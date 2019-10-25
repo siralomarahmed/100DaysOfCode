@@ -467,3 +467,20 @@ Rules:
 * `to_s` will convert to a string
 
 **Link to work:** [Day-37 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day037.rb)
+
+----
+### Day 38: October 25, 2019
+
+**Today's Progress:** Intermediate Numbers and the ".class" Method
+
+**Thoughts:** I wanted to get a strong foundation of the language itself before diving more deep.   
+
+Everything in Ruby is an object. And objects has method. for every number, they have a method called `.next` and it will get the next number.   
+
+These objects come from a blueprint, and the word that describe the blueprint is "class".  
+
+A class is just the template of each object that is created from it. It is not the actual thing itself, it is more of a guide line of how the thing will be built.
+
+Every object in Ruby has an object that they share, and it is the "class" method. You can use the `.class` method to get what blueprint that object is made of.
+
+**Link to work:** [Day-38 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day038.rb)
