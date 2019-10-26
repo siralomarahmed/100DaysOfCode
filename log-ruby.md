@@ -484,3 +484,12 @@ A class is just the template of each object that is created from it. It is not t
 Every object in Ruby has an object that they share, and it is the "class" method. You can use the `.class` method to get what blueprint that object is made of.
 
 **Link to work:** [Day-38 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day038.rb)
+
+----
+### Day 39: October 26, 2019
+
+**Today's Progress:** Intermediate conversion between string and numbers
+
+**Thoughts:** the methods `.to_i`. `.to_f` and `.to_s` are available even if the object is that data type. And the result will be the exact same thing. Float conversion is a bit deffrent, because when you convert float to string for example, the method will ignore the numbers after the decimal point and bring back the whole number.
+
+**Link to work:** [Day-39 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day039.rb)
