@@ -493,3 +493,14 @@ Every object in Ruby has an object that they share, and it is the "class" method
 **Thoughts:** the methods `.to_i`. `.to_f` and `.to_s` are available even if the object is that data type. And the result will be the exact same thing. Float conversion is a bit deffrent, because when you convert float to string for example, the method will ignore the numbers after the decimal point and bring back the whole number.
 
 **Link to work:** [Day-39 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day039.rb)
+
+----
+### Day 40: October 27, 2019
+
+**Today's Progress:** Intermediate Booleans in Ruby
+
+**Thoughts:** Boolean object is just true and false. it can only be either one of them. Booleans are objects too. each boolean has a diffrent class. as `true` is from the class TrueClass and `false` is from the FalseClass.
+
+You can use the `.odd?` and `.even?` object method to get a boolean value. It is useful in combination with numbers. Just remember, these odd and even method is not available on the float numbers.
+
+**Link to work:** [Day-40 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day040.rb)
