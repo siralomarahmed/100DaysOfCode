@@ -504,3 +504,12 @@ Every object in Ruby has an object that they share, and it is the "class" method
 You can use the `.odd?` and `.even?` object method to get a boolean value. It is useful in combination with numbers. Just remember, these odd and even method is not available on the float numbers.
 
 **Link to work:** [Day-40 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day040.rb)
+
+----
+### Day 41: October 28, 2019
+
+**Today's Progress:** Basic Artiemitic Methods
+
+**Thoughts:** Ruby allow you to write the method without the perentheses "()" but in other languages, you have to include them. Artiemitic operation on ruby are actually methods. So basic one plus one is one that is used with the method plus with one.. . However, It is best practice to use the perentheses with methods.
+
+**Link to work:** [Day-41 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day041.rb)
