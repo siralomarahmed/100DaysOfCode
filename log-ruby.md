@@ -514,6 +514,7 @@ You can use the `.odd?` and `.even?` object method to get a boolean value. It is
 
 **Link to work:** [Day-41 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day041.rb)
 
+----
 ### Day 42: October 29, 2019
 
 **Today's Progress:** Basics of object method parameters in Ruby
