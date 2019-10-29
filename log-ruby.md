@@ -513,3 +513,13 @@ You can use the `.odd?` and `.even?` object method to get a boolean value. It is
 **Thoughts:** Ruby allow you to write the method without the perentheses "()" but in other languages, you have to include them. Artiemitic operation on ruby are actually methods. So basic one plus one is one that is used with the method plus with one.. . However, It is best practice to use the perentheses with methods.
 
 **Link to work:** [Day-41 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day041.rb)
+
+### Day 42: October 29, 2019
+
+**Today's Progress:** Basics of object method parameters in Ruby
+
+**Thoughts:** A parameter is the placeholder name assigned to an expected argument. Methods on objects can accept one or more inputs, the technical word for an input is an argument.
+
+There are alot of methods, on the [ruby docs](https://ruby-doc.com/) to check out. an intersting one is the `.between`
+
+**Link to work:** [Day-42 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day042.rb)
