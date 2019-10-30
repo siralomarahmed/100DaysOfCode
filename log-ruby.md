@@ -524,3 +524,16 @@ You can use the `.odd?` and `.even?` object method to get a boolean value. It is
 There are alot of methods, on the [ruby docs](https://ruby-doc.com/) to check out. an intersting one is the `.between`
 
 **Link to work:** [Day-42 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day042.rb)
+
+----
+### Day 43: October 30, 2019
+
+**Today's Progress:** Basic Float Methods in Ruby
+
+**Thoughts:** Because converting the float number to an integer using the `.to_i` will chop off the numbers after the decimal, there are other solutions to keep those values. Methods like the `.floor` will round the float number down to a whole number. In other hand the `.ceil` will round up to the nearist integer.
+
+Here is an intersting method, `.round`. this method can take a parameter. and that parameter can chose how many numbers after the decimal you would like to round to.
+
+`.abs` absolute value, as in math this method will always return a positive number.
+
+**Link to work:** [Day-43 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day043.rb)
