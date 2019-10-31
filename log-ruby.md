@@ -537,3 +537,16 @@ Here is an intersting method, `.round`. this method can take a parameter. and th
 `.abs` absolute value, as in math this method will always return a positive number.
 
 **Link to work:** [Day-43 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day043.rb)
+
+----
+### Day 44: October 31, 2019
+
+**Today's Progress:** Basic of Blocks in Ruby - part 1
+
+**Thoughts:** A Ruby block is a group collection of Ruby statements that imediately follows a method call. Blocks are not methods. It will give an instruction for the method on how it should work in a specific condition. So, a block cannot exist except within the context of a method. It add a bit more clearity when a method require more details.
+
+You can make a Ruby block after calling a method on an object by using the "{}" curley braceses. And what is inside of the braceses will be the block of instruction. This is called a one line block.
+
+Blocks can include something called block variable. and this block variable has a local scope only inside the block of code. the syntax is two virtical pipes "||". What the function of the variable or variables that are inside will depend on what is the method you are calling the block of code on.
+
+**Link to work:** [Day-44 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day044.rb)
