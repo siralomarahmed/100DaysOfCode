@@ -550,3 +550,16 @@ You can make a Ruby block after calling a method on an object by using the "{}" 
 Blocks can include something called block variable. and this block variable has a local scope only inside the block of code. the syntax is two virtical pipes "||". What the function of the variable or variables that are inside will depend on what is the method you are calling the block of code on.
 
 **Link to work:** [Day-44 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day044.rb)
+
+----
+### Day 45: November 1, 2019
+
+**Today's Progress:** Basic of Blocks in Ruby - part 2
+
+**Thoughts:** You can make a Ruby block after calling a method on an object by using the `do end` keywords. And what is between them is the block of instruction. This is called a multiline block.
+
+You can also include block variable using the multiline block of code.
+
+Remember, the block variable will not exist on the global scope, it only exist on the local scope.
+
+**Link to work:** [Day-45 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day045.rb)
