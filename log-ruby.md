@@ -563,3 +563,12 @@ You can also include block variable using the multiline block of code.
 Remember, the block variable will not exist on the global scope, it only exist on the local scope.
 
 **Link to work:** [Day-45 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day045.rb)
+
+----
+### Day 46: November 2, 2019
+
+**Today's Progress:** More object methods with Ruby blocks - part 1
+
+**Thoughts:** The `.downto()` method will count down from a number to another number. The `.upto()` method will count up from a number to another number. The two methods are range methods. and they will be useful in combination with arrays.
+
+**Link to work:** [Day-46 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day046.rb)
