@@ -572,3 +572,12 @@ Remember, the block variable will not exist on the global scope, it only exist o
 **Thoughts:** The `.downto()` method will count down from a number to another number. The `.upto()` method will count up from a number to another number. The two methods are range methods. and they will be useful in combination with arrays.
 
 **Link to work:** [Day-46 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day046.rb)
+
+----
+### Day 47: November 3, 2019
+
+**Today's Progress:** More object methods with Ruby blocks - part 2
+
+**Thoughts:** The `.step()` method takes two arguments. the first argument is the number you want to go to, and the second number is going to be the steps into the number you want to go to. So this method allow you to specify the steps that you want to increment.
+
+**Link to work:** [Day-47 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day047.rb)
