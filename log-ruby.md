@@ -581,3 +581,14 @@ Remember, the block variable will not exist on the global scope, it only exist o
 **Thoughts:** The `.step()` method takes two arguments. the first argument is the number you want to go to, and the second number is going to be the steps into the number you want to go to. So this method allow you to specify the steps that you want to increment.
 
 **Link to work:** [Day-47 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day047.rb)
+
+----
+### Day 48: November 4, 2019
+
+**Today's Progress:** String Creation using class and multiline string
+
+**Thoughts:** You can create strings by using the `String.new()` class instead of just typing strings litterals with qoutations.
+
+You can create strings in multi line by using the `<<identifier_name  ... strings in multiline ... identifier_name`
+
+**Link to work:** [Day-48 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day048.rb)
