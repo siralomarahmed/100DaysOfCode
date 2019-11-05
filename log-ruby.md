@@ -592,3 +592,15 @@ Remember, the block variable will not exist on the global scope, it only exist o
 You can create strings in multi line by using the `<<identifier_name  ... strings in multiline ... identifier_name`
 
 **Link to work:** [Day-48 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day048.rb)
+
+----
+### Day 49: November 5, 2019
+
+**Today's Progress:** Strings Escape Characters and Qoutes!
+
+**Thoughts:** Qoutes inside a string need to be ignored unless you are looking for an error to pop up! the escape character is the classic backslash `\`. You can use the `\n` for adding a new-line in the string. You can use the `\t` to add a tab space.
+
+
+You cant use single qoutes and a new line escape character. they dont work in Ruby. Single qoutes  also litterally interpret what is between them ignoring the escape and template literal commands.
+
+**Link to work:** [Day-49 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day049.rb)
