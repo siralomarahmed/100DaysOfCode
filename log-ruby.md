@@ -604,3 +604,20 @@ You can create strings in multi line by using the `<<identifier_name  ... string
 You cant use single qoutes and a new line escape character. they dont work in Ruby. Single qoutes  also litterally interpret what is between them ignoring the escape and template literal commands.
 
 **Link to work:** [Day-49 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day049.rb)
+
+----
+### Day 50: November 6, 2019
+
+**Today's Progress:** Strings comparision and concatenation
+
+**Thoughts:** In the Ruby algorithem, the capital letters come before the lowercase letters, this mean that capital letters has a lower number value than the lowercase letters. Strings are case sinsitive in comparision, They have to match in order to be the same.
+
+In Ruby there is alot of ways to concat strings together. 
+1. Using the plus sign `+`
+2. Using short-hand syntax `+=`
+3. Using the shovel operator `<<`
+4. Using A Method
+
+The `.concat()` method will permenentaly modify the variable, this mean it will overwrite the variable. The `.prepend()` method will do the reverse of concat, it will also overwrite the variable.
+
+**Link to work:** [Day-50 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day050.rb)
