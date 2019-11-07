@@ -621,3 +621,14 @@ In Ruby there is alot of ways to concat strings together.
 The `.concat()` method will permenentaly modify the variable, this mean it will overwrite the variable. The `.prepend()` method will do the reverse of concat, it will also overwrite the variable.
 
 **Link to work:** [Day-50 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day050.rb)
+
+----
+### Day 51: November 7, 2019
+
+**Today's Progress:** Combining Ruby methods
+
+**Thoughts:** To return the number characters of a string, You can use two methods, one of them is `.length()` and the other one is `.size()` methid. They both has the same effect. The type of object that is returned from these two methods are fixnum and it is going to be integer.
+
+You can also mosh up methods together to create an intersting output, for example. getting the length of a string by using the `.length` method and then using the `.even?` method to get an output as a boolean object.
+
+**Link to work:** [Day-51 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day051.rb)
