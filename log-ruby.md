@@ -632,3 +632,13 @@ The `.concat()` method will permenentaly modify the variable, this mean it will 
 You can also mosh up methods together to create an intersting output, for example. getting the length of a string by using the `.length` method and then using the `.even?` method to get an output as a boolean object.
 
 **Link to work:** [Day-51 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day051.rb)
+
+### Day 52: November 8, 2019
+
+**Today's Progress:** Extract a character from string.
+
+**Thoughts:** Strings in Ruby are changable. and they are counted by the index number which starts from zero. By using the "[]" square cracet notation, you can call the index number as a method from the string. This mean that string is going to be like an object and the calling of the index number is going to act like the method. A presentation of how object orianted programming work.
+
+You can use the `.slice()` method, which is identical to the square bracket to call a character from a string.
+
+**Link to work:** [Day-52 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day052.rb)
