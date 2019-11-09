@@ -642,3 +642,12 @@ You can also mosh up methods together to create an intersting output, for exampl
 You can use the `.slice()` method, which is identical to the square bracket to call a character from a string.
 
 **Link to work:** [Day-52 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day052.rb)
+
+----
+### Day 53: November 9, 2019
+
+**Today's Progress:** Extract more than one character from string.
+
+**Thoughts:** By using the bracket notation you can specify the index from which you want to start from and then specify how maney characters you want to take. This is how you get multiple character from a string. You can also use the `.slice()` method giving it two parameter, the first is for the index number where you want to start, and the second is to how maney characters. It will function similar as the bracket notation.
+
+**Link to work:** [Day-53 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day053.rb)
