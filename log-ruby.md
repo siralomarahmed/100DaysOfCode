@@ -661,4 +661,4 @@ You can use the `.slice()` method, which is identical to the square bracket to c
 
 Remember: the two dots method will include the range to index number with it, the three dots method will not include the range to index number with it.
 
-**Link to work:** [Day-54 sourceCode]https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day054.rb)
+**Link to work:** [Day-54 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day054.rb)
