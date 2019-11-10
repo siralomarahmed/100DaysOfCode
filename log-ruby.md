@@ -651,3 +651,14 @@ You can use the `.slice()` method, which is identical to the square bracket to c
 **Thoughts:** By using the bracket notation you can specify the index from which you want to start from and then specify how maney characters you want to take. This is how you get multiple character from a string. You can also use the `.slice()` method giving it two parameter, the first is for the index number where you want to start, and the second is to how maney characters. It will function similar as the bracket notation.
 
 **Link to work:** [Day-53 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day053.rb)
+
+----
+### Day 54: November 10, 2019
+
+**Today's Progress:** Takeing characters from string using the range method
+
+**Thoughts:** This method will bring back the characters in range from , between the specified numbers. For example, to call the range from index number two to ten you may want to add those numbersin the slice method like this `.slice(2..10)`. If you used an index number that is nore than the length of the character, the method will print the string and ignore the rest.
+
+Remember: the two dots method will include the range to index number with it, the three dots method will not include the range to index number with it.
+
+**Link to work:** [Day-54 sourceCode]https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day054.rb)
