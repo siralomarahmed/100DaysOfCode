@@ -662,3 +662,12 @@ You can use the `.slice()` method, which is identical to the square bracket to c
 Remember: the two dots method will include the range to index number with it, the three dots method will not include the range to index number with it.
 
 **Link to work:** [Day-54 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day054.rb)
+
+----
+### Day 55: November 11, 2019
+
+**Today's Progress:** Changing a specific string characters
+
+**Thoughts:** Strings in Ruby is mutable. This mean you dont have to assign a variable to some word or a character to change it. and by changing it, I mean overwriting the string all over again. And to overwrite specific characters in a string, you just have to reassign the index numbers of the string with whatever you want.
+
+**Link to work:** [Day-55 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day055.rb)
