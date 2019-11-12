@@ -671,3 +671,12 @@ Remember: the two dots method will include the range to index number with it, th
 **Thoughts:** Strings in Ruby is mutable. This mean you dont have to assign a variable to some word or a character to change it. and by changing it, I mean overwriting the string all over again. And to overwrite specific characters in a string, you just have to reassign the index numbers of the string with whatever you want.
 
 **Link to work:** [Day-55 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day055.rb)
+
+----
+### Day 56: November 12, 2019
+
+**Today's Progress:** More Common String Methods
+
+**Thoughts:** `.capitalize()` method will capitalizr the first character of the string. The `.upcase()` method will make all the characters in the string in capital letters. The `.downcase()` will convert all the characters in a string into a lowercase letters. `.swapcase` is a method that will swap the string case from lowercase to uppercase and swap the uppercase to lowercase. The `.reverse` method will reverse the characters in a string and will return a new string object.
+
+**Link to work:** [Day-56 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day056.rb)
