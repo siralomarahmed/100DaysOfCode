@@ -680,3 +680,16 @@ Remember: the two dots method will include the range to index number with it, th
 **Thoughts:** `.capitalize()` method will capitalizr the first character of the string. The `.upcase()` method will make all the characters in the string in capital letters. The `.downcase()` will convert all the characters in a string into a lowercase letters. `.swapcase` is a method that will swap the string case from lowercase to uppercase and swap the uppercase to lowercase. The `.reverse` method will reverse the characters in a string and will return a new string object.
 
 **Link to work:** [Day-56 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day056.rb)
+
+----
+### Day 57: November 13, 2019
+
+**Today's Progress:** The Bang Method in Ruby
+
+**Thoughts:** When you use a method on a string, a new string will be created and the old one will be reserved in the memory. It is more like a temporary creation. Because the old string, before the alteration will still be available. You can try this by assigning a string to a variable and then using a method on it.
+
+If you want to modify it, You can assign the string again. This way is ok, but a bit confusing. You can do the same thing by using the Bang method... " ! " this bang... . However. The bang method will mutate the origional string. The obvious advantage is that it has a clean syntax, which is easier to read.
+
+The bang " ! " method is not a sign, it is actually a specific method, as in `reverse!` and it only work on few methods. So, it is not an extra operational sign you attach it to any method.
+
+**Link to work:** [Day-57 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day057.rb)
