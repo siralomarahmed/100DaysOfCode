@@ -693,3 +693,14 @@ If you want to modify it, You can assign the string again. This way is ok, but a
 The bang " ! " method is not a sign, it is actually a specific method, as in `reverse!` and it only work on few methods. So, it is not an extra operational sign you attach it to any method.
 
 **Link to work:** [Day-57 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day057.rb)
+
+----
+### Day 58: November 14, 2019
+
+**Today's Progress:** More string methods on Ruby
+
+**Thoughts:** `.include?()` is a string method that can look the string for a specific character. It is case sinsitive. You can think of it as a search method that has its scope limited on the string.
+
+`.empty?` this method will only return yes if the string is empty and nothing inside it. If it has anything inside it, it will return false. it will simply see if the string length is equal to zero. `.nil?` method does exactly the same thing. You use this method when you want to check about an object that represent nothingness.
+
+**Link to work:** [Day-58 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day058.rb)
