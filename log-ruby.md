@@ -704,3 +704,23 @@ The bang " ! " method is not a sign, it is actually a specific method, as in `re
 `.empty?` this method will only return yes if the string is empty and nothing inside it. If it has anything inside it, it will return false. it will simply see if the string length is equal to zero. `.nil?` method does exactly the same thing. You use this method when you want to check about an object that represent nothingness.
 
 **Link to work:** [Day-58 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day058.rb)
+
+----
+### Day 59: November 15, 2019
+
+**Today's Progress:** Advance Method in Ruby part 1
+
+**Thoughts:** I wonder, why do they call it a method, when it is a conditional statements?... . It is about writing the method to solve a solution over and over again everytime the problem come along.
+
+* A method is a grouped collection of Ruby statements that serves a purpose.
+* Methods are designed to be reused. Follow the golden rule: DRY
+  - D = Dont
+  - R = Repete
+  - Y = Yourself
+* Methods abstract the complexity of solving a problem.
+* A method is first defined with a set of Ruby statements
+* The method is then called or invoked. These are programming terms for "run" or "executed".
+
+Variables that are declared inside the method will only have scope inside the method, and will not affect variables on the global scope.
+
+**Link to work:** [Day-59 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day059.rb)
