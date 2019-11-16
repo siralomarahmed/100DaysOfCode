@@ -724,3 +724,14 @@ The bang " ! " method is not a sign, it is actually a specific method, as in `re
 Variables that are declared inside the method will only have scope inside the method, and will not affect variables on the global scope.
 
 **Link to work:** [Day-59 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day059.rb)
+
+----
+### Day 60: November 16, 2019
+
+**Today's Progress:** Advance Method in Ruby part 2
+
+**Thoughts:** A parameter is an input to a method, It is something that we give the method so we can use with the method. Methods can have one or more inputs, it is also not required. The name that you give to each one of the inputs are called a parameter.
+
+Every methid will return a final value. The returned value is the output. There are two ways to return a value. explicit and implicit. Use explicit return if you want to return a value from a method early, incase you dont need to execute the whole method to the end.
+
+**Link to work:** [Day-60 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day060.rb)
