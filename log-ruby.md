@@ -735,3 +735,19 @@ Variables that are declared inside the method will only have scope inside the me
 Every methid will return a final value. The returned value is the output. There are two ways to return a value. explicit and implicit. Use explicit return if you want to return a value from a method early, incase you dont need to execute the whole method to the end.
 
 **Link to work:** [Day-60 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day060.rb)
+
+----
+### Day 61: November 17, 2019
+
+**Today's Progress:** Advance Conditionals with Methods in Ruby part 1
+
+**Thoughts:** if statement, can use conditions to execute. They can include methods and other mathimatical equations. the if statement can evaluate its condition to truthiness and falsiness as a boolean condition. Remember, that everything is truthly value in Ruby except false and nil.
+
+"if elsif statement" is used to not repeat "if statements" You can combine multiple "if statements" to be more specific on your output.
+
+"if elsif else statement" the last else here is a last catch for whatever happens that is outside the conditions you have stated before.
+
+* Programming is about defining the paths that a program can take
+* conditional is a statement that controls if a piece of code executes
+
+**Link to work:** [Day-61 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day061.rb)
