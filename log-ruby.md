@@ -751,3 +751,20 @@ Every methid will return a final value. The returned value is the output. There 
 * conditional is a statement that controls if a piece of code executes
 
 **Link to work:** [Day-61 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day061.rb)
+
+----
+### Day 62: November 18, 2019
+
+**Today's Progress:** Advance Conditionals with Methods in Ruby part 2
+
+**Thoughts:** Ruby uses short cercuit evaluation, which mean that it wont evaluate all the condition in the code. It will only evaluate conditions until it find something wrong. For example in an if statement, if the first condition was wrong, it will skip the condition that is after it and move to the next step.
+
+Conditions can be nested together using multi "if statements" inside each other. There is another way to do the same thing in one line, and it is by using the and "&&" symbol, which represent and. In other hand you can use the OR "||" operator to evaluatre a condition where if only one is true, you will want to execute the code.
+
+I will only recommend to use nested if statements if the condition is complicated. Nesting if statement will make the code more clear in that case.
+
+Refactoring the code is making the code more clear. for example, you dont have to check if a boolean is a boolean, you can just check it's truthiness and falsiness. The same thing work for strings, because strings are actually truthly value.
+
+You can use parentheses to group conditionals together which will make the code more clear to read. The other function is to actually execute the code within the parentheses before the code outside it.
+
+**Link to work:** [Day-62 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day062.rb)
