@@ -768,3 +768,20 @@ Refactoring the code is making the code more clear. for example, you dont have t
 You can use parentheses to group conditionals together which will make the code more clear to read. The other function is to actually execute the code within the parentheses before the code outside it.
 
 **Link to work:** [Day-62 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day062.rb)
+
+----
+### Day 63: November 19, 2019
+
+**Today's Progress:** Advance Conditionals with Methods in Ruby part 3
+
+**Thoughts:** Ruby does not care much of what the object is but, Ruby care of what it can do with the object a lot more.
+
+`.respond_to()?` method is a method that allow you to check if the object is responsive to a method. You can use this method as a condition to only run a method on an object if that method actualy responsive to it.
+
+You can use the symbol instead of a string as an argument in the `.respond` method to cut off all the extra things of what ruby think of when dealing with strings. A symbol is basically a string without all the extra methods that work on a string.
+
+Ternary operator is used when you want to make a simple if statement. As the name suggest, it is an operator that will have three movements. It is clean one line of code.
+
+Sometimes you may want to specify a default parameter for a method where it expect a parameter. It is optional but prefarable. I perfare to add default parameters when I am calling a method inside another method.
+
+**Link to work:** [Day-63 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day063.rb)
