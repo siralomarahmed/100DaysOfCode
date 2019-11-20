@@ -785,3 +785,16 @@ Ternary operator is used when you want to make a simple if statement. As the nam
 Sometimes you may want to specify a default parameter for a method where it expect a parameter. It is optional but prefarable. I perfare to add default parameters when I am calling a method inside another method.
 
 **Link to work:** [Day-63 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day063.rb)
+
+----
+### Day 64: November 20, 2019
+
+**Today's Progress:** Advance Conditionals with Methods in Ruby part 4
+
+**Thoughts:** The "case statement" In Ruby allows us to replace multiple "if else and elsif statements". So in the condition when you want to check a large ammount of conditions, this statement is perfarable and much cleaner.
+
+While making conditions, you may want to negate something. In Ruby, the negation operator is the "!". Negation will give a boolean answer. You can also use the negate negation operator which is represented by the operator "!!" and it will negate the negation.
+
+The `unless` keyword, is used inplace of the `if` keyword in a conditional statement if you are going to put a condition that is negated.
+
+**Link to work:** [Day-64 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day064.rb)
