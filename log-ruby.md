@@ -798,3 +798,18 @@ While making conditions, you may want to negate something. In Ruby, the negation
 The `unless` keyword, is used inplace of the `if` keyword in a conditional statement if you are going to put a condition that is negated.
 
 **Link to work:** [Day-64 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day064.rb)
+
+----
+### Day 65: November 21, 2019
+
+**Today's Progress:** Statement modifires, loops and more Conditions in Ruby
+
+**Thoughts:** The `while` keyword will create a loop. This mechanisim is very useful to iterate a line of code multiple of times without writing it over and over again. Remember to not make an infinite loop and always put a condition to end the loop.
+
+The `until` keyword is a complimentary to the while loop. What a `while` does is that it will continue executing while the condition is true, in the other hand what a `until` does is that it will continue to execute until the condition is true.
+
+You can reduce the number of lines in an if statement by using the inline modifire. Remember inline modifire must only be used when the body of the if statement is one line long. If you have a more complex operation, just stick to the normal if statement design. You can use this modifire with the unless statement too.
+
+The conditional assignemtn operator `||=` will only assign the value to a variable if the current value of the variable is nil. It is a great way to optimise your program.
+
+**Link to work:** [Day-65 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day065.rb)
