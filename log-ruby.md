@@ -813,3 +813,18 @@ You can reduce the number of lines in an if statement by using the inline modifi
 The conditional assignemtn operator `||=` will only assign the value to a variable if the current value of the variable is nil. It is a great way to optimise your program.
 
 **Link to work:** [Day-65 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day065.rb)
+
+----
+### Day 66: November 22, 2019
+
+**Today's Progress:** Advanced ranges in Ruby
+
+**Thoughts:** Ranges stores a sequence of numbers or letters, It start from one point and it include all the values from that one point to the next point. There are two ways to represent a range in Ruby. The first is with two dots, It will include the last character in the sequence. The second is with three dots, It will exclude the last character in the sequence.
+
+You can use methods with ranges, `.first` mehtod will get the first character. the `.last` method will get the last character. Remember the `.last` method will include the last point even if you used the three dots method to exclude the last point of the range. These two methods also take parameters, which you can get the first two numbers by calling the `.first(2)` method with one parameter that represent how many point you would want to get.
+
+Many other methods work on the range object in Ruby, for example the `.size()` method will get the size of the range, and the `.include()` mehtod will check and see if the parameter is included inside the range object. You can also use the `===` symbol to simulate the same job of the `.include()` method.
+
+You can generate random number in ruby by using the `.rand()` method. You can also round a number by using the `.round()`method. In combination with Ruby ranges, you can generate random numbers in a range.
+
+**Link to work:** [Day-66 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day065.rb)
