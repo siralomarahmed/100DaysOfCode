@@ -19,6 +19,22 @@ Start Date:
 September 18th, 2019.
 
 ----
+## Days:
+|+|00                                      |10                                     |20                                   |30                                    |40                                    |50                                    |60                                    |
+|-|----------------------------------------|---------------------------------------|-------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|
+|01| [Day 1](#Day-1:-September-18,-2019)   | [Day 11](#Day-11:-September-28,-2019) | [Day 21](#Day-21:-October-8,-2019)  | [Day 31](#Day-31:-October-18,-2019)  | [Day 41](#Day-41:-October-28,-2019)  | [Day 51](#Day-51:-November-7,-2019)  |[Day 61](#Day-61:-November-17,-2019)
+|02| [Day 2](#Day-2:-September-19,-2019)   | [Day 12](#Day-12:-September-29,-2019) | [Day 22](#Day-22:-October-9,-2019)  | [Day 32](#Day-32:-October-19,-2019)  | [Day 42](#Day-42:-October-29,-2019)  | [Day 52](#Day-52:-November-8,-2019)  |[Day 62](#Day-62:-November-18,-2019)
+|03| [Day 3](#Day-3:-September-20,-2019)   | [Day 13](#Day-13:-September-30,-2019) | [Day 23](#Day-23:-October-10,-2019) | [Day 33](#Day-33:-October-20,-2019)  | [Day 43](#Day-43:-October-30,-2019)  | [Day 53](#Day-53:-November-9,-2019)  |[Day 63](#Day-63:-November-19,-2019)
+|04| [Day 4](#Day-4:-September-21,-2019)   | [Day 14](#Day-14:-October-1,-2019)    | [Day 24](#Day-24:-October-11,-2019) | [Day 34](#Day-34:-October-21,-2019)  | [Day 44](#Day-44:-October-31,-2019)  | [Day 54](#Day-54:-November-10,-2019) |[Day 64](#Day-64:-November-20,-2019)
+|05| [Day 5](#Day-5:-September-22,-2019)   | [Day 15](#Day-15:-October-2,-2019)    | [Day 25](#Day-25:-October-12,-2019) | [Day 35](#Day-35:-October-22,-2019)  | [Day 45](#Day-45:-November-1,-2019)  | [Day 55](#Day-55:-November-11,-2019) |[Day 65](#Day-65:-November-21,-2019)
+|06| [Day 5](#Day-6:-September-23,-2019)   | [Day 16](#Day-16:-October-3,-2019)    | [Day 26](#Day-26:-October-13,-2019) | [Day 36](#Day-36:-October-23,-2019)  | [Day 46](#Day-46:-November-2,-2019)  | [Day 56](#Day-56:-November-12,-2019) |[Day 66](#Day-66:-November-22,-2019)
+|07| [Day 5](#Day-7:-September-24,-2019)   | [Day 17](#Day-17:-October-4,-2019)    | [Day 27](#Day-27:-October-14,-2019) | [Day 37](#Day-37:-October-24,-2019)  | [Day 47](#Day-47:-November-3,-2019)  | [Day 57](#Day-57:-November-13,-2019) |[Day 67](#Day-67:-November-23,-2019)
+|08| [Day 5](#Day-8:-September-25,-2019)   | [Day 18](#Day-18:-October-5,-2019)    | [Day 28](#Day-28:-October-15,-2019) | [Day 38](#Day-38:-October-25,-2019)  | [Day 48](#Day-48:-November-4,-2019)  | [Day 58](#Day-58:-November-14,-2019) |
+|09| [Day 5](#Day-9:-September-26,-2019)   | [Day 19](#Day-19:-October-6,-2019)    | [Day 29](#Day-29:-October-16,-2019) | [Day 39](#Day-39:-October-26,-2019)  | [Day 49](#Day-49:-November-5,-2019)  | [Day 59](#Day-59:-November-15,-2019) |
+|10| [Day 10](#Day-10:-September-27,-2019) | [Day 20](#Day-20:-October-7,-2019)    | [Day 30](#Day-30:-October-17,-2019) | [Day 40](#Day-40:-October-27,-2019)  | [Day 50](#Day-50:-November-6,-2019)  | [Day 60](#Day-60:-November-16,-2019) |
+
+
+----
 ### Day 1: September 18, 2019
 
 **Today's Progress:** Installed Ruby on my computer and coded my first console app. I also learned two different ways to print data into the console screen. Using "puts" and "print".
