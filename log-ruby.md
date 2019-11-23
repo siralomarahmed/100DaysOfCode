@@ -828,3 +828,25 @@ Many other methods work on the range object in Ruby, for example the `.size()` m
 You can generate random number in ruby by using the `.rand()` method. You can also round a number by using the `.round()`method. In combination with Ruby ranges, you can generate random numbers in a range.
 
 **Link to work:** [Day-66 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day065.rb)
+
+----
+### Day 67: November 23, 2019
+
+**Today's Progress:** Advance Array in Ruby part - 1
+
+**Thoughts:** You can make an array with numbers, strings, booleans or and combination of these. You can make arrays inside of an array. They call them multideminsional arrays.
+
+* Everything in Ruby is an object
+* An array is an ordered collection of objects
+* The array itself is an object. It acts as a container for other objects
+* An array is created with a pair of square brackets
+
+Usually you will create array using the bracket syntax, there is a shorthand syntax to create array. And it is by using the `%w[]` symbol. This way, it will treat every space inside the bracket as the beginning of a new array. The advantage is that you can type a long array very fast, without the need to comma every object inside of it. 
+
+Sometimes you want to create array using the class method. `Array.new` is an advance way to create array. This method can take two parameters`Array.new(parameter1, parameter1)`. the first one is responsible on how many objects inside the array, the second represent what is the objects are.
+
+To make use of an array, there are a lot of methods that you can apply on. For example the `.length()` method to get information on how long the array is. You can use the same method to know the position of the data in the array too. You can extract things from the array by using the `.fitch()` method. Just remember if the index position does not exist, it will output an error. You can hendel that error from the method by adding the second parameter in the `.fitch()`method. The second parameter will represent what will be outputted if the index number does not exist.
+
+At the core, Ruby uses a method to call on data from an array. And that method is represented by this symbol`.[]()`. The parentheses is optional but it hold the index position.
+
+**Link to work:** [Day-67 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day067.rb)
