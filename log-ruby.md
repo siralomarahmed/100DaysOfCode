@@ -22,16 +22,16 @@ September 18th, 2019.
 ## Days:
 |+|00                                      |10                                     |20                                   |30                                    |40                                    |50                                    |60                                    |
 |-|----------------------------------------|---------------------------------------|-------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|
-|01| [Day 1](#Day-1:-September-18,-2019)   | [Day 11](#Day-11:-September-28,-2019) | [Day 21](#Day-21:-October-8,-2019)  | [Day 31](#Day-31:-October-18,-2019)  | [Day 41](#Day-41:-October-28,-2019)  | [Day 51](#Day-51:-November-7,-2019)  |[Day 61](#Day-61:-November-17,-2019)
-|02| [Day 2](#Day-2:-September-19,-2019)   | [Day 12](#Day-12:-September-29,-2019) | [Day 22](#Day-22:-October-9,-2019)  | [Day 32](#Day-32:-October-19,-2019)  | [Day 42](#Day-42:-October-29,-2019)  | [Day 52](#Day-52:-November-8,-2019)  |[Day 62](#Day-62:-November-18,-2019)
-|03| [Day 3](#Day-3:-September-20,-2019)   | [Day 13](#Day-13:-September-30,-2019) | [Day 23](#Day-23:-October-10,-2019) | [Day 33](#Day-33:-October-20,-2019)  | [Day 43](#Day-43:-October-30,-2019)  | [Day 53](#Day-53:-November-9,-2019)  |[Day 63](#Day-63:-November-19,-2019)
-|04| [Day 4](#Day-4:-September-21,-2019)   | [Day 14](#Day-14:-October-1,-2019)    | [Day 24](#Day-24:-October-11,-2019) | [Day 34](#Day-34:-October-21,-2019)  | [Day 44](#Day-44:-October-31,-2019)  | [Day 54](#Day-54:-November-10,-2019) |[Day 64](#Day-64:-November-20,-2019)
-|05| [Day 5](#Day-5:-September-22,-2019)   | [Day 15](#Day-15:-October-2,-2019)    | [Day 25](#Day-25:-October-12,-2019) | [Day 35](#Day-35:-October-22,-2019)  | [Day 45](#Day-45:-November-1,-2019)  | [Day 55](#Day-55:-November-11,-2019) |[Day 65](#Day-65:-November-21,-2019)
-|06| [Day 5](#Day-6:-September-23,-2019)   | [Day 16](#Day-16:-October-3,-2019)    | [Day 26](#Day-26:-October-13,-2019) | [Day 36](#Day-36:-October-23,-2019)  | [Day 46](#Day-46:-November-2,-2019)  | [Day 56](#Day-56:-November-12,-2019) |[Day 66](#Day-66:-November-22,-2019)
-|07| [Day 5](#Day-7:-September-24,-2019)   | [Day 17](#Day-17:-October-4,-2019)    | [Day 27](#Day-27:-October-14,-2019) | [Day 37](#Day-37:-October-24,-2019)  | [Day 47](#Day-47:-November-3,-2019)  | [Day 57](#Day-57:-November-13,-2019) |[Day 67](#Day-67:-November-23,-2019)
-|08| [Day 5](#Day-8:-September-25,-2019)   | [Day 18](#Day-18:-October-5,-2019)    | [Day 28](#Day-28:-October-15,-2019) | [Day 38](#Day-38:-October-25,-2019)  | [Day 48](#Day-48:-November-4,-2019)  | [Day 58](#Day-58:-November-14,-2019) |
-|09| [Day 5](#Day-9:-September-26,-2019)   | [Day 19](#Day-19:-October-6,-2019)    | [Day 29](#Day-29:-October-16,-2019) | [Day 39](#Day-39:-October-26,-2019)  | [Day 49](#Day-49:-November-5,-2019)  | [Day 59](#Day-59:-November-15,-2019) |
-|10| [Day 10](#Day-10:-September-27,-2019) | [Day 20](#Day-20:-October-7,-2019)    | [Day 30](#Day-30:-October-17,-2019) | [Day 40](#Day-40:-October-27,-2019)  | [Day 50](#Day-50:-November-6,-2019)  | [Day 60](#Day-60:-November-16,-2019) |
+|01| [Day 1](#day-1:-september-18,-2019)   | [Day 11](#day-11:-september-28,-2019) | [Day 21](#day-21:-october-8,-2019)  | [Day 31](#day-31:-october-18,-2019)  | [Day 41](#day-41:-october-28,-2019)  | [Day 51](#day-51:-november-7,-2019)  |[Day 61](#day-61:-november-17,-2019)
+|02| [Day 2](#day-2:-september-19,-2019)   | [Day 12](#day-12:-september-29,-2019) | [Day 22](#day-22:-october-9,-2019)  | [Day 32](#day-32:-october-19,-2019)  | [Day 42](#day-42:-october-29,-2019)  | [Day 52](#day-52:-november-8,-2019)  |[Day 62](#day-62:-november-18,-2019)
+|03| [Day 3](#day-3:-september-20,-2019)   | [Day 13](#day-13:-september-30,-2019) | [Day 23](#day-23:-october-10,-2019) | [Day 33](#day-33:-october-20,-2019)  | [Day 43](#day-43:-october-30,-2019)  | [Day 53](#day-53:-november-9,-2019)  |[Day 63](#day-63:-november-19,-2019)
+|04| [Day 4](#day-4:-september-21,-2019)   | [Day 14](#day-14:-october-1,-2019)    | [Day 24](#day-24:-october-11,-2019) | [Day 34](#day-34:-october-21,-2019)  | [Day 44](#day-44:-october-31,-2019)  | [Day 54](#day-54:-november-10,-2019) |[Day 64](#day-64:-november-20,-2019)
+|05| [Day 5](#day-5:-september-22,-2019)   | [Day 15](#day-15:-october-2,-2019)    | [Day 25](#day-25:-october-12,-2019) | [Day 35](#day-35:-october-22,-2019)  | [Day 45](#day-45:-november-1,-2019)  | [Day 55](#day-55:-november-11,-2019) |[Day 65](#day-65:-november-21,-2019)
+|06| [Day 5](#day-6:-september-23,-2019)   | [Day 16](#day-16:-october-3,-2019)    | [Day 26](#day-26:-october-13,-2019) | [Day 36](#day-36:-october-23,-2019)  | [Day 46](#day-46:-november-2,-2019)  | [Day 56](#day-56:-november-12,-2019) |[Day 66](#day-66:-november-22,-2019)
+|07| [Day 5](#day-7:-september-24,-2019)   | [Day 17](#day-17:-october-4,-2019)    | [Day 27](#day-27:-october-14,-2019) | [Day 37](#day-37:-october-24,-2019)  | [Day 47](#day-47:-november-3,-2019)  | [Day 57](#day-57:-november-13,-2019) |[Day 67](#day-67:-november-23,-2019)
+|08| [Day 5](#day-8:-september-25,-2019)   | [Day 18](#day-18:-october-5,-2019)    | [Day 28](#day-28:-october-15,-2019) | [Day 38](#day-38:-october-25,-2019)  | [Day 48](#day-48:-november-4,-2019)  | [Day 58](#day-58:-november-14,-2019) |
+|09| [Day 5](#day-9:-september-26,-2019)   | [Day 19](#day-19:-october-6,-2019)    | [Day 29](#day-29:-october-16,-2019) | [Day 39](#day-39:-october-26,-2019)  | [Day 49](#day-49:-november-5,-2019)  | [Day 59](#day-59:-november-15,-2019) |
+|10| [Day 10](#day-10:-september-27,-2019) | [Day 20](#day-20:-october-7,-2019)    | [Day 30](#day-30:-october-17,-2019) | [Day 40](#day-40:-october-27,-2019)  | [Day 50](#day-50:-november-6,-2019)  | [Day 60](#day-60:-november-16,-2019) |
 
 
 ----
@@ -46,7 +46,7 @@ If anyone want to get into ruby, start with the official site and you will find 
 
 **Link to work:** [Day-1 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day001.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 2: September 19, 2019
@@ -64,7 +64,7 @@ If anyone want to get into ruby, start with the official site and you will find 
 
 **Link to work:** [Day-2 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day002.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 3: September 20, 2019
@@ -77,7 +77,7 @@ Ruby variables is also self declarative as you dont have to declare a string bef
 
 **Link to work:** [Day-3 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day003.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 4: September 21, 2019
@@ -88,7 +88,7 @@ Ruby variables is also self declarative as you dont have to declare a string bef
 
 **Link to work:** [Day-4 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day004.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 5: September 22, 2019
@@ -100,7 +100,7 @@ So cool, I ended up simulating a comversation using what I learned so far.
 
 **Link to work:** [Day-5 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day005.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 6: September 23, 2019
@@ -111,7 +111,7 @@ So cool, I ended up simulating a comversation using what I learned so far.
 
 **Link to work:** [Day-6 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day006.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 7: September 24, 2019
@@ -123,7 +123,7 @@ I also learned that to convert a number to a string, you can use the `to_s` meth
 
 **Link to work:** [Day-7 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day007.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 8: September 25, 2019
@@ -145,7 +145,7 @@ The output of a comparision operator is going to be a booloian true or false.
 
 **Link to work:** [Day-8 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day008.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 9: September 26, 2019
@@ -166,7 +166,7 @@ The output of a comparision operator is going to be a booloian true or false.
 
 **Link to work:** [Day-9 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day009.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 10: September 27, 2019
@@ -177,7 +177,7 @@ The output of a comparision operator is going to be a booloian true or false.
 
 **Link to work:** [Day-10 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day010.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 11: September 28, 2019
@@ -188,7 +188,7 @@ The output of a comparision operator is going to be a booloian true or false.
 
 **Link to work:** [Day-11 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day011.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 12: September 29, 2019
@@ -199,7 +199,7 @@ The output of a comparision operator is going to be a booloian true or false.
 
 **Link to work:** [Day-12 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day012.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 13: September 30, 2019
@@ -211,7 +211,7 @@ You can use methods on the array as the `.length` method to get the lenth of the
 
 **Link to work:** [Day-13 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day013.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 14: October 1, 2019
@@ -222,7 +222,7 @@ You can use methods on the array as the `.length` method to get the lenth of the
 
 **Link to work:** [Day-14 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day014.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 15: October 2, 2019
@@ -239,7 +239,7 @@ end
 
 **Link to work:** [Day-15 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day015.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 16: October 3, 2019
@@ -254,7 +254,7 @@ end
 
 **Link to work:** [Day-16 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day016.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 17: October 4, 2019
@@ -266,7 +266,7 @@ Hashes are useful for more complex data. As in a database, you can pull multiple
 
 **Link to work:** [Day-17 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day017.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 18: October 5, 2019
@@ -277,7 +277,7 @@ Hashes are useful for more complex data. As in a database, you can pull multiple
 
 **Link to work:** [Day-18 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day018.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 19: October 6, 2019
@@ -288,7 +288,7 @@ Hashes are useful for more complex data. As in a database, you can pull multiple
 
 **Link to work:** [Day-19 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day019.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 20: October 7, 2019
@@ -302,7 +302,7 @@ I think I am going to spend some days understanding the Ruby class. It is a bit 
 
 **Link to work:** [Day-20 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day020.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 21: October 8, 2019
@@ -317,7 +317,7 @@ The steps I learned to create class in ruby so far:
 
 **Link to work:** [Day-21 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day021.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 22: October 9, 2019
@@ -333,7 +333,7 @@ The steps I learned to create class in ruby so far:
 
 **Link to work:** [Day-22 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day022.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 23: October 10, 2019
@@ -350,7 +350,7 @@ The steps I learned to create class in ruby so far:
 
 **Link to work:** [Day-23 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day023.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 24: October 11, 2019
@@ -368,7 +368,7 @@ The steps I learned to create class in ruby so far:
 
 **Link to work:** [Day-24 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day024.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 25: October 12, 2019
@@ -385,7 +385,7 @@ My knowledge of Ruby class now is:
 
 **Link to work:** [Day-25 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day025.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 26: October 13, 2019
@@ -396,7 +396,7 @@ My knowledge of Ruby class now is:
 
 **Link to work:** [Day-26 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day026.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 27: October 14, 2019
@@ -407,7 +407,7 @@ My knowledge of Ruby class now is:
 
 **Link to work:** [Day-27 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day027.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 28: October 15, 2019
@@ -425,7 +425,7 @@ and the accessor is the best <3
 
 **Link to work:** [Day-28 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day028.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 29: October 16, 2019
@@ -436,7 +436,7 @@ and the accessor is the best <3
 
 **Link to work:** [Day-29 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day029.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 30: October 17, 2019
@@ -448,7 +448,7 @@ and the accessor is the best <3
 
 **Link to work:** [Day-30 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day030.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 31: October 18, 2019
@@ -477,7 +477,7 @@ Variable Syntax:
 
 **Link to work:** [Day-31 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day031.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 32: October 19, 2019
@@ -488,7 +488,7 @@ Variable Syntax:
 
 **Link to work:** [Day-32 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day032.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 33: October 20, 2019
@@ -499,7 +499,7 @@ Variable Syntax:
 
 **Link to work:** [Day-33 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day033.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 34: October 21, 2019
@@ -516,7 +516,7 @@ Rules:
 
 **Link to work:** [Day-34 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day034.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 35: October 22, 2019
@@ -527,7 +527,7 @@ Rules:
 
 **Link to work:** [Day-35 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day035.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 36: October 23, 2019
@@ -538,7 +538,7 @@ Rules:
 
 **Link to work:** [Day-36 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day036.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 37: October 24, 2019
@@ -555,7 +555,7 @@ Rules:
 
 **Link to work:** [Day-37 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day037.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 38: October 25, 2019
@@ -574,7 +574,7 @@ Every object in Ruby has an object that they share, and it is the "class" method
 
 **Link to work:** [Day-38 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day038.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 39: October 26, 2019
@@ -585,7 +585,7 @@ Every object in Ruby has an object that they share, and it is the "class" method
 
 **Link to work:** [Day-39 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day039.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 40: October 27, 2019
@@ -598,7 +598,7 @@ You can use the `.odd?` and `.even?` object method to get a boolean value. It is
 
 **Link to work:** [Day-40 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day040.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 41: October 28, 2019
@@ -609,7 +609,7 @@ You can use the `.odd?` and `.even?` object method to get a boolean value. It is
 
 **Link to work:** [Day-41 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day041.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 42: October 29, 2019
@@ -622,7 +622,7 @@ There are alot of methods, on the [ruby docs](https://ruby-doc.com/) to check ou
 
 **Link to work:** [Day-42 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day042.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 43: October 30, 2019
@@ -637,7 +637,7 @@ Here is an intersting method, `.round`. this method can take a parameter. and th
 
 **Link to work:** [Day-43 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day043.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 44: October 31, 2019
@@ -652,7 +652,7 @@ Blocks can include something called block variable. and this block variable has 
 
 **Link to work:** [Day-44 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day044.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 45: November 1, 2019
@@ -667,7 +667,7 @@ Remember, the block variable will not exist on the global scope, it only exist o
 
 **Link to work:** [Day-45 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day045.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 46: November 2, 2019
@@ -678,7 +678,7 @@ Remember, the block variable will not exist on the global scope, it only exist o
 
 **Link to work:** [Day-46 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day046.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 47: November 3, 2019
@@ -689,7 +689,7 @@ Remember, the block variable will not exist on the global scope, it only exist o
 
 **Link to work:** [Day-47 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day047.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 48: November 4, 2019
@@ -702,7 +702,7 @@ You can create strings in multi line by using the `<<identifier_name  ... string
 
 **Link to work:** [Day-48 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day048.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 49: November 5, 2019
@@ -715,7 +715,7 @@ You cant use single qoutes and a new line escape character. they dont work in Ru
 
 **Link to work:** [Day-49 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day049.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 50: November 6, 2019
@@ -734,7 +734,7 @@ The `.concat()` method will permenentaly modify the variable, this mean it will 
 
 **Link to work:** [Day-50 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day050.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 51: November 7, 2019
@@ -747,7 +747,7 @@ You can also mosh up methods together to create an intersting output, for exampl
 
 **Link to work:** [Day-51 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day051.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 52: November 8, 2019
@@ -760,7 +760,7 @@ You can use the `.slice()` method, which is identical to the square bracket to c
 
 **Link to work:** [Day-52 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day052.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 53: November 9, 2019
@@ -771,7 +771,7 @@ You can use the `.slice()` method, which is identical to the square bracket to c
 
 **Link to work:** [Day-53 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day053.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 54: November 10, 2019
@@ -784,7 +784,7 @@ Remember: the two dots method will include the range to index number with it, th
 
 **Link to work:** [Day-54 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day054.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 55: November 11, 2019
@@ -795,7 +795,7 @@ Remember: the two dots method will include the range to index number with it, th
 
 **Link to work:** [Day-55 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day055.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 56: November 12, 2019
@@ -806,7 +806,7 @@ Remember: the two dots method will include the range to index number with it, th
 
 **Link to work:** [Day-56 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day056.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 57: November 13, 2019
@@ -821,7 +821,7 @@ The bang " ! " method is not a sign, it is actually a specific method, as in `re
 
 **Link to work:** [Day-57 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day057.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 58: November 14, 2019
@@ -834,7 +834,7 @@ The bang " ! " method is not a sign, it is actually a specific method, as in `re
 
 **Link to work:** [Day-58 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day058.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 59: November 15, 2019
@@ -856,7 +856,7 @@ Variables that are declared inside the method will only have scope inside the me
 
 **Link to work:** [Day-59 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day059.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 60: November 16, 2019
@@ -869,7 +869,7 @@ Every methid will return a final value. The returned value is the output. There 
 
 **Link to work:** [Day-60 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day060.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 61: November 17, 2019
@@ -887,7 +887,7 @@ Every methid will return a final value. The returned value is the output. There 
 
 **Link to work:** [Day-61 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day061.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 62: November 18, 2019
@@ -906,7 +906,7 @@ You can use parentheses to group conditionals together which will make the code 
 
 **Link to work:** [Day-62 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day062.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 63: November 19, 2019
@@ -925,7 +925,7 @@ Sometimes you may want to specify a default parameter for a method where it expe
 
 **Link to work:** [Day-63 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day063.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 64: November 20, 2019
@@ -940,7 +940,7 @@ The `unless` keyword, is used inplace of the `if` keyword in a conditional state
 
 **Link to work:** [Day-64 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day064.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 65: November 21, 2019
@@ -957,7 +957,7 @@ The conditional assignemtn operator `||=` will only assign the value to a variab
 
 **Link to work:** [Day-65 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day065.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 66: November 22, 2019
@@ -974,7 +974,7 @@ You can generate random number in ruby by using the `.rand()` method. You can al
 
 **Link to work:** [Day-66 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day065.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
 
 ----
 ### Day 67: November 23, 2019
@@ -998,4 +998,4 @@ At the core, Ruby uses a method to call on data from an array. And that method i
 
 **Link to work:** [Day-67 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day067.rb)
 
-[Back Top](#Days:)
+[Back Top](#days:)
