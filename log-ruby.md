@@ -29,7 +29,7 @@ September 18th, 2019.
 |05| [Day 5](#day-5-september-22-2019)   | [Day 15](#day-15-october-2-2019)    | [Day 25](#day-25-october-12-2019) | [Day 35](#day-35-october-22-2019)  | [Day 45](#day-45-november-1-2019)  | [Day 55](#day-55-november-11-2019) | [Day 65](#day-65-november-21-2019) |
 |06| [Day 5](#day-6-september-23-2019)   | [Day 16](#day-16-october-3-2019)    | [Day 26](#day-26-october-13-2019) | [Day 36](#day-36-october-23-2019)  | [Day 46](#day-46-november-2-2019)  | [Day 56](#day-56-november-12-2019) | [Day 66](#day-66-november-22-2019) |
 |07| [Day 5](#day-7-september-24-2019)   | [Day 17](#day-17-october-4-2019)    | [Day 27](#day-27-october-14-2019) | [Day 37](#day-37-october-24-2019)  | [Day 47](#day-47-november-3-2019)  | [Day 57](#day-57-november-13-2019) | [Day 67](#day-67-november-23-2019) |
-|08| [Day 5](#day-8-september-25-2019)   | [Day 18](#day-18-october-5-2019)    | [Day 28](#day-28-october-15-2019) | [Day 38](#day-38-october-25-2019)  | [Day 48](#day-48-november-4-2019)  | [Day 58](#day-58-november-14-2019) |
+|08| [Day 5](#day-8-september-25-2019)   | [Day 18](#day-18-october-5-2019)    | [Day 28](#day-28-october-15-2019) | [Day 38](#day-38-october-25-2019)  | [Day 48](#day-48-november-4-2019)  | [Day 58](#day-58-november-14-2019) | [Day 68](#day-68-november-24-2019) |
 |09| [Day 5](#day-9-september-26-2019)   | [Day 19](#day-19-october-6-2019)    | [Day 29](#day-29-october-16-2019) | [Day 39](#day-39-october-26-2019)  | [Day 49](#day-49-november-5-2019)  | [Day 59](#day-59-november-15-2019) |
 |10| [Day 10](#day-10-september-27-2019) | [Day 20](#day-20-october-7-2019)    | [Day 30](#day-30-october-17-2019) | [Day 40](#day-40-october-27-2019)  | [Day 50](#day-50-november-6-2019)  | [Day 60](#day-60-november-16-2019) |
 
@@ -997,5 +997,20 @@ To make use of an array, there are a lot of methods that you can apply on. For e
 At the core, Ruby uses a method to call on data from an array. And that method is represented by this symbol`.[]()`. The parentheses is optional but it hold the index position.
 
 **Link to work:** [Day-67 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day067.rb)
+
+[Back Top](#days)
+
+----
+### Day 68: November 24, 2019
+
+**Today's Progress:** Advance Array in Ruby part - 2
+
+**Thoughts:** The most useful usage of an array is the act of extracting data from the array. You can call the index number to extract that position data, but sometimes you want to get more than one data at a time. Instead of specifying only the index position, you can also specify the index position and how many items after the index position you want to get out. Just remember that the extracted items is still going to be an array.
+
+You can also use ranges to extract data if you perfare doing that. Another way is by using the `.values_at()` method. The `.slice()` method is identical to the square bracket method. You can use the `.size()` and the `.length()` method to get the length of the array. You can use the `.count()` method which operate similar to size and length but you can count how many. It also let you add parameters to chose what to count. You can use the `.empty?()` and the `.nil()` method to check if the length of the array is zero or not. This method will not check if the object is truthely or falsly, it will just see if it is empty or not.`.first()` and  `.last()` methods take an argument index number that can return it as an array.
+
+Changing the data of the array is also one of the usful things you can do with an array. You can do this by reasign the index to another value. Another functionality is adding new data to an array. you can do that by asigning a new index and a value to the array. By combining functionalities, you can overwrite data and change them. You can also do some testing on array, for example by using the methods `.nil?` or `.empty?`.
+
+**Link to work:** [Day-68 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day068.rb)
 
 [Back Top](#days)
