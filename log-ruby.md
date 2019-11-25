@@ -27,10 +27,10 @@ September 18th, 2019.
 |03| [Day 3](#day-3-september-20-2019)   | [Day 13](#day-13-september-30-2019) | [Day 23](#day-23-october-10-2019) | [Day 33](#day-33-october-20-2019)  | [Day 43](#day-43-october-30-2019)  | [Day 53](#day-53-november-9-2019)  | [Day 63](#day-63-november-19-2019) |
 |04| [Day 4](#day-4-september-21-2019)   | [Day 14](#day-14-october-1-2019)    | [Day 24](#day-24-october-11-2019) | [Day 34](#day-34-october-21-2019)  | [Day 44](#day-44-october-31-2019)  | [Day 54](#day-54-november-10-2019) | [Day 64](#day-64-november-20-2019) |
 |05| [Day 5](#day-5-september-22-2019)   | [Day 15](#day-15-october-2-2019)    | [Day 25](#day-25-october-12-2019) | [Day 35](#day-35-october-22-2019)  | [Day 45](#day-45-november-1-2019)  | [Day 55](#day-55-november-11-2019) | [Day 65](#day-65-november-21-2019) |
-|06| [Day 5](#day-6-september-23-2019)   | [Day 16](#day-16-october-3-2019)    | [Day 26](#day-26-october-13-2019) | [Day 36](#day-36-october-23-2019)  | [Day 46](#day-46-november-2-2019)  | [Day 56](#day-56-november-12-2019) | [Day 66](#day-66-november-22-2019) |
-|07| [Day 5](#day-7-september-24-2019)   | [Day 17](#day-17-october-4-2019)    | [Day 27](#day-27-october-14-2019) | [Day 37](#day-37-october-24-2019)  | [Day 47](#day-47-november-3-2019)  | [Day 57](#day-57-november-13-2019) | [Day 67](#day-67-november-23-2019) |
-|08| [Day 5](#day-8-september-25-2019)   | [Day 18](#day-18-october-5-2019)    | [Day 28](#day-28-october-15-2019) | [Day 38](#day-38-october-25-2019)  | [Day 48](#day-48-november-4-2019)  | [Day 58](#day-58-november-14-2019) | [Day 68](#day-68-november-24-2019) |
-|09| [Day 5](#day-9-september-26-2019)   | [Day 19](#day-19-october-6-2019)    | [Day 29](#day-29-october-16-2019) | [Day 39](#day-39-october-26-2019)  | [Day 49](#day-49-november-5-2019)  | [Day 59](#day-59-november-15-2019) |
+|06| [Day 6](#day-6-september-23-2019)   | [Day 16](#day-16-october-3-2019)    | [Day 26](#day-26-october-13-2019) | [Day 36](#day-36-october-23-2019)  | [Day 46](#day-46-november-2-2019)  | [Day 56](#day-56-november-12-2019) | [Day 66](#day-66-november-22-2019) |
+|07| [Day 7](#day-7-september-24-2019)   | [Day 17](#day-17-october-4-2019)    | [Day 27](#day-27-october-14-2019) | [Day 37](#day-37-october-24-2019)  | [Day 47](#day-47-november-3-2019)  | [Day 57](#day-57-november-13-2019) | [Day 67](#day-67-november-23-2019) |
+|08| [Day 8](#day-8-september-25-2019)   | [Day 18](#day-18-october-5-2019)    | [Day 28](#day-28-october-15-2019) | [Day 38](#day-38-october-25-2019)  | [Day 48](#day-48-november-4-2019)  | [Day 58](#day-58-november-14-2019) | [Day 68](#day-68-november-24-2019) |
+|09| [Day 9](#day-9-september-26-2019)   | [Day 19](#day-19-october-6-2019)    | [Day 29](#day-29-october-16-2019) | [Day 39](#day-39-october-26-2019)  | [Day 49](#day-49-november-5-2019)  | [Day 59](#day-59-november-15-2019) | [Day 69](#day-69-november-25-2019) |
 |10| [Day 10](#day-10-september-27-2019) | [Day 20](#day-20-october-7-2019)    | [Day 30](#day-30-october-17-2019) | [Day 40](#day-40-october-27-2019)  | [Day 50](#day-50-november-6-2019)  | [Day 60](#day-60-november-16-2019) |
 
 
@@ -1012,5 +1012,24 @@ You can also use ranges to extract data if you perfare doing that. Another way i
 Changing the data of the array is also one of the usful things you can do with an array. You can do this by reasign the index to another value. Another functionality is adding new data to an array. you can do that by asigning a new index and a value to the array. By combining functionalities, you can overwrite data and change them. You can also do some testing on array, for example by using the methods `.nil?` or `.empty?`.
 
 **Link to work:** [Day-68 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day068.rb)
+
+[Back Top](#days)
+
+----
+### Day 69: November 25, 2019
+
+**Today's Progress:** Advance Array in Ruby part - 3
+
+**Thoughts:** Array is very useful in combination with Ruby Method. Just remember to return a seprate diffrent array from the Method and not to modify the origional one.
+
+You can add data into the end of an array by using the `.push()` method. You can do this also by using the shovel operator. However if you want to chose in what position to add data in the array, you can use the `.insert()` method. This method takes two arguments, the first is for the starting position and the second is for what data you want to add. Another way to add data to the array is by adding it in the beginning of the array, and you can do that by using the `.unshift()` method.
+
+You can remove data from the end of an array by using the `.pop()` method. You can also specify how many items you want to remove by adding the number as an argument to the  method. Another method that will remove data from an array is the `.shift()` method.
+
+You can compare an array with another one by using comparision operators. A new operator is the rocket or spaceship `<=>` operator, this operator will return three values or a nil depending on the data given. will give zero if both is equal to one another, will give "-1" if the left side is greater than the right side, and will give "+1" if the right side is greater than the left side.
+
+You can convert range to an array by using the `.to_a` method. Remember to not confuse this method with the `.to_a?()` method. The second method is a method that will check the type of the object acording to its class, a function similar to the `.class` method.
+
+**Link to work:** [Day-69 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day069.rb)
 
 [Back Top](#days)
