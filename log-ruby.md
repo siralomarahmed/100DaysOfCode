@@ -1033,3 +1033,18 @@ You can convert range to an array by using the `.to_a` method. Remember to not c
 **Link to work:** [Day-69 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day069.rb)
 
 [Back Top](#days)
+
+----
+### Day 70: November 26, 2019
+
+**Today's Progress:** Advance Array in Ruby part - 4
+
+**Thoughts:** You can use make use of an array inside a ruby block when you want to loop through data. Usually the `.each` method will do the trick. To optimize the program a bit, you can call methods on the elements right away inside the block. You can even optimize the code more by calling the `.each` method on the array without defining the array and then use the `.each` method. Remember that the variables that is created inside the block will not go on global scope of the program, those local variables will not exist after the block job is ended.
+
+Everything within the Ruby block will be thrown out of memory as soon as the block is done executing. However, there is a way to store some of the data that a block will deal with in a seprate holder, an array for example. This way you can use the data somewhere else. Remember, you can always refacter the code to look more clear and understandable. Eventually I suggest wraping an important code in a method, so it will be more useful in the long run. You can also nest `.each` method. 
+
+Solving the same problem in a diffrent way help in building more understanding in programming.
+
+**Link to work:** [Day-70 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day070.rb)
+
+[Back Top](#days)
