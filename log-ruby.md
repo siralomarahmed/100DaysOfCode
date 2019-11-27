@@ -20,9 +20,9 @@ September 18th, 2019.
 
 ----
 ## Days:
-|+|00                                    |10                                   |20                                 |30                                  |40                                  |50                                  |60                                  |
-|--|-------------------------------------|-------------------------------------|-----------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|
-|01| [Day 1](#day-1-september-18-2019)   | [Day 11](#day-11-september-28-2019) | [Day 21](#day-21-october-8-2019)  | [Day 31](#day-31-october-18-2019)  | [Day 41](#day-41-october-28-2019)  | [Day 51](#day-51-november-7-2019)  | [Day 61](#day-61-november-17-2019) |
+|+|00                                    |10                                   |20                                 |30                                  |40                                  |50                                  |60                                  |70                                  |
+|--|-------------------------------------|-------------------------------------|-----------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|
+|01| [Day 1](#day-1-september-18-2019)   | [Day 11](#day-11-september-28-2019) | [Day 21](#day-21-october-8-2019)  | [Day 31](#day-31-october-18-2019)  | [Day 41](#day-41-october-28-2019)  | [Day 51](#day-51-november-7-2019)  | [Day 61](#day-61-november-17-2019) | [Day 71](#day-71-november-27-2019) |
 |02| [Day 2](#day-2-september-19-2019)   | [Day 12](#day-12-september-29-2019) | [Day 22](#day-22-october-9-2019)  | [Day 32](#day-32-october-19-2019)  | [Day 42](#day-42-october-29-2019)  | [Day 52](#day-52-november-8-2019)  | [Day 62](#day-62-november-18-2019) |
 |03| [Day 3](#day-3-september-20-2019)   | [Day 13](#day-13-september-30-2019) | [Day 23](#day-23-october-10-2019) | [Day 33](#day-33-october-20-2019)  | [Day 43](#day-43-october-30-2019)  | [Day 53](#day-53-november-9-2019)  | [Day 63](#day-63-november-19-2019) |
 |04| [Day 4](#day-4-september-21-2019)   | [Day 14](#day-14-october-1-2019)    | [Day 24](#day-24-october-11-2019) | [Day 34](#day-34-october-21-2019)  | [Day 44](#day-44-october-31-2019)  | [Day 54](#day-54-november-10-2019) | [Day 64](#day-64-november-20-2019) |
@@ -1046,5 +1046,20 @@ Everything within the Ruby block will be thrown out of memory as soon as the blo
 Solving the same problem in a diffrent way help in building more understanding in programming.
 
 **Link to work:** [Day-70 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day070.rb)
+
+[Back Top](#days)
+
+----
+### Day 71: November 27, 2019
+
+**Today's Progress:** More on Loops in Ruby
+
+**Thoughts:** Another way that we can iterate through elements is the "for loop". A for loop in Ruby is as much the same as `.each` loop but it does not create a variable at the local scope. So the for loop will preserve the variable into a global scope. I generaly perfare to write the each loop in ruby for security reasons as in I dont want data to leak out of the block.
+
+The "Each Loop" can be very useful in times when you want to track index numbers in acording to the element. You can do this by using the `.each_with_index` method. This is not an extention to the `.each` method, It is another method that will act exactly as the `.each` method with a functionality to get the index number if you provided the request as an argument. You can name the argument as you wish, it does not have to be index.
+
+When you want to create a new array where that new array is a result of appling some kind of operation to every single kind of element in another array. You can use `.map()` and `.collect` both methods has the same functionality. What those two methods will do is that they will return back a new array with the chosen operation. Just remember to not use `puts` because it will output `nil`. 
+
+**Link to work:** [Day-71 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day071.rb)
 
 [Back Top](#days)
