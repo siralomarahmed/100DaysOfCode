@@ -23,7 +23,7 @@ September 18th, 2019.
 |+|00                                    |10                                   |20                                 |30                                  |40                                  |50                                  |60                                  |70                                  |
 |--|-------------------------------------|-------------------------------------|-----------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|
 |01| [Day 1](#day-1-september-18-2019)   | [Day 11](#day-11-september-28-2019) | [Day 21](#day-21-october-8-2019)  | [Day 31](#day-31-october-18-2019)  | [Day 41](#day-41-october-28-2019)  | [Day 51](#day-51-november-7-2019)  | [Day 61](#day-61-november-17-2019) | [Day 71](#day-71-november-27-2019) |
-|02| [Day 2](#day-2-september-19-2019)   | [Day 12](#day-12-september-29-2019) | [Day 22](#day-22-october-9-2019)  | [Day 32](#day-32-october-19-2019)  | [Day 42](#day-42-october-29-2019)  | [Day 52](#day-52-november-8-2019)  | [Day 62](#day-62-november-18-2019) |
+|02| [Day 2](#day-2-september-19-2019)   | [Day 12](#day-12-september-29-2019) | [Day 22](#day-22-october-9-2019)  | [Day 32](#day-32-october-19-2019)  | [Day 42](#day-42-october-29-2019)  | [Day 52](#day-52-november-8-2019)  | [Day 62](#day-62-november-18-2019) | [Day 72](#day-72-november-28-2019) |
 |03| [Day 3](#day-3-september-20-2019)   | [Day 13](#day-13-september-30-2019) | [Day 23](#day-23-october-10-2019) | [Day 33](#day-33-october-20-2019)  | [Day 43](#day-43-october-30-2019)  | [Day 53](#day-53-november-9-2019)  | [Day 63](#day-63-november-19-2019) |
 |04| [Day 4](#day-4-september-21-2019)   | [Day 14](#day-14-october-1-2019)    | [Day 24](#day-24-october-11-2019) | [Day 34](#day-34-october-21-2019)  | [Day 44](#day-44-october-31-2019)  | [Day 54](#day-54-november-10-2019) | [Day 64](#day-64-november-20-2019) |
 |05| [Day 5](#day-5-september-22-2019)   | [Day 15](#day-15-october-2-2019)    | [Day 25](#day-25-october-12-2019) | [Day 35](#day-35-october-22-2019)  | [Day 45](#day-45-november-1-2019)  | [Day 55](#day-55-november-11-2019) | [Day 65](#day-65-november-21-2019) |
@@ -1061,5 +1061,20 @@ The "Each Loop" can be very useful in times when you want to track index numbers
 When you want to create a new array where that new array is a result of appling some kind of operation to every single kind of element in another array. You can use `.map()` and `.collect` both methods has the same functionality. What those two methods will do is that they will return back a new array with the chosen operation. Just remember to not use `puts` because it will output `nil`. 
 
 **Link to work:** [Day-71 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day071.rb)
+
+[Back Top](#days)
+
+----
+### Day 72: November 28, 2019
+
+**Today's Progress:** More on Iteration and arrays
+
+**Thoughts:** Ruby focuses on object orianted design and offer a lot of method flexability where other programming languages don't. One of this flexabilities is the "while or Until loops". The while loop can use the index position to increment and move through elements one by one. You can utilize the `break` keyword to break out of a loop or a block.
+
+A complimentary keyword to the `break` is the `next` keyword. What `next` does is, move to the next iteration of the loop or block. You can structure these keywords anywhere you want, in an if statements, iterations or methods. Just remember, `next` is use whenever you want to go to the next thing and `break` is when you want to stop from going ahead.
+
+A lot of methods can be used with arrays like the `.reverse` method which will reverse the array. You can use the `.sort()` methid to sort the array, from smallest to biggest or you can chain it with reverse. Remember uppercase letters come before lowercase letters. You can use the `.concat` method on an array to concat another array to the end of it.
+
+**Link to work:** [Day-72 sourceCode](http://)
 
 [Back Top](#days)
