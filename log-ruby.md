@@ -1078,3 +1078,18 @@ A lot of methods can be used with arrays like the `.reverse` method which will r
 **Link to work:** [Day-72 sourceCode](http://)
 
 [Back Top](#days)
+
+----
+### Day 73: November 29, 2019
+
+**Today's Progress:** More array methods and iteration
+
+**Thoughts:** `.max()` & `.min()` methods on an array. The max method will return the larges value in an array, the min method will return the lowest value in an array. Using those two mithods on string will sort the strings and return one element, In the max you will get the last and the min you will get the first. Another useful method in ruby is the `.include?()` method which will look for a specified element in an array. 
+
+If you want to provide an argument of an array element and want ruby to give back its relative index position within the array you can make use of the `.index()` and the `.find_index()` methods. Remember, this method will return the first index of the element it finds. In other hand, if you want to extract elements that only fit a certin condition, you may want to use the `.select()` method. You also have the opposite method of the select method and it is called `.reject()` method.
+
+You can unpack arrays by assigning them into a variable, or you can use the `.partition()` method to call, select and reject in the same time in a single step, then it will give you back a multideminsional array, where the first represent the elements selected and the second represent the element that rejected.
+
+**Link to work:** [Day-73 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day073.rb)
+
+[Back Top](#days)
