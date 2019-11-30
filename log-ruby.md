@@ -25,7 +25,7 @@ September 18th, 2019.
 |01| [Day 1](#day-1-september-18-2019)   | [Day 11](#day-11-september-28-2019) | [Day 21](#day-21-october-8-2019)  | [Day 31](#day-31-october-18-2019)  | [Day 41](#day-41-october-28-2019)  | [Day 51](#day-51-november-7-2019)  | [Day 61](#day-61-november-17-2019) | [Day 71](#day-71-november-27-2019) |
 |02| [Day 2](#day-2-september-19-2019)   | [Day 12](#day-12-september-29-2019) | [Day 22](#day-22-october-9-2019)  | [Day 32](#day-32-october-19-2019)  | [Day 42](#day-42-october-29-2019)  | [Day 52](#day-52-november-8-2019)  | [Day 62](#day-62-november-18-2019) | [Day 72](#day-72-november-28-2019) |
 |03| [Day 3](#day-3-september-20-2019)   | [Day 13](#day-13-september-30-2019) | [Day 23](#day-23-october-10-2019) | [Day 33](#day-33-october-20-2019)  | [Day 43](#day-43-october-30-2019)  | [Day 53](#day-53-november-9-2019)  | [Day 63](#day-63-november-19-2019) | [Day 73](#day-73-november-29-2019) |
-|04| [Day 4](#day-4-september-21-2019)   | [Day 14](#day-14-october-1-2019)    | [Day 24](#day-24-october-11-2019) | [Day 34](#day-34-october-21-2019)  | [Day 44](#day-44-october-31-2019)  | [Day 54](#day-54-november-10-2019) | [Day 64](#day-64-november-20-2019) |
+|04| [Day 4](#day-4-september-21-2019)   | [Day 14](#day-14-october-1-2019)    | [Day 24](#day-24-october-11-2019) | [Day 34](#day-34-october-21-2019)  | [Day 44](#day-44-october-31-2019)  | [Day 54](#day-54-november-10-2019) | [Day 64](#day-64-november-20-2019) | [Day 74](#day-74-november-30-2019) |
 |05| [Day 5](#day-5-september-22-2019)   | [Day 15](#day-15-october-2-2019)    | [Day 25](#day-25-october-12-2019) | [Day 35](#day-35-october-22-2019)  | [Day 45](#day-45-november-1-2019)  | [Day 55](#day-55-november-11-2019) | [Day 65](#day-65-november-21-2019) |
 |06| [Day 6](#day-6-september-23-2019)   | [Day 16](#day-16-october-3-2019)    | [Day 26](#day-26-october-13-2019) | [Day 36](#day-36-october-23-2019)  | [Day 46](#day-46-november-2-2019)  | [Day 56](#day-56-november-12-2019) | [Day 66](#day-66-november-22-2019) |
 |07| [Day 7](#day-7-september-24-2019)   | [Day 17](#day-17-october-4-2019)    | [Day 27](#day-27-october-14-2019) | [Day 37](#day-37-october-24-2019)  | [Day 47](#day-47-november-3-2019)  | [Day 57](#day-57-november-13-2019) | [Day 67](#day-67-november-23-2019) |
@@ -1091,5 +1091,25 @@ If you want to provide an argument of an array element and want ruby to give bac
 You can unpack arrays by assigning them into a variable, or you can use the `.partition()` method to call, select and reject in the same time in a single step, then it will give you back a multideminsional array, where the first represent the elements selected and the second represent the element that rejected.
 
 **Link to work:** [Day-73 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day073.rb)
+
+[Back Top](#days)
+
+### Day 74: November 30, 2019
+
+**Today's Progress:** Advance String methods in Ruby
+
+**Thoughts:** The `.split()` method when it is called on a string object it will return an array. The array will seprate the string of characters by default with space. It is the same as if you provided an argument to the method as a space (" "). However, you can also provide an empty string argument ("") to seperate each letter in the string. There is another way to achieve this, it is by using the `.chars()` method.
+
+Strings has there own iteration method, `.each_char` which does the same as the `.each` method. You can combine the `.chars` and the `.each` method so you dont have to use the `.each_char` method if you like.. .
+
+There is a method called `.join()` which at first i though it will concatnate strings but no, its functionality can work as concatenation if you wishes to, but it has more than just that. You see, the `.join` method can have arguments, and those argument are the glue that hold the string together. For example if you used the dot "." as an argument, the `.join` method will glue the string with the dot in between.
+
+The `.count` method return the number of occurences that you provide of a sub-string, where the sub-string represent the argument that you give to the count method.
+
+`.index` & the `.rindex()` Both will return the index position on the first occurance or the last occurance of the sub-string you pass in as an argument. Remember `nil` will retrun if nothing is returned from these two methods. The default behaviour of this method is to return the first index position it finds. However, you can provide another argument to the method that specify on what index position to start the search. This way, you have more acuracy. The `rindex()` method does the same in reverse.
+
+You can add character from a specified index position using the `.insert()` method. You can remove any character that occure more than once in a row in a string by using the `.squeeze()` method. If you want to clear the string you can use the `clear()` method, in other hand the `delete()` method let you specify what characters you want to delete from a string.
+
+**Link to work:** [Day-74 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day074.rb)
 
 [Back Top](#days)
