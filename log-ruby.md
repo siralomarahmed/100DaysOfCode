@@ -26,7 +26,7 @@ September 18th, 2019.
 |02| [Day 2](#day-2-september-19-2019)   | [Day 12](#day-12-september-29-2019) | [Day 22](#day-22-october-9-2019)  | [Day 32](#day-32-october-19-2019)  | [Day 42](#day-42-october-29-2019)  | [Day 52](#day-52-november-8-2019)  | [Day 62](#day-62-november-18-2019) | [Day 72](#day-72-november-28-2019) |
 |03| [Day 3](#day-3-september-20-2019)   | [Day 13](#day-13-september-30-2019) | [Day 23](#day-23-october-10-2019) | [Day 33](#day-33-october-20-2019)  | [Day 43](#day-43-october-30-2019)  | [Day 53](#day-53-november-9-2019)  | [Day 63](#day-63-november-19-2019) | [Day 73](#day-73-november-29-2019) |
 |04| [Day 4](#day-4-september-21-2019)   | [Day 14](#day-14-october-1-2019)    | [Day 24](#day-24-october-11-2019) | [Day 34](#day-34-october-21-2019)  | [Day 44](#day-44-october-31-2019)  | [Day 54](#day-54-november-10-2019) | [Day 64](#day-64-november-20-2019) | [Day 74](#day-74-november-30-2019) |
-|05| [Day 5](#day-5-september-22-2019)   | [Day 15](#day-15-october-2-2019)    | [Day 25](#day-25-october-12-2019) | [Day 35](#day-35-october-22-2019)  | [Day 45](#day-45-november-1-2019)  | [Day 55](#day-55-november-11-2019) | [Day 65](#day-65-november-21-2019) |
+|05| [Day 5](#day-5-september-22-2019)   | [Day 15](#day-15-october-2-2019)    | [Day 25](#day-25-october-12-2019) | [Day 35](#day-35-october-22-2019)  | [Day 45](#day-45-november-1-2019)  | [Day 55](#day-55-november-11-2019) | [Day 65](#day-65-november-21-2019) | [Day 75](#day-75-december-1-2019)  |
 |06| [Day 6](#day-6-september-23-2019)   | [Day 16](#day-16-october-3-2019)    | [Day 26](#day-26-october-13-2019) | [Day 36](#day-36-october-23-2019)  | [Day 46](#day-46-november-2-2019)  | [Day 56](#day-56-november-12-2019) | [Day 66](#day-66-november-22-2019) |
 |07| [Day 7](#day-7-september-24-2019)   | [Day 17](#day-17-october-4-2019)    | [Day 27](#day-27-october-14-2019) | [Day 37](#day-37-october-24-2019)  | [Day 47](#day-47-november-3-2019)  | [Day 57](#day-57-november-13-2019) | [Day 67](#day-67-november-23-2019) |
 |08| [Day 8](#day-8-september-25-2019)   | [Day 18](#day-18-october-5-2019)    | [Day 28](#day-28-october-15-2019) | [Day 38](#day-38-october-25-2019)  | [Day 48](#day-48-november-4-2019)  | [Day 58](#day-58-november-14-2019) | [Day 68](#day-68-november-24-2019) |
@@ -1111,5 +1111,20 @@ The `.count` method return the number of occurences that you provide of a sub-st
 You can add character from a specified index position using the `.insert()` method. You can remove any character that occure more than once in a row in a string by using the `.squeeze()` method. If you want to clear the string you can use the `clear()` method, in other hand the `delete()` method let you specify what characters you want to delete from a string.
 
 **Link to work:** [Day-74 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day074.rb)
+
+[Back Top](#days)
+
+----
+### Day 75: December 1, 2019
+
+**Today's Progress:** Object pointers and copies in Ruby
+
+**Thoughts:** All Ruby objects live on the heap, an area of computer memory. Ruby creates space for each object on the heap, an object returns a refrence to its memory address when it is created. Variables do not hold the object, they hold the refrence to the object. for example, if the object is the house, the variable is the address.
+
+In the case of pointers to the same object, if a variable is assigned to another variable, it will point to the same object. The variable becomes an alias for the object, so, any modification to the object will be reflected in both variables. In order to check for this, you can use the object_id method, which returns an object's location memory.
+
+The `object_id` method will get the location of the memory which the object is stored in. It is important to keep in mind the id location because any modification to that id location will change any variable asigned to that id. Usually it will be prefarable to make another original copy and not use the same Id. You can do that by using the `dup()` method. This method will duplicate the array but it will not assign the origional and copy to the same id, it will be a duplicate with a seprate id and location in the memory. Using the `dup()` method will create a seprate copy.
+
+**Link to work:** [Day-75 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day075.rb)
 
 [Back Top](#days)
