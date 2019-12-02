@@ -1128,3 +1128,32 @@ The `object_id` method will get the location of the memory which the object is s
 **Link to work:** [Day-75 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day075.rb)
 
 [Back Top](#days)
+
+----
+### Day 76: December 2, 2019
+
+**Today's Progress:** More Advanced array methods in Ruby
+
+**Thoughts:** There is a way to get any numbers of arguments in a ruby Method for example by using the splat arguments. they are represented by the symbol of `*` in arguments. Another intersting method is the Union method, which is represented by the `|` pipe character. The union method combines multiple arrays into one, and then remove any duplicate from that final array. Another behaviour is intersting is the `-` minus sign, when it is used on another array, this will trigger a function to remove the items from the left side array that exist in the right side array. In other hand you can get the elements that present in both arrays by using the `&`. more like the math function "intersection".
+
+`.any?()` and `.all?()` are boolian methods that return true of false. You can use them like a condition. Similar to the "and/or" logic.
+
+`.find()` and `.detect()` methods return the first value of an array that fit the condition you provided in a block.
+
+`.uniq()` method returns back a new array with all of the duplicates of the origional array removed.
+
+`.compact()` method remove all nil values from an array, then it will return a new array with new values with nil removed.
+
+`.inject()` and `.reduce()` methods are the same, and they are used when you use iteration on an array and you want to keep track of some kind of an operation for all element prior to the one you are currently on.
+
+`.flatten()` is a useful method that will take a multideminisional array and will return one array diminsion.
+
+`.zip()` Method combines elements together based on a common index position.
+
+`.sample()` can extract one or more random element from the array.
+
+`.multiply()` method will repeat or multiply an array.
+
+**Link to work:** [Day-76 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day076.rb)
+
+[Back Top](#days)
