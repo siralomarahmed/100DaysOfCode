@@ -29,7 +29,7 @@ September 18th, 2019.
 |05| [Day 5](#day-5-september-22-2019)   | [Day 15](#day-15-october-2-2019)    | [Day 25](#day-25-october-12-2019) | [Day 35](#day-35-october-22-2019)  | [Day 45](#day-45-november-1-2019)  | [Day 55](#day-55-november-11-2019) | [Day 65](#day-65-november-21-2019) | [Day 75](#day-75-december-1-2019)  |
 |06| [Day 6](#day-6-september-23-2019)   | [Day 16](#day-16-october-3-2019)    | [Day 26](#day-26-october-13-2019) | [Day 36](#day-36-october-23-2019)  | [Day 46](#day-46-november-2-2019)  | [Day 56](#day-56-november-12-2019) | [Day 66](#day-66-november-22-2019) | [Day 76](#day-76-december-2-2019)  |
 |07| [Day 7](#day-7-september-24-2019)   | [Day 17](#day-17-october-4-2019)    | [Day 27](#day-27-october-14-2019) | [Day 37](#day-37-october-24-2019)  | [Day 47](#day-47-november-3-2019)  | [Day 57](#day-57-november-13-2019) | [Day 67](#day-67-november-23-2019) | [Day 77](#day-77-december-3-2019)  |
-|08| [Day 8](#day-8-september-25-2019)   | [Day 18](#day-18-october-5-2019)    | [Day 28](#day-28-october-15-2019) | [Day 38](#day-38-october-25-2019)  | [Day 48](#day-48-november-4-2019)  | [Day 58](#day-58-november-14-2019) | [Day 68](#day-68-november-24-2019) |
+|08| [Day 8](#day-8-september-25-2019)   | [Day 18](#day-18-october-5-2019)    | [Day 28](#day-28-october-15-2019) | [Day 38](#day-38-october-25-2019)  | [Day 48](#day-48-november-4-2019)  | [Day 58](#day-58-november-14-2019) | [Day 68](#day-68-november-24-2019) | [Day 78](#day-78-december-4-2019)  |
 |09| [Day 9](#day-9-september-26-2019)   | [Day 19](#day-19-october-6-2019)    | [Day 29](#day-29-october-16-2019) | [Day 39](#day-39-october-26-2019)  | [Day 49](#day-49-november-5-2019)  | [Day 59](#day-59-november-15-2019) | [Day 69](#day-69-november-25-2019) |
 |10| [Day 10](#day-10-september-27-2019) | [Day 20](#day-20-october-7-2019)    | [Day 30](#day-30-october-17-2019) | [Day 40](#day-40-october-27-2019)  | [Day 50](#day-50-november-6-2019)  | [Day 60](#day-60-november-16-2019) | [Day 70](#day-70-november-26-2019) |
 
@@ -1178,5 +1178,22 @@ You can add a new key to the hash by using the `.store()` method, remember it wi
 A hash is empty only when its length is zero. you can check the length of a hash by using the `.length()` method or check if the length is zer by using the `.empty?()` method.
 
 **Link to work:** [Day-77 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day077.rb)
+
+[Back Top](#days)
+
+----
+### Day 78: December 4, 2019
+
+**Today's Progress:** more methods and usage on Hashes in Ruby
+
+**Thoughts:** Hash keys and hash values can be objects of any type, the keys must be unique which mean they need to not have any duplicates, the values can contain duplicates. Hashes should be treated as unordered, values are extracted by their key, not by their order. You can convert a hash into an array by using the `.to_a` method.
+
+To iterate on every element in the hash you can use the same `.each()` or `.each_pair()` method that can be used on arrays. It will iterate on every key, value pair witin the hash. Now Ruby technically keep track of the order of the pairs but you should not utilize this, because whenever you want to store something in sequence or order, you always stick with an array.
+
+`.each_key()` and `.each_value()` methods are very helpful in combination with hashes, These two methods will iterate over there respectful component over  the hash. In other hand, if you just want to tetrieve the keys you can use the `.keys()` mehtod, or if you want to retrieve just the valuse, you can use the `.values()` method.
+
+I tried to call a key that does not exist in a hash, and the value returned is "nil". A better way to handel such situation is to give a default value. The syntax of building a default hash is a bit diffrent than a normal hash. Because you need to call the `Hash.new` class and method on the hash. another way to set the default is to use the `.default()` method on the hash.
+
+**Link to work:** [Day-78 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day078.rb)
 
 [Back Top](#days)
