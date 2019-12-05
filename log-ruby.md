@@ -1197,3 +1197,24 @@ I tried to call a key that does not exist in a hash, and the value returned is "
 **Link to work:** [Day-78 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day078.rb)
 
 [Back Top](#days)
+
+----
+### Day 79: December 5, 2019
+
+**Today's Progress:** Advance Hashes in Ruby
+
+**Thoughts:** by converting hashes in ruby to an array, you will actually get a multideminsional array. This mean it is a nested arrays, which is not good. I always say, flat is better than nested. the methods used to convert from an array to hash is the `.to_h` method.
+
+The `.sort()` and the `.sort_by()` methods, will return a multideminsional array. Because Ruby is going to convert the hash into an object that is more ideal to store a sequential elements in order. Remember, hashes is supposed to be a collection of related objects. the `.sort` method will only sort by the keys, if you want to sort by value, you can use the `.sort_by` method. `.sort_by` is a little bit complex because it require the usage of a Ruby block.
+
+The `.key?` and the `.value?` methods are methods that check if a key or a value exisit in a hash. These two methods will always return a boolean which make them a good use in conditionals. these two methods have an old equavalent methods called `.has_key?()` and `.has_value?()`.
+
+When it comes to a hash, the `.delete()` method will take a single argument which is going to be a hash key, and delete both the key and value assosiated with it, AND it return the value it was deleted just incase... . COOL!
+
+The concept is similar with the `.select` and `.reject` methods in array with hashes, the only diffrence with hashes is that we can specify either the condition is going to include the key or value or perhaps both.
+
+An intersting method that is called on a hash is the `.merge()` method. It is a method that accepts a single argument of another hash! WHat is does, is merge both hash into one. This method will not overwrite the origional by default.
+
+**Link to work:** [Day-79 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day079.rb)
+
+[Back Top](#days)
