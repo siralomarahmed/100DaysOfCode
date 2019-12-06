@@ -31,7 +31,7 @@ September 18th, 2019.
 |07| [Day 7](#day-7-september-24-2019)   | [Day 17](#day-17-october-4-2019)    | [Day 27](#day-27-october-14-2019) | [Day 37](#day-37-october-24-2019)  | [Day 47](#day-47-november-3-2019)  | [Day 57](#day-57-november-13-2019) | [Day 67](#day-67-november-23-2019) | [Day 77](#day-77-december-3-2019)  |
 |08| [Day 8](#day-8-september-25-2019)   | [Day 18](#day-18-october-5-2019)    | [Day 28](#day-28-october-15-2019) | [Day 38](#day-38-october-25-2019)  | [Day 48](#day-48-november-4-2019)  | [Day 58](#day-58-november-14-2019) | [Day 68](#day-68-november-24-2019) | [Day 78](#day-78-december-4-2019)  |
 |09| [Day 9](#day-9-september-26-2019)   | [Day 19](#day-19-october-6-2019)    | [Day 29](#day-29-october-16-2019) | [Day 39](#day-39-october-26-2019)  | [Day 49](#day-49-november-5-2019)  | [Day 59](#day-59-november-15-2019) | [Day 69](#day-69-november-25-2019) | [Day 79](#day-79-december-5-2019)  |
-|10| [Day 10](#day-10-september-27-2019) | [Day 20](#day-20-october-7-2019)    | [Day 30](#day-30-october-17-2019) | [Day 40](#day-40-october-27-2019)  | [Day 50](#day-50-november-6-2019)  | [Day 60](#day-60-november-16-2019) | [Day 70](#day-70-november-26-2019) |
+|10| [Day 10](#day-10-september-27-2019) | [Day 20](#day-20-october-7-2019)    | [Day 30](#day-30-october-17-2019) | [Day 40](#day-40-october-27-2019)  | [Day 50](#day-50-november-6-2019)  | [Day 60](#day-60-november-16-2019) | [Day 70](#day-70-november-26-2019) | [Day 80](#day-80-december-6-2019)  |
 
 
 ----
@@ -1216,5 +1216,22 @@ The concept is similar with the `.select` and `.reject` methods in array with ha
 An intersting method that is called on a hash is the `.merge()` method. It is a method that accepts a single argument of another hash! WHat is does, is merge both hash into one. This method will not overwrite the origional by default.
 
 **Link to work:** [Day-79 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day079.rb)
+
+[Back Top](#days)
+
+----
+### Day 80: December 6, 2019
+
+**Today's Progress:** Advance Blocks in Ruby
+
+**Thoughts:** A block is a collection of code to be executed. They must be attached to a method call where they alter the execution of the method. A block is not an argument or a parameter to the methos, It can be defined with a curly braces "{}" or a "do end". It can get or update the value of local variables within the block.
+
+In comparison, methods can be invoked over and over again, in other hand a block will only be called once, then it disappear. So, a block isolates actions away from the method.
+
+The `yield` keyword transfares control from the method to the block that is attached to the method call. So when we have the `yield` keyword, the method stops and wait until the block is done its job. This allow a layer of customization on how the method operates.
+
+Remember to not return anything if you are using a block, because a block is an implicit return itself.
+
+**Link to work:** [Day-80 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day080.rb)
 
 [Back Top](#days)
