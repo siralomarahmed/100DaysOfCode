@@ -20,9 +20,9 @@ September 18th, 2019.
 
 ----
 ## Days:
-|+|00                                    |10                                   |20                                 |30                                  |40                                  |50                                  |60                                  |70                                  |
-|--|-------------------------------------|-------------------------------------|-----------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|
-|01| [Day 1](#day-1-september-18-2019)   | [Day 11](#day-11-september-28-2019) | [Day 21](#day-21-october-8-2019)  | [Day 31](#day-31-october-18-2019)  | [Day 41](#day-41-october-28-2019)  | [Day 51](#day-51-november-7-2019)  | [Day 61](#day-61-november-17-2019) | [Day 71](#day-71-november-27-2019) |
+|+|00                                    |10                                   |20                                 |30                                  |40                                  |50                                  |60                                  |70                                  |80                                  |
+|--|-------------------------------------|-------------------------------------|-----------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|
+|01| [Day 1](#day-1-september-18-2019)   | [Day 11](#day-11-september-28-2019) | [Day 21](#day-21-october-8-2019)  | [Day 31](#day-31-october-18-2019)  | [Day 41](#day-41-october-28-2019)  | [Day 51](#day-51-november-7-2019)  | [Day 61](#day-61-november-17-2019) | [Day 71](#day-71-november-27-2019) | [Day 81](#day-81-december-7-2019)  |
 |02| [Day 2](#day-2-september-19-2019)   | [Day 12](#day-12-september-29-2019) | [Day 22](#day-22-october-9-2019)  | [Day 32](#day-32-october-19-2019)  | [Day 42](#day-42-october-29-2019)  | [Day 52](#day-52-november-8-2019)  | [Day 62](#day-62-november-18-2019) | [Day 72](#day-72-november-28-2019) |
 |03| [Day 3](#day-3-september-20-2019)   | [Day 13](#day-13-september-30-2019) | [Day 23](#day-23-october-10-2019) | [Day 33](#day-33-october-20-2019)  | [Day 43](#day-43-october-30-2019)  | [Day 53](#day-53-november-9-2019)  | [Day 63](#day-63-november-19-2019) | [Day 73](#day-73-november-29-2019) |
 |04| [Day 4](#day-4-september-21-2019)   | [Day 14](#day-14-october-1-2019)    | [Day 24](#day-24-october-11-2019) | [Day 34](#day-34-october-21-2019)  | [Day 44](#day-44-october-31-2019)  | [Day 54](#day-54-november-10-2019) | [Day 64](#day-64-november-20-2019) | [Day 74](#day-74-november-30-2019) |
@@ -1233,5 +1233,20 @@ The `yield` keyword transfares control from the method to the block that is atta
 Remember to not return anything if you are using a block, because a block is an implicit return itself.
 
 **Link to work:** [Day-80 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day080.rb)
+
+[Back Top](#days)
+
+----
+### Day 81: December 7, 2019
+
+**Today's Progress:** Procs Block in Ruby
+
+**Thoughts:** A proc is another object in Ruby. It function as a saved block. A proc is when you need to use a block over and over again but you dont want to rewrite it. You can create new proc by using the `Proc.new` and you can call it anywhere in the code by the `&` mark with the name of the proc.
+
+When you call the `yield` keyword without an assosiated block, the program will return an error. You can by pass the error by using the `.block_given?` method to check if there is a block assosiated or not. This will function as an if statement that encapsulate the `yield` keyword.
+
+Yielding with arguments is cool, just dont define more arguments with no parameters, because you will get "nil" haha. But yah, multiple parameters and argument is useful capability in a block. You can make a very complex block and reuse it.
+
+**Link to work:** [Day-81 sourceCode](http://)
 
 [Back Top](#days)
