@@ -24,7 +24,7 @@ September 18th, 2019.
 |--|-------------------------------------|-------------------------------------|-----------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|
 |01| [Day 1](#day-1-september-18-2019)   | [Day 11](#day-11-september-28-2019) | [Day 21](#day-21-october-8-2019)  | [Day 31](#day-31-october-18-2019)  | [Day 41](#day-41-october-28-2019)  | [Day 51](#day-51-november-7-2019)  | [Day 61](#day-61-november-17-2019) | [Day 71](#day-71-november-27-2019) | [Day 81](#day-81-december-7-2019)  |
 |02| [Day 2](#day-2-september-19-2019)   | [Day 12](#day-12-september-29-2019) | [Day 22](#day-22-october-9-2019)  | [Day 32](#day-32-october-19-2019)  | [Day 42](#day-42-october-29-2019)  | [Day 52](#day-52-november-8-2019)  | [Day 62](#day-62-november-18-2019) | [Day 72](#day-72-november-28-2019) | [Day 82](#day-82-december-8-2019)  |
-|03| [Day 3](#day-3-september-20-2019)   | [Day 13](#day-13-september-30-2019) | [Day 23](#day-23-october-10-2019) | [Day 33](#day-33-october-20-2019)  | [Day 43](#day-43-october-30-2019)  | [Day 53](#day-53-november-9-2019)  | [Day 63](#day-63-november-19-2019) | [Day 73](#day-73-november-29-2019) |
+|03| [Day 3](#day-3-september-20-2019)   | [Day 13](#day-13-september-30-2019) | [Day 23](#day-23-october-10-2019) | [Day 33](#day-33-october-20-2019)  | [Day 43](#day-43-october-30-2019)  | [Day 53](#day-53-november-9-2019)  | [Day 63](#day-63-november-19-2019) | [Day 73](#day-73-november-29-2019) | [Day 83](#day-83-december-9-2019)  |
 |04| [Day 4](#day-4-september-21-2019)   | [Day 14](#day-14-october-1-2019)    | [Day 24](#day-24-october-11-2019) | [Day 34](#day-34-october-21-2019)  | [Day 44](#day-44-october-31-2019)  | [Day 54](#day-54-november-10-2019) | [Day 64](#day-64-november-20-2019) | [Day 74](#day-74-november-30-2019) |
 |05| [Day 5](#day-5-september-22-2019)   | [Day 15](#day-15-october-2-2019)    | [Day 25](#day-25-october-12-2019) | [Day 35](#day-35-october-22-2019)  | [Day 45](#day-45-november-1-2019)  | [Day 55](#day-55-november-11-2019) | [Day 65](#day-65-november-21-2019) | [Day 75](#day-75-december-1-2019)  |
 |06| [Day 6](#day-6-september-23-2019)   | [Day 16](#day-16-october-3-2019)    | [Day 26](#day-26-october-13-2019) | [Day 36](#day-36-october-23-2019)  | [Day 46](#day-46-november-2-2019)  | [Day 56](#day-56-november-12-2019) | [Day 66](#day-66-november-22-2019) | [Day 76](#day-76-december-2-2019)  |
@@ -1263,5 +1263,26 @@ Since a proc is an object, you can use methods on it. You can also pass a ruby m
 Lambda in ruby is just anonymous Method. Lambda is identical to methods, they are object and come from a class of proc. procs dont care about the numbers of argument it gets but lambda do. It will care if it recieve the wrong number of methods. You can use Proc as a backup plan, but it is usually a Lambda is what is more specific and going to be writen in the final program. Another diffrence is how they return values. Whenever you call a method inside a method, you don't want to break the program, you want to return a value to work with.
 
 **Link to work:** [Day-82 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day082.rb)
+
+[Back Top](#days)
+
+----
+### Day 83: December 9, 2019
+
+**Today's Progress:** Time object in Ruby
+
+**Thoughts:** The time object in Ruby is just another object that has its own collection of methods attached to it. It represent time and date. there is two syntax to create this object, the first is by `Time.new` and the second is `Time.now`. Generally, you will use `time.new` when you want to pass argument to specify custom method for the day, month or year or hour etc... . Without argument, they are both identical.
+
+You can use simple instance methods with the time object to call specific data such as month, `day`, `year`, `hour`, `min`, and `sec`. another intersting one is the `yday` which represent what day in the year. in other hand `wday` is what week of the year.
+
+Other kind of mehtods that work on the time object is the predicate methods, which will return a boolean value such as the `.monday?` method. Or the day light saving method `.dst?`.
+
+You can do some basic math operation as adding and subtracting time. You can also compare time objects. You can also Convert time object to other Ruby objects. 
+
+If you want a custom formatted time that is converted into a string, You can use the `.parse` method, Remember to use it, you need to load the additional class methods because by default, Ruby will not load them. You can do this by `require 'time'`. You can also use the `strptime` which is abbraviated as string parse time. what it does is to take a string and parse the time from it into a valid time object.
+
+You can use the method `.strftime` method abbraviated, string from time. Because it will create a string from time and allow to customize how it look from default. You can find more about this in the [API DOCK](https://apidock.com/ruby/DateTime/strftime).
+
+**Link to work:** [Day-83 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day083.rb)
 
 [Back Top](#days)
