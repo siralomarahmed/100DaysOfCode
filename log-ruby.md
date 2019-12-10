@@ -25,7 +25,7 @@ September 18th, 2019.
 |01| [Day 1](#day-1-september-18-2019)   | [Day 11](#day-11-september-28-2019) | [Day 21](#day-21-october-8-2019)  | [Day 31](#day-31-october-18-2019)  | [Day 41](#day-41-october-28-2019)  | [Day 51](#day-51-november-7-2019)  | [Day 61](#day-61-november-17-2019) | [Day 71](#day-71-november-27-2019) | [Day 81](#day-81-december-7-2019)  |
 |02| [Day 2](#day-2-september-19-2019)   | [Day 12](#day-12-september-29-2019) | [Day 22](#day-22-october-9-2019)  | [Day 32](#day-32-october-19-2019)  | [Day 42](#day-42-october-29-2019)  | [Day 52](#day-52-november-8-2019)  | [Day 62](#day-62-november-18-2019) | [Day 72](#day-72-november-28-2019) | [Day 82](#day-82-december-8-2019)  |
 |03| [Day 3](#day-3-september-20-2019)   | [Day 13](#day-13-september-30-2019) | [Day 23](#day-23-october-10-2019) | [Day 33](#day-33-october-20-2019)  | [Day 43](#day-43-october-30-2019)  | [Day 53](#day-53-november-9-2019)  | [Day 63](#day-63-november-19-2019) | [Day 73](#day-73-november-29-2019) | [Day 83](#day-83-december-9-2019)  |
-|04| [Day 4](#day-4-september-21-2019)   | [Day 14](#day-14-october-1-2019)    | [Day 24](#day-24-october-11-2019) | [Day 34](#day-34-october-21-2019)  | [Day 44](#day-44-october-31-2019)  | [Day 54](#day-54-november-10-2019) | [Day 64](#day-64-november-20-2019) | [Day 74](#day-74-november-30-2019) |
+|04| [Day 4](#day-4-september-21-2019)   | [Day 14](#day-14-october-1-2019)    | [Day 24](#day-24-october-11-2019) | [Day 34](#day-34-october-21-2019)  | [Day 44](#day-44-october-31-2019)  | [Day 54](#day-54-november-10-2019) | [Day 64](#day-64-november-20-2019) | [Day 74](#day-74-november-30-2019) | [Day 84](#day-84-december-10-2019) |
 |05| [Day 5](#day-5-september-22-2019)   | [Day 15](#day-15-october-2-2019)    | [Day 25](#day-25-october-12-2019) | [Day 35](#day-35-october-22-2019)  | [Day 45](#day-45-november-1-2019)  | [Day 55](#day-55-november-11-2019) | [Day 65](#day-65-november-21-2019) | [Day 75](#day-75-december-1-2019)  |
 |06| [Day 6](#day-6-september-23-2019)   | [Day 16](#day-16-october-3-2019)    | [Day 26](#day-26-october-13-2019) | [Day 36](#day-36-october-23-2019)  | [Day 46](#day-46-november-2-2019)  | [Day 56](#day-56-november-12-2019) | [Day 66](#day-66-november-22-2019) | [Day 76](#day-76-december-2-2019)  |
 |07| [Day 7](#day-7-september-24-2019)   | [Day 17](#day-17-october-4-2019)    | [Day 27](#day-27-october-14-2019) | [Day 37](#day-37-october-24-2019)  | [Day 47](#day-47-november-3-2019)  | [Day 57](#day-57-november-13-2019) | [Day 67](#day-67-november-23-2019) | [Day 77](#day-77-december-3-2019)  |
@@ -1284,5 +1284,26 @@ If you want a custom formatted time that is converted into a string, You can use
 You can use the method `.strftime` method abbraviated, string from time. Because it will create a string from time and allow to customize how it look from default. You can find more about this in the [API DOCK](https://apidock.com/ruby/DateTime/strftime).
 
 **Link to work:** [Day-83 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day083.rb)
+
+[Back Top](#days)
+
+----
+### Day 84: December 10, 2019
+
+**Today's Progress:** File Input and Output in Ruby
+
+**Thoughts:** You can read a file using Ruby, which uses the class `File` with the method `.open()`, The open method take argument, such as the file name and what to do with it. By default it is set to read the file which is the second argument in the open method as `r`. You can write to a file by changing the `r` to `w` as in changing read to a write. In writing to a file, if the file does not exist, it will be created. 
+
+Remember, the `w` will overwrite everything in the file. If you want to append to the file, replace the `w` with the `a` as in append to the file.
+
+You can rename the file by using the `rename` method on the `File` class, and it take two arguments. the first will be the current file name, and the second will be the new name you want to give it. 
+
+You can delete the file by using the `delete` method. But if the file does not exist, it will triggure an error. So, it is better to check if the file exist by using the `exist?` method before the executing the delete.
+
+Command Line argument come in to the ruby as special constant array called "ARGV". They are arguments given to a ruby program whenever it is run from the ruby command line. 
+
+In the situation where you want to load a code file in the middle of another file, you can use the `.load` method specifying the file location and name. Just make sure you include the extention of the file.
+
+**Link to work:** [Day-84 sourceCode](http://)
 
 [Back Top](#days)
