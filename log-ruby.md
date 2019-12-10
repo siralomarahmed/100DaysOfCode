@@ -1304,6 +1304,6 @@ Command Line argument come in to the ruby as special constant array called "ARGV
 
 In the situation where you want to load a code file in the middle of another file, you can use the `.load` method specifying the file location and name. Just make sure you include the extention of the file.
 
-**Link to work:** [Day-84 sourceCode](http://)
+**Link to work:** [Day-84 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day084.rb)
 
 [Back Top](#days)
