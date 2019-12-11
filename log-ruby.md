@@ -26,7 +26,7 @@ September 18th, 2019.
 |02| [Day 2](#day-2-september-19-2019)   | [Day 12](#day-12-september-29-2019) | [Day 22](#day-22-october-9-2019)  | [Day 32](#day-32-october-19-2019)  | [Day 42](#day-42-october-29-2019)  | [Day 52](#day-52-november-8-2019)  | [Day 62](#day-62-november-18-2019) | [Day 72](#day-72-november-28-2019) | [Day 82](#day-82-december-8-2019)  |
 |03| [Day 3](#day-3-september-20-2019)   | [Day 13](#day-13-september-30-2019) | [Day 23](#day-23-october-10-2019) | [Day 33](#day-33-october-20-2019)  | [Day 43](#day-43-october-30-2019)  | [Day 53](#day-53-november-9-2019)  | [Day 63](#day-63-november-19-2019) | [Day 73](#day-73-november-29-2019) | [Day 83](#day-83-december-9-2019)  |
 |04| [Day 4](#day-4-september-21-2019)   | [Day 14](#day-14-october-1-2019)    | [Day 24](#day-24-october-11-2019) | [Day 34](#day-34-october-21-2019)  | [Day 44](#day-44-october-31-2019)  | [Day 54](#day-54-november-10-2019) | [Day 64](#day-64-november-20-2019) | [Day 74](#day-74-november-30-2019) | [Day 84](#day-84-december-10-2019) |
-|05| [Day 5](#day-5-september-22-2019)   | [Day 15](#day-15-october-2-2019)    | [Day 25](#day-25-october-12-2019) | [Day 35](#day-35-october-22-2019)  | [Day 45](#day-45-november-1-2019)  | [Day 55](#day-55-november-11-2019) | [Day 65](#day-65-november-21-2019) | [Day 75](#day-75-december-1-2019)  |
+|05| [Day 5](#day-5-september-22-2019)   | [Day 15](#day-15-october-2-2019)    | [Day 25](#day-25-october-12-2019) | [Day 35](#day-35-october-22-2019)  | [Day 45](#day-45-november-1-2019)  | [Day 55](#day-55-november-11-2019) | [Day 65](#day-65-november-21-2019) | [Day 75](#day-75-december-1-2019)  | [Day 85](#day-85-december-11-2019) |
 |06| [Day 6](#day-6-september-23-2019)   | [Day 16](#day-16-october-3-2019)    | [Day 26](#day-26-october-13-2019) | [Day 36](#day-36-october-23-2019)  | [Day 46](#day-46-november-2-2019)  | [Day 56](#day-56-november-12-2019) | [Day 66](#day-66-november-22-2019) | [Day 76](#day-76-december-2-2019)  |
 |07| [Day 7](#day-7-september-24-2019)   | [Day 17](#day-17-october-4-2019)    | [Day 27](#day-27-october-14-2019) | [Day 37](#day-37-october-24-2019)  | [Day 47](#day-47-november-3-2019)  | [Day 57](#day-57-november-13-2019) | [Day 67](#day-67-november-23-2019) | [Day 77](#day-77-december-3-2019)  |
 |08| [Day 8](#day-8-september-25-2019)   | [Day 18](#day-18-october-5-2019)    | [Day 28](#day-28-october-15-2019) | [Day 38](#day-38-october-25-2019)  | [Day 48](#day-48-november-4-2019)  | [Day 58](#day-58-november-14-2019) | [Day 68](#day-68-november-24-2019) | [Day 78](#day-78-december-4-2019)  |
@@ -1305,5 +1305,24 @@ Command Line argument come in to the ruby as special constant array called "ARGV
 In the situation where you want to load a code file in the middle of another file, you can use the `.load` method specifying the file location and name. Just make sure you include the extention of the file.
 
 **Link to work:** [Day-84 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day084.rb)
+
+[Back Top](#days)
+
+----
+### Day 85: December 11, 2019
+
+**Today's Progress:** Regular Expression in Ruby
+
+**Thoughts:** Regular expressions (REGexp) means using symbols to tell Ruby how to extract specific substring from a larger string.
+
+To check if the substring is contained and at the start or at the end, you can use one of these methods`.start_with?` `.end_with?`. these methods will return a boolean. `.include?`will be good if you want to find the substring anywhere in the main string.
+
+Regular expression is another Ruby object from the class of Regexp. It is used to match patterns in strings. They are created with two forward slashes `//` syntax. And the condition is placed between the two forward slashes. The `=~` syntax will retirn the index position of the first match.
+
+Remember, the wild car operator `.` period in Regepe represent any element at all. In other hand, you can find all matches with the `.scan` method. where you can specify the argument as the character you want to scan for. You can scan for multiple characters by adding a square brackets inside the Regexp like this `(/[characters]/)`.
+
+In the `scan` method, you can scan for digits within the string by giving the argument of `\d` inside the Regexp. You can also get the other bunch of occurences by adding the `+` sign after it.
+
+**Link to work:** [Day-85 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day085.rb)
 
 [Back Top](#days)
