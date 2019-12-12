@@ -27,7 +27,7 @@ September 18th, 2019.
 |03| [Day 3](#day-3-september-20-2019)   | [Day 13](#day-13-september-30-2019) | [Day 23](#day-23-october-10-2019) | [Day 33](#day-33-october-20-2019)  | [Day 43](#day-43-october-30-2019)  | [Day 53](#day-53-november-9-2019)  | [Day 63](#day-63-november-19-2019) | [Day 73](#day-73-november-29-2019) | [Day 83](#day-83-december-9-2019)  |
 |04| [Day 4](#day-4-september-21-2019)   | [Day 14](#day-14-october-1-2019)    | [Day 24](#day-24-october-11-2019) | [Day 34](#day-34-october-21-2019)  | [Day 44](#day-44-october-31-2019)  | [Day 54](#day-54-november-10-2019) | [Day 64](#day-64-november-20-2019) | [Day 74](#day-74-november-30-2019) | [Day 84](#day-84-december-10-2019) |
 |05| [Day 5](#day-5-september-22-2019)   | [Day 15](#day-15-october-2-2019)    | [Day 25](#day-25-october-12-2019) | [Day 35](#day-35-october-22-2019)  | [Day 45](#day-45-november-1-2019)  | [Day 55](#day-55-november-11-2019) | [Day 65](#day-65-november-21-2019) | [Day 75](#day-75-december-1-2019)  | [Day 85](#day-85-december-11-2019) |
-|06| [Day 6](#day-6-september-23-2019)   | [Day 16](#day-16-october-3-2019)    | [Day 26](#day-26-october-13-2019) | [Day 36](#day-36-october-23-2019)  | [Day 46](#day-46-november-2-2019)  | [Day 56](#day-56-november-12-2019) | [Day 66](#day-66-november-22-2019) | [Day 76](#day-76-december-2-2019)  |
+|06| [Day 6](#day-6-september-23-2019)   | [Day 16](#day-16-october-3-2019)    | [Day 26](#day-26-october-13-2019) | [Day 36](#day-36-october-23-2019)  | [Day 46](#day-46-november-2-2019)  | [Day 56](#day-56-november-12-2019) | [Day 66](#day-66-november-22-2019) | [Day 76](#day-76-december-2-2019)  | [Day 86](#day-86-december-12-2019) |
 |07| [Day 7](#day-7-september-24-2019)   | [Day 17](#day-17-october-4-2019)    | [Day 27](#day-27-october-14-2019) | [Day 37](#day-37-october-24-2019)  | [Day 47](#day-47-november-3-2019)  | [Day 57](#day-57-november-13-2019) | [Day 67](#day-67-november-23-2019) | [Day 77](#day-77-december-3-2019)  |
 |08| [Day 8](#day-8-september-25-2019)   | [Day 18](#day-18-october-5-2019)    | [Day 28](#day-28-october-15-2019) | [Day 38](#day-38-october-25-2019)  | [Day 48](#day-48-november-4-2019)  | [Day 58](#day-58-november-14-2019) | [Day 68](#day-68-november-24-2019) | [Day 78](#day-78-december-4-2019)  |
 |09| [Day 9](#day-9-september-26-2019)   | [Day 19](#day-19-october-6-2019)    | [Day 29](#day-29-october-16-2019) | [Day 39](#day-39-october-26-2019)  | [Day 49](#day-49-november-5-2019)  | [Day 59](#day-59-november-15-2019) | [Day 69](#day-69-november-25-2019) | [Day 79](#day-79-december-5-2019)  |
@@ -1324,5 +1324,24 @@ Remember, the wild car operator `.` period in Regepe represent any element at al
 In the `scan` method, you can scan for digits within the string by giving the argument of `\d` inside the Regexp. You can also get the other bunch of occurences by adding the `+` sign after it.
 
 **Link to work:** [Day-85 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day085.rb)
+
+[Back Top](#days)
+
+----
+### Day 86: December 12, 2019
+
+**Today's Progress:** More Regular Expression in Ruby
+
+**Thoughts:** The backslash `\` character in Regexp can accomplish a lot of things. This is where if you want to point to a dot in a string, using the backslash will surve somehow like an escape character but with a function! The `\d` means any digits, the `\D` means any none digits. `\s` will return any white space character. `\S` any none white space character.
+
+Anchors in RegEx is a specific symbol that attach a match to a specific point within the string, like the begining or the end. `\A` to search at the beginning of a string and `\z` for the end.
+
+You can chain RegEx to get the desired effect, or you can also chain RegEx that can exclude characters the same way but with the addition of the `^` symbol at the beginning.
+
+`.sub` Is used to find and replace certin substrings within other strings. with two arguments, the first is the character and the second is what you want to replace with. The gloabal subsitute is represented with `.gsub` method. ANd this method will replace every occurences.
+
+This [Rubular](https://rubular.com/) site is good to practice RegExp.
+
+**Link to work:** [Day-86 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day086.rb)
 
 [Back Top](#days)
