@@ -1345,3 +1345,20 @@ This [Rubular](https://rubular.com/) site is good to practice RegExp.
 **Link to work:** [Day-86 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day086.rb)
 
 [Back Top](#days)
+
+----
+### Day 87: December 13, 2019
+
+**Today's Progress:** Advance Classes in Ruby
+
+**Thoughts:** Ruby built-in objects like Arrays which is good in storing elements in sequence, or the Hashes which is good in storing connections between elements BUT, what happens if in our programming project we want to represent something in real life? What if we need to represent users or cars or invoices? There is no built-in class for these things. Because of that, Ruby allow us to create our own custom class to emulate real life things.
+
+A superclass is the class that a current class inherits from. Inheritance follows an "is-a" structure. It is also called on a class where it returns the parent class that the current class inherits from. The class that inherits from the superclass is called the subclass. Every class in Ruby (except BasicObject at the top of the hierarchy) has at least one superclass.
+
+A superclass is the class that a current class inherits from, the `.ancestors` method can also be called on a class and it will return an array of all superclasses that the class inhetits from.
+
+The `.methods` Method! is available on every single object in Ruby, and this method will return an array of all the objects available in the method.
+
+**Link to work:** [Day-87 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day087.rb)
+
+[Back Top](#days)
