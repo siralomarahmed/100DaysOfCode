@@ -30,7 +30,7 @@ September 18th, 2019.
 |06| [Day 6](#day-6-september-23-2019)   | [Day 16](#day-16-october-3-2019)    | [Day 26](#day-26-october-13-2019) | [Day 36](#day-36-october-23-2019)  | [Day 46](#day-46-november-2-2019)  | [Day 56](#day-56-november-12-2019) | [Day 66](#day-66-november-22-2019) | [Day 76](#day-76-december-2-2019)  | [Day 86](#day-86-december-12-2019) |
 |07| [Day 7](#day-7-september-24-2019)   | [Day 17](#day-17-october-4-2019)    | [Day 27](#day-27-october-14-2019) | [Day 37](#day-37-october-24-2019)  | [Day 47](#day-47-november-3-2019)  | [Day 57](#day-57-november-13-2019) | [Day 67](#day-67-november-23-2019) | [Day 77](#day-77-december-3-2019)  | [Day 87](#day-87-december-13-2019) |
 |08| [Day 8](#day-8-september-25-2019)   | [Day 18](#day-18-october-5-2019)    | [Day 28](#day-28-october-15-2019) | [Day 38](#day-38-october-25-2019)  | [Day 48](#day-48-november-4-2019)  | [Day 58](#day-58-november-14-2019) | [Day 68](#day-68-november-24-2019) | [Day 78](#day-78-december-4-2019)  | [Day 88](#day-88-december-14-2019) |
-|09| [Day 9](#day-9-september-26-2019)   | [Day 19](#day-19-october-6-2019)    | [Day 29](#day-29-october-16-2019) | [Day 39](#day-39-october-26-2019)  | [Day 49](#day-49-november-5-2019)  | [Day 59](#day-59-november-15-2019) | [Day 69](#day-69-november-25-2019) | [Day 79](#day-79-december-5-2019)  |
+|09| [Day 9](#day-9-september-26-2019)   | [Day 19](#day-19-october-6-2019)    | [Day 29](#day-29-october-16-2019) | [Day 39](#day-39-october-26-2019)  | [Day 49](#day-49-november-5-2019)  | [Day 59](#day-59-november-15-2019) | [Day 69](#day-69-november-25-2019) | [Day 79](#day-79-december-5-2019)  | [Day 89](#day-89-december-15-2019) |
 |10| [Day 10](#day-10-september-27-2019) | [Day 20](#day-20-october-7-2019)    | [Day 30](#day-30-october-17-2019) | [Day 40](#day-40-october-27-2019)  | [Day 50](#day-50-november-6-2019)  | [Day 60](#day-60-november-16-2019) | [Day 70](#day-70-november-26-2019) | [Day 80](#day-80-december-6-2019)  |
 
 
@@ -1375,5 +1375,24 @@ A class is called an abstract type becasue it hides the complexity of interactin
 Objects recieve their structure or design from classes. The class method returns the class the object was constructed from, this mean that the object's class is itself another object.
 
 **Link to work:** [Day-88 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day088.rb)
+
+[Back Top](#days)
+
+----
+### Day 89: December 15, 2019
+
+**Today's Progress:** Continue on Advance Classes in Ruby
+
+**Thoughts:** Object in classes have diffrent Id. They are unique and seperated from other objects. There is a way to make two objects have the same ID, and it is by making an Alias to that object. This way, both objects will actually represent one object in memory even with diffrent names.
+
+Instance variables are variables that belong to a specific object, they also define the object's properties or attributes. Instance variables make up the object's state and each object can have a custom state where the state of an object can change over time. instance variables begin with the `@` symbol, where the `@` symbol is called a sigil. A sigil is a special character that denotes the variable's scope. Withput the `@` sigil, the variable would be interpreted as a local variable to the method it is used in.
+
+The initialize method:
+- Is called immediately when an object is insantiated from a class with the new method
+- Offers an opportunity to assign values to instance variables in order to define the object's state
+- If the initialize method is not defined in the class, each object is initialized with no state
+- The assignment of values to instance variables does not mean the values have to stay constant. The object's state can be altered later.
+
+**Link to work:** [Day-89 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day089.rb)
 
 [Back Top](#days)
