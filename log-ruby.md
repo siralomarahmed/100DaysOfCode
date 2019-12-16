@@ -31,7 +31,7 @@ September 18th, 2019.
 |07| [Day 7](#day-7-september-24-2019)   | [Day 17](#day-17-october-4-2019)    | [Day 27](#day-27-october-14-2019) | [Day 37](#day-37-october-24-2019)  | [Day 47](#day-47-november-3-2019)  | [Day 57](#day-57-november-13-2019) | [Day 67](#day-67-november-23-2019) | [Day 77](#day-77-december-3-2019)  | [Day 87](#day-87-december-13-2019) |
 |08| [Day 8](#day-8-september-25-2019)   | [Day 18](#day-18-october-5-2019)    | [Day 28](#day-28-october-15-2019) | [Day 38](#day-38-october-25-2019)  | [Day 48](#day-48-november-4-2019)  | [Day 58](#day-58-november-14-2019) | [Day 68](#day-68-november-24-2019) | [Day 78](#day-78-december-4-2019)  | [Day 88](#day-88-december-14-2019) |
 |09| [Day 9](#day-9-september-26-2019)   | [Day 19](#day-19-october-6-2019)    | [Day 29](#day-29-october-16-2019) | [Day 39](#day-39-october-26-2019)  | [Day 49](#day-49-november-5-2019)  | [Day 59](#day-59-november-15-2019) | [Day 69](#day-69-november-25-2019) | [Day 79](#day-79-december-5-2019)  | [Day 89](#day-89-december-15-2019) |
-|10| [Day 10](#day-10-september-27-2019) | [Day 20](#day-20-october-7-2019)    | [Day 30](#day-30-october-17-2019) | [Day 40](#day-40-october-27-2019)  | [Day 50](#day-50-november-6-2019)  | [Day 60](#day-60-november-16-2019) | [Day 70](#day-70-november-26-2019) | [Day 80](#day-80-december-6-2019)  |
+|10| [Day 10](#day-10-september-27-2019) | [Day 20](#day-20-october-7-2019)    | [Day 30](#day-30-october-17-2019) | [Day 40](#day-40-october-27-2019)  | [Day 50](#day-50-november-6-2019)  | [Day 60](#day-60-november-16-2019) | [Day 70](#day-70-november-26-2019) | [Day 80](#day-80-december-6-2019)  | [Day 90](#day-90-december-16-2019) |
 
 
 ----
@@ -1394,5 +1394,22 @@ The initialize method:
 - The assignment of values to instance variables does not mean the values have to stay constant. The object's state can be altered later.
 
 **Link to work:** [Day-89 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day089.rb)
+
+[Back Top](#days)
+
+----
+### Day 90: December 16, 2019
+
+**Today's Progress:** Continue on Advance Ruby Class
+
+**Thoughts:** The `self` keyword in an instance method basically says "this object". They way that self work in Ruby is that it will refare to things in deffrent contex depending on the situation. `self` refare to the object at hand whenever it is defined in an instance method. `self` will not always refare to the object at hand, for example if you use it outside an instance method it will refare to the class itself.
+
+Getter method is defined when you only want to get the object, a Setter method is defined when you want to set the object. sometimes you only want to set the object but not view it, or the otherway around.
+
+* Instance variables (attributes) are variables that belong to the object
+* Instance methods interact with the object. They also belong to the object
+* Encapsulation is an object orianted programming concept that restricts direct access to an object
+
+**Link to work:** [Day-90 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day090.rb)
 
 [Back Top](#days)
