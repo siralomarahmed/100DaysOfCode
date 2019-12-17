@@ -20,9 +20,9 @@ September 18th, 2019.
 
 ----
 ## Days:
-|+|00                                    |10                                   |20                                 |30                                  |40                                  |50                                  |60                                  |70                                  |80                                  |
-|--|-------------------------------------|-------------------------------------|-----------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|
-|01| [Day 1](#day-1-september-18-2019)   | [Day 11](#day-11-september-28-2019) | [Day 21](#day-21-october-8-2019)  | [Day 31](#day-31-october-18-2019)  | [Day 41](#day-41-october-28-2019)  | [Day 51](#day-51-november-7-2019)  | [Day 61](#day-61-november-17-2019) | [Day 71](#day-71-november-27-2019) | [Day 81](#day-81-december-7-2019)  |
+|+|00                                    |10                                   |20                                 |30                                  |40                                  |50                                  |60                                  |70                                  |80                                  |90                                  |
+|--|-------------------------------------|-------------------------------------|-----------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|------------------------------------|
+|01| [Day 1](#day-1-september-18-2019)   | [Day 11](#day-11-september-28-2019) | [Day 21](#day-21-october-8-2019)  | [Day 31](#day-31-october-18-2019)  | [Day 41](#day-41-october-28-2019)  | [Day 51](#day-51-november-7-2019)  | [Day 61](#day-61-november-17-2019) | [Day 71](#day-71-november-27-2019) | [Day 81](#day-81-december-7-2019)  | [Day 91](#day-91-december-17-2019) |
 |02| [Day 2](#day-2-september-19-2019)   | [Day 12](#day-12-september-29-2019) | [Day 22](#day-22-october-9-2019)  | [Day 32](#day-32-october-19-2019)  | [Day 42](#day-42-october-29-2019)  | [Day 52](#day-52-november-8-2019)  | [Day 62](#day-62-november-18-2019) | [Day 72](#day-72-november-28-2019) | [Day 82](#day-82-december-8-2019)  |
 |03| [Day 3](#day-3-september-20-2019)   | [Day 13](#day-13-september-30-2019) | [Day 23](#day-23-october-10-2019) | [Day 33](#day-33-october-20-2019)  | [Day 43](#day-43-october-30-2019)  | [Day 53](#day-53-november-9-2019)  | [Day 63](#day-63-november-19-2019) | [Day 73](#day-73-november-29-2019) | [Day 83](#day-83-december-9-2019)  |
 |04| [Day 4](#day-4-september-21-2019)   | [Day 14](#day-14-october-1-2019)    | [Day 24](#day-24-october-11-2019) | [Day 34](#day-34-october-21-2019)  | [Day 44](#day-44-october-31-2019)  | [Day 54](#day-54-november-10-2019) | [Day 64](#day-64-november-20-2019) | [Day 74](#day-74-november-30-2019) | [Day 84](#day-84-december-10-2019) |
@@ -1411,5 +1411,20 @@ Getter method is defined when you only want to get the object, a Setter method i
 * Encapsulation is an object orianted programming concept that restricts direct access to an object
 
 **Link to work:** [Day-90 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day090.rb)
+
+[Back Top](#days)
+
+### Day 91: December 17, 2019
+
+**Today's Progress:** Continue on Advance Ruby Class
+
+**Thoughts:** The Accessor method will emulate the Getter and Setter method in a neat short syntax that does the same job. You can also use the reader and writter methods of the accessor method to be very specific on creating your instance variable.
+
+* Attributes provide information about the object's current state
+* A class is the blueprint, pattern, template or outline for an object
+* An object is an instance of the class and is created from the class
+* Instantiation is the process of creating an object from a class
+
+**Link to work:** [Day-91 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day091.rb)
 
 [Back Top](#days)
