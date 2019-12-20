@@ -1450,3 +1450,16 @@ you can access module constants with the `::` symbol. The `::` symbol is called 
 **Link to work:** [Day-93 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day093.rb)
 
 [Back Top](#days)
+
+----
+### Day 94: December 20, 2019
+
+**Today's Progress:** Importing Modules and the Math module
+
+**Thoughts:** You can import modules from another files by using the `require` or `require_relative` keyword followed by the path of the file. This is a better way to keep your modules organized and seperate from your main code. You can use and reuse them by just importing them into the program you are working on.
+
+Ruby has built-in Modules and one of the intersting ones is the Math Module. Some of these modules need to be imported and some of them are imported by default. The Math Module is automaticaly imported. This module include alot of the mathimatics operations, which you can search the documentation because they are a lot.
+
+**Link to work:** [Day-94 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day094.rb)
+
+[Back Top](#days)
