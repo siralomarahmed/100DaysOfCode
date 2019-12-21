@@ -1463,3 +1463,16 @@ Ruby has built-in Modules and one of the intersting ones is the Math Module. Som
 **Link to work:** [Day-94 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day094.rb)
 
 [Back Top](#days)
+
+----
+### Day 95: December 21, 2019
+
+**Today's Progress:** A Comparable Module with Mixins in Ruby
+
+**Thoughts:** Different classes need similar functionalities for example, string and numeric both need `<, <=, >, >=, ==`, however, neither class can be represented as a subclass of the other. Duplication of methods across classes violates the "Dont Repeat Yourself" principle.
+
+Modules can be mixed into classes to add behavior. Mixin is used to not duplicate methods that do the same thing. The process is simple, you will define that function in a module then you will mix it in the classes.
+
+**Link to work:** [Day-95 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day095.rb)
+
+[Back Top](#days)
