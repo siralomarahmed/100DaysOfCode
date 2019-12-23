@@ -28,7 +28,7 @@ September 18th, 2019.
 |04| [Day 4](#day-4-september-21-2019)   | [Day 14](#day-14-october-1-2019)    | [Day 24](#day-24-october-11-2019) | [Day 34](#day-34-october-21-2019)  | [Day 44](#day-44-october-31-2019)  | [Day 54](#day-54-november-10-2019) | [Day 64](#day-64-november-20-2019) | [Day 74](#day-74-november-30-2019) | [Day 84](#day-84-december-10-2019) | [Day 94](#day-94-december-20-2019) |
 |05| [Day 5](#day-5-september-22-2019)   | [Day 15](#day-15-october-2-2019)    | [Day 25](#day-25-october-12-2019) | [Day 35](#day-35-october-22-2019)  | [Day 45](#day-45-november-1-2019)  | [Day 55](#day-55-november-11-2019) | [Day 65](#day-65-november-21-2019) | [Day 75](#day-75-december-1-2019)  | [Day 85](#day-85-december-11-2019) | [Day 95](#day-95-december-21-2019) |
 |06| [Day 6](#day-6-september-23-2019)   | [Day 16](#day-16-october-3-2019)    | [Day 26](#day-26-october-13-2019) | [Day 36](#day-36-october-23-2019)  | [Day 46](#day-46-november-2-2019)  | [Day 56](#day-56-november-12-2019) | [Day 66](#day-66-november-22-2019) | [Day 76](#day-76-december-2-2019)  | [Day 86](#day-86-december-12-2019) | [Day 96](#day-96-december-22-2019) |
-|07| [Day 7](#day-7-september-24-2019)   | [Day 17](#day-17-october-4-2019)    | [Day 27](#day-27-october-14-2019) | [Day 37](#day-37-october-24-2019)  | [Day 47](#day-47-november-3-2019)  | [Day 57](#day-57-november-13-2019) | [Day 67](#day-67-november-23-2019) | [Day 77](#day-77-december-3-2019)  | [Day 87](#day-87-december-13-2019) |
+|07| [Day 7](#day-7-september-24-2019)   | [Day 17](#day-17-october-4-2019)    | [Day 27](#day-27-october-14-2019) | [Day 37](#day-37-october-24-2019)  | [Day 47](#day-47-november-3-2019)  | [Day 57](#day-57-november-13-2019) | [Day 67](#day-67-november-23-2019) | [Day 77](#day-77-december-3-2019)  | [Day 87](#day-87-december-13-2019) | [Day 97](#day-97-december-23-2019) |
 |08| [Day 8](#day-8-september-25-2019)   | [Day 18](#day-18-october-5-2019)    | [Day 28](#day-28-october-15-2019) | [Day 38](#day-38-october-25-2019)  | [Day 48](#day-48-november-4-2019)  | [Day 58](#day-58-november-14-2019) | [Day 68](#day-68-november-24-2019) | [Day 78](#day-78-december-4-2019)  | [Day 88](#day-88-december-14-2019) |
 |09| [Day 9](#day-9-september-26-2019)   | [Day 19](#day-19-october-6-2019)    | [Day 29](#day-29-october-16-2019) | [Day 39](#day-39-october-26-2019)  | [Day 49](#day-49-november-5-2019)  | [Day 59](#day-59-november-15-2019) | [Day 69](#day-69-november-25-2019) | [Day 79](#day-79-december-5-2019)  | [Day 89](#day-89-december-15-2019) |
 |10| [Day 10](#day-10-september-27-2019) | [Day 20](#day-20-october-7-2019)    | [Day 30](#day-30-october-17-2019) | [Day 40](#day-40-october-27-2019)  | [Day 50](#day-50-november-6-2019)  | [Day 60](#day-60-november-16-2019) | [Day 70](#day-70-november-26-2019) | [Day 80](#day-80-december-6-2019)  | [Day 90](#day-90-december-16-2019) |
@@ -1488,5 +1488,26 @@ Remember, the best practice is to store each module in a seprate file and then i
 The method lookup path, which mean the path that Ruby will follow when you call a specific method. The order that modules are included in a class matters. Ruby looks at the last module included in the class first. If multiple modules mix in methods with the same name, the last module included in the class definition will be used first. Ruby will throw an error if the method is not found in the class, the modules or any superclasses.
 
 **Link to work:** [Day-96 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day096.rb)
+
+[Back Top](#days)
+
+----
+### Day 97: December 23, 2019
+
+**Today's Progress:** Prepend and Extend in Ruby Mixins
+
+**Thoughts:** Class inheritance should be used for an is-a relationship. For example, an array is a type of Object where a Fixnum is a type of Integer. Modules should be used for a has-a relationship. It adds functionality. For example, a string has a comparable feature set.
+
+The prepend place the module method before the instance method defined in the class. If you are uncertin how Ruby is operatin on a lookup of the method path, use the `ancestors` method to see what is hapening.
+
+When you want to add class methods, injecting them similarly to a class. but instead of focusing on the objects, focus on the class itelsef.
+
+The purpous of the Extend design is. If you have some kind of functionality that you want to multiple of classes as class methods, you dont want to violate the principle of "Dont repeat yourself" what you can do is, define those common class methods in a seprate module and then extend the class writting the `extend` keyword. That will allow the module to take care of the class methods.
+
+* Include takes the module mehtods and mexes them in such that all of the objects created from that class will have access to the module methods
+* Prepend does the exact same thing as Include but it makes the module methods have greater precesce than the mehtods on a class
+* Extend takes those module methods and it adds them to the class method rather to the instence level
+
+**Link to work:** [Day-97 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day097.rb)
 
 [Back Top](#days)
