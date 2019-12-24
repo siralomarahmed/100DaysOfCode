@@ -29,7 +29,7 @@ September 18th, 2019.
 |05| [Day 5](#day-5-september-22-2019)   | [Day 15](#day-15-october-2-2019)    | [Day 25](#day-25-october-12-2019) | [Day 35](#day-35-october-22-2019)  | [Day 45](#day-45-november-1-2019)  | [Day 55](#day-55-november-11-2019) | [Day 65](#day-65-november-21-2019) | [Day 75](#day-75-december-1-2019)  | [Day 85](#day-85-december-11-2019) | [Day 95](#day-95-december-21-2019) |
 |06| [Day 6](#day-6-september-23-2019)   | [Day 16](#day-16-october-3-2019)    | [Day 26](#day-26-october-13-2019) | [Day 36](#day-36-october-23-2019)  | [Day 46](#day-46-november-2-2019)  | [Day 56](#day-56-november-12-2019) | [Day 66](#day-66-november-22-2019) | [Day 76](#day-76-december-2-2019)  | [Day 86](#day-86-december-12-2019) | [Day 96](#day-96-december-22-2019) |
 |07| [Day 7](#day-7-september-24-2019)   | [Day 17](#day-17-october-4-2019)    | [Day 27](#day-27-october-14-2019) | [Day 37](#day-37-october-24-2019)  | [Day 47](#day-47-november-3-2019)  | [Day 57](#day-57-november-13-2019) | [Day 67](#day-67-november-23-2019) | [Day 77](#day-77-december-3-2019)  | [Day 87](#day-87-december-13-2019) | [Day 97](#day-97-december-23-2019) |
-|08| [Day 8](#day-8-september-25-2019)   | [Day 18](#day-18-october-5-2019)    | [Day 28](#day-28-october-15-2019) | [Day 38](#day-38-october-25-2019)  | [Day 48](#day-48-november-4-2019)  | [Day 58](#day-58-november-14-2019) | [Day 68](#day-68-november-24-2019) | [Day 78](#day-78-december-4-2019)  | [Day 88](#day-88-december-14-2019) |
+|08| [Day 8](#day-8-september-25-2019)   | [Day 18](#day-18-october-5-2019)    | [Day 28](#day-28-october-15-2019) | [Day 38](#day-38-october-25-2019)  | [Day 48](#day-48-november-4-2019)  | [Day 58](#day-58-november-14-2019) | [Day 68](#day-68-november-24-2019) | [Day 78](#day-78-december-4-2019)  | [Day 88](#day-88-december-14-2019) | [Day 98](#day-98-december-24-2019) |
 |09| [Day 9](#day-9-september-26-2019)   | [Day 19](#day-19-october-6-2019)    | [Day 29](#day-29-october-16-2019) | [Day 39](#day-39-october-26-2019)  | [Day 49](#day-49-november-5-2019)  | [Day 59](#day-59-november-15-2019) | [Day 69](#day-69-november-25-2019) | [Day 79](#day-79-december-5-2019)  | [Day 89](#day-89-december-15-2019) |
 |10| [Day 10](#day-10-september-27-2019) | [Day 20](#day-20-october-7-2019)    | [Day 30](#day-30-october-17-2019) | [Day 40](#day-40-october-27-2019)  | [Day 50](#day-50-november-6-2019)  | [Day 60](#day-60-november-16-2019) | [Day 70](#day-70-november-26-2019) | [Day 80](#day-80-december-6-2019)  | [Day 90](#day-90-december-16-2019) |
 
@@ -1509,5 +1509,18 @@ The purpous of the Extend design is. If you have some kind of functionality that
 * Extend takes those module methods and it adds them to the class method rather to the instence level
 
 **Link to work:** [Day-97 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day097.rb)
+
+[Back Top](#days)
+
+----
+### Day 98: December 24, 2019
+
+**Today's Progress:** The Enumerable module in Ruby
+
+**Thoughts:** The point is to gain access to methods that you dont have to define beforehand by simply including a simgle module into the class. Another way to put it is that this is another way to take what Ruby has built in and combining it with the custom class at hand.
+
+Enumerble is another Ruby built in module that you can mixin your custom classes. This module deal with enumerations, as the name suggest.. . Enumeration is another word for iteration, like moving around something in sequence step by step. Enumerable is usualy mixed in classes of Arrays and Hashes in Ruby because both of these objects is fit to iterate over.
+
+**Link to work:** [Day-98 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day098.rb)
 
 [Back Top](#days)
