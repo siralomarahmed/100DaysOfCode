@@ -16,7 +16,9 @@ Ruby is:
 I will code in **Ruby** programming language for at least an hour every day for the next 100 days.
 
 Start Date:  
-September 18th, 2019.
+September 18th, 2019.  
+End Date:  
+December 26th, 2019.
 
 ----
 ## Days:
@@ -33,6 +35,7 @@ September 18th, 2019.
 |09| [Day 9](#day-9-september-26-2019)   | [Day 19](#day-19-october-6-2019)    | [Day 29](#day-29-october-16-2019) | [Day 39](#day-39-october-26-2019)  | [Day 49](#day-49-november-5-2019)  | [Day 59](#day-59-november-15-2019) | [Day 69](#day-69-november-25-2019) | [Day 79](#day-79-december-5-2019)  | [Day 89](#day-89-december-15-2019) | [Day 99](#day-99-december-25-2019)   |
 |10| [Day 10](#day-10-september-27-2019) | [Day 20](#day-20-october-7-2019)    | [Day 30](#day-30-october-17-2019) | [Day 40](#day-40-october-27-2019)  | [Day 50](#day-50-november-6-2019)  | [Day 60](#day-60-november-16-2019) | [Day 70](#day-70-november-26-2019) | [Day 80](#day-80-december-6-2019)  | [Day 90](#day-90-december-16-2019) | [Day 100](#day-100-december-26-2019) |
 
+[Or Jump Right To Conclution!](#Conclution)
 
 ----
 ### Day 1: September 18, 2019
@@ -1552,5 +1555,22 @@ Protected methods can be invoked only by objects of the same class and can be ca
 Aside from changing the class, you can add new functionalities that will work on your own custom program. for example changing the Number class to act in a certin way or the Array in another way.
 
 **Link to work:** [Day-100 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day100.rb)
+
+[Back Top](#days)
+
+----
+### Conclution
+
+This is not my first time doing the challenge of one hundred days of code but it was a time where I wanted to document my learning progress in a new language I have never touched before. It is one hour a day so there isn't much to lose either way.
+
+I wanted to learn a language that I've never learned before and Ruby was my choice at the time. I didn't know where to start or what is the path I was going to take as you can see my progress. I was going from topic to topic jumping around and even returning back to a previous topic. However I managed to have a broad general touch over all the concept of the language.
+
+I really loved the language, as it is very friendly and forgiving. The syntax is pretty simple, everything starts with a beginning and end with an end. Perhaps because of my previous experience of other programming languages, but I really think that if I would choose to learn programming all over again I would take Ruby as my first language. Not because it is easy, but the concepts seemed much more friendly.
+
+Endured one hundred hour of coding time, I learned how to code in the Ruby programming language itself and utilizing common objects like Strings, Arrays, Hashes, and more. I know that just scratches the surface of the language.
+
+There is always more to learn, and I think I will be learning more about classes and refactoring code as in making the code cleaner. I'm also interested in jumping to the Ruby on Rails framework to build applications.
+
+My journey was incredibly fun unlike other languages haha, ^_^/
 
 [Back Top](#days)
