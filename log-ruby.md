@@ -1078,7 +1078,7 @@ A complimentary keyword to the `break` is the `next` keyword. What `next` does i
 
 A lot of methods can be used with arrays like the `.reverse` method which will reverse the array. You can use the `.sort()` methid to sort the array, from smallest to biggest or you can chain it with reverse. Remember uppercase letters come before lowercase letters. You can use the `.concat` method on an array to concat another array to the end of it.
 
-**Link to work:** [Day-72 sourceCode](http://)
+**Link to work:** [Day-72 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day072.rb)
 
 [Back Top](#days)
 
@@ -1250,7 +1250,7 @@ When you call the `yield` keyword without an assosiated block, the program will 
 
 Yielding with arguments is cool, just dont define more arguments with no parameters, because you will get "nil" haha. But yah, multiple parameters and argument is useful capability in a block. You can make a very complex block and reuse it.
 
-**Link to work:** [Day-81 sourceCode](http://)
+**Link to work:** [Day-81 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day081.rb)
 
 [Back Top](#days)
 
