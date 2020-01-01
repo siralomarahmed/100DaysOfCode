@@ -8,7 +8,7 @@ The C programming language is evolved from a previous programming language named
  
 The main features of C is that it is efficient, portable, flexible and programmer oriented.
  
-C is:
+The C Programming language is:
 1. A general purpose language. A computer language that is broadly applicable across application domains, and lacks specialized features for a particular domain.
 2. Procedural. It's a programming paradigm, derived from structured programming, based on the concept of the procedure call.
 3. Structured. It's a programming paradigm aimed at improving the clarity, quality, and development time of a computer program.
@@ -30,3 +30,45 @@ The standard version of the language I will use is based on C89 and C99 but I ma
 
 Start Date:  
 January 1st, 2020.
+
+----
+### Day 1: January 1, 2020
+
+**Today's Progress:** Hello World in C
+ 
+**Thoughts:** I installed the Cygwin compiler and run the first console app written in C. I can say that I understand a little bit about the basic structure of the C program by looking at it.
+ 
+The `#include` is a preprocessor command. They are also called preprocessor directives. It is a unique feature of the C programming language that is not found in many other higher-level programming languages. Its function is to make the development of programs easier to modify and to port to different computer systems.
+ 
+The `<stdio.h>` is a library that includes many commands and it is included here because I used the `printf` function. this means that the declaration of the `printf` function is taken from the library `<stdio.h>`.
+ 
+The `prntf()` is a standard library function to output or display output to the command line. The idea is that you don't have to write a custom function to do this simple task every time.
+ 
+The `int` is there to return an integer that represents a message. The return keyword is used at the end of the block of code. You can use `void` to not return anything. You can also say that int is the return type of the function.
+ 
+I can easily say that `main()` is a function of some sort but I don't intend to say I understand how functions run in C yet. Following that a block of code that prints the string. How can I put it into words.. When the operating system execute the program, it will look for the main function. The main function will return a value and the `int` integer is the type of value that this function will return. This is why the `return 0;` at the end of the function block.
+ 
+It is a standard in the C programming language that you return zero to indicate that the program has completed successfully.
+ 
+The four fundamental tasks in writing a C program as any compiled language is:
+  1. Editing
+  2. Compiling
+  3. Linking
+  4. Executing
+ 
+Editing is writing the C code in a file that is called the source code file. All source code files must end with the extension `.c`.
+ 
+Main points in editing C code is:
+  * Case sensitivity
+  * All statements end with a semicolon
+ 
+There a phase before compilation which is called a
+  * Preprocessing phase, during which the code may be modified or added to.
+ 
+The compiler will then translate the assembly language statements into machine code. After this phase, the compiling stage will do an actual compilation that generate the object code. The output of the compiler is known as object code with the `.o` or `.obj` file extension.
+ 
+After the program has been translated into Object code, it is linked. The purpose of linking is to get the program into a final form for execution on the computer. Linking is usually automatic but sometimes must be done manually.
+ 
+Executing is about running the program.
+
+**Link to work:** [Day-1 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day001.c)
