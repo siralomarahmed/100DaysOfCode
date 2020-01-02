@@ -31,6 +31,14 @@ The standard version of the language I will use is based on C89 and C99 but I ma
 Start Date:  
 January 1st, 2020.
 
+
+----
+## Days:
+|+ |00                                 |
+|--|-----------------------------------|
+|01| [Day 1](#day-1-january-1-2020)    |
+|02| [Day 2](#day-2-january-2-2020)    |
+
 ----
 ### Day 1: January 1, 2020
 
@@ -72,3 +80,33 @@ After the program has been translated into Object code, it is linked. The purpos
 Executing is about running the program.
 
 **Link to work:** [Day-1 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day001.c)
+
+[Back Top](#days)
+
+----
+### Day 2: January 2, 2020
+ 
+**Today's Progress:** Comments and Escape Sequences
+ 
+**Thoughts:** It is best practice to use comments to explain complex code or give needed information if needed. The core reason for comment is to enhance the code readability. They are ignored by the compiler.
+ 
+There are two ways to add comments in a C Program:
+  1. Single line comments using `//`
+      * The content of the comment is after the double forward slashes.
+  2. Multiline comments using `/**/`
+      * THe content of the comment is between the asterisks.
+ 
+Escape sequence is represented with the backslash `\` followed by a sequence of characters. it's also called an escape character. The escape sequence can be used on any system with a C compiler.
+ 
+Some of the escape characters are: 
+ 
+* `\\` will add a backslash
+* `\b` will add a backspace
+* `\n` will give a newline
+* `\?` will add a question mark by avoiding trigraphs
+* `\'` will escape a single quote
+* `"` will escape a double quotation
+ 
+**Link to work:** [Day-2 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day002.c)
+ 
+[Back Top](#days)
