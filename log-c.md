@@ -38,11 +38,12 @@ January 1st, 2020.
 |--|-----------------------------------|
 |01| [Day 1](#day-1-january-1-2020)    |
 |02| [Day 2](#day-2-january-2-2020)    |
+|03| [Day 2](#day-3-january-3-2020)    |
 
 ----
 ### Day 1: January 1, 2020
 
-**Today's Progress:** Hello World in C
+**Today's Progress:** Hello World
  
 **Thoughts:** I installed the Cygwin compiler and run the first console app written in C. I can say that I understand a little bit about the basic structure of the C program by looking at it.
  
@@ -108,5 +109,40 @@ Some of the escape characters are:
 * `"` will escape a double quotation
  
 **Link to work:** [Day-2 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day002.c)
+ 
+[Back Top](#days)
+
+----
+### Day 3: January 3, 2020
+
+**Today's Progress:** Program Structure
+
+**Thoughts:** Today I coded the hello world program and a variation of it, so I decided to know the structure of the C programs. I did my research and learn a lot of things.
+
+For now I can understand that the structure of a C program consist of 3 main Statements and they are:
+
+1. Link Statements
+    * Includes preprocessor statements
+2. Definition Statements
+    * Includes global decleration statements
+3. Function Statements
+    * Includes the main function
+
+I've also seen that people like to add comments that explain the program at the top of the code. Before anything in the source file, there will be a section that help the coder to know what is going on. Some sort of documentation.
+
+I still didn't learn about function in the c programming language but It is easy to guess that a program can have many functions aside from the main function.
+
+My conclution is that the program structure will be:
+
+1. Documentation
+    * Which usually contains the collection of comment lines giving the name of the program, author's or programmer's name and few other details.
+2. Connections
+    * Which instructs the compiler to connect to the various functions from the system library
+3. Definitions
+    * Which describes all the symbolic-constants. It is also the place used to define those variables that are used globally within the entire program.
+4. Functionalities
+    * Where the main function and user-defined functions is.
+
+**Link to work:** [Day-2 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day003.c)
  
 [Back Top](#days)
