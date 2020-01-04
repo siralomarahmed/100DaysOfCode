@@ -182,7 +182,7 @@ Header files can be :
   * Type definition statements
   * Function prototypes
  
-**Link to work:** [Day-4 sourceCode]()
+**Link to work:** [Day-4 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day004.c)
  
 [Back Top](#days)
  
