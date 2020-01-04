@@ -38,7 +38,8 @@ January 1st, 2020.
 |--|-----------------------------------|
 |01| [Day 1](#day-1-january-1-2020)    |
 |02| [Day 2](#day-2-january-2-2020)    |
-|03| [Day 2](#day-3-january-3-2020)    |
+|03| [Day 3](#day-3-january-3-2020)    |
+|04| [Day 4](#day-4-january-4-2020)    |
 
 ----
 ### Day 1: January 1, 2020
@@ -143,6 +144,45 @@ My conclution is that the program structure will be:
 4. Functionalities
     * Where the main function and user-defined functions is.
 
-**Link to work:** [Day-2 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day003.c)
+**Link to work:** [Day-3 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day003.c)
  
 [Back Top](#days)
+
+### Day 4: January 4, 2020
+ 
+**Today's Progress:** Preprocessor Basics
+ 
+**Thoughts:** The preprocessor is part of the compilation process in the C programming language that recognize special statements. I can say that it is an instruction to the compiler to do something before compiling the processing of the code.
+ 
+A preprocessor is:
+ 
+  1. Statements starts with the hashtag `#` this symbol indicates this is a preprocessing directive.
+  2. It is a rule for the compiler to do something before compiling the source code.
+  3. Must be the first non-space character on the line.
+  4. They are usually at the top of the source code but can be anywhere.
+ 
+You can create your own macros or build a library files using a preprocessor. Macros are another preprocessor that you can modify to create a more powerful programs. Macros are typically created with the `#define` preprocessor command, and libraries are typically created with the `#include` preprocessor command.
+ 
+A preprocessor derivative would be things such as conditional statements.
+ 
+A preprocessor `#include` calls a file. in the case of today's program, it is the file `stdio.h`, It is called a header file. Because it is usually included at the head of a program file with the `.h` extension.
+ 
+Header files usually has information about functions provided to the program. In the case of `stdio.h`, it is the standard C library header that give functions to things such as displaying output. In the case of today, it is to make use of the `printf()` function. You can say that it is a standard of input/output functionalities.
+ 
+There are two ways to include header files:
+ 
+  1. using angle brackets `<HeaderFile>`
+      This method will make the preprocessor to look for the file in one or more standard system directories.
+  2. Using double quotation `"HeaderFile"`
+      This method will make the preprocessor to first look at the current directory. Probably something the user made.
+ 
+Header files can be :
+  * Define directives
+  * Structure declarations
+  * Type definition statements
+  * Function prototypes
+ 
+**Link to work:** [Day-4 sourceCode]()
+ 
+[Back Top](#days)
+ 
