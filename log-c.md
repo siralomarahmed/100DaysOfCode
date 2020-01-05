@@ -40,6 +40,7 @@ January 1st, 2020.
 |02| [Day 2](#day-2-january-2-2020)    |
 |03| [Day 3](#day-3-january-3-2020)    |
 |04| [Day 4](#day-4-january-4-2020)    |
+|05| [Day 5](#day-5-january-5-2020)    |
 
 ----
 ### Day 1: January 1, 2020
@@ -185,4 +186,36 @@ Header files can be :
 **Link to work:** [Day-4 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day004.c)
  
 [Back Top](#days)
+
+----
+### Day 5: January 5, 2020
+
+**Today's Progress:** Variables - Declaration
+
+**Thoughts:** Variable is an identifier with a value that can be changed during normal execution.
+
+The act of creating a named address in the memory and assigning a type of data to it is called variable declarations.
  
+I know by now that variables are just a named storage of data in the memory (RAM). I've researched a lot and simplified the process of variables in relation to the memory so I can understand the functionality better into points.
+ 
+* When the program store information on the random access memory:
+    * RAM is a temporary storage for the data or instructions
+    * The size has measurement units called bits
+    * Each bit represents a binary digit, either a 0 or 1
+    * the bit is full when it's value is 1
+    * It is empty when it's value is 0
+    * Bits in memory is grouped into a set of eight bits to create a byte
+    * Each byte has a unique address that can be referenced to
+* Variables are the name you give to point to the memory location that are used to store values in the program:
+    * Constant, are data type that remain static throughout the program. (cannot change there value)
+    * Variables, are data type that are dynamic throughout the program. (can change their value)
+ 
+It is best practice to create meaningful names for the variables to increase the readability of the code. The usual naming practices such as no keywords, spaces or `$` in the name. Also a variable name cannot start with a number.
+ 
+In order to use a variable in a program, You have to declare them first. It is the act of naming the variable and giving a type for the data in it. Because the C programming language requires all variables to be declared to be used in a program.
+ 
+Syntax:  `type-specifier variable-name;`
+
+**Link to work:** [Day-5 sourceCode]()
+
+[Back Top](#days)
