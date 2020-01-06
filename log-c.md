@@ -216,6 +216,23 @@ In order to use a variable in a program, You have to declare them first. It is t
  
 Syntax:  `type-specifier variable-name;`
 
-**Link to work:** [Day-5 sourceCode]()
+**Link to work:** [Day-5 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day005.c)
+
+[Back Top](#days)
+
+----
+### Day 6: January 6, 2020
+
+**Today's Progress:** Variables - Initializing
+
+**Thoughts:** The act of giving the variable a value is called initializing variable.
+ 
+Declaring variables are one thing and giving them values is another thing. If both processes are linked together it is called initializing variables.
+ 
+Initialize syntax: `variable-name = variable-value;`
+ 
+Declare and initialize syntax: `type-specifier variable-name = variable-value;`
+
+**Link to work:** [Day-6 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day006.c)
 
 [Back Top](#days)
