@@ -42,6 +42,7 @@ January 1st, 2020.
 |04| [Day 4](#day-4-january-4-2020)    |
 |05| [Day 5](#day-5-january-5-2020)    |
 |06| [Day 6](#day-6-january-6-2020)    |
+|07| [Day 7](#day-7-january-7-2020)    |
 
 ----
 ### Day 1: January 1, 2020
@@ -237,3 +238,45 @@ Declare and initialize syntax: `type-specifier variable-name = variable-value;`
 **Link to work:** [Day-6 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day006.c)
 
 [Back Top](#days)
+
+----
+### Day 7: January 7, 2020
+
+**Today's Progress:** Variables - Format Specifier
+
+**Thoughts:** There are types of data in the C programming language and each type has its own specifier that represent the data. These specifiers are required to print the value assigned in a variable.
+
+The format specifier will search for a parameter, usually it is going to be the variable name. You can add as many parameters as you like providing the format specifier to print it in the program.
+
+Specifiers can be used in many ways. In a `printf()` function, when you add the specifier, you have to add the variable name as a second parameter in the function.
+
+Syntax: `printf("%formatSpecifier", variableName);`
+
+In the case of integer `int` variable type, the format specifier is `%d`
+
+There are two type of the basic integer and they are both of size 16 bits:
+
+1. Basic signed integer type:
+    * Keywords:
+      * int
+      * signed
+      * signed int
+    * Format Specifier:
+      * %i
+      * %d
+
+Capable of containing at least the [−32,767, +32,767] range.
+
+1. Basic unsigned integer type:
+    * Keywords:
+      * unsigned 
+      * unsigned int
+    * Format Specifier:
+      * %u
+
+Capable of containing at least the [0, 65,535] range.
+
+**Link to work:** [Day-7 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day007.c)
+
+[Back Top](#days)
+
