@@ -43,6 +43,7 @@ January 1st, 2020.
 |05| [Day 5](#day-5-january-5-2020)    |
 |06| [Day 6](#day-6-january-6-2020)    |
 |07| [Day 7](#day-7-january-7-2020)    |
+|08| [Day 8](#day-8-january-8-2020)    |
 
 ----
 ### Day 1: January 1, 2020
@@ -277,6 +278,34 @@ Capable of containing at least the [−32,767, +32,767] range.
 Capable of containing at least the [0, 65,535] range.
 
 **Link to work:** [Day-7 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day007.c)
+
+[Back Top](#days)
+
+### Day 8: January 8, 2020
+
+**Today's Progress:** Variables - Display & Read Data
+
+**Thoughts:** Now I understand more about how variable function in the C programming language, I can see the picture more clearly. I know by now that the `scanf` function from the library `stdio.h` is used to get data from the keyboard. Getting the value give me the choice to assign it to a variable.
+ 
+To assign an input from the user to a variable in the program, the variable must first be declared.
+
+To display information on the screen terminal, you can use the `printf()` function as in the hello world program. you can even specify the format of the data you want to display.
+ 
+The `scanf()` function takes two parameters separated by commas. The first enclosed with double quotation is what format specifier to display.
+ 
+The operating system set between the user and the hardware. When the user enters data, the computer will store it in the hardware, specifically the memory. The way the computer store data is by sequence of characters, not by type. The `scanf()` function will scan for the characters stored in the memory and the format specifier will convert the data into what type has been specified.
+ 
+Since the variable will be declared in a local scope, the `scanf()` function will not be able to access the local variable.
+ 
+Then `scanf()` need to know where to assign the value another way. Here is the second parameter comes into play. The second parameter will tell where to keep that value. It is by passing the address or the byte number of the variable in the memory to the function.
+ 
+In the C Programming language, you can point to the address of the variable in memory by prefixing (join together) the `&` sign with the variable name.
+ 
+Getting the format specifier, Syntax: `"%specfierKey"`
+ 
+Getting the address of the variable, Syntax: `&variableName`
+
+**Link to work:** [Day-8 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day008.c)
 
 [Back Top](#days)
 
