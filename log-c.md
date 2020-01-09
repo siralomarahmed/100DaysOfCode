@@ -44,6 +44,7 @@ January 1st, 2020.
 |06| [Day 6](#day-6-january-6-2020)    |
 |07| [Day 7](#day-7-january-7-2020)    |
 |08| [Day 8](#day-8-january-8-2020)    |
+|09| [Day 9](#day-9-january-9-2020)    |
 
 ----
 ### Day 1: January 1, 2020
@@ -306,6 +307,37 @@ Getting the format specifier, Syntax: `"%specfierKey"`
 Getting the address of the variable, Syntax: `&variableName`
 
 **Link to work:** [Day-8 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day008.c)
+
+[Back Top](#days)
+
+----
+### Day 9: January 9, 2020
+
+**Today's Progress:** Data types - short
+
+**Thoughts:** Short data type is 16 bits in size.
+
+1. Short signed integer type:
+    * Keywords:
+      * short
+      * short int
+      * signed short
+      * signed short int
+    * Format Specifier:
+      * %hi
+
+Capable of containing at least the [−32,767, +32,767] range.
+
+1. Short unsigned integer type:
+    * Keywords:
+      * unsigned short
+      * unsigned short int
+    * Format Specifier:
+      * %hu
+
+Capable of containing at least the [0, 65,535] range.
+
+**Link to work:** [Day-9 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day009.c)
 
 [Back Top](#days)
 
