@@ -45,6 +45,7 @@ January 1st, 2020.
 |07| [Day 7](#day-7-january-7-2020)    |
 |08| [Day 8](#day-8-january-8-2020)    |
 |09| [Day 9](#day-9-january-9-2020)    |
+|10| [Day 10](#day-10-january-10-2020) |
 
 ----
 ### Day 1: January 1, 2020
@@ -57,8 +58,8 @@ The `#include` is a preprocessor command. They are also called preprocessor dire
  
 The `<stdio.h>` is a library that includes many commands and it is included here because I used the `printf` function. this means that the declaration of the `printf` function is taken from the library `<stdio.h>`.
  
-The `prntf()` is a standard library function to output or display output to the command line. The idea is that you don't have to write a custom function to do this simple task every time.
- 
+The `printf()` is a standard library function to output or display output to the command line. The idea is that you don't have to write a custom function to do this simple task every time.
+
 The `int` is there to return an integer that represents a message. The return keyword is used at the end of the block of code. You can use `void` to not return anything. You can also say that int is the return type of the function.
  
 I can easily say that `main()` is a function of some sort but I don't intend to say I understand how functions run in C yet. Following that a block of code that prints the string. How can I put it into words.. When the operating system execute the program, it will look for the main function. The main function will return a value and the `int` integer is the type of value that this function will return. This is why the `return 0;` at the end of the function block.
@@ -130,29 +131,29 @@ For now I can understand that the structure of a C program consist of 3 main Sta
 1. Link Statements
     * Includes preprocessor statements
 2. Definition Statements
-    * Includes global decleration statements
+    * Includes global declaration statements
 3. Function Statements
     * Includes the main function
 
 I've also seen that people like to add comments that explain the program at the top of the code. Before anything in the source file, there will be a section that help the coder to know what is going on. Some sort of documentation.
 
-I still didn't learn about function in the c programming language but It is easy to guess that a program can have many functions aside from the main function.
+I still didn't learn about function in the C programming language but It is easy to guess that a program can have many functions aside from the main function.
 
-My conclution is that the program structure will be:
+My conclusion is that the program structure will be:
 
 1. Documentation
-    * Which usually contains the collection of comment lines giving the name of the program, author's or programmer's name and few other details.
+    * Which usually contains the collection of comment lines giving the name of the program, the author's or programmer's name and few other details.
 2. Connections
     * Which instructs the compiler to connect to the various functions from the system library
 3. Definitions
     * Which describes all the symbolic-constants. It is also the place used to define those variables that are used globally within the entire program.
 4. Functionalities
     * Where the main function and user-defined functions is.
-
+ 
 **Link to work:** [Day-3 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day003.c)
  
 [Back Top](#days)
-
+ 
 ### Day 4: January 4, 2020
  
 **Today's Progress:** Preprocessor Basics
@@ -246,7 +247,7 @@ Declare and initialize syntax: `type-specifier variable-name = variable-value;`
 
 **Today's Progress:** Variables - Format Specifier
 
-**Thoughts:** There are types of data in the C programming language and each type has its own specifier that represent the data. These specifiers are required to print the value assigned in a variable.
+**Thoughts:** There are types of data in the C programming language and each type has its own specifier that represent the data. These specifiers are required to print the value assigned to a variable.
 
 The format specifier will search for a parameter, usually it is going to be the variable name. You can add as many parameters as you like providing the format specifier to print it in the program.
 
@@ -256,7 +257,7 @@ Syntax: `printf("%formatSpecifier", variableName);`
 
 In the case of integer `int` variable type, the format specifier is `%d`
 
-There are two type of the basic integer and they are both of size 16 bits:
+There are two types of the basic integer and they are both of size 16 bits:
 
 1. Basic signed integer type:
     * Keywords:
@@ -338,6 +339,37 @@ Capable of containing at least the [−32,767, +32,767] range.
 Capable of containing at least the [0, 65,535] range.
 
 **Link to work:** [Day-9 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day009.c)
+
+[Back Top](#days)
+
+----
+### Day 10: January 10, 2020
+
+**Today's Progress:** Data types - Long
+
+**Thoughts:** Long data type is 32 bits in size.
+
+1. long signed integer type:
+    * Keywords:
+      * long
+      * long int
+      * signed long
+      * signed long int
+    * Format Specifier:
+      * %li
+
+Capable of containing at least the [−2,147,483,647, +2,147,483,647] range.
+
+1. long unsigned integer type:
+    * Keywords:
+      * unsigned long
+      * unsigned long int
+    * Format Specifier:
+      * %lu
+
+Capable of containing at least the [0, 4,294,967,295] range.
+
+**Link to work:** [Day-10 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day010.c)
 
 [Back Top](#days)
 
