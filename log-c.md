@@ -34,9 +34,9 @@ January 1st, 2020.
 
 ----
 ## Days:
-|+ |00                                 |
-|--|-----------------------------------|
-|01| [Day 1](#day-1-january-1-2020)    |
+|+ |00                                 |01                                 |
+|--|-----------------------------------|-----------------------------------|
+|01| [Day 1](#day-1-january-1-2020)    | [Day 11](#day-11-january-11-2020) |
 |02| [Day 2](#day-2-january-2-2020)    |
 |03| [Day 3](#day-3-january-3-2020)    |
 |04| [Day 4](#day-4-january-4-2020)    |
@@ -370,6 +370,37 @@ Capable of containing at least the [−2,147,483,647, +2,147,483,647] range.
 Capable of containing at least the [0, 4,294,967,295] range.
 
 **Link to work:** [Day-10 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day010.c)
+
+[Back Top](#days)
+
+----
+### Day 11: January 11, 2020
+
+**Today's Progress:** Data types - Long Long
+
+**Thoughts:** Long long data type is 64 bits in size.
+
+1. Long long signed integer type:
+    * Keywords:
+      * long long
+      * long long int
+      * signed long long
+      * signed long long int
+    * Format Specifier:
+      * %lli
+
+Capable of containing at least the [−9,223,372,036,854,775,807, +9,223,372,036,854,775,807] range.
+
+1. Long long unsigned integer type:
+    * Keywords:
+      * unsigned long long
+      * unsigned long long int
+    * Format Specifier:
+      * %llu
+
+Capable of containing at least the [0, +18,446,744,073,709,551,615] range.
+
+**Link to work:** [Day-11 sourceCode]()
 
 [Back Top](#days)
 
