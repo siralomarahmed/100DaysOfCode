@@ -37,7 +37,7 @@ January 1st, 2020.
 |+ |00                                 |01                                 |
 |--|-----------------------------------|-----------------------------------|
 |01| [Day 1](#day-1-january-1-2020)    | [Day 11](#day-11-january-11-2020) |
-|02| [Day 2](#day-2-january-2-2020)    |
+|02| [Day 2](#day-2-january-2-2020)    | [Day 12](#day-12-january-12-2020) |
 |03| [Day 3](#day-3-january-3-2020)    |
 |04| [Day 4](#day-4-january-4-2020)    |
 |05| [Day 5](#day-5-january-5-2020)    |
@@ -404,3 +404,26 @@ Capable of containing at least the [0, +18,446,744,073,709,551,615] range.
 
 [Back Top](#days)
 
+----
+### Day 12: January 12, 2020
+
+**Today's Progress:** Data types - Float
+
+**Thoughts:** Float data type is 32 bits in size. Usually referred to as a single-precision floating-point type.
+
+* Float signed integer type:
+    * Keywords:
+      * float
+    * Format Specifier:
+      * %f
+      * %g
+      * %e
+      * %a
+      * %F
+      * %G
+      * %E
+      * %A
+
+**Link to work:** [Day-12 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day012.c)
+
+[Back Top](#days)
