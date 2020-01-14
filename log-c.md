@@ -472,6 +472,7 @@ Capable of containing at least the [0, +18,446,744,073,709,551,615] range.
       * %LE
       * %LA
 
-**Link to work:** [Day-14 sourceCode]()
+**Link to work:** [Day-14 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day014.c)
 
 [Back Top](#days)
+
