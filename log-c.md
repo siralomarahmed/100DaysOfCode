@@ -38,8 +38,8 @@ January 1st, 2020.
 |--|-----------------------------------|-----------------------------------|
 |01| [Day 1](#day-1-january-1-2020)    | [Day 11](#day-11-january-11-2020) |
 |02| [Day 2](#day-2-january-2-2020)    | [Day 12](#day-12-january-12-2020) |
-|03| [Day 3](#day-3-january-3-2020)    | [Day 12](#day-13-january-12-2020) |
-|04| [Day 4](#day-4-january-4-2020)    |
+|03| [Day 3](#day-3-january-3-2020)    | [Day 13](#day-13-january-13-2020) |
+|04| [Day 4](#day-4-january-4-2020)    | [Day 14](#day-14-january-14-2020) |
 |05| [Day 5](#day-5-january-5-2020)    |
 |06| [Day 6](#day-6-january-6-2020)    |
 |07| [Day 7](#day-7-january-7-2020)    |
@@ -452,3 +452,26 @@ Capable of containing at least the [0, +18,446,744,073,709,551,615] range.
 
 [Back Top](#days)
 
+----
+### Day 14: January 14, 2020
+
+**Today's Progress:** Data types - Long Double
+
+**Thoughts:** Long double data type is 128 bits in size. Usually mapped to an extended precision floating-point number format.
+
+* Long Double signed integer type:
+    * Keywords:
+      * long double
+    * Format Specifier:
+      * %Lf
+      * %Lg
+      * %Le
+      * %La
+      * %LF
+      * %LG
+      * %LE
+      * %LA
+
+**Link to work:** [Day-14 sourceCode]()
+
+[Back Top](#days)
