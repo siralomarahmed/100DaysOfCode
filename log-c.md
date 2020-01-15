@@ -40,7 +40,7 @@ January 1st, 2020.
 |02| [Day 2](#day-2-january-2-2020)    | [Day 12](#day-12-january-12-2020) |
 |03| [Day 3](#day-3-january-3-2020)    | [Day 13](#day-13-january-13-2020) |
 |04| [Day 4](#day-4-january-4-2020)    | [Day 14](#day-14-january-14-2020) |
-|05| [Day 5](#day-5-january-5-2020)    |
+|05| [Day 5](#day-5-january-5-2020)    | [Day 15](#day-15-january-15-2020) |
 |06| [Day 6](#day-6-january-6-2020)    |
 |07| [Day 7](#day-7-january-7-2020)    |
 |08| [Day 8](#day-8-january-8-2020)    |
@@ -473,6 +473,28 @@ Capable of containing at least the [0, +18,446,744,073,709,551,615] range.
       * %LA
 
 **Link to work:** [Day-14 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day014.c)
+
+[Back Top](#days)
+
+----
+### Day 15: January 15, 2020
+
+**Today's Progress:** Data types - Boolean
+
+**Thoughts:** Boolean data type functions similarly to a normal integers type, with one exception: any assignments to a _Bool that are not 0 (false) are stored as 1 (true).
+
+An integer overflow occurs when an arithmetic operation attempts to create a numeric value that is outside of the range that can be represented with a given number of digits.
+
+Boolean act this way in the C programming language to avoid integer overflows in implicit narrowing conversions.
+
+* Boolean type:
+    * Keywords:
+      * _Bool
+    * Format Specifier:
+      * %i
+      * %d
+
+**Link to work:** [Day-15 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day015.c)
 
 [Back Top](#days)
 
