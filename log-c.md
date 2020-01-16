@@ -41,7 +41,7 @@ January 1st, 2020.
 |03| [Day 3](#day-3-january-3-2020)    | [Day 13](#day-13-january-13-2020) |
 |04| [Day 4](#day-4-january-4-2020)    | [Day 14](#day-14-january-14-2020) |
 |05| [Day 5](#day-5-january-5-2020)    | [Day 15](#day-15-january-15-2020) |
-|06| [Day 6](#day-6-january-6-2020)    |
+|06| [Day 6](#day-6-january-6-2020)    | [Day 16](#day-16-january-16-2020) |
 |07| [Day 7](#day-7-january-7-2020)    |
 |08| [Day 8](#day-8-january-8-2020)    |
 |09| [Day 9](#day-9-january-9-2020)    |
@@ -498,3 +498,27 @@ Boolean act this way in the C programming language to avoid integer overflows in
 
 [Back Top](#days)
 
+----
+### Day 16: January 16, 2020
+
+**Today's Progress:** Data types - Character
+
+**Thoughts:** First, char is not a string, it represent a single character. Any character in the keyboard is a character. even a semicolon is a character. Character data uses single quotes. Example such as `'a'` or `'Z'` is a char data type. Basically any character in the keyboard is assigned with the ASCII code and it is an integer value.
+ 
+Char declaration syntax is: `char variableName;`
+ 
+After declaration you can assign a value to the variable. The assignment must be enclosed in single quotes.
+ 
+Char initiation example: `variableName = 'A';`
+ 
+When you don't give a single quote to the value, I think the compiler thinks that the value is the name of a variable hahaha. A double quotes is reserved for strings.
+
+* Boolean type:
+    * Keywords:
+      * char
+    * Format Specifier:
+      * %c
+
+**Link to work:** [Day-16 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day016.c)
+
+[Back Top](#days)
