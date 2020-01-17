@@ -42,7 +42,7 @@ January 1st, 2020.
 |04| [Day 4](#day-4-january-4-2020)    | [Day 14](#day-14-january-14-2020) |
 |05| [Day 5](#day-5-january-5-2020)    | [Day 15](#day-15-january-15-2020) |
 |06| [Day 6](#day-6-january-6-2020)    | [Day 16](#day-16-january-16-2020) |
-|07| [Day 7](#day-7-january-7-2020)    |
+|07| [Day 7](#day-7-january-7-2020)    | [Day 17](#day-17-january-17-2020) |
 |08| [Day 8](#day-8-january-8-2020)    |
 |09| [Day 9](#day-9-january-9-2020)    |
 |10| [Day 10](#day-10-january-10-2020) |
@@ -520,5 +520,22 @@ When you don't give a single quote to the value, I think the compiler thinks tha
       * %c
 
 **Link to work:** [Day-16 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day016.c)
+
+[Back Top](#days)
+
+----
+### Day 17: January 17, 2020
+
+**Today's Progress:** Data types - Octal
+
+**Thoughts:** Octal is a number system base-8 that uses the digits 0 to 7. Octal numerals can be made from binary numerals.
+
+Any integer constant that is prefixed with a zero are considered as octal constant by the C compiler. The compiler will return the corresponding value of the octal number provided when the variable is called.
+ 
+Instead of providing a format specifier of an integer, there is a special format specifier of the octal value which is the `%o` that will not convert the value of the variable but it will act as it is an actual octal number.
+
+You can also initialize a variable starting with a zero to be converted to a octal value such as `int var = 015`
+
+**Link to work:** [Day-17 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day017.c)
 
 [Back Top](#days)
