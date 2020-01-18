@@ -43,7 +43,7 @@ January 1st, 2020.
 |05| [Day 5](#day-5-january-5-2020)    | [Day 15](#day-15-january-15-2020) |
 |06| [Day 6](#day-6-january-6-2020)    | [Day 16](#day-16-january-16-2020) |
 |07| [Day 7](#day-7-january-7-2020)    | [Day 17](#day-17-january-17-2020) |
-|08| [Day 8](#day-8-january-8-2020)    |
+|08| [Day 8](#day-8-january-8-2020)    | [Day 18](#day-18-january-18-2020) |
 |09| [Day 9](#day-9-january-9-2020)    |
 |10| [Day 10](#day-10-january-10-2020) |
 
@@ -537,5 +537,20 @@ Instead of providing a format specifier of an integer, there is a special format
 You can also initialize a variable starting with a zero to be converted to a octal value such as `int var = 015`
 
 **Link to work:** [Day-17 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day017.c)
+
+[Back Top](#days)
+
+----
+### Day 18: January 18, 2020
+
+**Today's Progress:** Data types - Octal
+
+**Thoughts:** a positional system that represents numbers using a base of 16. it uses sixteen distinct symbols, most often the symbols "0"–"9" and "A"–"F" (or alternatively "a"–"f") = 16 numbers. The prefix `0x` is used in C programming language.
+
+There is a format specifier to the Hexadecimal and that is the `%x`. It is used to convert the content of the variable into the equivalent hexadecimal value.
+
+You can also initialize a variable starting with a zero x to be converted to a hexadecimal value such as `int var = 0x15`
+
+**Link to work:** [Day-18 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day018.c)
 
 [Back Top](#days)
