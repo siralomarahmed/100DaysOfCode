@@ -543,7 +543,7 @@ You can also initialize a variable starting with a zero to be converted to a oct
 ----
 ### Day 18: January 18, 2020
 
-**Today's Progress:** Data types - Octal
+**Today's Progress:** Data types - hexadecimal
 
 **Thoughts:** a positional system that represents numbers using a base of 16. it uses sixteen distinct symbols, most often the symbols "0"–"9" and "A"–"F" (or alternatively "a"–"f") = 16 numbers. The prefix `0x` is used in C programming language.
 
