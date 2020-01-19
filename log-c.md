@@ -44,7 +44,7 @@ January 1st, 2020.
 |06| [Day 6](#day-6-january-6-2020)    | [Day 16](#day-16-january-16-2020) |
 |07| [Day 7](#day-7-january-7-2020)    | [Day 17](#day-17-january-17-2020) |
 |08| [Day 8](#day-8-january-8-2020)    | [Day 18](#day-18-january-18-2020) |
-|09| [Day 9](#day-9-january-9-2020)    |
+|09| [Day 9](#day-9-january-9-2020)    | [Day 19](#day-19-january-19-2020) |
 |10| [Day 10](#day-10-january-10-2020) |
 
 ----
@@ -552,5 +552,48 @@ There is a format specifier to the Hexadecimal and that is the `%x`. It is used 
 You can also initialize a variable starting with a zero x to be converted to a hexadecimal value such as `int var = 0x15`
 
 **Link to work:** [Day-18 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day018.c)
+
+[Back Top](#days)
+
+----
+### Day 19: January 19, 2020
+
+**Today's Progress:** Data Types - Enumeration
+
+**Thoughts:** This is Awesomeness in one word. That is it. goodbye.
+ 
+Enum, I think is short for (Enumerate) is basically a customized variable that accept custom data types that you create. To put it in words, Enum allow you to define a variable and specify valid values that can be stored in it.
+ 
+Steps to create an Enum: I know sound like a sandwich :3 num, num num.
+ 
+1. Initiate the keyword by `enum`
+2. Name of the Enum data type
+3. Enclosed in curly braces, the values that can be assigned to the type
+ 
+Syntax:
+ 
+`enum enumName {value1, value2, value3};`
+ 
+Then you can use this sandwich oh! I mean you can declare a variable to be of the type enum you created.
+ 
+Ok enough joking.
+ 
+Enum is enumeration identifiers and the compiler treat them as integer constants. The first name in the list has a value of 0 and the second will have a value of 1 and so on..
+ 
+You can assign a custom value to associate it with an enumeration identifier. You can do this when the data is defined. however if you did this, the next value in line will have the next number by incrementing the previous given number.
+ 
+like this: `enum enumName {value1, value2 = 10, value3};`
+ 
+After the initiation of an enum, you can declare a variable to be of type enum:
+ 
+1. use the keyword enum
+2. followed by the enumerated type name
+3. followed by the variable list, so the statement
+ 
+Syntax:
+ 
+`enum enumName enumType1, enumType2;`
+
+**Link to work:** [Day-19 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day019.c)
 
 [Back Top](#days)
