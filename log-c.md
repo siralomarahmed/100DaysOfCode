@@ -45,7 +45,7 @@ January 1st, 2020.
 |07| [Day 7](#day-7-january-7-2020)    | [Day 17](#day-17-january-17-2020) |
 |08| [Day 8](#day-8-january-8-2020)    | [Day 18](#day-18-january-18-2020) |
 |09| [Day 9](#day-9-january-9-2020)    | [Day 19](#day-19-january-19-2020) |
-|10| [Day 10](#day-10-january-10-2020) |
+|10| [Day 10](#day-10-january-10-2020) | [Day 20](#day-20-january-20-2020) |
 
 ----
 ### Day 1: January 1, 2020
@@ -595,5 +595,36 @@ Syntax:
 `enum enumName enumType1, enumType2;`
 
 **Link to work:** [Day-19 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day019.c)
+
+[Back Top](#days)
+
+----
+### Day 20: January 20, 2020
+
+**Today's Progress:** Data Types - Conversion
+
+**Thoughts:** Data casting is about data conversion. It is a way to do an explicit conversion. I don't recommend it because it is easy to avoid it by writing a clear code with automatic type conversion.
+ 
+Another thing to keep in mind is that each data type has a size value. Some bigger than the others. Here I will point out the data types arranged from the smallest to the biggest precedence and value.
+ 
+Operator Precedence:
+ 
+1. char
+2. int
+3. long
+4. float
+5. double
+6. long double
+7. casting operator !
+ 
+Anyway, Operator Precedence is a whole topic on its own. I won't write everything in my mind about it here, it may take the whole day. If I find the chance I may get into it at another time.
+ 
+In short what this means is, a mathematical operation between a long and int will always result to a value of long. Sometimes if you want to get a correct answer, you may need to convert the data into the right type.
+ 
+One way to convert a data type is by using the casting technique. You can do this by proceeding the quantity with the name of the desired type in  parentheses. Both the parentheses and the type name is called a "Cast Operator".
+ 
+To check the size in bytes that are in the memory makes use of the `sizeof` operator. It is also a keyword in the C programming language. To do this, just use the keyword and pass on the data you want to deal with. The data can be anything from data type, variables or names.
+
+**Link to work:** [Day-20 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day020.c)
 
 [Back Top](#days)
