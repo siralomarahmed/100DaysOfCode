@@ -34,9 +34,9 @@ January 1st, 2020.
 
 ----
 ## Days:
-|+ |00                                 |01                                 |
-|--|-----------------------------------|-----------------------------------|
-|01| [Day 1](#day-1-january-1-2020)    | [Day 11](#day-11-january-11-2020) |
+|+ |00                                 |01                                 |02                                 |
+|--|-----------------------------------|-----------------------------------|-----------------------------------|
+|01| [Day 1](#day-1-january-1-2020)    | [Day 11](#day-11-january-11-2020) | [Day 21](#day-21-january-21-2020) |
 |02| [Day 2](#day-2-january-2-2020)    | [Day 12](#day-12-january-12-2020) |
 |03| [Day 3](#day-3-january-3-2020)    | [Day 13](#day-13-january-13-2020) |
 |04| [Day 4](#day-4-january-4-2020)    | [Day 14](#day-14-january-14-2020) |
@@ -626,5 +626,27 @@ One way to convert a data type is by using the casting technique. You can do thi
 To check the size in bytes that are in the memory makes use of the `sizeof` operator. It is also a keyword in the C programming language. To do this, just use the keyword and pass on the data you want to deal with. The data can be anything from data type, variables or names.
 
 **Link to work:** [Day-20 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day020.c)
+
+[Back Top](#days)
+
+----
+### Day 21: January 21, 2020
+
+**Today's Progress:** Operators - Assignment 
+
+**Thoughts:** The core functionality of an assignment operator is to assign a value of the expression from one side to the other. In the case of the C programming language, it assign the expression on the left to its variable at the left.
+ 
+| Operator | Description              |
+|----------|--------------------------|
+| =        | Assign                   |
+| +=       | Add then assign          |
+| -=       | Subtract then assign     |
+| *=       | Multiply then assign     |
+| /=       | Divide then assign       |
+| %=       | Get remainder then assign |
+ 
+Notice that the value will be assigned the result value. This means that the variable will have a new value.
+
+**Link to work:** [Day-21 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day021.c)
 
 [Back Top](#days)
