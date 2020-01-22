@@ -37,7 +37,7 @@ January 1st, 2020.
 |+ |00                                 |01                                 |02                                 |
 |--|-----------------------------------|-----------------------------------|-----------------------------------|
 |01| [Day 1](#day-1-january-1-2020)    | [Day 11](#day-11-january-11-2020) | [Day 21](#day-21-january-21-2020) |
-|02| [Day 2](#day-2-january-2-2020)    | [Day 12](#day-12-january-12-2020) |
+|02| [Day 2](#day-2-january-2-2020)    | [Day 12](#day-12-january-12-2020) | [Day 22](#day-22-january-22-2020) |
 |03| [Day 3](#day-3-january-3-2020)    | [Day 13](#day-13-january-13-2020) |
 |04| [Day 4](#day-4-january-4-2020)    | [Day 14](#day-14-january-14-2020) |
 |05| [Day 5](#day-5-january-5-2020)    | [Day 15](#day-15-january-15-2020) |
@@ -648,5 +648,26 @@ To check the size in bytes that are in the memory makes use of the `sizeof` oper
 Notice that the value will be assigned the result value. This means that the variable will have a new value.
 
 **Link to work:** [Day-21 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day021.c)
+
+[Back Top](#days)
+
+----
+### Day 22: January 22, 2020
+
+**Today's Progress:** Operators - Arithmetic
+
+**Thoughts:** You can say that an arithmetic operator is a mathematical function that performs a calculation on two operands.
+ 
+All the operators used as binary operators in case of arithmetic, this means that they need two operands. the addition and subtraction has some unary usage to increment and decrement.
+ 
+| Operation | Description       |
+|-----------|-------------------|
+| +         | Addition          |
+| -         | Subtraction       |
+| *         | Multiplication    |
+| /         | Division          |
+| %         | Find the reminder |
+
+**Link to work:** [Day-22 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day022.c)
 
 [Back Top](#days)
