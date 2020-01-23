@@ -671,3 +671,24 @@ All the operators used as binary operators in case of arithmetic, this means tha
 **Link to work:** [Day-22 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day022.c)
 
 [Back Top](#days)
+
+----
+### Day 23: January 23, 2020
+
+**Today's Progress:**  Operators - Increment & Decrement
+
+**Thoughts:** Increment and decrement operators are unary operators that add or subtract one, to or from their operand, respectively. The increment operator increases, and the decrement operator decreases, the value of its operand by 1.
+
+| Operation | Description       |
+|-----------|-------------------|
+| ++        | Increment value   |
+| --        | Decrement value   |
+ 
+Notice the increment and decrement are two kind, a postfix like (C++), mean the expression is going to be assigned after the statement. A prefix like (++C) will be assigned before the statement ends.
+
+* The pre-fix operators increment or decrement their operand by 1, and the value of the expression is the resulting calculated value.
+* The post-fix operators increment or decrement the value of their operand by 1, but the value of the expression is the operand's original value prior to the calculated operation.
+
+**Link to work:** [Day-23 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day023.c)
+
+[Back Top](#days)
