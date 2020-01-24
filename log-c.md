@@ -39,7 +39,7 @@ January 1st, 2020.
 |01| [Day 1](#day-1-january-1-2020)    | [Day 11](#day-11-january-11-2020) | [Day 21](#day-21-january-21-2020) |
 |02| [Day 2](#day-2-january-2-2020)    | [Day 12](#day-12-january-12-2020) | [Day 22](#day-22-january-22-2020) |
 |03| [Day 3](#day-3-january-3-2020)    | [Day 13](#day-13-january-13-2020) | [Day 23](#day-23-january-23-2020) |
-|04| [Day 4](#day-4-january-4-2020)    | [Day 14](#day-14-january-14-2020) |
+|04| [Day 4](#day-4-january-4-2020)    | [Day 14](#day-14-january-14-2020) | [Day 24](#day-24-january-24-2020) |
 |05| [Day 5](#day-5-january-5-2020)    | [Day 15](#day-15-january-15-2020) |
 |06| [Day 6](#day-6-january-6-2020)    | [Day 16](#day-16-january-16-2020) |
 |07| [Day 7](#day-7-january-7-2020)    | [Day 17](#day-17-january-17-2020) |
@@ -690,5 +690,27 @@ Notice the increment and decrement are two kind, a postfix like (C++), mean the 
 * The post-fix operators increment or decrement the value of their operand by 1, but the value of the expression is the operand's original value prior to the calculated operation.
 
 **Link to work:** [Day-23 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day023.c)
+
+[Back Top](#days)
+
+----
+### Day 24: January 24, 2020
+
+**Today's Progress:** Operators - Relational
+
+**Thoughts:** A comparison operator. It is used to compare values against each other.
+ 
+| Operator | Description              |
+|----------|--------------------------|
+| ==       | Equals                   |
+| !=       | Not equals               |
+| <        | Less than                |
+| >        | Greater than             |
+| <=       | Less than or equal to    |
+| >=       | Greater than or equal to |
+ 
+Usually comparison deal with the boolean operator and will output a 0 or 1 as in true or false.  
+
+**Link to work:** [Day-24 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day024.c)
 
 [Back Top](#days)
