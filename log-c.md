@@ -734,6 +734,6 @@ OR is true if one of the operands are true and only false if both operands are f
  
 NOT is just the reverse of the operand. if it is true then it will be false. if it is false then it will be true.
 
-**Link to work:** [Day-25 sourceCode]()
+**Link to work:** [Day-25 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day025.c)
 
 [Back Top](#days)
