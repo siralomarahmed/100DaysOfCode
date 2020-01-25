@@ -40,7 +40,7 @@ January 1st, 2020.
 |02| [Day 2](#day-2-january-2-2020)    | [Day 12](#day-12-january-12-2020) | [Day 22](#day-22-january-22-2020) |
 |03| [Day 3](#day-3-january-3-2020)    | [Day 13](#day-13-january-13-2020) | [Day 23](#day-23-january-23-2020) |
 |04| [Day 4](#day-4-january-4-2020)    | [Day 14](#day-14-january-14-2020) | [Day 24](#day-24-january-24-2020) |
-|05| [Day 5](#day-5-january-5-2020)    | [Day 15](#day-15-january-15-2020) |
+|05| [Day 5](#day-5-january-5-2020)    | [Day 15](#day-15-january-15-2020) | [Day 25](#day-25-january-25-2020) |
 |06| [Day 6](#day-6-january-6-2020)    | [Day 16](#day-16-january-16-2020) |
 |07| [Day 7](#day-7-january-7-2020)    | [Day 17](#day-17-january-17-2020) |
 |08| [Day 8](#day-8-january-8-2020)    | [Day 18](#day-18-january-18-2020) |
@@ -712,5 +712,28 @@ Notice the increment and decrement are two kind, a postfix like (C++), mean the 
 Usually comparison deal with the boolean operator and will output a 0 or 1 as in true or false.  
 
 **Link to work:** [Day-24 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day024.c)
+
+[Back Top](#days)
+
+----
+### Day 25: January 25, 2020
+
+**Today's Progress:** Operators - Logical
+
+**Thoughts:** You can say that a logical operator is an operator that will give or return one to two expressions. As in boolean true and false. It is also called a Boolean operator.
+ 
+| Operator | Description               |
+|----------|---------------------------|
+| &&       | Represent the logical AND |
+| ||       | Represent the logical OR  |
+| !        | Represent the logical NOT |
+ 
+AND is true if both operands are equal or both operands are not equal.
+ 
+OR is true if one of the operands are true and only false if both operands are false.
+ 
+NOT is just the reverse of the operand. if it is true then it will be false. if it is false then it will be true.
+
+**Link to work:** [Day-25 sourceCode]()
 
 [Back Top](#days)
