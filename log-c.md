@@ -775,6 +775,7 @@ It has its usage sometimes, I really like it. an example would be to use a singl
 In just bits you can have very big data stored in small space.
  
 Bitwise Operators:
+
 | Operator | Description                     |
 |----------|---------------------------------|
 | &        | Binary logical AND              |
