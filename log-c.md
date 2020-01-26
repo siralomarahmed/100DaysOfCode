@@ -41,7 +41,7 @@ January 1st, 2020.
 |03| [Day 3](#day-3-january-3-2020)    | [Day 13](#day-13-january-13-2020) | [Day 23](#day-23-january-23-2020) |
 |04| [Day 4](#day-4-january-4-2020)    | [Day 14](#day-14-january-14-2020) | [Day 24](#day-24-january-24-2020) |
 |05| [Day 5](#day-5-january-5-2020)    | [Day 15](#day-15-january-15-2020) | [Day 25](#day-25-january-25-2020) |
-|06| [Day 6](#day-6-january-6-2020)    | [Day 16](#day-16-january-16-2020) |
+|06| [Day 6](#day-6-january-6-2020)    | [Day 16](#day-16-january-16-2020) | [Day 26](#day-26-january-26-2020) |
 |07| [Day 7](#day-7-january-7-2020)    | [Day 17](#day-17-january-17-2020) |
 |08| [Day 8](#day-8-january-8-2020)    | [Day 18](#day-18-january-18-2020) |
 |09| [Day 9](#day-9-january-9-2020)    | [Day 19](#day-19-january-19-2020) |
@@ -735,5 +735,73 @@ OR is true if one of the operands are true and only false if both operands are f
 NOT is just the reverse of the operand. if it is true then it will be false. if it is false then it will be true.
 
 **Link to work:** [Day-25 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day025.c)
+
+[Back Top](#days)
+
+----
+### Day 26: January 26, 2020
+
+**Today's Progress:** Operators - Bitwise
+
+**Thoughts:** This is more of an advanced thing than just to get going. A bitwise work with bits in integer values. Usually a binary number of zero and one, where the number can be as long as you want. I can say it is not used in normal programs unless you want to store a really big data maybe! Bitwise operators look similar to logical operators but they are a single sign instead of a double sign.
+ 
+I personally understand binary numbers and deal with them from an early age so it is clear to me. But I will try to put it into words or points for if someone would like to refer to it, or just for the reader.
+ 
+* A binary number means two numbers (if you notice the "bi" before the number). 
+* The two numbers are zero and one.
+* Every binary number has a corresponding decimal value
+* The position of the Binary number corresponds to its value.
+    * each position has a value
+    * each digit, multiply the digit by its position value. You can say that you are rising the number to the power of two mathematically
+    * The sum of all the numbers are the final result
+ 
+Example:
+* 1 Binary = 1 Decimal
+* 10 Binary = 2 Decimal
+* 100 Binary = 4 Decimal
+* 1000 Binary = 8 Decimal
+* 10000 Binary = 16 Decimal
+* 100000 Binary = 32 Decimal
+* 1000000 Binary = 64 Decimal
+* 10000000 Binary = 128 Decimal
+* 10000010 Binary = 130 Decimal
+ 
+And so on.. .
+ 
+A bit is a measurement of data, a byte equal to eight bits. As you can see how much control you have over the data if you can turn on and off each one of these bits. Yeah, they say the human brain can do better than this, It is possible hahaha.
+ 
+It has its usage sometimes, I really like it. an example would be to use a single integer variable to store multiple characteristics of an individual. for example, you can store nice and cool in one bit.
+ 
+In just bits you can have very big data stored in small space.
+ 
+Bitwise Operators:
+| Operator | Description                     |
+|----------|---------------------------------|
+| &        | Binary logical AND              |
+| |        | Binary logical OR for bitwise   |
+| ^        | Binary logical XOR              |
+| ~        | Binary complement, Logical NOT  |
+| <<       | Binary left shift               |
+| >>       | Binary right shift              |
+ 
+XOR `^` logical operator will only evaluate as true if both operands are opposite of each other. It will evaluate to false only if both operands are the same.
+ 
+You can say it is a "Binary Left shift" when the left operand value is moved left by the number of bits specified by the right operand. Example : `X<<2 = 240 i.e. 111 000`
+ 
+You can say it is a "Binary Right Shift" when the left operands value is moved right by the number of bits specified by the right operand. Example : `Y>>2 = 15 i.e. 0000 1111`
+ 
+Shifting can lead to losing bits of you moved too much to the edge and fall off. I find this very funny.
+ 
+Bitwise also has Assignment operators:
+ 
+| Operator | Description                      |
+|----------|----------------------------------|
+| &=       | Bitwise AND then assign          |
+| |=       | Bitwise inclusive OR then assign |
+| ^=       | Bitwise exclusive OR then assign |
+| <<=      | Left shift then assign           |
+| >>=      | Right shift then assign          |
+
+**Link to work:** [Day-26 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day026.c)
 
 [Back Top](#days)
