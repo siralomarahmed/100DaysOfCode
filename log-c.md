@@ -43,7 +43,7 @@ January 1st, 2020.
 |05| [Day 5](#day-5-january-5-2020)    | [Day 15](#day-15-january-15-2020) | [Day 25](#day-25-january-25-2020) |
 |06| [Day 6](#day-6-january-6-2020)    | [Day 16](#day-16-january-16-2020) | [Day 26](#day-26-january-26-2020) |
 |07| [Day 7](#day-7-january-7-2020)    | [Day 17](#day-17-january-17-2020) | [Day 27](#day-27-january-27-2020) |
-|08| [Day 8](#day-8-january-8-2020)    | [Day 18](#day-18-january-18-2020) |
+|08| [Day 8](#day-8-january-8-2020)    | [Day 18](#day-18-january-18-2020) | [Day 28](#day-28-january-28-2020) |
 |09| [Day 9](#day-9-january-9-2020)    | [Day 19](#day-19-january-19-2020) |
 |10| [Day 10](#day-10-january-10-2020) | [Day 20](#day-20-january-20-2020) |
 
@@ -830,5 +830,28 @@ Some of the Statements types:
 And many more statements.. .
 
 **Link to work:** [Day-27 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day027.c)
+
+[Back Top](#days)
+
+----
+### Day 28: January 28, 2020
+
+**Today's Progress:** Control Flow - Ternary Statement
+
+**Thoughts:** It is a unique way to control the flow of a program using sign and a mark to give the condition and the statements that are to be executed. In the C programming language it is useualy used in assignments.
+
+Like other programming languages the ternaary takes, "As the name suggest" three operands. Seperated by a question mark and a colon.
+
+_Steps_:
+
+1. First operand
+2. Question mark
+3. Second operand
+4. Colon
+5. Third operand
+
+Syntax: `condition ? firstExpression : secondExpression;`
+
+**Link to work:** [Day-28 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day028.c)
 
 [Back Top](#days)
