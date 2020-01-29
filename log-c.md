@@ -44,7 +44,7 @@ January 1st, 2020.
 |06| [Day 6](#day-6-january-6-2020)    | [Day 16](#day-16-january-16-2020) | [Day 26](#day-26-january-26-2020) |
 |07| [Day 7](#day-7-january-7-2020)    | [Day 17](#day-17-january-17-2020) | [Day 27](#day-27-january-27-2020) |
 |08| [Day 8](#day-8-january-8-2020)    | [Day 18](#day-18-january-18-2020) | [Day 28](#day-28-january-28-2020) |
-|09| [Day 9](#day-9-january-9-2020)    | [Day 19](#day-19-january-19-2020) |
+|09| [Day 9](#day-9-january-9-2020)    | [Day 19](#day-19-january-19-2020) | [Day 29](#day-29-january-29-2020) |
 |10| [Day 10](#day-10-january-10-2020) | [Day 20](#day-20-january-20-2020) |
 
 ----
@@ -853,5 +853,28 @@ _Steps_:
 Syntax: `condition ? firstExpression : secondExpression;`
 
 **Link to work:** [Day-28 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day028.c)
+
+[Back Top](#days)
+
+----
+### Day 29: January 29, 2020
+
+**Today's Progress:** If Statement
+
+**Thoughts:** Generally programs are executed by sequence, step by step until it is done. It is boring, so control flow came along and introduced an idea of, "You know what? I can take another flow if it seem logical. A CHOICE!". Well, still following orders but atleast now programs seem like they can make a choice or loop around etc...
+
+Desision making require a condition to work. And giving conditions can be written using a condition statement. There are also types of condition statemsnts.
+
+If statement is giving the program another choice of execution. It's  an intersting functionality because it give the feeling that the computer is capable of thinking.
+
+Syntax:
+
+```
+if (condition) {
+  statement;
+}
+```
+
+**Link to work:** [Day-29 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day029.c)
 
 [Back Top](#days)
