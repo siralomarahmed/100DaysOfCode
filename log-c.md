@@ -45,7 +45,7 @@ January 1st, 2020.
 |07| [Day 7](#day-7-january-7-2020)    | [Day 17](#day-17-january-17-2020) | [Day 27](#day-27-january-27-2020) |
 |08| [Day 8](#day-8-january-8-2020)    | [Day 18](#day-18-january-18-2020) | [Day 28](#day-28-january-28-2020) |
 |09| [Day 9](#day-9-january-9-2020)    | [Day 19](#day-19-january-19-2020) | [Day 29](#day-29-january-29-2020) |
-|10| [Day 10](#day-10-january-10-2020) | [Day 20](#day-20-january-20-2020) |
+|10| [Day 10](#day-10-january-10-2020) | [Day 20](#day-20-january-20-2020) | [Day 30](#day-30-january-30-2020) |
 
 ----
 ### Day 1: January 1, 2020
@@ -877,4 +877,27 @@ if (condition) {
 
 **Link to work:** [Day-29 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day029.c)
 
+[Back Top](#days)
+
+### Day 30: January 30, 2020
+ 
+**Today's Progress:** If Else Statement
+ 
+**Thoughts:** Simple If statement have one condition, if you want to have more than one condition you have to utilize the else statement.
+ 
+Like if the condition didn't work something else will happen.
+ 
+Syntax:
+ 
+```
+if (condition) {
+  statement;
+}
+else {
+  statement;
+}
+```
+ 
+**Link to work:** [Day-30 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day30.c)
+ 
 [Back Top](#days)
