@@ -37,7 +37,7 @@ January 1st, 2020.
 |+ |00                                 |01                                 |02                                 |03                                 |
 |--|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|
 |01| [Day 1](#day-1-january-1-2020)    | [Day 11](#day-11-january-11-2020) | [Day 21](#day-21-january-21-2020) | [Day 31](#day-31-january-31-2020) |
-|02| [Day 2](#day-2-january-2-2020)    | [Day 12](#day-12-january-12-2020) | [Day 22](#day-22-january-22-2020) |
+|02| [Day 2](#day-2-january-2-2020)    | [Day 12](#day-12-january-12-2020) | [Day 22](#day-22-january-22-2020) | [Day 32](#day-32-february-1-2020) |
 |03| [Day 3](#day-3-january-3-2020)    | [Day 13](#day-13-january-13-2020) | [Day 23](#day-23-january-23-2020) |
 |04| [Day 4](#day-4-january-4-2020)    | [Day 14](#day-14-january-14-2020) | [Day 24](#day-24-january-24-2020) |
 |05| [Day 5](#day-5-january-5-2020)    | [Day 15](#day-15-january-15-2020) | [Day 25](#day-25-january-25-2020) |
@@ -929,6 +929,41 @@ else {
 ```
  
 **Link to work:** [Day-31 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day31.c)
+ 
+[Back Top](#days)
+
+----
+### Day 32: February 1, 2020
+ 
+**Today's Progress:** Control Flow - Nested If Else Statement
+ 
+**Thoughts:** Nesting is not recommended because the code can lose clarity. but it has its uses.
+ 
+Nested conditionals can be parsed in multiple ways. Adding multiple nesting level is complicating the job for some compilers, so let us be careful.
+ 
+Syntax:
+ 
+```
+if (condition) {
+  statement;
+}
+else if (condition2) {
+    if (nestedCondition) {
+    statement;
+  }
+  else {
+    condition;
+  }
+}
+else if (condition3) {
+  statement;
+}
+else {
+  statement;
+}
+```
+ 
+**Link to work:** [Day-32 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day32.c)
  
 [Back Top](#days)
  
