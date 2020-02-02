@@ -898,7 +898,7 @@ else {
 }
 ```
  
-**Link to work:** [Day-30 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day30.c)
+**Link to work:** [Day-30 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day030.c)
  
 [Back Top](#days)
 
@@ -928,7 +928,7 @@ else {
 }
 ```
  
-**Link to work:** [Day-31 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day31.c)
+**Link to work:** [Day-31 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day031.c)
  
 [Back Top](#days)
 
@@ -963,7 +963,7 @@ else {
 }
 ```
  
-**Link to work:** [Day-32 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day32.c)
+**Link to work:** [Day-32 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day032.c)
  
 [Back Top](#days)
 
@@ -1004,6 +1004,6 @@ switch (expression)
 }
 ```
  
-**Link to work:** [Day-33 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day33.c)
+**Link to work:** [Day-33 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day033.c)
  
 [Back Top](#days)
