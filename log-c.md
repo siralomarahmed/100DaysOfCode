@@ -39,7 +39,7 @@ January 1st, 2020.
 |01| [Day 1](#day-1-january-1-2020)    | [Day 11](#day-11-january-11-2020) | [Day 21](#day-21-january-21-2020) | [Day 31](#day-31-january-31-2020) |
 |02| [Day 2](#day-2-january-2-2020)    | [Day 12](#day-12-january-12-2020) | [Day 22](#day-22-january-22-2020) | [Day 32](#day-32-february-1-2020) |
 |03| [Day 3](#day-3-january-3-2020)    | [Day 13](#day-13-january-13-2020) | [Day 23](#day-23-january-23-2020) | [Day 33](#day-33-february-2-2020) |
-|04| [Day 4](#day-4-january-4-2020)    | [Day 14](#day-14-january-14-2020) | [Day 24](#day-24-january-24-2020) |
+|04| [Day 4](#day-4-january-4-2020)    | [Day 14](#day-14-january-14-2020) | [Day 24](#day-24-january-24-2020) | [Day 34](#day-34-february-3-2020) |
 |05| [Day 5](#day-5-january-5-2020)    | [Day 15](#day-15-january-15-2020) | [Day 25](#day-25-january-25-2020) |
 |06| [Day 6](#day-6-january-6-2020)    | [Day 16](#day-16-january-16-2020) | [Day 26](#day-26-january-26-2020) |
 |07| [Day 7](#day-7-january-7-2020)    | [Day 17](#day-17-january-17-2020) | [Day 27](#day-27-january-27-2020) |
@@ -1005,5 +1005,50 @@ switch (expression)
 ```
  
 **Link to work:** [Day-33 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day033.c)
+ 
+[Back Top](#days)
+
+----
+### Day 34: February 3, 2020
+ 
+**Today's Progress:** Control Flow - For Loop
+ 
+**Thoughts:** The idea of executing a block of code over and over again is called looping in programming. There are a finite loops and infinite loops, you can guess what you need.
+ 
+Still a sequential execution but with some sugar, I mean sequential mini cupcakes, ah enough joking*. I mean small sequential statements that control the flow of the program.
+ 
+Loops are simple, they have two points:
+ 
+  1. Condition
+      * true or false
+  2. Conditional Code
+      * do something on each condition
+ 
+For loops are controlled loops that you can define variables and manage them to have a custom output.
+ 
+For loop syntax can be broken down into a set of expressions and a block of code.
+ 
+```
+for (expression1 ; expression2 ; expression3)
+{
+  The block of code
+}
+```
+ 
+* Expression1, usually run once at the start, and it is usually to declare a variable that is used by the loop.
+* Expression2 is the condition where the loop is going to stop
+* Expression3 is what happen to the variable declared
+ 
+Loops can be written differently but this is the most common way to write a for loop.
+ 
+Note: You can create an infinite loop by just adding two semicolons:
+ 
+```
+for(;;) {
+  statements
+}
+```
+ 
+**Link to work:** [Day-34 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day034.c)
  
 [Back Top](#days)
