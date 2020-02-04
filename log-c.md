@@ -1052,3 +1052,27 @@ for(;;) {
 **Link to work:** [Day-34 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day034.c)
  
 [Back Top](#days)
+
+----
+### Day 35: February 4, 2020
+ 
+**Today's Progress:** Control Flow - While loop
+ 
+**Thoughts:** The while loop tests the condition before executing the loop body, then it repeat statement while the condition is true.
+
+A loop is a block of code that will repeat, and the number of times that a loop is repeated can be controlled. The loop is controlled with the condition provided.
+
+Syntax:
+
+```
+while(expression){
+  statement1;
+  statement2;
+}
+```
+
+The thing is you need to provide a condition for the loop to stop, and it is usually inside the loop block. Unless you don't want it to stop!
+
+**Link to work:** [Day-35 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day03.c)
+
+[Back Top](#days)
