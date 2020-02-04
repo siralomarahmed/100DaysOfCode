@@ -1073,6 +1073,6 @@ while(expression){
 
 The thing is you need to provide a condition for the loop to stop, and it is usually inside the loop block. Unless you don't want it to stop!
 
-**Link to work:** [Day-35 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day03.c)
+**Link to work:** [Day-35 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day035.c)
 
 [Back Top](#days)
