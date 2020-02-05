@@ -1095,6 +1095,6 @@ do {
 while (expression);
 ```
 
-**Link to work:** [Day-36 sourceCode]()
+**Link to work:** [Day-36 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day036.c)
 
 [Back Top](#days)
