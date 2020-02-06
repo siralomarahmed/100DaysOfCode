@@ -42,7 +42,7 @@ January 1st, 2020.
 |04| [Day 4](#day-4-january-4-2020)    | [Day 14](#day-14-january-14-2020) | [Day 24](#day-24-january-24-2020) | [Day 34](#day-34-february-3-2020) |
 |05| [Day 5](#day-5-january-5-2020)    | [Day 15](#day-15-january-15-2020) | [Day 25](#day-25-january-25-2020) | [Day 35](#day-35-february-4-2020) |
 |06| [Day 6](#day-6-january-6-2020)    | [Day 16](#day-16-january-16-2020) | [Day 26](#day-26-january-26-2020) | [Day 36](#day-36-february-5-2020) |
-|07| [Day 7](#day-7-january-7-2020)    | [Day 17](#day-17-january-17-2020) | [Day 27](#day-27-january-27-2020) |
+|07| [Day 7](#day-7-january-7-2020)    | [Day 17](#day-17-january-17-2020) | [Day 27](#day-27-january-27-2020) | [Day 37](#day-37-february-6-2020) |
 |08| [Day 8](#day-8-january-8-2020)    | [Day 18](#day-18-january-18-2020) | [Day 28](#day-28-january-28-2020) |
 |09| [Day 9](#day-9-january-9-2020)    | [Day 19](#day-19-january-19-2020) | [Day 29](#day-29-january-29-2020) |
 |10| [Day 10](#day-10-january-10-2020) | [Day 20](#day-20-january-20-2020) | [Day 30](#day-30-january-30-2020) |
@@ -1096,5 +1096,26 @@ while (expression);
 ```
 
 **Link to work:** [Day-36 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day036.c)
+
+[Back Top](#days)
+
+----
+### Day 37: February 6, 2020
+
+**Today's Progress:** Constants
+
+**Thoughts:** A constant is a value that cannot be altered by the program during normal execution. When you don't want the value to change of a predefined named container, you can create a constant. And a constant must be defined, similar to the include command, It starts with a hashtag. A constant is a type of identifier.
+
+Syntax: ` #define NAME value`
+
+Yes there is no equal sign. But be careful using the define because it is an instruction to the preprocessor. Keep in mind that this way a constant can be redefined and reassigned a value later on in the program.
+
+The correct way to define a constant is to use the keyword `_CONST` with the name of the constant. It is also called a "True Constant".
+
+Syntax: `#define NAME_CONST value`
+
+This way you can reassign a value to it. A true constant indeed.
+
+**Link to work:** [Day-37 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day037.c)
 
 [Back Top](#days)
