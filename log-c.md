@@ -43,7 +43,7 @@ January 1st, 2020.
 |05| [Day 5](#day-5-january-5-2020)    | [Day 15](#day-15-january-15-2020) | [Day 25](#day-25-january-25-2020) | [Day 35](#day-35-february-4-2020) |
 |06| [Day 6](#day-6-january-6-2020)    | [Day 16](#day-16-january-16-2020) | [Day 26](#day-26-january-26-2020) | [Day 36](#day-36-february-5-2020) |
 |07| [Day 7](#day-7-january-7-2020)    | [Day 17](#day-17-january-17-2020) | [Day 27](#day-27-january-27-2020) | [Day 37](#day-37-february-6-2020) |
-|08| [Day 8](#day-8-january-8-2020)    | [Day 18](#day-18-january-18-2020) | [Day 28](#day-28-january-28-2020) |
+|08| [Day 8](#day-8-january-8-2020)    | [Day 18](#day-18-january-18-2020) | [Day 28](#day-28-january-28-2020) | [Day 38](#day-38-february-7-2020) |
 |09| [Day 9](#day-9-january-9-2020)    | [Day 19](#day-19-january-19-2020) | [Day 29](#day-29-january-29-2020) |
 |10| [Day 10](#day-10-january-10-2020) | [Day 20](#day-20-january-20-2020) | [Day 30](#day-30-january-30-2020) |
 
@@ -1118,4 +1118,21 @@ This way you can reassign a value to it. A true constant indeed.
 
 **Link to work:** [Day-37 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day037.c)
 
+[Back Top](#days)
+
+----
+### Day 38: February 7, 2020
+ 
+**Today's Progress:** Arrays - Declaration
+ 
+**Thoughts:** Arrays are a named storage of specified data type that are stored in sequence.
+ 
+Declaring an array is similar to variable declarations. The difference is how to contain the multiple data, and they are contained in a square brackets `[ ]`. In C, there isn't a thing that is called multiple data types array.
+ 
+You need a number between the square brackets to represent the number of data that can be stored in it. Once you declare the array with a size, you can't change the size of it.
+ 
+Syntax: `typeSpecifier arrayName[size];`
+ 
+**Link to work:** [Day-38 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day038.c)
+ 
 [Back Top](#days)
