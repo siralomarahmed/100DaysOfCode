@@ -1153,4 +1153,22 @@ Syntax: `typeSpecifier arrayName[size] = {data1, data2, data3};`
 **Link to work:** [Day-39 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day039.c)
  
 [Back Top](#days)
+
+----
+### Day 40: February 9, 2020
  
+**Today's Progress:** Arrays - Designated Initialization
+ 
+**Thoughts:** Designated initialization of an array means that you can set the value of each element by assigning it to its index position.
+ 
+This feature gives you the ability to initialize the array in any order.
+ 
+Syntax: `arrayName[size] = {[2] = 200, [0] = 1000};`
+ 
+The square brackets hold the number of the element, then you can assign a value to it.
+ 
+I read that the feature is used in C99 standard and then dropped on C11 onward.
+ 
+**Link to work:** [Day-40 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day040.c)
+ 
+[Back Top](#days)
