@@ -34,9 +34,9 @@ January 1st, 2020.
 
 ----
 ## Days:
-|+ |00                                 |01                                 |02                                 |03                                 |
-|--|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|
-|01| [Day 1](#day-1-january-1-2020)    | [Day 11](#day-11-january-11-2020) | [Day 21](#day-21-january-21-2020) | [Day 31](#day-31-january-31-2020) |
+|+ |00                                 |01                                 |02                                 |03                                 |04                                  |
+|--|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|------------------------------------|
+|01| [Day 1](#day-1-january-1-2020)    | [Day 11](#day-11-january-11-2020) | [Day 21](#day-21-january-21-2020) | [Day 31](#day-31-january-31-2020) | [Day 41](#day-41-february-10-2020) |
 |02| [Day 2](#day-2-january-2-2020)    | [Day 12](#day-12-january-12-2020) | [Day 22](#day-22-january-22-2020) | [Day 32](#day-32-february-1-2020) |
 |03| [Day 3](#day-3-january-3-2020)    | [Day 13](#day-13-january-13-2020) | [Day 23](#day-23-january-23-2020) | [Day 33](#day-33-february-2-2020) |
 |04| [Day 4](#day-4-january-4-2020)    | [Day 14](#day-14-january-14-2020) | [Day 24](#day-24-january-24-2020) | [Day 34](#day-34-february-3-2020) |
@@ -1170,5 +1170,20 @@ The square brackets hold the number of the element, then you can assign a value 
 I read that the feature is used in C99 standard and then dropped on C11 onward.
  
 **Link to work:** [Day-40 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day040.c)
+ 
+[Back Top](#days)
+
+----
+### Day 41: February 10, 2020
+ 
+**Today's Progress:** Arrays - Designated Assignment
+ 
+**Thoughts:** Designated assignment means that you can change or assign a value to the element, not necessary at the initialization state.
+ 
+This is also known as array mutation. Arrays at the core are variables that hold multiple values, therefore array can change their values and so array can do the same function of changing their elements values.
+ 
+You can do this by targeting the element position and assign a new value to it. The targeting can happen with the square bracket notation.
+ 
+**Link to work:** [Day-41 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day041.c)
  
 [Back Top](#days)
