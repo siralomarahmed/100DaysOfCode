@@ -1187,3 +1187,27 @@ You can do this by targeting the element position and assign a new value to it. 
 **Link to work:** [Day-41 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day041.c)
  
 [Back Top](#days)
+
+----
+### Day 42: February 11, 2020
+ 
+**Today's Progress:** Multidimensional Arrays
+ 
+**Thoughts:** Declaring a multidimensional array is similar to the single dimension array. The difference is that now you need two square brackets to assign the size.
+ 
+Syntax: `typeSPecifier arrayName[NumberOfDimension][elementsInsideEachDimension];`
+ 
+Where in matix:
+ 
+* NumberOfDimension represent the rows
+* elementsInsideEachDimension represent the columns
+ 
+Initializing a multidimensional array is similar to a single dimension array. The difference is that each dimension will have its own curly braces separated by commas.
+ 
+You can also initialize elements in any order if you wish to use a designated initializer.
+ 
+You can have any number of dimensions following the same method.
+ 
+**Link to work:** [Day-42 sourceCode]()
+ 
+[Back Top](#days)
