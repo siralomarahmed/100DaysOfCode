@@ -38,7 +38,7 @@ January 1st, 2020.
 |--|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|------------------------------------|
 |01| [Day 1](#day-1-january-1-2020)    | [Day 11](#day-11-january-11-2020) | [Day 21](#day-21-january-21-2020) | [Day 31](#day-31-january-31-2020) | [Day 41](#day-41-february-10-2020) |
 |02| [Day 2](#day-2-january-2-2020)    | [Day 12](#day-12-january-12-2020) | [Day 22](#day-22-january-22-2020) | [Day 32](#day-32-february-1-2020) | [Day 42](#day-42-february-11-2020) |
-|03| [Day 3](#day-3-january-3-2020)    | [Day 13](#day-13-january-13-2020) | [Day 23](#day-23-january-23-2020) | [Day 33](#day-33-february-2-2020) |
+|03| [Day 3](#day-3-january-3-2020)    | [Day 13](#day-13-january-13-2020) | [Day 23](#day-23-january-23-2020) | [Day 33](#day-33-february-2-2020) | [Day 43](#day-43-february-12-2020) |
 |04| [Day 4](#day-4-january-4-2020)    | [Day 14](#day-14-january-14-2020) | [Day 24](#day-24-january-24-2020) | [Day 34](#day-34-february-3-2020) |
 |05| [Day 5](#day-5-january-5-2020)    | [Day 15](#day-15-january-15-2020) | [Day 25](#day-25-january-25-2020) | [Day 35](#day-35-february-4-2020) |
 |06| [Day 6](#day-6-january-6-2020)    | [Day 16](#day-16-january-16-2020) | [Day 26](#day-26-january-26-2020) | [Day 36](#day-36-february-5-2020) |
@@ -1210,4 +1210,21 @@ You can have any number of dimensions following the same method.
  
 **Link to work:** [Day-42 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day042.c)
  
+[Back Top](#days)
+
+----
+### Day 43: February 12, 2020
+
+**Today's Progress:** Arrays - Accessing an Array Element
+
+**Thoughts:** Arrays are based zero. This means the index number of the first element in the array is zero.
+
+Every data in the array can be accessed from the array by the same key name (array name).
+
+Remember the size of the array must be greater than zero. you can use an expression to determine the value of the size, but you can't use a negative value.
+
+Syntax: `arrayName[indexNumber];`
+
+**Link to work:** [Day-43 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day043.c)
+
 [Back Top](#days)
