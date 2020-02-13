@@ -1228,3 +1228,14 @@ Syntax: `arrayName[indexNumber];`
 **Link to work:** [Day-43 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day043.c)
 
 [Back Top](#days)
+
+----
+### Day 44: February 13, 2020
+ 
+**Today's Progress:** Arrays - Accessing Multidimensional Arrays
+ 
+**Thoughts:** Similar to the way to access a single dimension array with the difference that you add another number that represent the second dimension in relation to the first dimension.
+ 
+**Link to work:** [Day-44 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day044.c)
+ 
+[Back Top](#days)
