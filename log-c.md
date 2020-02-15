@@ -1254,3 +1254,17 @@ I achieved this using a control flow functionality that loop through all the ele
 **Link to work:** [Day-45 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day045.c)
  
 [Back Top](#days)
+
+----
+### Day 46: February 15, 2020
+ 
+**Today's Progress:** The Break Statement
+ 
+**Thoughts:** The break statement is used with conditionals to break out of a loop. You can say it will change the flow of the condition so it will evaluate to false instead of continue being true.
+ 
+It is useful in a loop that will keep running unless you break out of it.
+ 
+**Link to work:** [Day-46 sourceCode]()
+ 
+[Back Top](#days)
+ 
