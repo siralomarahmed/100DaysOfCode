@@ -41,7 +41,7 @@ January 1st, 2020.
 |03| [Day 3](#day-3-january-3-2020)    | [Day 13](#day-13-january-13-2020) | [Day 23](#day-23-january-23-2020) | [Day 33](#day-33-february-2-2020) | [Day 43](#day-43-february-12-2020) |
 |04| [Day 4](#day-4-january-4-2020)    | [Day 14](#day-14-january-14-2020) | [Day 24](#day-24-january-24-2020) | [Day 34](#day-34-february-3-2020) | [Day 44](#day-44-february-13-2020) |
 |05| [Day 5](#day-5-january-5-2020)    | [Day 15](#day-15-january-15-2020) | [Day 25](#day-25-january-25-2020) | [Day 35](#day-35-february-4-2020) | [Day 45](#day-45-february-14-2020) |
-|06| [Day 6](#day-6-january-6-2020)    | [Day 16](#day-16-january-16-2020) | [Day 26](#day-26-january-26-2020) | [Day 36](#day-36-february-5-2020) |
+|06| [Day 6](#day-6-january-6-2020)    | [Day 16](#day-16-january-16-2020) | [Day 26](#day-26-january-26-2020) | [Day 36](#day-36-february-5-2020) | [Day 46](#day-46-february-15-2020) |
 |07| [Day 7](#day-7-january-7-2020)    | [Day 17](#day-17-january-17-2020) | [Day 27](#day-27-january-27-2020) | [Day 37](#day-37-february-6-2020) |
 |08| [Day 8](#day-8-january-8-2020)    | [Day 18](#day-18-january-18-2020) | [Day 28](#day-28-january-28-2020) | [Day 38](#day-38-february-7-2020) |
 |09| [Day 9](#day-9-january-9-2020)    | [Day 19](#day-19-january-19-2020) | [Day 29](#day-29-january-29-2020) | [Day 39](#day-39-february-8-2020) |
@@ -1264,7 +1264,7 @@ I achieved this using a control flow functionality that loop through all the ele
  
 It is useful in a loop that will keep running unless you break out of it.
  
-**Link to work:** [Day-46 sourceCode]()
+**Link to work:** [Day-46 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day046.c)
  
 [Back Top](#days)
  
