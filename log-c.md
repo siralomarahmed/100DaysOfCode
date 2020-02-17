@@ -43,7 +43,7 @@ January 1st, 2020.
 |05| [Day 5](#day-5-january-5-2020)    | [Day 15](#day-15-january-15-2020) | [Day 25](#day-25-january-25-2020) | [Day 35](#day-35-february-4-2020) | [Day 45](#day-45-february-14-2020) |
 |06| [Day 6](#day-6-january-6-2020)    | [Day 16](#day-16-january-16-2020) | [Day 26](#day-26-january-26-2020) | [Day 36](#day-36-february-5-2020) | [Day 46](#day-46-february-15-2020) |
 |07| [Day 7](#day-7-january-7-2020)    | [Day 17](#day-17-january-17-2020) | [Day 27](#day-27-january-27-2020) | [Day 37](#day-37-february-6-2020) | [Day 47](#day-47-february-16-2020) |
-|08| [Day 8](#day-8-january-8-2020)    | [Day 18](#day-18-january-18-2020) | [Day 28](#day-28-january-28-2020) | [Day 38](#day-38-february-7-2020) |
+|08| [Day 8](#day-8-january-8-2020)    | [Day 18](#day-18-january-18-2020) | [Day 28](#day-28-january-28-2020) | [Day 38](#day-38-february-7-2020) | [Day 48](#day-48-february-17-2020) |
 |09| [Day 9](#day-9-january-9-2020)    | [Day 19](#day-19-january-19-2020) | [Day 29](#day-29-january-29-2020) | [Day 39](#day-39-february-8-2020) |
 |10| [Day 10](#day-10-january-10-2020) | [Day 20](#day-20-january-20-2020) | [Day 30](#day-30-january-30-2020) | [Day 40](#day-40-february-9-2020) |
 
@@ -1303,6 +1303,6 @@ Both `argc` and `*argv` will tell the function how to pass data into it.
  
 There is this thing with the asterisks `*` and it has a connection with strings which I will get into them at a later day.
  
-**Link to work:** [Day-48 sourceCode]()
+**Link to work:** [Day-48 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day048.c)
  
 [Back Top](#days)
