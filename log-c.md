@@ -1280,3 +1280,29 @@ Continue statement will break the loop only for a moment. Like a small stop then
 **Link to work:** [Day-47 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day047.c)
  
 [Back Top](#days)
+
+----
+### Day 48: February 17, 2020
+ 
+**Today's Progress:** Functions - Basics and CLA
+ 
+**Thoughts:** Functions are controllable block of code. THe idea came when computer scientists didn't want to repeat typing the code for a functionality that already exist. It also reduces the complexity of the overall program. It does this by breaking down the program into functions rather than one whole page of code.
+ 
+`main()` is the main function of any C program. main is a keyword that is reserved for this cause. This function is where the program starts execution.
+ 
+Command line arguments (CLA) are a method to pass data into the program. It is another way to supply the data to the program when it runs.
+ 
+The main function is the first thing that the C program is going to run. When the system run the program, two command line arguments are passed in it:
+ 
+* `argc` 
+    * It is an integer value that specifies the number of arguments passed in. You can say it is for argument count. To count how many things are passing in.
+* `*argv` 
+    * Is the string, or more accurately in C, it is an array of character pointers. This "argv" is for argument vector.
+ 
+Both `argc` and `*argv` will tell the function how to pass data into it.
+ 
+There is this thing with the asterisks `*` and it has a connection with strings which I will get into them at a later day.
+ 
+**Link to work:** [Day-48 sourceCode]()
+ 
+[Back Top](#days)
