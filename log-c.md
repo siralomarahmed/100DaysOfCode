@@ -44,7 +44,7 @@ January 1st, 2020.
 |06| [Day 6](#day-6-january-6-2020)    | [Day 16](#day-16-january-16-2020) | [Day 26](#day-26-january-26-2020) | [Day 36](#day-36-february-5-2020) | [Day 46](#day-46-february-15-2020) |
 |07| [Day 7](#day-7-january-7-2020)    | [Day 17](#day-17-january-17-2020) | [Day 27](#day-27-january-27-2020) | [Day 37](#day-37-february-6-2020) | [Day 47](#day-47-february-16-2020) |
 |08| [Day 8](#day-8-january-8-2020)    | [Day 18](#day-18-january-18-2020) | [Day 28](#day-28-january-28-2020) | [Day 38](#day-38-february-7-2020) | [Day 48](#day-48-february-17-2020) |
-|09| [Day 9](#day-9-january-9-2020)    | [Day 19](#day-19-january-19-2020) | [Day 29](#day-29-january-29-2020) | [Day 39](#day-39-february-8-2020) |
+|09| [Day 9](#day-9-january-9-2020)    | [Day 19](#day-19-january-19-2020) | [Day 29](#day-29-january-29-2020) | [Day 39](#day-39-february-8-2020) | [Day 49](#day-49-february-18-2020) |
 |10| [Day 10](#day-10-january-10-2020) | [Day 20](#day-20-january-20-2020) | [Day 30](#day-30-january-30-2020) | [Day 40](#day-40-february-9-2020) |
 
 ----
@@ -1304,5 +1304,38 @@ Both `argc` and `*argv` will tell the function how to pass data into it.
 There is this thing with the asterisks `*` and it has a connection with strings which I will get into them at a later day.
  
 **Link to work:** [Day-48 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day048.c)
+ 
+[Back Top](#days)
+
+----
+### Day 49: February 18, 2020
+ 
+**Today's Progress:** Functions - Definitions
+ 
+**Thoughts:** Function in the C programming language is similar to other programming languages. A block of code that can accomplish a specific task. It also saves time by reducing the duplication of code.
+ 
+The difference is that when you create a function in the C programming language, You need to specify the function header as the first line of the function definition.
+ 
+The syntax is similar to the main function:
+1. function head
+    * Specify the type of the value this function returns
+    * Define the name of the function
+    * Can accommodate parameters = arguments
+2. function body
+    * Enclosed with curly braces `{}`
+    * The code
+ 
+```
+returnType functionName( parameter1, parameter2, . ..)
+{
+  functionBody
+}
+```
+ 
+_Note_: Meaningful function name enhance the readability of the program.
+ 
+It is advisable when defining a function without body by using the type `void`. It will tell that this function will do nothing. There are some implementations for this at the testing level of development.
+ 
+**Link to work:** [Day-49 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day049.c)
  
 [Back Top](#days)
