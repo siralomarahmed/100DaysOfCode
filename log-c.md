@@ -1339,3 +1339,37 @@ It is advisable when defining a function without body by using the type `void`. 
 **Link to work:** [Day-49 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day049.c)
  
 [Back Top](#days)
+
+----
+### Day 50: February 19, 2020
+
+**Today's Progress:** Functions - Declaration
+
+**Thoughts:** If you find yourself that you want to do a specific thing multiple times in a program, this is the time to use a function. Writing the program as functions is called modularizing the program. As the functions are modules inside the program.
+
+Defining a function is not declaring it. The two processes are separated because you can't use a function before it is declared. If you did use a function before it is declared, the compiler will print out an error.
+
+A function declaration is a must if you want to use the function before it's defined.
+
+To declare a function in the C programming language, you will use something called function prototypes. Function prototypes is a statement that give information about the function such as name and type.
+
+_Function Prototype are_:
+
+    1. placed at the beginning of the source code
+    2. allow you to call the function anywhere from the program
+
+_Good points_:  
+
+  * Good practice
+  * Consistent in design
+  * Prevent errors on global calls
+
+Syntax: `functionType functionName();`
+
+Notice the simi-colon at the end.
+ 
+Header files that are included at the beginning of the program is actually a file that adds the function prototype for that library. Interesting.
+
+**Link to work:** [Day-50 sourceCode]()
+
+[Back Top](#days)
