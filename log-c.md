@@ -34,9 +34,9 @@ January 1st, 2020.
 
 ----
 ## Days:
-|+ |00                                 |01                                 |02                                 |03                                 |04                                  |
-|--|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|------------------------------------|
-|01| [Day 1](#day-1-january-1-2020)    | [Day 11](#day-11-january-11-2020) | [Day 21](#day-21-january-21-2020) | [Day 31](#day-31-january-31-2020) | [Day 41](#day-41-february-10-2020) |
+|+ |00                                 |01                                 |02                                 |03                                 |04                                  |05                                  |
+|--|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|------------------------------------|------------------------------------|
+|01| [Day 1](#day-1-january-1-2020)    | [Day 11](#day-11-january-11-2020) | [Day 21](#day-21-january-21-2020) | [Day 31](#day-31-january-31-2020) | [Day 41](#day-41-february-10-2020) | [Day 51](#day-51-february-20-2020) |
 |02| [Day 2](#day-2-january-2-2020)    | [Day 12](#day-12-january-12-2020) | [Day 22](#day-22-january-22-2020) | [Day 32](#day-32-february-1-2020) | [Day 42](#day-42-february-11-2020) |
 |03| [Day 3](#day-3-january-3-2020)    | [Day 13](#day-13-january-13-2020) | [Day 23](#day-23-january-23-2020) | [Day 33](#day-33-february-2-2020) | [Day 43](#day-43-february-12-2020) |
 |04| [Day 4](#day-4-january-4-2020)    | [Day 14](#day-14-january-14-2020) | [Day 24](#day-24-january-24-2020) | [Day 34](#day-34-february-3-2020) | [Day 44](#day-44-february-13-2020) |
@@ -1371,5 +1371,25 @@ Notice the simi-colon at the end.
 Header files that are included at the beginning of the program is actually a file that adds the function prototype for that library. Interesting.
 
 **Link to work:** [Day-50 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day050.c)
+
+[Back Top](#days)
+
+----
+### Day 51: February 20, 2020
+
+**Today's Progress:** Functions - Parameters
+
+**Thoughts:** Parameters are usually defined at the function header after the function name and within parentheses separated by commas. These parameters are treated as local variables to the function.
+
+* Parameter is a placeholder for arguments.
+* Argument is the data that are passed into the function parameters
+* Functions with no parameters can have `void` or nothing passed in them. 
+
+_Note_:
+
+* `void` means no data.
+* Arguments that are specified at the call of a function must agree in type, number and sequence with the parameters in the function header.
+
+**Link to work:** [Day-51 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day051.c)
 
 [Back Top](#days)
