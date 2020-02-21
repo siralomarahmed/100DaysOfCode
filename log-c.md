@@ -1393,3 +1393,20 @@ _Note_:
 **Link to work:** [Day-51 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day051.c)
 
 [Back Top](#days)
+
+----
+### Day 52: February 21, 2020
+ 
+**Today's Progress:** Functions - Return
+ 
+**Thoughts:** Return in function is the result of all the calculation that happen, or as they say, the butter!
+ 
+The return type is responsible for the type of data that function is going to return, the type must be specified. The result will depend on the type. If you wish to not return a value then you must set the type to void.
+ 
+Returning data from a function happen at the return statement. The return statement is also the call to end the function and produce a result of the calculation.
+ 
+_Syntax_: `return thingToReturn;`
+ 
+**Link to work:** [Day-52 sourceCode]()
+ 
+[Back Top](#days)
