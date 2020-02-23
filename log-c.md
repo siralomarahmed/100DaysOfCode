@@ -1424,3 +1424,32 @@ _Syntax_: `my_finction_call();`
 **Link to work:** [Day-53 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day053.c)
 
 [Back Top](#days)
+
+----
+### Day 54: February 23, 2020
+
+**Today's Progress:** Functions - Scope
+
+**Thoughts:** THe idea of scope comes from the limitation. THe limit of that function. There can be two scopes (limits) on how a variable can affect the program.
+
+In functions, global variables are a bad thing to do because of the dependencies. It will be hard to find bugs in the program and even harder to fix because dependencies. This is why it is much better to use local variables when it comes to functions.
+
+1. Global Scope
+
+The value of the global variable can be accessed from anywhere in the program.
+
+Functions in a program is a self contained block of code that has its own world, but this world is also inside the program and the program can be expressed here as the globe. If there is a global variable in the program, it can affect the local variable inside the function too.
+
+The problem is that variables are susceptible to mutation and any function (local) can change the value stored in them. This may result in unwanted effects, especially when it affects many locals.
+
+2. Local Scope
+
+The value of a local variable can only be accessed inside the code block that is created in.
+
+The idea of a code block is to encapsulate small chunk of code in one place and independant to other codes in the program. any variables that are inside the block of code must do the job of not changing codes outside the block. In programming, we call this "Local thing"
+
+Global variable will always be available to the local functions. And a local variable will overwrite a global variable if they have the same name.
+
+**Link to work:** [Day-54 sourceCode]()
+
+[Back Top](#days)
