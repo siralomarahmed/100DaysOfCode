@@ -1464,6 +1464,25 @@ Global variable will always be available to the local functions. And a local var
 I can see how things work now. I have a better understanding on how the computer call and uses the data.
  
 **Link to work:** [Day-55 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day055.c)
- 
+
 [Back Top](#days)
- 
+
+### Day 56: February 25, 2020
+
+**Today's Progress:** Strings - Declaration
+
+**Thoughts:** There is no string type in the C programming language. I was shocked and excited at the same time, It is like something has ticked on my mind that said, "If there isn't a string type, then CREATE ONE!".
+
+A language that has this level of control can easily create a string type to be used. The language itself has no operators for processing strings but, strings are just a collection of characters stored in sequence.
+
+Using the character data type with the array functionality will have a similar effect of a string. In more details, the characters in a string will be stored in memory cells that follow each others.
+
+To declare a string, define an array with type char and the size required to hold the string.
+
+_Syntax_: `char stringName[size];`
+
+The size of the array will always be one less than what is specified because every array will have a `null` character at the end of it.
+
+**Link to work:** [Day-52 sourceCode]()
+
+[Back Top](#days)
