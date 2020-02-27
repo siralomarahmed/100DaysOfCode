@@ -1514,4 +1514,22 @@ Remember:
 **Link to work:** [Day-56 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day057.c)
  
 [Back Top](#days)
+
+----
+### Day 58: February 27, 2020
  
+**Today's Progress:** Strings - Reassigning value to strings
+ 
+**Thoughts:** A string is an array of character. since it is an array, we can use all sorts of things that work on arrays. we can see how long the array is and even assign data to it.
+ 
+If we want to reassign the characters in the string, we just have to know the index of the character we want to reassign, and then assign a new value to it.
+ 
+_Syntax_: `stringName[indexNumber] = 'newCharacter';`
+ 
+however this is good to change one or two character at the most but, for a whole set of strings, this method will be very repetitive.
+ 
+There is a built-in function that does this with ease. and it is called `strncpy()`
+ 
+**Link to work:** [Day-58 sourceCode]()
+ 
+[Back Top](#days)
