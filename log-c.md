@@ -44,7 +44,7 @@ January 1st, 2020.
 |06| [Day 6](#day-6-january-6-2020)    | [Day 16](#day-16-january-16-2020) | [Day 26](#day-26-january-26-2020) | [Day 36](#day-36-february-5-2020) | [Day 46](#day-46-february-15-2020) | [Day 56](#day-56-february-25-2020) |
 |07| [Day 7](#day-7-january-7-2020)    | [Day 17](#day-17-january-17-2020) | [Day 27](#day-27-january-27-2020) | [Day 37](#day-37-february-6-2020) | [Day 47](#day-47-february-16-2020) | [Day 57](#day-57-february-26-2020) |
 |08| [Day 8](#day-8-january-8-2020)    | [Day 18](#day-18-january-18-2020) | [Day 28](#day-28-january-28-2020) | [Day 38](#day-38-february-7-2020) | [Day 48](#day-48-february-17-2020) | [Day 58](#day-58-february-27-2020) |
-|09| [Day 9](#day-9-january-9-2020)    | [Day 19](#day-19-january-19-2020) | [Day 29](#day-29-january-29-2020) | [Day 39](#day-39-february-8-2020) | [Day 49](#day-49-february-18-2020) |
+|09| [Day 9](#day-9-january-9-2020)    | [Day 19](#day-19-january-19-2020) | [Day 29](#day-29-january-29-2020) | [Day 39](#day-39-february-8-2020) | [Day 49](#day-49-february-18-2020) | [Day 59](#day-59-february-28-2020) |
 |10| [Day 10](#day-10-january-10-2020) | [Day 20](#day-20-january-20-2020) | [Day 30](#day-30-january-30-2020) | [Day 40](#day-40-february-9-2020) | [Day 50](#day-50-february-19-2020) |
 
 ----
@@ -1531,5 +1531,24 @@ however this is good to change one or two character at the most but, for a whole
 There is a built-in function that does this with ease. and it is called `strncpy()`
  
 **Link to work:** [Day-58 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day058.c)
+ 
+[Back Top](#days)
+
+----
+### Day 59: February 28, 2020
+ 
+**Today's Progress:** Strings - Display & Input type specifier
+ 
+**Thoughts:** Strings are a bit more complicated than a primitive data type in the C programming language. Yes this means that strings are not a primitive data type, the are more of a constructive data type now.
+ 
+The string data type need to be an array of character and null terminated. The last character need to be null.
+ 
+To display the string in a pre-defined function `printf()` you need to call the string by its name, similar to variables. and the format specifier is `%s` which only output a string that is a null terminated.
+ 
+To input a string, you don't need the `&` sign to use the address operator on the string. The `%s` is enough to input the string. because something that deals with pointers, which I will get into later on.
+ 
+Note: Don't have space on the inputted string because anything after the space will be ignored.
+ 
+**Link to work:** [Day-59 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day059.c)
  
 [Back Top](#days)
