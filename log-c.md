@@ -1552,3 +1552,21 @@ Note: Don't have space on the inputted string because anything after the space w
 **Link to work:** [Day-59 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day059.c)
  
 [Back Top](#days)
+
+----
+### Day 60: February 29, 2020
+ 
+**Today's Progress:** Strings - Length Manual Calculation Program
+ 
+**Thoughts:** I didn't want to use a built-in function that does this, so I can review what I learned so far.
+ 
+The best way I found to declare a string is to not specify the size of the array that holds them. To initialize a string I went for the double quotes method.
+ 
+To count the size of the string I had to run through the array, character by character using a loop, my choice was a while loop. To stop the loop, I assigned the condition that if the loop found the null terminator at the end of the array, it will stop.
+ 
+To output a message, I used the string type specifier to output a message in the terminal.
+ 
+**Link to work:** [Day-60 sourceCode]()
+ 
+[Back Top](#days)
+ 
