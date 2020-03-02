@@ -1589,3 +1589,20 @@ To output a message, I used the string type specifier to output a message in the
 **Link to work:** [Day-61 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day061.c)
  
 [Back Top](#days)
+
+----
+### Day 62: March 2, 2020
+ 
+**Today's Progress:** Strings - Constant with const modifier
+ 
+**Thoughts:** A new way that is added in the C90 standard is the `const` modifier. It is a way to create symbolic constants, a way to convert the variable declaration into a constant declaration.
+ 
+I find this way more appealing because it is similar to other programming languages, it is also semantically correct.
+ 
+In the C programming language the const modifier method is new approach so people are still using the preprocessor define way to declare a constant. 
+ 
+_Syntax_: `const typeSpecifier = value;`
+ 
+**Link to work:** [Day-62 sourceCode]()
+ 
+[Back Top](#days)
