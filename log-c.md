@@ -1620,4 +1620,35 @@ One of the predefined functions in this library is the  `strlen` function. and i
 _Syntax_: `strlen()`
  
 **Link to work:** [Day-63 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day063.c)
+
+[Back Top](#days)
+
+----
+### Day 64: March 4, 2020
  
+**Today's Progress:** Strings - Copying Pre-Defined Function
+ 
+**Thoughts:** Copying one character string to another string is another function in the `string` header library that is useful.
+ 
+In the C programming language you cannot assign arrays and therefore you cannot assign strings. This is why the strcpy pre-defined function exist
+ 
+_Syntax_: `strcpy(x, y)` or `strncpy(x, y, z)` 
+ 
+This function takes two parameters. (X is the string you are copying to, Y is the string you are copying from). You can think of it as source and destination.
+ 
+strcpy() takes two arguments as parameters:
+ 
+  1. x The string source
+  2. y The string destination
+ 
+strncpy() takes three arguments as parameters:
+ 
+  1. x The string source
+  2. y The string destination
+  3. Z the maximum number of characters to copy
+ 
+strncpy() is a safer way to copy the strings.
+ 
+**Link to work:** [Day-64 sourceCode]()
+ 
+[Back Top](#days)
