@@ -1652,3 +1652,26 @@ strncpy() is a safer way to copy the strings.
 **Link to work:** [Day-64 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day064.c)
  
 [Back Top](#days)
+
+----
+### Day 65: March 5, 2020
+ 
+**Today's Progress:** Strings - Concatenation Pre-Defined Function
+ 
+**Thoughts:** The easiest way to add two strings together is to use the predefined function `strcat` which is in the header library `string`.
+ 
+This function will get a copy of the second string and push it into the end of the first string. this mechanism is called concatenation.
+ 
+The result of this function is a new string, this means that the second string is unmutated. more as this function will return the address of the first string that the second string is pushed into it.
+ 
+_Syntax_: `strcat(x, y)` or `strncat(x, y, z)` 
+ 
+Now I know what the z argument. it is a buffer overflow so that it will not go over the size of the string. a protection of some kind.
+ 
+* x is the source string
+* y is the destination string
+* Z is the buffer overflow
+ 
+**Link to work:** [Day-65 sourceCode]()
+ 
+[Back Top](#days)
