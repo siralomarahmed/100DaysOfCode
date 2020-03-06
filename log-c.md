@@ -1675,3 +1675,26 @@ Now I know what the z argument. it is a buffer overflow so that it will not go o
 **Link to work:** [Day-65 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day065.c)
  
 [Back Top](#days)
+
+----
+### Day 66: March 6, 2020
+ 
+**Today's Progress:** Strings - Compare Pre-Defined Function
+ 
+**Thoughts:** Strings can be very useful in making conditions in programs, and to make conditions you may want to do comparison between strings. since strings are actually arrays in the C Programming Language, you can see how long the process of comparison is.
+ 
+The solution is to create a function that does this task, since we may repeat it multiple times. Well, there is a predefined function in the `string` header library that does this task.
+ 
+The ore defined function `strcmp()` compares string content with another. Keep in mind that the content is not the addresses. This function also have limitation that it will not compare arrays or single characters. This method is used to determine if two character strings are equal.
+ 
+This function will compare the strings until the are different. or until it finished comparison of the specified number of characters.
+ 
+_Syntax_: `strcmp(x, y, z)`
+ 
+* x the first string
+* y the second string
+* Z specified number of characters
+ 
+**Link to work:** [Day-66 sourceCode]()
+ 
+[Back Top](#days)
