@@ -1718,3 +1718,23 @@ To store the value of the specified character, you need to store the address of 
 **Link to work:** [Day-67 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day067.c)
  
 [Back Top](#days)
+
+----
+### Day 68: March 8, 2020
+ 
+**Today's Progress:** Strings - Substring Search Predefined Function
+ 
+**Thoughts:** A more useful pre-defined function is the substring search. It will search the string for a specific string and find out the first occurence of it.
+ 
+Just as the search pre-defined function "strchr", the "strstr" pre-defined function returns a pointer to the address in the first string at the position of the substring, and will return Null if nothing was found.
+ 
+Note that the search is case-sensitive and will find the first occurrence.
+ 
+_Syntax_: `strstr(x, y)`
+ 
+* x = The string to be searched
+* y = The substring to look for
+ 
+**Link to work:** [Day-68 sourceCode]()
+ 
+[Back Top](#days)
