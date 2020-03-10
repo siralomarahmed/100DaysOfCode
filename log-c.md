@@ -1758,3 +1758,25 @@ In many readings, the second argument is explained with the word delimiter.The w
 **Link to work:** [Day-69 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day069.c)
  
 [Back Top](#days)
+
+----
+### Day 70: March 10, 2020
+ 
+**Today's Progress:** Strings - Letter-case Analysis Functions
+ 
+**Thoughts:** To gain a better understanding of a specific topic, we do analysis. and what better than having a test approach into the subject?
+ 
+Since I learned about strings and the primitive data types in the C programming language, I can do some analysis studies with them. Breaking complex topics into smaller parts to attain a clear understanding of it.
+ 
+Analyzing string letter case is often used nowadays and in many programming languages. Here in C programming, there is also a predefined functions for this tasks. I know that some call these functions Boolean functions, which return a true or false, but I like to call them analysis functions because the return value can be altered.
+ 
+| Function | Description                            |
+|----------|----------------------------------------|
+| islower() | Test if lowercase letter              |
+| isupper() | Test if uppercase letter              |
+| isalpha() | Test if uppercase or lowercase        |
+| isalnum()  | Test if lowercase, uppercase or digit |
+ 
+**Link to work:** [Day-70 sourceCode]()
+ 
+[Back Top](#days)
