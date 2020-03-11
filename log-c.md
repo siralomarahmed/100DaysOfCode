@@ -34,9 +34,9 @@ January 1st, 2020.
 
 ----
 ## Days:
-|+ |00                                 |01                                 |02                                 |03                                 |04                                  |05                                  |06                               |
-|--|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|------------------------------------|------------------------------------|---------------------------------|
-|01| [Day 1](#day-1-january-1-2020)    | [Day 11](#day-11-january-11-2020) | [Day 21](#day-21-january-21-2020) | [Day 31](#day-31-january-31-2020) | [Day 41](#day-41-february-10-2020) | [Day 51](#day-51-february-20-2020) | [Day 61](#day-61-march-1-2020)  |
+|+ |00                                 |01                                 |02                                 |03                                 |04                                  |05                                  |06                               |07                               |
+|--|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|------------------------------------|------------------------------------|---------------------------------|---------------------------------|
+|01| [Day 1](#day-1-january-1-2020)    | [Day 11](#day-11-january-11-2020) | [Day 21](#day-21-january-21-2020) | [Day 31](#day-31-january-31-2020) | [Day 41](#day-41-february-10-2020) | [Day 51](#day-51-february-20-2020) | [Day 61](#day-61-march-1-2020)  | [Day 71](#day-71-march-11-2020) |
 |02| [Day 2](#day-2-january-2-2020)    | [Day 12](#day-12-january-12-2020) | [Day 22](#day-22-january-22-2020) | [Day 32](#day-32-february-1-2020) | [Day 42](#day-42-february-11-2020) | [Day 52](#day-52-february-21-2020) | [Day 62](#day-62-march-2-2020)  |
 |03| [Day 3](#day-3-january-3-2020)    | [Day 13](#day-13-january-13-2020) | [Day 23](#day-23-january-23-2020) | [Day 33](#day-33-february-2-2020) | [Day 43](#day-43-february-12-2020) | [Day 53](#day-53-february-22-2020) | [Day 63](#day-63-march-3-2020)  |
 |04| [Day 4](#day-4-january-4-2020)    | [Day 14](#day-14-january-14-2020) | [Day 24](#day-24-january-24-2020) | [Day 34](#day-34-february-3-2020) | [Day 44](#day-44-february-13-2020) | [Day 54](#day-54-february-23-2020) | [Day 64](#day-64-march-4-2020)  |
@@ -1778,5 +1778,26 @@ Analyzing string letter case is often used nowadays and in many programming lang
 | isalnum() | Test if lowercase, uppercase or digit |
  
 **Link to work:** [Day-70 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day070.c)
+ 
+[Back Top](#days)
+
+----
+### Day 71: March 11, 2020
+ 
+**Today's Progress:** Strings - Space Analysis Functions
+ 
+**Thoughts:** Functions that check for the space character. Yes a space is actually considered a character in the C programming language.
+ 
+Analysis function typically return a boolean result. All these built-in-functions return a non zero value of type int if the character is within the set that's being tested for.
+ 
+| Function   | Description                                                            |
+|------------|------------------------------------------------------------------------|
+| isprint()  | Test if any character include space                                    |
+| isgraph()  | Test if any character except space                                     |
+| isblank()  | Test if there is any blank character `\t`                              |
+| isspace()  | Test if there is any whitespace character `\n`, `\t`, `\v`, `\r`, `\f` |
+ 
+ 
+**Link to work:** [Day-71 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day071.c)
  
 [Back Top](#days)
