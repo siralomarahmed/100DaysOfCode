@@ -1801,3 +1801,23 @@ Analysis function typically return a boolean result. All these built-in-function
 **Link to work:** [Day-71 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day071.c)
  
 [Back Top](#days)
+
+----
+### Day 72: March 12, 2020
+ 
+**Today's Progress:** Strings - More Analysis Functions
+ 
+**Thoughts:** There are a lot of predefined functions that handel characters and strings. I picked a handful of them just to check things out.
+ 
+Still analysis functions which return a boolean answer where the argument to each of the functions is the character to be tested. You can use these values as a boolean type if you want true and false rather than an integer answer.
+ 
+| Function   | Description                                                                  |
+|------------|------------------------------------------------------------------------------|
+| iscntrl()  | Test for any control characters                                               |
+| isdigit()  | Test if any character is a decimal digit                                     |
+| isxdigit() | Test if there is hexadecimal digit                                           |
+| ispunct()  | Test for a character with no whitespace and no uppercase letter and no digit |
+ 
+**Link to work:** [Day-72 sourceCode]()
+ 
+[Back Top](#days)
