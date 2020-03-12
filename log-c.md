@@ -1818,6 +1818,6 @@ Still analysis functions which return a boolean answer where the argument to eac
 | isxdigit() | Test if there is hexadecimal digit                                           |
 | ispunct()  | Test for a character with no whitespace and no uppercase letter and no digit |
  
-**Link to work:** [Day-72 sourceCode]()
+**Link to work:** [Day-72 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day072.c)
  
 [Back Top](#days)
