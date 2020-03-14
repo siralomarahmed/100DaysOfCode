@@ -1841,4 +1841,23 @@ Both functions convert characters, but for strings you have to run through them 
 **Link to work:** [Day-73 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day073.c)
  
 [Back Top](#days)
+
+----
+### Day 74: March 14, 2020
  
+**Today's Progress:** Strings - String to Number Conversion
+ 
+**Thoughts:** Converting strings to numbers is all about knowing the ascii number of the letters.
+ 
+| Function | Description                    |
+|----------|--------------------------------|
+| atof()   | Convert from ASCII to Float     |
+| atoi()   | Convert from ASCII to Integer   |
+| atol()   | Convert from ASCII to Long      |
+| atoll()  | Convert from ASCII to Long Long |
+ 
+Note: all the functions will ignore whitespace.
+ 
+**Link to work:** [Day-74 sourceCode]()
+ 
+[Back Top](#days)
