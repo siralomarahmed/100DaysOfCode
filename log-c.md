@@ -1890,3 +1890,22 @@ _Syntax_: `Variable_Type *p_nameOfTHePointer;`
 **Link to work:** [Day-75 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day075.c)
  
 [Back Top](#days)
+
+----
+### Day 76: March 16, 2020
+ 
+**Today's Progress:** Pointers - Initialization
+ 
+**Thoughts:** A pointer provides an indirect means of accessing the value of a particular data item. A variable whose value is a memory address. It's value is the address of another location in memory that can contain a value.
+ 
+I found out that it is dangerous to declare pointers without initialize them, this means that it is a best practice to initialize pointers. The issue is that pointers can write to memory addresses that is not intended to write to. This is another topic and it is under buffer overflow.
+ 
+Usually if no value is to be assigned to the pointer at the time of declaration, a `NULL` is assigned to it. This way the pointer will evaluate to zero.
+ 
+Note: The NULL is in the `stddef` header library, and to use it, you must include the library.
+ 
+_Syntax_: `variable_type *pnameOfThePointer = TheValue;`
+ 
+**Link to work:** [Day-76 sourceCode]()
+ 
+[Back Top](#days)
