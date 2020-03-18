@@ -1926,3 +1926,16 @@ _Syntax_: `type *pname_pointer = &name_variable;`
 **Link to work:** [Day-77 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day077.c)
  
 [Back Top](#days)
+
+----
+### Day 78: March 18, 2020
+ 
+**Today's Progress:** Pointers - One line Definition
+ 
+**Thoughts:** Both variables and pointers have similar declarations and initialization. Only the small difference that makes them different is important. I was reading other programs source code and I found out that a pointer may be added to the same line of a variable declaration, with the difference of syntax. Well, I guess one may have to pay more attention if working with existing codebase.
+ 
+The pointer will always have the 'asterisk' and the 'p', this make things a bit easier.
+ 
+**Link to work:** [Day-78 sourceCode]()
+ 
+[Back Top](#days)
