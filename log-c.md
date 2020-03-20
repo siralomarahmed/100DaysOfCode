@@ -1959,3 +1959,37 @@ This is how to dereference a pointer and get the value that it's pointing to.
 **Link to work:** [Day-79 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day079.c)
  
 [Back Top](#days)
+
+----
+### Day 80: March 20, 2020
+ 
+**Today's Progress:** Pointers - Display Pointer Address
+ 
+**Thoughts:** Pointers are actually a seperate data type. They are called pointer data type. with a format specifier `%p`. This format specifier is used to output the address of a variable. It will print out the value as a memory address in hexadecimal format.
+ 
+An address of a 16 hexadecimal digits mean that the pointer has a size equal to 8 bytes. This addressing depend on the compilers, some support 64 bit and others support 32 bit.
+ 
+* Displaying the value of the address of the pointer, is a thing
+* Displaying the address of the pointer, is another thing
+* Pointer itself has an address of its own
+  * Use the `%p` to display the address of pointer
+* variable has address of their own too
+  * Use the `&` to display the address of variable
+ 
+Note: you can ignore the compiler warning or push a `(void*)` to get the address of the variable before the `&`.
+ 
+_Example_:  
+ 
+```c
+// pointer address
+printf("box address is: %p \n", n box);
+ 
+// pointer value address
+printf("pbox address is: %p \n", (void*)&pbox);
+ 
+// Both output address
+```
+ 
+**Link to work:** [Day-80 sourceCode]()
+ 
+[Back Top](#days)
