@@ -34,9 +34,9 @@ January 1st, 2020.
 
 ----
 ## Days:
-|+ |00                                 |01                                 |02                                 |03                                 |04                                  |05                                  |06                               |07                               |
-|--|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|------------------------------------|------------------------------------|---------------------------------|---------------------------------|
-|01| [Day 1](#day-1-january-1-2020)    | [Day 11](#day-11-january-11-2020) | [Day 21](#day-21-january-21-2020) | [Day 31](#day-31-january-31-2020) | [Day 41](#day-41-february-10-2020) | [Day 51](#day-51-february-20-2020) | [Day 61](#day-61-march-1-2020)  | [Day 71](#day-71-march-11-2020) |
+|+ |00                                 |01                                 |02                                 |03                                 |04                                  |05                                  |06                               |07                               |08                               |
+|--|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|------------------------------------|------------------------------------|---------------------------------|---------------------------------|---------------------------------|
+|01| [Day 1](#day-1-january-1-2020)    | [Day 11](#day-11-january-11-2020) | [Day 21](#day-21-january-21-2020) | [Day 31](#day-31-january-31-2020) | [Day 41](#day-41-february-10-2020) | [Day 51](#day-51-february-20-2020) | [Day 61](#day-61-march-1-2020)  | [Day 71](#day-71-march-11-2020) | [Day 81](#day-81-march-21-2020) |
 |02| [Day 2](#day-2-january-2-2020)    | [Day 12](#day-12-january-12-2020) | [Day 22](#day-22-january-22-2020) | [Day 32](#day-32-february-1-2020) | [Day 42](#day-42-february-11-2020) | [Day 52](#day-52-february-21-2020) | [Day 62](#day-62-march-2-2020)  | [Day 72](#day-72-march-12-2020) |
 |03| [Day 3](#day-3-january-3-2020)    | [Day 13](#day-13-january-13-2020) | [Day 23](#day-23-january-23-2020) | [Day 33](#day-33-february-2-2020) | [Day 43](#day-43-february-12-2020) | [Day 53](#day-53-february-22-2020) | [Day 63](#day-63-march-3-2020)  | [Day 73](#day-73-march-13-2020) |
 |04| [Day 4](#day-4-january-4-2020)    | [Day 14](#day-14-january-14-2020) | [Day 24](#day-24-january-24-2020) | [Day 34](#day-34-february-3-2020) | [Day 44](#day-44-february-13-2020) | [Day 54](#day-54-february-23-2020) | [Day 64](#day-64-march-4-2020)  | [Day 74](#day-74-march-14-2020) |
@@ -1991,5 +1991,49 @@ printf("pbox address is: %p \n", (void*)&pbox);
 ```
  
 **Link to work:** [Day-80 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day080.c)
+ 
+[Back Top](#days)
+
+----
+### Day 81: March 21, 2020
+ 
+**Today's Progress:** Pointers - Review
+ 
+**Thoughts:** It is just a review of what I learned yesterday. To learn it well, I had to repeat the pointer concept several times.
+ 
+The three points to keep in mind when dealing with pointers are:  
+ 
+1. "& Address operator": for the address in pointer
+2. "variable name": for the value of the pointer itself
+3. "* Indirection operator": for the value of the pointer that is pointed to
+ 
+The basics of pointers is knowing how to reference them and dereference them.
+ 
+Pointers can be used all over the place in the C programming language, It is one of the most powerful tools that this language offers. Some of the operations pointers can be used includes:
+ 
+1. Assign an address to a pointer
+  assigned value can be an array name, a variable preceded by address operator `&`, or another second pointer.
+ 
+2. Dereference a pointer
+  the indirection operator `*` gives the value stored in the pointed-to location
+ 
+3. Take a pointer address
+  The address operator `&` tells you where the pointer itself is stored
+ 
+4. Perform pointer arithmetic
+  * The plus operator `+` to add integers to a pointer or vice versa. (integer is multiplied by the number of bytes in the pointed-to type and added to the original address)
+  * The minus operator `-` to subtract integer from a pointer (integer is multiplied by the number of bytes in the pointed-to type and subtracted from the original address)
+ 
+  * Decrementing a pointer by one (useful in arrays when going back to the previous element)
+ 
+5. Used in expressions
+  * You can find the difference between two pointers
+  * You can use the relational operators to compare the values of two pointers
+  * two ways of subtractions
+    * subtract one pointer from another to get an integer
+    * subtract an integer from a pointer and get a pointer
+  * incrementing and decrementing can cause an array to be out of bounds.
+ 
+**Link to work:** [Day-81 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day081.c)
  
 [Back Top](#days)
