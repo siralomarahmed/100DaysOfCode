@@ -2037,3 +2037,41 @@ Pointers can be used all over the place in the C programming language, It is one
 **Link to work:** [Day-81 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day081.c)
  
 [Back Top](#days)
+
+----
+### Day 82: March 22, 2020
+ 
+**Today's Progress:** Pointers - Constants
+ 
+**Thoughts:** There is a difference between variable constant and pointer constant.
+ 
+In pointers, you can do one of two things:
+  * Chose to let the pointer to be able to change
+  * Chose to let the value that the pointer point to to be able to change
+ 
+If you want to not change the value, you have to declare the "value pointed to (pvalue) to be const". And the syntax will be like this:
+ 
+_Syntax_: `Type Name *PointerName = &Value;`
+ 
+Results of this operation includes:
+ 
+* Able to mutate the value
+* Unable to change the pointer value
+* Unable to change the value using a pointer
+* Able to change the value that pointer is pointing to
+* Pointer itself is not a constant, so you can still change what it points to
+ 
+If you don't want the address stored in a pointer to change, then you can use the constant pointer definition.
+ 
+_Syntax_: `Type *const PointerName = &Value;`
+ 
+Results of this operation includes:
+ 
+* The pointer will Always point to the same thing
+* The address stored will be constant
+* You can still change the item
+ 
+ 
+**Link to work:** [Day-82 sourceCode]()
+ 
+[Back Top](#days)
