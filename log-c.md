@@ -2090,3 +2090,22 @@ Disadvantage of the void pointer is that it cannot be dereferenced directly beca
 **Link to work:** [Day-83 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day083.c)
  
 [Back Top](#days)
+
+----
+### Day 84: March 24, 2020
+ 
+**Today's Progress:** Pointers - Arrays
+ 
+**Thoughts:** Pointers are mostly used with arrays in C programming. They are similar to each other and may be confused if not for the syntax and advantages. 
+ 
+Note: Arrays are actually pointers.
+ 
+Assigning the array to the pointer will point to the first element in the array to it. Example: `Pointer = Array;`
+ 
+ You can also do this in another way, by setting the address operator and the position to the pointer. Example: `Pointer = &Array[0];`
+ 
+Because it will make the program run more efficiently. Using pointers with arrays help make the code more clean. Using a pointer for a character will use less memory and it is faster.
+ 
+**Link to work:** [Day-84 sourceCode]()
+ 
+[Back Top](#days)
