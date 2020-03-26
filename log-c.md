@@ -2130,3 +2130,22 @@ Here you can see how an increment and decrement operators are useful.
 **Link to work:** [Day-85 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day085.c)
  
 [Back Top](#days)
+
+----
+### Day 86: March 26, 2020
+ 
+**Today's Progress:** Pointers - Functions
+ 
+**Thoughts:** Pointers can do all sort of things in combination with functions. Today, I learned that you can create a way to pass data to a function by reference rather than by value.
+ 
+Passing data by reference is different than the usual passing by value. 
+ 
+By value, means that the function copies the value into the function and changes made to the value inside has no effect on the argument passed to it. Changes inside the function will not reflect outside the function.
+ 
+By reference, means that the function arguments will be the address of the data. This means that any alteration to the parameter will mutate the passed argument. Changes inside the function reflected outside the function.
+ 
+To pass data into a function by reference, all you need to do is to declare the function parameters as a pointer. When you want to call a pointer parameter in a function, you have to use the address operator `&`.
+ 
+**Link to work:** [Day-86 sourceCode]()
+ 
+[Back Top](#days)
