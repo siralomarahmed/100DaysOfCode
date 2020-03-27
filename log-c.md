@@ -2149,3 +2149,40 @@ To pass data into a function by reference, all you need to do is to declare the 
 **Link to work:** [Day-86 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day086.c)
  
 [Back Top](#days)
+
+----
+### Day 87: March 27, 2020
+ 
+**Today's Progress:** Memory Allocation - Malloc
+ 
+**Thoughts:** Memory will usually be automatically allocated based on the data type. for example, long data type takes more memory than the short data type. Another example will be used with arrays, you can assign a size of the array, and this will assign the size of the memory it will take.
+ 
+In C programming language you can manually allocate as much memory needed to optimize your program. This process is also called, Dynamic memory allocation. Using this technique of dynamic memory allocation, you can get as much storage capacity as needed.
+ 
+There are few ways to use this. One way is by the standard library function called `malloc`, it will allocate memory at runtime. This function exist in the `stdlib` header file.
+ 
+The function `malloc()` will return the address of the first memory that it allocated, which means that a pointer is the only way to grab it. This function returns a pointer to void, it means you have to cast it.
+ 
+_Syntax_: `DataType *PointerName = (DataType*)malloc(MemorySizeInBytes);`
+ 
+There is a problem using a plain byte size as an argument to the function. Every system has a different size, for example some uses 4 bytes and other uses 32 bytes. This means that if you specify it with bytes, your code may not work with different system architecture.
+ 
+A solution is to use the `sizeof()` function operator to assign a dynamic size to the `malloc()` function. Don't forget to convert the address returned by the `sizeof()` function to `int` like this `sizeof(int)`.
+ 
+It is good practice to check for `Null` before you use it to make sure that you are pointing to something before you reference data. If you program can't allocate memory, it will crash.
+ 
+*Important*: A strict rule is that whenever you allocate memory and then you are done using it, you need to release it. Even if it will be automatically released, you need to explicitly release the memory before the program ends.
+ 
+Releasing memory is a safety measure from "memory leaks". Memory leak happen when you are unable to release the memory. This happens a lot with loops. The effect will usually be that the program will consume memory until there is no memory, which eventually result in system crash down.
+ 
+There is a standard function to release a memory dynamically allocated, and it is the `free()` function. it is included in the standard library `stdlib`. This function can take any pointer type as argument.
+ 
+_Syntax to release memory_:
+```
+free(pNumber);
+pNumber = NULL;
+```
+ 
+**Link to work:** [Day-87 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day087.c)
+ 
+[Back Top](#days)
