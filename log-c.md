@@ -43,7 +43,7 @@ January 1st, 2020.
 |05| [Day 5](#day-5-january-5-2020)    | [Day 15](#day-15-january-15-2020) | [Day 25](#day-25-january-25-2020) | [Day 35](#day-35-february-4-2020) | [Day 45](#day-45-february-14-2020) | [Day 55](#day-55-february-24-2020) | [Day 65](#day-65-march-5-2020)  | [Day 75](#day-75-march-15-2020) | [Day 85](#day-85-march-25-2020) |
 |06| [Day 6](#day-6-january-6-2020)    | [Day 16](#day-16-january-16-2020) | [Day 26](#day-26-january-26-2020) | [Day 36](#day-36-february-5-2020) | [Day 46](#day-46-february-15-2020) | [Day 56](#day-56-february-25-2020) | [Day 66](#day-66-march-6-2020)  | [Day 76](#day-76-march-16-2020) | [Day 86](#day-86-march-26-2020) |
 |07| [Day 7](#day-7-january-7-2020)    | [Day 17](#day-17-january-17-2020) | [Day 27](#day-27-january-27-2020) | [Day 37](#day-37-february-6-2020) | [Day 47](#day-47-february-16-2020) | [Day 57](#day-57-february-26-2020) | [Day 67](#day-67-march-7-2020)  | [Day 77](#day-77-march-17-2020) | [Day 87](#day-87-march-27-2020) |
-|08| [Day 8](#day-8-january-8-2020)    | [Day 18](#day-18-january-18-2020) | [Day 28](#day-28-january-28-2020) | [Day 38](#day-38-february-7-2020) | [Day 48](#day-48-february-17-2020) | [Day 58](#day-58-february-27-2020) | [Day 68](#day-68-march-8-2020)  | [Day 78](#day-78-march-18-2020) |
+|08| [Day 8](#day-8-january-8-2020)    | [Day 18](#day-18-january-18-2020) | [Day 28](#day-28-january-28-2020) | [Day 38](#day-38-february-7-2020) | [Day 48](#day-48-february-17-2020) | [Day 58](#day-58-february-27-2020) | [Day 68](#day-68-march-8-2020)  | [Day 78](#day-78-march-18-2020) | [Day 88](#day-88-march-28-2020) |
 |09| [Day 9](#day-9-january-9-2020)    | [Day 19](#day-19-january-19-2020) | [Day 29](#day-29-january-29-2020) | [Day 39](#day-39-february-8-2020) | [Day 49](#day-49-february-18-2020) | [Day 59](#day-59-february-28-2020) | [Day 69](#day-69-march-9-2020)  | [Day 79](#day-79-march-19-2020) |
 |10| [Day 10](#day-10-january-10-2020) | [Day 20](#day-20-january-20-2020) | [Day 30](#day-30-january-30-2020) | [Day 40](#day-40-february-9-2020) | [Day 50](#day-50-february-19-2020) | [Day 60](#day-60-february-29-2020) | [Day 70](#day-70-march-10-2020) | [Day 80](#day-80-march-20-2020) |
 
@@ -2184,5 +2184,31 @@ pNumber = NULL;
 ```
  
 **Link to work:** [Day-87 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day087.c)
+ 
+[Back Top](#days)
+
+----
+### Day 88: March 28, 2020
+ 
+**Today's Progress:** Memory Allocation - Calloc
+ 
+**Thoughts:** There are two places to store data in the memory:
+ 
+  1. Heap
+    * Dynamic allocation of the memory will reserve space in the memory area called the heap
+    * You control when to use it
+    * Manually active
+    * Space allocated this way need to be freed manually
+  2. Stack
+    * Functions will reserve space in the memory area called the stack
+    * You don't control when you use it
+    * Automatically active
+    * Space created this way will automatically be freed
+ 
+Another standard library function to use in allocation memory in the heap is the `calloc()` function. The advantage of this function is that the memory area will be initialized to `NULL` or zero.
+ 
+_Syntax_: `DataType *PointerName = (DataType*) calloc(NumberOfDataRequired, sizeof(DataType));`
+ 
+**Link to work:** [Day-88 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day088.c)
  
 [Back Top](#days)
