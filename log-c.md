@@ -2240,3 +2240,20 @@ Reminder:
 **Link to work:** [Day-89 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day089.c)
  
 [Back Top](#days)
+
+----
+### Day 90: March 30, 2020
+ 
+**Today's Progress:** Structures - Declaration
+ 
+**Thoughts:** Another way to create collection of data is called structures. Each element in the structure is a key and value pair. They are not stored in order or sequence like arrays. They are just data, with no methods.
+ 
+Structure is used to group multiple variables together in one place. And then you can access those variables in one place. A structure declaration is just a description of a collection. With the `struct` keyword you can create a structure like this:
+ 
+_Syntax_: `struct ItsName {member; anotherMember;};`
+ 
+Structures is a tool to group elements together. Declared as a description with the keyword `struct` with a name that has members of the structure inside a curly braces `{}`.
+ 
+**Link to work:** [Day-90 sourceCode]()
+ 
+[Back Top](#days)
