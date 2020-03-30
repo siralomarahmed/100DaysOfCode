@@ -45,7 +45,7 @@ January 1st, 2020.
 |07| [Day 7](#day-7-january-7-2020)    | [Day 17](#day-17-january-17-2020) | [Day 27](#day-27-january-27-2020) | [Day 37](#day-37-february-6-2020) | [Day 47](#day-47-february-16-2020) | [Day 57](#day-57-february-26-2020) | [Day 67](#day-67-march-7-2020)  | [Day 77](#day-77-march-17-2020) | [Day 87](#day-87-march-27-2020) |
 |08| [Day 8](#day-8-january-8-2020)    | [Day 18](#day-18-january-18-2020) | [Day 28](#day-28-january-28-2020) | [Day 38](#day-38-february-7-2020) | [Day 48](#day-48-february-17-2020) | [Day 58](#day-58-february-27-2020) | [Day 68](#day-68-march-8-2020)  | [Day 78](#day-78-march-18-2020) | [Day 88](#day-88-march-28-2020) |
 |09| [Day 9](#day-9-january-9-2020)    | [Day 19](#day-19-january-19-2020) | [Day 29](#day-29-january-29-2020) | [Day 39](#day-39-february-8-2020) | [Day 49](#day-49-february-18-2020) | [Day 59](#day-59-february-28-2020) | [Day 69](#day-69-march-9-2020)  | [Day 79](#day-79-march-19-2020) | [Day 89](#day-89-march-29-2020) |
-|10| [Day 10](#day-10-january-10-2020) | [Day 20](#day-20-january-20-2020) | [Day 30](#day-30-january-30-2020) | [Day 40](#day-40-february-9-2020) | [Day 50](#day-50-february-19-2020) | [Day 60](#day-60-february-29-2020) | [Day 70](#day-70-march-10-2020) | [Day 80](#day-80-march-20-2020) |
+|10| [Day 10](#day-10-january-10-2020) | [Day 20](#day-20-january-20-2020) | [Day 30](#day-30-january-30-2020) | [Day 40](#day-40-february-9-2020) | [Day 50](#day-50-february-19-2020) | [Day 60](#day-60-february-29-2020) | [Day 70](#day-70-march-10-2020) | [Day 80](#day-80-march-20-2020) | [Day 90](#day-90-march-30-2020) |
 
 ----
 ### Day 1: January 1, 2020
@@ -2254,6 +2254,6 @@ _Syntax_: `struct ItsName {member; anotherMember;};`
  
 Structures is a tool to group elements together. Declared as a description with the keyword `struct` with a name that has members of the structure inside a curly braces `{}`.
  
-**Link to work:** [Day-90 sourceCode]()
+**Link to work:** [Day-90 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day090.c)
  
 [Back Top](#days)
