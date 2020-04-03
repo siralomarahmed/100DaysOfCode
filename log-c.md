@@ -39,7 +39,7 @@ January 1st, 2020.
 |01| [Day 1](#day-1-january-1-2020)    | [Day 11](#day-11-january-11-2020) | [Day 21](#day-21-january-21-2020) | [Day 31](#day-31-january-31-2020) | [Day 41](#day-41-february-10-2020) | [Day 51](#day-51-february-20-2020) | [Day 61](#day-61-march-1-2020)  | [Day 71](#day-71-march-11-2020) | [Day 81](#day-81-march-21-2020) | [Day 91](#day-91-march-31-2020) |
 |02| [Day 2](#day-2-january-2-2020)    | [Day 12](#day-12-january-12-2020) | [Day 22](#day-22-january-22-2020) | [Day 32](#day-32-february-1-2020) | [Day 42](#day-42-february-11-2020) | [Day 52](#day-52-february-21-2020) | [Day 62](#day-62-march-2-2020)  | [Day 72](#day-72-march-12-2020) | [Day 82](#day-82-march-22-2020) | [Day 92](#day-92-april-1-2020)  |
 |03| [Day 3](#day-3-january-3-2020)    | [Day 13](#day-13-january-13-2020) | [Day 23](#day-23-january-23-2020) | [Day 33](#day-33-february-2-2020) | [Day 43](#day-43-february-12-2020) | [Day 53](#day-53-february-22-2020) | [Day 63](#day-63-march-3-2020)  | [Day 73](#day-73-march-13-2020) | [Day 83](#day-83-march-23-2020) | [Day 93](#day-93-april-2-2020)  |
-|04| [Day 4](#day-4-january-4-2020)    | [Day 14](#day-14-january-14-2020) | [Day 24](#day-24-january-24-2020) | [Day 34](#day-34-february-3-2020) | [Day 44](#day-44-february-13-2020) | [Day 54](#day-54-february-23-2020) | [Day 64](#day-64-march-4-2020)  | [Day 74](#day-74-march-14-2020) | [Day 84](#day-84-march-24-2020) |
+|04| [Day 4](#day-4-january-4-2020)    | [Day 14](#day-14-january-14-2020) | [Day 24](#day-24-january-24-2020) | [Day 34](#day-34-february-3-2020) | [Day 44](#day-44-february-13-2020) | [Day 54](#day-54-february-23-2020) | [Day 64](#day-64-march-4-2020)  | [Day 74](#day-74-march-14-2020) | [Day 84](#day-84-march-24-2020) | [Day 94](#day-94-april-3-2020)  |
 |05| [Day 5](#day-5-january-5-2020)    | [Day 15](#day-15-january-15-2020) | [Day 25](#day-25-january-25-2020) | [Day 35](#day-35-february-4-2020) | [Day 45](#day-45-february-14-2020) | [Day 55](#day-55-february-24-2020) | [Day 65](#day-65-march-5-2020)  | [Day 75](#day-75-march-15-2020) | [Day 85](#day-85-march-25-2020) |
 |06| [Day 6](#day-6-january-6-2020)    | [Day 16](#day-16-january-16-2020) | [Day 26](#day-26-january-26-2020) | [Day 36](#day-36-february-5-2020) | [Day 46](#day-46-february-15-2020) | [Day 56](#day-56-february-25-2020) | [Day 66](#day-66-march-6-2020)  | [Day 76](#day-76-march-16-2020) | [Day 86](#day-86-march-26-2020) |
 |07| [Day 7](#day-7-january-7-2020)    | [Day 17](#day-17-january-17-2020) | [Day 27](#day-27-january-27-2020) | [Day 37](#day-37-february-6-2020) | [Day 47](#day-47-february-16-2020) | [Day 57](#day-57-february-26-2020) | [Day 67](#day-67-march-7-2020)  | [Day 77](#day-77-march-17-2020) | [Day 87](#day-87-march-27-2020) |
@@ -2308,4 +2308,32 @@ _Syntax_: `struct structName customVariableName;`
 **Link to work:** [Day-93 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day093.c)
  
 [Back Top](#days)
+
+----
+### Day 94: April 3, 2020
  
+**Today's Progress:** Structures - Data Access and Compound Literals
+ 
+**Thoughts:** After defining a structure, you can do all sorts of things with them. you can do arithmetic and use them in your program. When I say use them, I don't mean directly. The usage will be by reference. When it comes to expressions, structures have the same rules as normal variables.
+ 
+A structure is a different data type than the pointer and you need a special way to reference the values of the struct. Online the pointer with the address operator (`&`), the structure uses the dot operator (`.`) to refer to the value.
+ 
+The Member Selection Operator (`.`) also refer to as the dot operator is a simple DOT. Just remember with this operator, you should not give spaces between commands.
+ 
+_Syntax_: `structName.structkey = value;`
+ 
+The above syntax shows how you can access the data in the struct and assigning a value to it.
+ 
+Compound Literals is another way to define a structure with a statement that can be anywhere in the program. It is not a declaration, it is like three in one operation.
+ 
+This method must be done correctly because the sequence of the values assignment matter here.
+ 
+_Syntax_: `customStructVariableName = (struct structName) {value, value, value};`
+ 
+You can also use the member notation and you can put them in any order you like:
+ 
+_Syntax_: `customStructvariableName = (struct structName) {.keyName = itsValue, .keyName = itsValue};`
+ 
+**Link to work:** [Day-94 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day094.c)
+ 
+[Back Top](#days)
