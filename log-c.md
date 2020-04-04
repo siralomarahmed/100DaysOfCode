@@ -2337,3 +2337,34 @@ _Syntax_: `customStructvariableName = (struct structName) {.keyName = itsValue, 
 **Link to work:** [Day-94 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day094.c)
  
 [Back Top](#days)
+
+----
+### Day 95: April 4, 2020
+ 
+**Today's Progress:** Structures - Pointers
+ 
+**Thoughts:** An easier way to pass an argument to a function is to pass it as a pointer, and if you look at an older C codes on the internet, you will notice that a structure is manipulated as a pointer rather than the normal structure manipulation. A bit of searching on the subject I found out that you can do so in two ways:
+ 
+First, you can declare a structure as a pointer. This means that the structure itself is a pointer and not the elements inside it.
+ 
+_Syntax_: `struct structName *structPointerName;`
+ 
+Second, you can declare a structure element as a pointer. This means that the structure itself is not a pointer but it has an element that is a pointer. Yes you can have more than one pointer inside the structure.
+ 
+_Syntax_: `struct structName {dataType *pointerAsKey; dataType *pointerAsKey;};
+ 
+There is a new method to access elements that are pointers with structures. Normally I use the dot notation, but there is a new way! The new way is by using the `->` point to operator.
+ 
+_Syntax_:
+ 
+```
+// member selector operator
+(*x).y
+ 
+// point to operator
+x->y
+```
+ 
+**Link to work:** [Day-95 sourceCode]()
+ 
+[Back Top](#days)
