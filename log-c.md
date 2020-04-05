@@ -2368,3 +2368,44 @@ x->y
 **Link to work:** [Day-95 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day095.c)
  
 [Back Top](#days)
+
+----
+### Day 96: April 5, 2020
+
+**Today's Progress:** File I/O - Open and Close
+
+**Thoughts:** The Random Access Memory (RAM) can only accommodate so much data and a limited capacity programs. This is why there is the Read-Only memory (ROM). This memory is usually big and can accommodate so much data. This memory provide the programmer a space to write big programs. In C programming, The interaction with files and folders is done by manipulating the ROM type of memory. The data stored in the ROM is non-volatile memory, a memory which data can be stored and not lose its position when electricity is not available. Files are just a sequence of bytes stored in the ROM. A file has a beginning, end and current position. The current position is where any mutation to the file happen.
+
+To access files, there are many functions that help in interacting with the file system, and they are in the header library `stdio.h`. This library has function to read internal and external memory drives. Things to remember when dealing with files is that each operating system has its own file naming method and this may be different from one to another.
+
+The file is the key when it comes to accessing it. You can say, "you refer to it,'' because the access happen with reference. and a program reference a file through a pointer. It is called a stream pointer.
+
+Stream is an abstract representation of external source or destination for data. Standard data that flows automatically in a C program is often called a stream, and there are three standards:
+
+1. input, is an input from a device such as the keyboard
+  * getchar() and scanf()
+2. output, is what usually displayed on the screen
+  * putchar() puts() and printf()
+3. error, is usually need a redirection before it is displayed on a screen
+
+The format of the file is important to read it. For example a sequence of 12 bytes in a binary file could be 12 characters or 12 8-bit signed integers or 12 8-bit unsigned integers and so on. In binary mode, each byte of the file is accessible.
+
+you can use the standard header library `stdlib.h` functions to open and close files:
+
+* To open a file `fopen(x, y)`
+    * The first argument = a pointer to the name of the file.
+    * The second argument = represent file mode.
+    * Return = pointer type FILE*
+    * If operation failed = NULL
+* To close a file `fclose()`
+
+Text File Modes for reading:
+
+| Mode | Description         |
+|------|---------------------|
+| "r"  | Open file to read   |
+| "r+" | Open file to update |
+
+**Link to work:** [Day-96 sourceCode]()
+
+[Back Top](#days)
