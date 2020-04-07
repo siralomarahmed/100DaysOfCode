@@ -43,7 +43,7 @@ January 1st, 2020.
 |05| [Day 5](#day-5-january-5-2020)    | [Day 15](#day-15-january-15-2020) | [Day 25](#day-25-january-25-2020) | [Day 35](#day-35-february-4-2020) | [Day 45](#day-45-february-14-2020) | [Day 55](#day-55-february-24-2020) | [Day 65](#day-65-march-5-2020)  | [Day 75](#day-75-march-15-2020) | [Day 85](#day-85-march-25-2020) | [Day 95](#day-95-april-4-2020)  |
 |06| [Day 6](#day-6-january-6-2020)    | [Day 16](#day-16-january-16-2020) | [Day 26](#day-26-january-26-2020) | [Day 36](#day-36-february-5-2020) | [Day 46](#day-46-february-15-2020) | [Day 56](#day-56-february-25-2020) | [Day 66](#day-66-march-6-2020)  | [Day 76](#day-76-march-16-2020) | [Day 86](#day-86-march-26-2020) | [Day 96](#day-96-april-5-2020)  |
 |07| [Day 7](#day-7-january-7-2020)    | [Day 17](#day-17-january-17-2020) | [Day 27](#day-27-january-27-2020) | [Day 37](#day-37-february-6-2020) | [Day 47](#day-47-february-16-2020) | [Day 57](#day-57-february-26-2020) | [Day 67](#day-67-march-7-2020)  | [Day 77](#day-77-march-17-2020) | [Day 87](#day-87-march-27-2020) | [Day 97](#day-97-april-6-2020)  |
-|08| [Day 8](#day-8-january-8-2020)    | [Day 18](#day-18-january-18-2020) | [Day 28](#day-28-january-28-2020) | [Day 38](#day-38-february-7-2020) | [Day 48](#day-48-february-17-2020) | [Day 58](#day-58-february-27-2020) | [Day 68](#day-68-march-8-2020)  | [Day 78](#day-78-march-18-2020) | [Day 88](#day-88-march-28-2020) |
+|08| [Day 8](#day-8-january-8-2020)    | [Day 18](#day-18-january-18-2020) | [Day 28](#day-28-january-28-2020) | [Day 38](#day-38-february-7-2020) | [Day 48](#day-48-february-17-2020) | [Day 58](#day-58-february-27-2020) | [Day 68](#day-68-march-8-2020)  | [Day 78](#day-78-march-18-2020) | [Day 88](#day-88-march-28-2020) | [Day 98](#day-98-april-7-2020)  |
 |09| [Day 9](#day-9-january-9-2020)    | [Day 19](#day-19-january-19-2020) | [Day 29](#day-29-january-29-2020) | [Day 39](#day-39-february-8-2020) | [Day 49](#day-49-february-18-2020) | [Day 59](#day-59-february-28-2020) | [Day 69](#day-69-march-9-2020)  | [Day 79](#day-79-march-19-2020) | [Day 89](#day-89-march-29-2020) |
 |10| [Day 10](#day-10-january-10-2020) | [Day 20](#day-20-january-20-2020) | [Day 30](#day-30-january-30-2020) | [Day 40](#day-40-february-9-2020) | [Day 50](#day-50-february-19-2020) | [Day 60](#day-60-february-29-2020) | [Day 70](#day-70-march-10-2020) | [Day 80](#day-80-march-20-2020) | [Day 90](#day-90-march-30-2020) |
 
@@ -2438,5 +2438,60 @@ Text File Modes for reading:
 The format is a C string that have a custom way of reading a string. You can customize the format by adding characters such as white space and format specifiers to create a custom format.
  
 **Link to work:** [Day-97 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day097.c)
+ 
+[Back Top](#days)
+
+----
+### Day 98: April 7, 2020
+ 
+**Today's Progress:** File I/O - Writing
+ 
+**Thoughts:** There are two ways to write data to a file. A text file is just a text data that is stored in sequence as characters and organized in lines, where each line ends with a newline. A binary file is just a binary data that is stored as a series of bytes as they appear in memory.
+ 
+The format of the file is important to read it. For example a sequence of 12 bytes in a binary file could be 12 characters or 12 8-bit signed integers or 12 8-bit unsigned integers and so on. In binary mode, each byte of the file is accessible.
+ 
+To use multiple files at the same time, you will have to make seperate pointers, one for each. and there is a limit, which is defined in the standard library `stdio.h` as `FOPEN_MAX`.
+ 
+Text File Modes:
+ 
+| Mode | Description                                   |
+|------|-----------------------------------------------|
+| "a"  | Append to the end of file                     |
+| "a+" | Append to the end or create if not there      |
+| "w"  | Write on the file                             |
+| "w+" | Truncating file to zero then update or create |
+ 
+Writing functions:
+ 
+| Function | Description               |
+|----------|---------------------------|
+| fputs()  | write to any file stream  |
+| fputf()  | Write a formatted output  |
+ 
+* `fputs(x, y)`
+    * x = constant character string
+    * y = file pointer
+* `fputf(x, y)`
+    * x = pointer to the file object
+    * y = the format
+ 
+The format can be customized just like the `printf` function. Example:
+ 
+```C
+int main()
+{
+  FILE * File_pointer;
+ 
+  file_pointer = fopen ("file_name.txt", "w+");
+  fprintf(file_pointer, %s %s %s %s %d", ''I ``,''am ``,''Amazing "Amaizing", "Programmer", "100");
+ 
+  fclose(file_pointer);
+ 
+  return 0;
+}
+ 
+```
+ 
+**Link to work:** [Day-98 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day098.c)
  
 [Back Top](#days)
