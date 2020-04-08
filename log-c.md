@@ -2495,3 +2495,40 @@ int main()
 **Link to work:** [Day-98 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day098.c)
  
 [Back Top](#days)
+
+----
+### Day 99: April 8, 2020
+ 
+**Today's Progress:** File I/O - Positioning
+ 
+**Thoughts:** To access data in the file, you can use loops to run through in a sequential order. There is a better way to do this in the C programming language, It is by using file positioning.
+ 
+First you have to find out where you are at the file. and to do this , you can use these functions:
+ 
+1. `ftell(x)`
+    * x = file pointer
+    * This function will return a long integer as the position you are in by taking the file pointer as an argument.
+    After telling the position, now this function know
+    * It hold the current position as an offset in bytes from the start of the file
+    * You can return to this point at any time.
+2. `fgetpos(x, y)`
+    * x = file pointer
+    * y = pointer to a predefined type in the library
+        * variable type `fpos_t` cannot be a pointer
+    * this function is used with `fsetpos()`
+    * stores the current position and return 0 if successful
+    * This function is a bit more complicated, I need more data on it.
+ 
+Setting position options for the `ftell()` function:
+ 
+fseek(x, y, z)
+* x = file pointer
+* y = one of three options.
+    * `SEEK_SET` = beginning of the file
+    * `SEEK_CUR` = current position of the file
+    * `SEEK_END` = end of the file
+* Z = for text files must be `SEEK_SET` and for binary files it is relative to byte count.
+ 
+**Link to work:** [Day-99 sourceCode]()
+ 
+[Back Top](#days)
