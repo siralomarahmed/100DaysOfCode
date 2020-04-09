@@ -2532,3 +2532,16 @@ fseek(x, y, z)
 **Link to work:** [Day-99 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day099.c)
  
 [Back Top](#days)
+
+----
+### Day 100: April 9, 2020
+ 
+**Today's Progress:** Building a C program
+ 
+**Thoughts:** To end this challenge, I've built a program. I can say I understand the basics of the language, but there is so much to do to write a simple program.
+ 
+This program will use functions and file I/O in combination with data types. It has a simple functionality, which is to search and find out a string inside a file.
+ 
+**Link to work:** [Day-100 sourceCode]()
+ 
+[Back Top](#days)
