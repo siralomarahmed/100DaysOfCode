@@ -48,6 +48,8 @@ April 9th, 2020.
 |09| [Day 9](#day-9-january-9-2020)    | [Day 19](#day-19-january-19-2020) | [Day 29](#day-29-january-29-2020) | [Day 39](#day-39-february-8-2020) | [Day 49](#day-49-february-18-2020) | [Day 59](#day-59-february-28-2020) | [Day 69](#day-69-march-9-2020)  | [Day 79](#day-79-march-19-2020) | [Day 89](#day-89-march-29-2020) | [Day 99](#day-99-april-8-2020)    |
 |10| [Day 10](#day-10-january-10-2020) | [Day 20](#day-20-january-20-2020) | [Day 30](#day-30-january-30-2020) | [Day 40](#day-40-february-9-2020) | [Day 50](#day-50-february-19-2020) | [Day 60](#day-60-february-29-2020) | [Day 70](#day-70-march-10-2020) | [Day 80](#day-80-march-20-2020) | [Day 90](#day-90-march-30-2020) | [Day 100](#day-100-april-9-2020)  |
 
+[Or Jump Right To Conclution!](#Conclution)
+
 ----
 ### Day 1: January 1, 2020
 
@@ -2544,5 +2546,20 @@ fseek(x, y, z)
 This program will use functions and file I/O in combination with data types. It has a simple functionality, which is to search and find out a string inside a file.
  
 **Link to work:** [Day-100 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day100.c)
+ 
+[Back Top](#days)
+
+----
+### Conclusion
+ 
+C is about rewriting the code and refining it with better syntax each time you look into it. When the code is starting to get confusing, it is time to start to simplify it. I can surely say that I can write a beginner C programs with my understanding of the fundamentals. I learned that C programs have been used for solving physics and engineering problems and even for animating special effects for movies. Many compiler and interpreters for other languages like Python have been written in C. I didn't expect that much theory when I chose to learn the language, but I have to say, this journey was very refreshing to concepts that I have forgotten over the years. I am glad I spent this 100 days in C.
+ 
+My main reason to get into the C programming language is to study pointers as close as possible. Another reason is that C gives access to hardware and enable computer memory manipulation.
+ 
+C require a lot of testing, because of the data types and the limitations that may come along with it. I keep a testing log for each project I created in the C programming language because it helps not missing a scenario that may occur in other projects. The C program is much easier to manage by breaking it up into a number of smaller source files. I always suggest that in starting a project, compile the code and test it for every new function added. Even if you added a loop or a condition, stop and run the program and see if there are any errors. It will save you a lot of time. You have more control on the memory with the C programming language because of pointers. They allow you to refer to the same space in memory from multiple locations. This is very helpful in software optimization. You can update memory in one location and the change can be seen from another location in you program. Pointers can save space by being able to share components of the data structure.
+ 
+Now I understand that C is not a low level programming language even if it does provide low level features that are generally provided by the lower level languages. The C programming language describes actions in a more abstract form, right the opposite of assembly language. The instructions of a C program look more like human language than a precise steps that a particular CPU would have to take to accomplish a particular task. This is why the C language are considered as mid level! C programming language uses compilers. Compiler is a program that translates the high-level language into the detailed set of machine language instructions that the computer requires. However, I also know that C is not object oriented, it has no string data type and it is much ‘lower level’ (closer to machine language) than other languages.
+ 
+The idea of the C programming language is to be very fast and very efficient.
  
 [Back Top](#days)
