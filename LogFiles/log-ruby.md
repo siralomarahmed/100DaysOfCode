@@ -47,7 +47,7 @@ I really struggled with installing ruby on my windows computer, It toke me more 
 
 If anyone want to get into ruby, start with the official site and you will find your way: [ruby-lang](https://www.ruby-lang.org/en/)
 
-**Link to work:** [Day-1 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day001.rb)
+**Link to work:** [Day-1 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day001.rb)
 
 [Back Top](#days)
 
@@ -65,7 +65,7 @@ If anyone want to get into ruby, start with the official site and you will find 
  .length
 ```
 
-**Link to work:** [Day-2 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day002.rb)
+**Link to work:** [Day-2 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day002.rb)
 
 [Back Top](#days)
 
@@ -78,7 +78,7 @@ If anyone want to get into ruby, start with the official site and you will find 
 
 Ruby variables is also self declarative as you dont have to declare a string before you assign a string to a variable. I had to use some of yesterday string methods with the variables to make things much more intersting.
 
-**Link to work:** [Day-3 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day003.rb)
+**Link to work:** [Day-3 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day003.rb)
 
 [Back Top](#days)
 
@@ -89,7 +89,7 @@ Ruby variables is also self declarative as you dont have to declare a string bef
 
 **Thoughts:** By using `gets` to get the user input, you can store the input into a seperate variable to use it later. for example, I use it to print it out on the console screen by using `puts`
 
-**Link to work:** [Day-4 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day004.rb)
+**Link to work:** [Day-4 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day004.rb)
 
 [Back Top](#days)
 
@@ -101,7 +101,7 @@ Ruby variables is also self declarative as you dont have to declare a string bef
 **Thoughts:** I realized that `puts` and `gets` will give a newline in the putput. So, I make use of a new string method `.chomp`. this method will just chop off the new line givin after the `gets`.
 So cool, I ended up simulating a comversation using what I learned so far.
 
-**Link to work:** [Day-5 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day005.rb)
+**Link to work:** [Day-5 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day005.rb)
 
 [Back Top](#days)
 
@@ -112,7 +112,7 @@ So cool, I ended up simulating a comversation using what I learned so far.
 
 **Thoughts:** The basic math operation are similar to diffrent programming languages. In other hand numbers are treated a bit diffrently, as for numbers that are less than zero, you must write the zero on the left "0.5" or it will output an error. Also, numbers that are less than zero are float, and if you are dealing with floats, you need to input floats to output floats. Because ruby will assume you want an integer if you input an integer, not a float.
 
-**Link to work:** [Day-6 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day006.rb)
+**Link to work:** [Day-6 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day006.rb)
 
 [Back Top](#days)
 
@@ -124,7 +124,7 @@ So cool, I ended up simulating a comversation using what I learned so far.
 **Thoughts:** You can't add a number to a string in Ruby. It will print an error, "no implicit conversion of Integer to String (TypeError)". Because `gets` will get string, and `puts` will put a string. To convert the numbers, you can use the `.to_` method and specify the type of the number. For integer `.to_i` and for a float `.to_f` to convert.
 I also learned that to convert a number to a string, you can use the `to_s` method.
 
-**Link to work:** [Day-7 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day007.rb)
+**Link to work:** [Day-7 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day007.rb)
 
 [Back Top](#days)
 
@@ -146,7 +146,7 @@ I also learned that to convert a number to a string, you can use the `to_s` meth
 
 The output of a comparision operator is going to be a booloian true or false.
 
-**Link to work:** [Day-8 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day008.rb)
+**Link to work:** [Day-8 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day008.rb)
 
 [Back Top](#days)
 
@@ -167,7 +167,7 @@ The output of a comparision operator is going to be a booloian true or false.
 |    /=    | Divide then assign                     |
 |    %=    | Modulus then assign                    |
 
-**Link to work:** [Day-9 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day009.rb)
+**Link to work:** [Day-9 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day009.rb)
 
 [Back Top](#days)
 
@@ -178,7 +178,7 @@ The output of a comparision operator is going to be a booloian true or false.
 
 **Thoughts:** Conditional statements let us use conditional operators and then do something based on the condition. the syntax of the if statement is very simple. At first I thought it wont work haha XD, But it actually worked and I realy like it.
 
-**Link to work:** [Day-10 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day010.rb)
+**Link to work:** [Day-10 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day010.rb)
 
 [Back Top](#days)
 
@@ -189,7 +189,7 @@ The output of a comparision operator is going to be a booloian true or false.
 
 **Thoughts:** This type of conditional statement is very useful to make a multiple If statements in one block of code. I wonder why Ruby made the "else if" into a "elsif" ! like I would rather type the "elseif" rather than the "elsif", It is just one letter diffreance.
 
-**Link to work:** [Day-11 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day011.rb)
+**Link to work:** [Day-11 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day011.rb)
 
 [Back Top](#days)
 
@@ -200,7 +200,7 @@ The output of a comparision operator is going to be a booloian true or false.
 
 **Thoughts:** I see you can create an array just like variables, and enclose them in a square brackets. By creating arrays, you can then call them as a list. it is better than using `puts` several times to print a list of names. Arrays can hold numbers, strings or another arrays.
 
-**Link to work:** [Day-12 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day012.rb)
+**Link to work:** [Day-12 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day012.rb)
 
 [Back Top](#days)
 
@@ -212,7 +212,7 @@ The output of a comparision operator is going to be a booloian true or false.
 **Thoughts:** You can access a specific data in the array by calling it according to its index number. `array_name[index_Number]`.
 You can use methods on the array as the `.length` method to get the lenth of the array according to how maney items inside it. You can utilize the method to get other things if you combine it with a bit of math, like getting the last item in the array.
 
-**Link to work:** [Day-13 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day013.rb)
+**Link to work:** [Day-13 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day013.rb)
 
 [Back Top](#days)
 
@@ -223,7 +223,7 @@ You can use methods on the array as the `.length` method to get the lenth of the
 
 **Thoughts:** Multidimensional Arrays means an array inside of an array. Basically a nested arrays. You can retreve data from the demensions of the array by utilizing the index positions.
 
-**Link to work:** [Day-14 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day014.rb)
+**Link to work:** [Day-14 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day014.rb)
 
 [Back Top](#days)
 
@@ -240,7 +240,7 @@ while CONDITION
 end
 ```
 
-**Link to work:** [Day-15 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day015.rb)
+**Link to work:** [Day-15 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day015.rb)
 
 [Back Top](#days)
 
@@ -255,7 +255,7 @@ end
 end 
 ```
 
-**Link to work:** [Day-16 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day016.rb)
+**Link to work:** [Day-16 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day016.rb)
 
 [Back Top](#days)
 
@@ -267,7 +267,7 @@ end
 **Thoughts:** Hashes are a little bit like an array, but the diffrence is that hashes take the approach of "key, value" pair. as an object. Another thing is that the index will be the key, and its value will be... it's value, hahaha.
 Hashes are useful for more complex data. As in a database, you can pull multiple things from there.
 
-**Link to work:** [Day-17 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day017.rb)
+**Link to work:** [Day-17 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day017.rb)
 
 [Back Top](#days)
 
@@ -278,7 +278,7 @@ Hashes are useful for more complex data. As in a database, you can pull multiple
 
 **Thoughts:** I thought methods are just methods, but in Ruby, methods are actually a mechanisim that represent a function. Because functions need to be defined to be used later. a function is like a variable but it does a lot more.
 
-**Link to work:** [Day-18 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day018.rb)
+**Link to work:** [Day-18 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day018.rb)
 
 [Back Top](#days)
 
@@ -289,7 +289,7 @@ Hashes are useful for more complex data. As in a database, you can pull multiple
 
 **Thoughts:** Methods can have more than one parameter. So it is a function =-=\ Fine, I will call it a method just because *Ruby*. :) so, methods can also return values and be stored in a variables to be used later in the program.
 
-**Link to work:** [Day-19 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day019.rb)
+**Link to work:** [Day-19 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day019.rb)
 
 [Back Top](#days)
 
@@ -303,7 +303,7 @@ Today I practiced class declarations. Classes use a capitalized name. I think I 
 
 I think I am going to spend some days understanding the Ruby class. It is a bit challenging so, breaking the topic down into smaller parts to fully understand it.
 
-**Link to work:** [Day-20 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day020.rb)
+**Link to work:** [Day-20 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day020.rb)
 
 [Back Top](#days)
 
@@ -318,7 +318,7 @@ The steps I learned to create class in ruby so far:
 1. Class declaration
 2. Class initilization
 
-**Link to work:** [Day-21 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day021.rb)
+**Link to work:** [Day-21 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day021.rb)
 
 [Back Top](#days)
 
@@ -334,7 +334,7 @@ The steps I learned to create class in ruby so far:
 2. Class initilization
 3. Class variables and jobs!
 
-**Link to work:** [Day-22 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day022.rb)
+**Link to work:** [Day-22 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day022.rb)
 
 [Back Top](#days)
 
@@ -351,7 +351,7 @@ The steps I learned to create class in ruby so far:
 3. Class variables and jobs!
 4. Inspect some information about the class.. 
 
-**Link to work:** [Day-23 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day023.rb)
+**Link to work:** [Day-23 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day023.rb)
 
 [Back Top](#days)
 
@@ -369,7 +369,7 @@ The steps I learned to create class in ruby so far:
 4. Inspect some information about the class..
 5. Use Getter with class
 
-**Link to work:** [Day-24 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day024.rb)
+**Link to work:** [Day-24 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day024.rb)
 
 [Back Top](#days)
 
@@ -386,7 +386,7 @@ My knowledge of Ruby class now is:
   2. Getter method
   3. Setter method
 
-**Link to work:** [Day-25 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day025.rb)
+**Link to work:** [Day-25 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day025.rb)
 
 [Back Top](#days)
 
@@ -397,7 +397,7 @@ My knowledge of Ruby class now is:
 
 **Thoughts:** Yes Today I can say I have mastered the basics of making a class in Ruby.
 
-**Link to work:** [Day-26 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day026.rb)
+**Link to work:** [Day-26 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day026.rb)
 
 [Back Top](#days)
 
@@ -408,7 +408,7 @@ My knowledge of Ruby class now is:
 
 **Thoughts:** Today I simulate how to calculate the perimeter of a square using a class in ruby. I learned how to output all the methods that has been declared in the class in one line, wchich is better than outputting them one by one. I have to say writting the getters and setters are a long way to go. Tomorrow I want to find a way to make the code more clear.
 
-**Link to work:** [Day-27 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day027.rb)
+**Link to work:** [Day-27 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day027.rb)
 
 [Back Top](#days)
 
@@ -426,7 +426,7 @@ In the adventure of learning classes in Ruby, make sure you know:
 
 and the accessor is the best <3
 
-**Link to work:** [Day-28 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day028.rb)
+**Link to work:** [Day-28 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day028.rb)
 
 [Back Top](#days)
 
@@ -437,7 +437,7 @@ and the accessor is the best <3
 
 **Thoughts:** Trying to do more things using the square class of yesterday. Drawing it sounded cool.
 
-**Link to work:** [Day-29 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day029.rb)
+**Link to work:** [Day-29 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day029.rb)
 
 [Back Top](#days)
 
@@ -449,7 +449,7 @@ and the accessor is the best <3
 **Thoughts:** Using `puts` and `print` is good, but you know me, I like to get into the rabbit hole and here we go, I am learning another way.. and it is by using the `p`. The `p` method will offer an accurate way of the type of the data. the `p` method will also interpret the input like it is a code. for example, a new line will be written as `\n` instead of just outputting a newline. A more discriptive way to view things.
 `puts` always print out a newline even if there is nothing in it. So I make use of it to output the code in a visible manner. Also `puts` can have multiple lines string and it will take the new lines as, new lines!.
 
-**Link to work:** [Day-30 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day030.rb)
+**Link to work:** [Day-30 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day030.rb)
 
 [Back Top](#days)
 
@@ -478,7 +478,7 @@ Variable Syntax:
 5. Variables names are case-sensitive
 6. DOn't use any Ruby's reserved keywords
 
-**Link to work:** [Day-31 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day031.rb)
+**Link to work:** [Day-31 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day031.rb)
 
 [Back Top](#days)
 
@@ -489,7 +489,7 @@ Variable Syntax:
 
 **Thoughts:** Parallel variable is very useful when you are dealing with multiple variables. You can write all the variables in one line, comma seperated. It saves time and makes the code more clean.
 
-**Link to work:** [Day-32 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day032.rb)
+**Link to work:** [Day-32 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day032.rb)
 
 [Back Top](#days)
 
@@ -500,7 +500,7 @@ Variable Syntax:
 
 **Thoughts:** Today I Learned that you can also assign variables in a parallel way. So basically, parallel assginment of variable is really good for dealing with many variables.
 
-**Link to work:** [Day-33 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day033.rb)
+**Link to work:** [Day-33 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day033.rb)
 
 [Back Top](#days)
 
@@ -517,7 +517,7 @@ Rules:
 * name the constant in a capitalized way
 * It is better if you write it all in caps (uppercase)
 
-**Link to work:** [Day-34 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day034.rb)
+**Link to work:** [Day-34 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day034.rb)
 
 [Back Top](#days)
 
@@ -528,7 +528,7 @@ Rules:
 
 **Thoughts:** `nil` is an object in ruby which represent nothingness. Diving a bit more into the subject, I learned that I can use `nil` to represent that the object has nothing. It represent the absence of a value `puts` return nothing, and nothing is represented as a blank space. A bit confusing but I got the hold of it for now. 
 
-**Link to work:** [Day-35 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day035.rb)
+**Link to work:** [Day-35 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day035.rb)
 
 [Back Top](#days)
 
@@ -539,7 +539,7 @@ Rules:
 
 **Thoughts:** Adding a string with a number will output an error. Best practice is to convert the data when dealing with it. String interpolation make things easier.
 
-**Link to work:** [Day-36 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day036.rb)
+**Link to work:** [Day-36 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day036.rb)
 
 [Back Top](#days)
 
@@ -556,7 +556,7 @@ Rules:
 * `to_i` will convert to an integer
 * `to_s` will convert to a string
 
-**Link to work:** [Day-37 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day037.rb)
+**Link to work:** [Day-37 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day037.rb)
 
 [Back Top](#days)
 
@@ -575,7 +575,7 @@ A class is just the template of each object that is created from it. It is not t
 
 Every object in Ruby has an object that they share, and it is the "class" method. You can use the `.class` method to get what blueprint that object is made of.
 
-**Link to work:** [Day-38 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day038.rb)
+**Link to work:** [Day-38 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day038.rb)
 
 [Back Top](#days)
 
@@ -586,7 +586,7 @@ Every object in Ruby has an object that they share, and it is the "class" method
 
 **Thoughts:** the methods `.to_i`. `.to_f` and `.to_s` are available even if the object is that data type. And the result will be the exact same thing. Float conversion is a bit deffrent, because when you convert float to string for example, the method will ignore the numbers after the decimal point and bring back the whole number.
 
-**Link to work:** [Day-39 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day039.rb)
+**Link to work:** [Day-39 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day039.rb)
 
 [Back Top](#days)
 
@@ -599,7 +599,7 @@ Every object in Ruby has an object that they share, and it is the "class" method
 
 You can use the `.odd?` and `.even?` object method to get a boolean value. It is useful in combination with numbers. Just remember, these odd and even method is not available on the float numbers.
 
-**Link to work:** [Day-40 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day040.rb)
+**Link to work:** [Day-40 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day040.rb)
 
 [Back Top](#days)
 
@@ -610,7 +610,7 @@ You can use the `.odd?` and `.even?` object method to get a boolean value. It is
 
 **Thoughts:** Ruby allow you to write the method without the perentheses "()" but in other languages, you have to include them. Artiemitic operation on ruby are actually methods. So basic one plus one is one that is used with the method plus with one.. . However, It is best practice to use the perentheses with methods.
 
-**Link to work:** [Day-41 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day041.rb)
+**Link to work:** [Day-41 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day041.rb)
 
 [Back Top](#days)
 
@@ -623,7 +623,7 @@ You can use the `.odd?` and `.even?` object method to get a boolean value. It is
 
 There are alot of methods, on the [ruby docs](https://ruby-doc.com/) to check out. an intersting one is the `.between`
 
-**Link to work:** [Day-42 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day042.rb)
+**Link to work:** [Day-42 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day042.rb)
 
 [Back Top](#days)
 
@@ -638,7 +638,7 @@ Here is an intersting method, `.round`. this method can take a parameter. and th
 
 `.abs` absolute value, as in math this method will always return a positive number.
 
-**Link to work:** [Day-43 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day043.rb)
+**Link to work:** [Day-43 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day043.rb)
 
 [Back Top](#days)
 
@@ -653,7 +653,7 @@ You can make a Ruby block after calling a method on an object by using the "{}" 
 
 Blocks can include something called block variable. and this block variable has a local scope only inside the block of code. the syntax is two virtical pipes "||". What the function of the variable or variables that are inside will depend on what is the method you are calling the block of code on.
 
-**Link to work:** [Day-44 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day044.rb)
+**Link to work:** [Day-44 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day044.rb)
 
 [Back Top](#days)
 
@@ -668,7 +668,7 @@ You can also include block variable using the multiline block of code.
 
 Remember, the block variable will not exist on the global scope, it only exist on the local scope.
 
-**Link to work:** [Day-45 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day045.rb)
+**Link to work:** [Day-45 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day045.rb)
 
 [Back Top](#days)
 
@@ -679,7 +679,7 @@ Remember, the block variable will not exist on the global scope, it only exist o
 
 **Thoughts:** The `.downto()` method will count down from a number to another number. The `.upto()` method will count up from a number to another number. The two methods are range methods. and they will be useful in combination with arrays.
 
-**Link to work:** [Day-46 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day046.rb)
+**Link to work:** [Day-46 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day046.rb)
 
 [Back Top](#days)
 
@@ -690,7 +690,7 @@ Remember, the block variable will not exist on the global scope, it only exist o
 
 **Thoughts:** The `.step()` method takes two arguments. the first argument is the number you want to go to, and the second number is going to be the steps into the number you want to go to. So this method allow you to specify the steps that you want to increment.
 
-**Link to work:** [Day-47 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day047.rb)
+**Link to work:** [Day-47 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day047.rb)
 
 [Back Top](#days)
 
@@ -703,7 +703,7 @@ Remember, the block variable will not exist on the global scope, it only exist o
 
 You can create strings in multi line by using the `<<identifier_name  ... strings in multiline ... identifier_name`
 
-**Link to work:** [Day-48 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day048.rb)
+**Link to work:** [Day-48 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day048.rb)
 
 [Back Top](#days)
 
@@ -716,7 +716,7 @@ You can create strings in multi line by using the `<<identifier_name  ... string
 
 You cant use single qoutes and a new line escape character. they dont work in Ruby. Single qoutes  also litterally interpret what is between them ignoring the escape and template literal commands.
 
-**Link to work:** [Day-49 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day049.rb)
+**Link to work:** [Day-49 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day049.rb)
 
 [Back Top](#days)
 
@@ -735,7 +735,7 @@ In Ruby there is alot of ways to concat strings together.
 
 The `.concat()` method will permenentaly modify the variable, this mean it will overwrite the variable. The `.prepend()` method will do the reverse of concat, it will also overwrite the variable.
 
-**Link to work:** [Day-50 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day050.rb)
+**Link to work:** [Day-50 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day050.rb)
 
 [Back Top](#days)
 
@@ -748,7 +748,7 @@ The `.concat()` method will permenentaly modify the variable, this mean it will 
 
 You can also mosh up methods together to create an intersting output, for example. getting the length of a string by using the `.length` method and then using the `.even?` method to get an output as a boolean object.
 
-**Link to work:** [Day-51 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day051.rb)
+**Link to work:** [Day-51 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day051.rb)
 
 [Back Top](#days)
 
@@ -761,7 +761,7 @@ You can also mosh up methods together to create an intersting output, for exampl
 
 You can use the `.slice()` method, which is identical to the square bracket to call a character from a string.
 
-**Link to work:** [Day-52 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day052.rb)
+**Link to work:** [Day-52 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day052.rb)
 
 [Back Top](#days)
 
@@ -772,7 +772,7 @@ You can use the `.slice()` method, which is identical to the square bracket to c
 
 **Thoughts:** By using the bracket notation you can specify the index from which you want to start from and then specify how maney characters you want to take. This is how you get multiple character from a string. You can also use the `.slice()` method giving it two parameter, the first is for the index number where you want to start, and the second is to how maney characters. It will function similar as the bracket notation.
 
-**Link to work:** [Day-53 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day053.rb)
+**Link to work:** [Day-53 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day053.rb)
 
 [Back Top](#days)
 
@@ -785,7 +785,7 @@ You can use the `.slice()` method, which is identical to the square bracket to c
 
 Remember: the two dots method will include the range to index number with it, the three dots method will not include the range to index number with it.
 
-**Link to work:** [Day-54 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day054.rb)
+**Link to work:** [Day-54 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day054.rb)
 
 [Back Top](#days)
 
@@ -796,7 +796,7 @@ Remember: the two dots method will include the range to index number with it, th
 
 **Thoughts:** Strings in Ruby is mutable. This mean you dont have to assign a variable to some word or a character to change it. and by changing it, I mean overwriting the string all over again. And to overwrite specific characters in a string, you just have to reassign the index numbers of the string with whatever you want.
 
-**Link to work:** [Day-55 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day055.rb)
+**Link to work:** [Day-55 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day055.rb)
 
 [Back Top](#days)
 
@@ -807,7 +807,7 @@ Remember: the two dots method will include the range to index number with it, th
 
 **Thoughts:** `.capitalize()` method will capitalizr the first character of the string. The `.upcase()` method will make all the characters in the string in capital letters. The `.downcase()` will convert all the characters in a string into a lowercase letters. `.swapcase` is a method that will swap the string case from lowercase to uppercase and swap the uppercase to lowercase. The `.reverse` method will reverse the characters in a string and will return a new string object.
 
-**Link to work:** [Day-56 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day056.rb)
+**Link to work:** [Day-56 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day056.rb)
 
 [Back Top](#days)
 
@@ -822,7 +822,7 @@ If you want to modify it, You can assign the string again. This way is ok, but a
 
 The bang " ! " method is not a sign, it is actually a specific method, as in `reverse!` and it only work on few methods. So, it is not an extra operational sign you attach it to any method.
 
-**Link to work:** [Day-57 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day057.rb)
+**Link to work:** [Day-57 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day057.rb)
 
 [Back Top](#days)
 
@@ -835,7 +835,7 @@ The bang " ! " method is not a sign, it is actually a specific method, as in `re
 
 `.empty?` this method will only return yes if the string is empty and nothing inside it. If it has anything inside it, it will return false. it will simply see if the string length is equal to zero. `.nil?` method does exactly the same thing. You use this method when you want to check about an object that represent nothingness.
 
-**Link to work:** [Day-58 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day058.rb)
+**Link to work:** [Day-58 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day058.rb)
 
 [Back Top](#days)
 
@@ -857,7 +857,7 @@ The bang " ! " method is not a sign, it is actually a specific method, as in `re
 
 Variables that are declared inside the method will only have scope inside the method, and will not affect variables on the global scope.
 
-**Link to work:** [Day-59 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day059.rb)
+**Link to work:** [Day-59 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day059.rb)
 
 [Back Top](#days)
 
@@ -870,7 +870,7 @@ Variables that are declared inside the method will only have scope inside the me
 
 Every methid will return a final value. The returned value is the output. There are two ways to return a value. explicit and implicit. Use explicit return if you want to return a value from a method early, incase you dont need to execute the whole method to the end.
 
-**Link to work:** [Day-60 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day060.rb)
+**Link to work:** [Day-60 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day060.rb)
 
 [Back Top](#days)
 
@@ -888,7 +888,7 @@ Every methid will return a final value. The returned value is the output. There 
 * Programming is about defining the paths that a program can take
 * conditional is a statement that controls if a piece of code executes
 
-**Link to work:** [Day-61 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day061.rb)
+**Link to work:** [Day-61 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day061.rb)
 
 [Back Top](#days)
 
@@ -907,7 +907,7 @@ Refactoring the code is making the code more clear. for example, you dont have t
 
 You can use parentheses to group conditionals together which will make the code more clear to read. The other function is to actually execute the code within the parentheses before the code outside it.
 
-**Link to work:** [Day-62 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day062.rb)
+**Link to work:** [Day-62 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day062.rb)
 
 [Back Top](#days)
 
@@ -926,7 +926,7 @@ Ternary operator is used when you want to make a simple if statement. As the nam
 
 Sometimes you may want to specify a default parameter for a method where it expect a parameter. It is optional but prefarable. I perfare to add default parameters when I am calling a method inside another method.
 
-**Link to work:** [Day-63 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day063.rb)
+**Link to work:** [Day-63 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day063.rb)
 
 [Back Top](#days)
 
@@ -941,7 +941,7 @@ While making conditions, you may want to negate something. In Ruby, the negation
 
 The `unless` keyword, is used inplace of the `if` keyword in a conditional statement if you are going to put a condition that is negated.
 
-**Link to work:** [Day-64 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day064.rb)
+**Link to work:** [Day-64 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day064.rb)
 
 [Back Top](#days)
 
@@ -958,7 +958,7 @@ You can reduce the number of lines in an if statement by using the inline modifi
 
 The conditional assignemtn operator `||=` will only assign the value to a variable if the current value of the variable is nil. It is a great way to optimise your program.
 
-**Link to work:** [Day-65 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day065.rb)
+**Link to work:** [Day-65 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day065.rb)
 
 [Back Top](#days)
 
@@ -975,7 +975,7 @@ Many other methods work on the range object in Ruby, for example the `.size()` m
 
 You can generate random number in ruby by using the `.rand()` method. You can also round a number by using the `.round()`method. In combination with Ruby ranges, you can generate random numbers in a range.
 
-**Link to work:** [Day-66 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day065.rb)
+**Link to work:** [Day-66 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day065.rb)
 
 [Back Top](#days)
 
@@ -999,7 +999,7 @@ To make use of an array, there are a lot of methods that you can apply on. For e
 
 At the core, Ruby uses a method to call on data from an array. And that method is represented by this symbol`.[]()`. The parentheses is optional but it hold the index position.
 
-**Link to work:** [Day-67 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day067.rb)
+**Link to work:** [Day-67 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day067.rb)
 
 [Back Top](#days)
 
@@ -1014,7 +1014,7 @@ You can also use ranges to extract data if you perfare doing that. Another way i
 
 Changing the data of the array is also one of the usful things you can do with an array. You can do this by reasign the index to another value. Another functionality is adding new data to an array. you can do that by asigning a new index and a value to the array. By combining functionalities, you can overwrite data and change them. You can also do some testing on array, for example by using the methods `.nil?` or `.empty?`.
 
-**Link to work:** [Day-68 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day068.rb)
+**Link to work:** [Day-68 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day068.rb)
 
 [Back Top](#days)
 
@@ -1033,7 +1033,7 @@ You can compare an array with another one by using comparision operators. A new 
 
 You can convert range to an array by using the `.to_a` method. Remember to not confuse this method with the `.to_a?()` method. The second method is a method that will check the type of the object acording to its class, a function similar to the `.class` method.
 
-**Link to work:** [Day-69 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day069.rb)
+**Link to work:** [Day-69 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day069.rb)
 
 [Back Top](#days)
 
@@ -1048,7 +1048,7 @@ Everything within the Ruby block will be thrown out of memory as soon as the blo
 
 Solving the same problem in a diffrent way help in building more understanding in programming.
 
-**Link to work:** [Day-70 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day070.rb)
+**Link to work:** [Day-70 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day070.rb)
 
 [Back Top](#days)
 
@@ -1063,7 +1063,7 @@ The "Each Loop" can be very useful in times when you want to track index numbers
 
 When you want to create a new array where that new array is a result of appling some kind of operation to every single kind of element in another array. You can use `.map()` and `.collect` both methods has the same functionality. What those two methods will do is that they will return back a new array with the chosen operation. Just remember to not use `puts` because it will output `nil`. 
 
-**Link to work:** [Day-71 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day071.rb)
+**Link to work:** [Day-71 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day071.rb)
 
 [Back Top](#days)
 
@@ -1078,7 +1078,7 @@ A complimentary keyword to the `break` is the `next` keyword. What `next` does i
 
 A lot of methods can be used with arrays like the `.reverse` method which will reverse the array. You can use the `.sort()` methid to sort the array, from smallest to biggest or you can chain it with reverse. Remember uppercase letters come before lowercase letters. You can use the `.concat` method on an array to concat another array to the end of it.
 
-**Link to work:** [Day-72 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day072.rb)
+**Link to work:** [Day-72 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day072.rb)
 
 [Back Top](#days)
 
@@ -1093,7 +1093,7 @@ If you want to provide an argument of an array element and want ruby to give bac
 
 You can unpack arrays by assigning them into a variable, or you can use the `.partition()` method to call, select and reject in the same time in a single step, then it will give you back a multideminsional array, where the first represent the elements selected and the second represent the element that rejected.
 
-**Link to work:** [Day-73 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day073.rb)
+**Link to work:** [Day-73 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day073.rb)
 
 [Back Top](#days)
 
@@ -1113,7 +1113,7 @@ The `.count` method return the number of occurences that you provide of a sub-st
 
 You can add character from a specified index position using the `.insert()` method. You can remove any character that occure more than once in a row in a string by using the `.squeeze()` method. If you want to clear the string you can use the `clear()` method, in other hand the `delete()` method let you specify what characters you want to delete from a string.
 
-**Link to work:** [Day-74 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day074.rb)
+**Link to work:** [Day-74 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day074.rb)
 
 [Back Top](#days)
 
@@ -1128,7 +1128,7 @@ In the case of pointers to the same object, if a variable is assigned to another
 
 The `object_id` method will get the location of the memory which the object is stored in. It is important to keep in mind the id location because any modification to that id location will change any variable asigned to that id. Usually it will be prefarable to make another original copy and not use the same Id. You can do that by using the `dup()` method. This method will duplicate the array but it will not assign the origional and copy to the same id, it will be a duplicate with a seprate id and location in the memory. Using the `dup()` method will create a seprate copy.
 
-**Link to work:** [Day-75 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day075.rb)
+**Link to work:** [Day-75 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day075.rb)
 
 [Back Top](#days)
 
@@ -1157,7 +1157,7 @@ The `object_id` method will get the location of the memory which the object is s
 
 `.multiply()` method will repeat or multiply an array.
 
-**Link to work:** [Day-76 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day076.rb)
+**Link to work:** [Day-76 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day076.rb)
 
 [Back Top](#days)
 
@@ -1180,7 +1180,7 @@ You can add a new key to the hash by using the `.store()` method, remember it wi
 
 A hash is empty only when its length is zero. you can check the length of a hash by using the `.length()` method or check if the length is zer by using the `.empty?()` method.
 
-**Link to work:** [Day-77 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day077.rb)
+**Link to work:** [Day-77 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day077.rb)
 
 [Back Top](#days)
 
@@ -1197,7 +1197,7 @@ To iterate on every element in the hash you can use the same `.each()` or `.each
 
 I tried to call a key that does not exist in a hash, and the value returned is "nil". A better way to handel such situation is to give a default value. The syntax of building a default hash is a bit diffrent than a normal hash. Because you need to call the `Hash.new` class and method on the hash. another way to set the default is to use the `.default()` method on the hash.
 
-**Link to work:** [Day-78 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day078.rb)
+**Link to work:** [Day-78 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day078.rb)
 
 [Back Top](#days)
 
@@ -1218,7 +1218,7 @@ The concept is similar with the `.select` and `.reject` methods in array with ha
 
 An intersting method that is called on a hash is the `.merge()` method. It is a method that accepts a single argument of another hash! WHat is does, is merge both hash into one. This method will not overwrite the origional by default.
 
-**Link to work:** [Day-79 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day079.rb)
+**Link to work:** [Day-79 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day079.rb)
 
 [Back Top](#days)
 
@@ -1235,7 +1235,7 @@ The `yield` keyword transfares control from the method to the block that is atta
 
 Remember to not return anything if you are using a block, because a block is an implicit return itself.
 
-**Link to work:** [Day-80 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day080.rb)
+**Link to work:** [Day-80 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day080.rb)
 
 [Back Top](#days)
 
@@ -1250,7 +1250,7 @@ When you call the `yield` keyword without an assosiated block, the program will 
 
 Yielding with arguments is cool, just dont define more arguments with no parameters, because you will get "nil" haha. But yah, multiple parameters and argument is useful capability in a block. You can make a very complex block and reuse it.
 
-**Link to work:** [Day-81 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day081.rb)
+**Link to work:** [Day-81 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day081.rb)
 
 [Back Top](#days)
 
@@ -1265,7 +1265,7 @@ Since a proc is an object, you can use methods on it. You can also pass a ruby m
 
 Lambda in ruby is just anonymous Method. Lambda is identical to methods, they are object and come from a class of proc. procs dont care about the numbers of argument it gets but lambda do. It will care if it recieve the wrong number of methods. You can use Proc as a backup plan, but it is usually a Lambda is what is more specific and going to be writen in the final program. Another diffrence is how they return values. Whenever you call a method inside a method, you don't want to break the program, you want to return a value to work with.
 
-**Link to work:** [Day-82 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day082.rb)
+**Link to work:** [Day-82 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day082.rb)
 
 [Back Top](#days)
 
@@ -1286,7 +1286,7 @@ If you want a custom formatted time that is converted into a string, You can use
 
 You can use the method `.strftime` method abbraviated, string from time. Because it will create a string from time and allow to customize how it look from default. You can find more about this in the [API DOCK](https://apidock.com/ruby/DateTime/strftime).
 
-**Link to work:** [Day-83 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day083.rb)
+**Link to work:** [Day-83 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day083.rb)
 
 [Back Top](#days)
 
@@ -1307,7 +1307,7 @@ Command Line argument come in to the ruby as special constant array called "ARGV
 
 In the situation where you want to load a code file in the middle of another file, you can use the `.load` method specifying the file location and name. Just make sure you include the extention of the file.
 
-**Link to work:** [Day-84 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day084.rb)
+**Link to work:** [Day-84 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day084.rb)
 
 [Back Top](#days)
 
@@ -1326,7 +1326,7 @@ Remember, the wild car operator `.` period in Regepe represent any element at al
 
 In the `scan` method, you can scan for digits within the string by giving the argument of `\d` inside the Regexp. You can also get the other bunch of occurences by adding the `+` sign after it.
 
-**Link to work:** [Day-85 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day085.rb)
+**Link to work:** [Day-85 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day085.rb)
 
 [Back Top](#days)
 
@@ -1345,7 +1345,7 @@ You can chain RegEx to get the desired effect, or you can also chain RegEx that 
 
 This [Rubular](https://rubular.com/) site is good to practice RegExp.
 
-**Link to work:** [Day-86 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day086.rb)
+**Link to work:** [Day-86 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day086.rb)
 
 [Back Top](#days)
 
@@ -1362,7 +1362,7 @@ A superclass is the class that a current class inherits from, the `.ancestors` m
 
 The `.methods` Method! is available on every single object in Ruby, and this method will return an array of all the objects available in the method.
 
-**Link to work:** [Day-87 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day087.rb)
+**Link to work:** [Day-87 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day087.rb)
 
 [Back Top](#days)
 
@@ -1377,7 +1377,7 @@ A class is called an abstract type becasue it hides the complexity of interactin
 
 Objects recieve their structure or design from classes. The class method returns the class the object was constructed from, this mean that the object's class is itself another object.
 
-**Link to work:** [Day-88 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day088.rb)
+**Link to work:** [Day-88 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day088.rb)
 
 [Back Top](#days)
 
@@ -1396,7 +1396,7 @@ The initialize method:
 - If the initialize method is not defined in the class, each object is initialized with no state
 - The assignment of values to instance variables does not mean the values have to stay constant. The object's state can be altered later.
 
-**Link to work:** [Day-89 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day089.rb)
+**Link to work:** [Day-89 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day089.rb)
 
 [Back Top](#days)
 
@@ -1413,7 +1413,7 @@ Getter method is defined when you only want to get the object, a Setter method i
 * Instance methods interact with the object. They also belong to the object
 * Encapsulation is an object orianted programming concept that restricts direct access to an object
 
-**Link to work:** [Day-90 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day090.rb)
+**Link to work:** [Day-90 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day090.rb)
 
 [Back Top](#days)
 
@@ -1428,7 +1428,7 @@ Getter method is defined when you only want to get the object, a Setter method i
 * An object is an instance of the class and is created from the class
 * Instantiation is the process of creating an object from a class
 
-**Link to work:** [Day-91 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day091.rb)
+**Link to work:** [Day-91 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day091.rb)
 
 [Back Top](#days)
 
@@ -1439,7 +1439,7 @@ Getter method is defined when you only want to get the object, a Setter method i
 **Thoughts:** A module is a toolbox or container of methods and constants. These methods and constants can be used as needed. Module names are written in UpperCamelCase and constants in modules should be written in ALL CAPS. You can access module methods with the dot operator (.) and
 you can access module constants with the `::` symbol. The `::` symbol is called the scope resolution operator
 
-**Link to work:** [Day-92 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day092.rb)
+**Link to work:** [Day-92 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day092.rb)
 
 [Back Top](#days)
 
@@ -1450,7 +1450,7 @@ you can access module constants with the `::` symbol. The `::` symbol is called 
 
 **Thoughts:** Modules create namespaces for methods with the same name and they cannot be used to create instances. Modules are containers that allow you to group together methods that are related to each others. The methods are more of a refrence point, not designed to create object from. Generally you will store each module in a diffrent ruby file.
 
-**Link to work:** [Day-93 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day093.rb)
+**Link to work:** [Day-93 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day093.rb)
 
 [Back Top](#days)
 
@@ -1463,7 +1463,7 @@ you can access module constants with the `::` symbol. The `::` symbol is called 
 
 Ruby has built-in Modules and one of the intersting ones is the Math Module. Some of these modules need to be imported and some of them are imported by default. The Math Module is automaticaly imported. This module include alot of the mathimatics operations, which you can search the documentation because they are a lot.
 
-**Link to work:** [Day-94 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day094.rb)
+**Link to work:** [Day-94 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day094.rb)
 
 [Back Top](#days)
 
@@ -1476,7 +1476,7 @@ Ruby has built-in Modules and one of the intersting ones is the Math Module. Som
 
 Modules can be mixed into classes to add behavior. Mixin is used to not duplicate methods that do the same thing. The process is simple, you will define that function in a module then you will mix it in the classes.
 
-**Link to work:** [Day-95 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day095.rb)
+**Link to work:** [Day-95 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day095.rb)
 
 [Back Top](#days)
 
@@ -1490,7 +1490,7 @@ Remember, the best practice is to store each module in a seprate file and then i
 
 The method lookup path, which mean the path that Ruby will follow when you call a specific method. The order that modules are included in a class matters. Ruby looks at the last module included in the class first. If multiple modules mix in methods with the same name, the last module included in the class definition will be used first. Ruby will throw an error if the method is not found in the class, the modules or any superclasses.
 
-**Link to work:** [Day-96 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day096.rb)
+**Link to work:** [Day-96 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day096.rb)
 
 [Back Top](#days)
 
@@ -1511,7 +1511,7 @@ The purpous of the Extend design is. If you have some kind of functionality that
 * Prepend does the exact same thing as Include but it makes the module methods have greater precesce than the mehtods on a class
 * Extend takes those module methods and it adds them to the class method rather to the instence level
 
-**Link to work:** [Day-97 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day097.rb)
+**Link to work:** [Day-97 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day097.rb)
 
 [Back Top](#days)
 
@@ -1524,7 +1524,7 @@ The purpous of the Extend design is. If you have some kind of functionality that
 
 Enumerble is another Ruby built in module that you can mixin your custom classes. This module deal with enumerations, as the name suggest.. . Enumeration is another word for iteration, like moving around something in sequence step by step. Enumerable is usualy mixed in classes of Arrays and Hashes in Ruby because both of these objects is fit to iterate over.
 
-**Link to work:** [Day-98 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day098.rb)
+**Link to work:** [Day-98 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day098.rb)
 
 [Back Top](#days)
 
@@ -1541,7 +1541,7 @@ public methods allow interaction with an object and can be called by any other o
 
 Protected methods can be invoked only by objects of the same class and can be called within the same family of objects. Protected methods are used to compare objects of the same class. You can use the protected methods by adding the `protected` keyword before the method in the class.
 
-**Link to work:** [Day-99 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day099.rb)
+**Link to work:** [Day-99 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day099.rb)
 
 [Back Top](#days)
 
@@ -1554,7 +1554,7 @@ Protected methods can be invoked only by objects of the same class and can be ca
 
 Aside from changing the class, you can add new functionalities that will work on your own custom program. for example changing the Number class to act in a certin way or the Array in another way.
 
-**Link to work:** [Day-100 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/Ruby/day100.rb)
+**Link to work:** [Day-100 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Ruby/day100.rb)
 
 [Back Top](#days)
 
