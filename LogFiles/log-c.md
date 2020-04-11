@@ -90,7 +90,7 @@ After the program has been translated into Object code, it is linked. The purpos
  
 Executing is about running the program.
 
-**Link to work:** [Day-1 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day001.c)
+**Link to work:** [Day-1 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day001.c)
 
 [Back Top](#days)
 
@@ -118,7 +118,7 @@ Some of the escape characters are:
 * `\'` will escape a single quote
 * `"` will escape a double quotation
  
-**Link to work:** [Day-2 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day002.c)
+**Link to work:** [Day-2 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day002.c)
  
 [Back Top](#days)
 
@@ -153,7 +153,7 @@ My conclusion is that the program structure will be:
 4. Functionalities
     * Where the main function and user-defined functions is.
  
-**Link to work:** [Day-3 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day003.c)
+**Link to work:** [Day-3 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day003.c)
  
 [Back Top](#days)
  
@@ -191,7 +191,7 @@ Header files can be :
   * Type definition statements
   * Function prototypes
  
-**Link to work:** [Day-4 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day004.c)
+**Link to work:** [Day-4 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day004.c)
  
 [Back Top](#days)
 
@@ -224,7 +224,7 @@ In order to use a variable in a program, You have to declare them first. It is t
  
 Syntax:  `type-specifier variable-name;`
 
-**Link to work:** [Day-5 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day005.c)
+**Link to work:** [Day-5 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day005.c)
 
 [Back Top](#days)
 
@@ -241,7 +241,7 @@ Initialize syntax: `variable-name = variable-value;`
  
 Declare and initialize syntax: `type-specifier variable-name = variable-value;`
 
-**Link to work:** [Day-6 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day006.c)
+**Link to work:** [Day-6 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day006.c)
 
 [Back Top](#days)
 
@@ -282,7 +282,7 @@ Capable of containing at least the [−32,767, +32,767] range.
 
 Capable of containing at least the [0, 65,535] range.
 
-**Link to work:** [Day-7 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day007.c)
+**Link to work:** [Day-7 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day007.c)
 
 [Back Top](#days)
 
@@ -310,7 +310,7 @@ Getting the format specifier, Syntax: `"%specfierKey"`
  
 Getting the address of the variable, Syntax: `&variableName`
 
-**Link to work:** [Day-8 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day008.c)
+**Link to work:** [Day-8 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day008.c)
 
 [Back Top](#days)
 
@@ -341,7 +341,7 @@ Capable of containing at least the [−32,767, +32,767] range.
 
 Capable of containing at least the [0, 65,535] range.
 
-**Link to work:** [Day-9 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day009.c)
+**Link to work:** [Day-9 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day009.c)
 
 [Back Top](#days)
 
@@ -372,7 +372,7 @@ Capable of containing at least the [−2,147,483,647, +2,147,483,647] range.
 
 Capable of containing at least the [0, 4,294,967,295] range.
 
-**Link to work:** [Day-10 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day010.c)
+**Link to work:** [Day-10 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day010.c)
 
 [Back Top](#days)
 
@@ -403,7 +403,7 @@ Capable of containing at least the [−9,223,372,036,854,775,807, +9,223,372,036
 
 Capable of containing at least the [0, +18,446,744,073,709,551,615] range.
 
-**Link to work:** [Day-11 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day011.c)
+**Link to work:** [Day-11 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day011.c)
 
 [Back Top](#days)
 
@@ -427,7 +427,7 @@ Capable of containing at least the [0, +18,446,744,073,709,551,615] range.
       * %E
       * %A
 
-**Link to work:** [Day-12 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day012.c)
+**Link to work:** [Day-12 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day012.c)
 
 [Back Top](#days)
 
@@ -451,7 +451,7 @@ Capable of containing at least the [0, +18,446,744,073,709,551,615] range.
       * %lE
       * %lA
 
-**Link to work:** [Day-13 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day013.c)
+**Link to work:** [Day-13 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day013.c)
 
 [Back Top](#days)
 
@@ -475,7 +475,7 @@ Capable of containing at least the [0, +18,446,744,073,709,551,615] range.
       * %LE
       * %LA
 
-**Link to work:** [Day-14 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day014.c)
+**Link to work:** [Day-14 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day014.c)
 
 [Back Top](#days)
 
@@ -497,7 +497,7 @@ Boolean act this way in the C programming language to avoid integer overflows in
       * %i
       * %d
 
-**Link to work:** [Day-15 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day015.c)
+**Link to work:** [Day-15 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day015.c)
 
 [Back Top](#days)
 
@@ -522,7 +522,7 @@ When you don't give a single quote to the value, I think the compiler thinks tha
     * Format Specifier:
       * %c
 
-**Link to work:** [Day-16 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day016.c)
+**Link to work:** [Day-16 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day016.c)
 
 [Back Top](#days)
 
@@ -539,7 +539,7 @@ Instead of providing a format specifier of an integer, there is a special format
 
 You can also initialize a variable starting with a zero to be converted to a octal value such as `int var = 015`
 
-**Link to work:** [Day-17 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day017.c)
+**Link to work:** [Day-17 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day017.c)
 
 [Back Top](#days)
 
@@ -554,7 +554,7 @@ There is a format specifier to the Hexadecimal and that is the `%x`. It is used 
 
 You can also initialize a variable starting with a zero x to be converted to a hexadecimal value such as `int var = 0x15`
 
-**Link to work:** [Day-18 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day018.c)
+**Link to work:** [Day-18 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day018.c)
 
 [Back Top](#days)
 
@@ -597,7 +597,7 @@ Syntax:
  
 `enum enumName enumType1, enumType2;`
 
-**Link to work:** [Day-19 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day019.c)
+**Link to work:** [Day-19 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day019.c)
 
 [Back Top](#days)
 
@@ -628,7 +628,7 @@ One way to convert a data type is by using the casting technique. You can do thi
  
 To check the size in bytes that are in the memory makes use of the `sizeof` operator. It is also a keyword in the C programming language. To do this, just use the keyword and pass on the data you want to deal with. The data can be anything from data type, variables or names.
 
-**Link to work:** [Day-20 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day020.c)
+**Link to work:** [Day-20 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day020.c)
 
 [Back Top](#days)
 
@@ -650,7 +650,7 @@ To check the size in bytes that are in the memory makes use of the `sizeof` oper
  
 Notice that the value will be assigned the result value. This means that the variable will have a new value.
 
-**Link to work:** [Day-21 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day021.c)
+**Link to work:** [Day-21 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day021.c)
 
 [Back Top](#days)
 
@@ -671,7 +671,7 @@ All the operators used as binary operators in case of arithmetic, this means tha
 | /         | Division          |
 | %         | Find the reminder |
 
-**Link to work:** [Day-22 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day022.c)
+**Link to work:** [Day-22 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day022.c)
 
 [Back Top](#days)
 
@@ -692,7 +692,7 @@ Notice the increment and decrement are two kind, a postfix like (C++), mean the 
 * The pre-fix operators increment or decrement their operand by 1, and the value of the expression is the resulting calculated value.
 * The post-fix operators increment or decrement the value of their operand by 1, but the value of the expression is the operand's original value prior to the calculated operation.
 
-**Link to work:** [Day-23 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day023.c)
+**Link to work:** [Day-23 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day023.c)
 
 [Back Top](#days)
 
@@ -714,7 +714,7 @@ Notice the increment and decrement are two kind, a postfix like (C++), mean the 
  
 Usually comparison deal with the boolean operator and will output a 0 or 1 as in true or false.  
 
-**Link to work:** [Day-24 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day024.c)
+**Link to work:** [Day-24 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day024.c)
 
 [Back Top](#days)
 
@@ -737,7 +737,7 @@ OR is true if one of the operands are true and only false if both operands are f
  
 NOT is just the reverse of the operand. if it is true then it will be false. if it is false then it will be true.
 
-**Link to work:** [Day-25 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day025.c)
+**Link to work:** [Day-25 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day025.c)
 
 [Back Top](#days)
 
@@ -806,7 +806,7 @@ Bitwise also has Assignment operators:
 | <<=      | Left shift then assign           |
 | >>=      | Right shift then assign          |
 
-**Link to work:** [Day-26 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day026.c)
+**Link to work:** [Day-26 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day026.c)
 
 [Back Top](#days)
 
@@ -832,7 +832,7 @@ Some of the Statements types:
 
 And many more statements.. .
 
-**Link to work:** [Day-27 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day027.c)
+**Link to work:** [Day-27 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day027.c)
 
 [Back Top](#days)
 
@@ -855,7 +855,7 @@ _Steps_:
 
 Syntax: `condition ? firstExpression : secondExpression;`
 
-**Link to work:** [Day-28 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day028.c)
+**Link to work:** [Day-28 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day028.c)
 
 [Back Top](#days)
 
@@ -878,7 +878,7 @@ if (condition) {
 }
 ```
 
-**Link to work:** [Day-29 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day029.c)
+**Link to work:** [Day-29 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day029.c)
 
 [Back Top](#days)
 
@@ -901,7 +901,7 @@ else {
 }
 ```
  
-**Link to work:** [Day-30 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day030.c)
+**Link to work:** [Day-30 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day030.c)
  
 [Back Top](#days)
 
@@ -931,7 +931,7 @@ else {
 }
 ```
  
-**Link to work:** [Day-31 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day031.c)
+**Link to work:** [Day-31 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day031.c)
  
 [Back Top](#days)
 
@@ -966,7 +966,7 @@ else {
 }
 ```
  
-**Link to work:** [Day-32 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day032.c)
+**Link to work:** [Day-32 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day032.c)
  
 [Back Top](#days)
 
@@ -1007,7 +1007,7 @@ switch (expression)
 }
 ```
  
-**Link to work:** [Day-33 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day033.c)
+**Link to work:** [Day-33 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day033.c)
  
 [Back Top](#days)
 
@@ -1052,7 +1052,7 @@ for(;;) {
 }
 ```
  
-**Link to work:** [Day-34 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day034.c)
+**Link to work:** [Day-34 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day034.c)
  
 [Back Top](#days)
 
@@ -1076,7 +1076,7 @@ while(expression){
 
 The thing is you need to provide a condition for the loop to stop, and it is usually inside the loop block. Unless you don't want it to stop!
 
-**Link to work:** [Day-35 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day035.c)
+**Link to work:** [Day-35 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day035.c)
 
 [Back Top](#days)
 
@@ -1098,7 +1098,7 @@ do {
 while (expression);
 ```
 
-**Link to work:** [Day-36 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day036.c)
+**Link to work:** [Day-36 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day036.c)
 
 [Back Top](#days)
 
@@ -1119,7 +1119,7 @@ Syntax: `#define NAME_CONST value`
 
 This way you can reassign a value to it. A true constant indeed.
 
-**Link to work:** [Day-37 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day037.c)
+**Link to work:** [Day-37 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day037.c)
 
 [Back Top](#days)
 
@@ -1136,7 +1136,7 @@ You need a number between the square brackets to represent the number of data th
  
 Syntax: `typeSpecifier arrayName[size];`
  
-**Link to work:** [Day-38 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day038.c)
+**Link to work:** [Day-38 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day038.c)
  
 [Back Top](#days)
 
@@ -1153,7 +1153,7 @@ If you didn't specify a value to all the elements in the array, the remaining va
  
 Syntax: `typeSpecifier arrayName[size] = {data1, data2, data3};`
  
-**Link to work:** [Day-39 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day039.c)
+**Link to work:** [Day-39 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day039.c)
  
 [Back Top](#days)
 
@@ -1172,7 +1172,7 @@ The square brackets hold the number of the element, then you can assign a value 
  
 I read that the feature is used in C99 standard and then dropped on C11 onward.
  
-**Link to work:** [Day-40 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day040.c)
+**Link to work:** [Day-40 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day040.c)
  
 [Back Top](#days)
 
@@ -1187,7 +1187,7 @@ This is also known as array mutation. Arrays at the core are variables that hold
  
 You can do this by targeting the element position and assign a new value to it. The targeting can happen with the square bracket notation.
  
-**Link to work:** [Day-41 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day041.c)
+**Link to work:** [Day-41 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day041.c)
  
 [Back Top](#days)
 
@@ -1211,7 +1211,7 @@ You can also initialize elements in any order if you wish to use a designated in
  
 You can have any number of dimensions following the same method.
  
-**Link to work:** [Day-42 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day042.c)
+**Link to work:** [Day-42 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day042.c)
  
 [Back Top](#days)
 
@@ -1228,7 +1228,7 @@ Remember the size of the array must be greater than zero. you can use an express
 
 Syntax: `arrayName[indexNumber];`
 
-**Link to work:** [Day-43 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day043.c)
+**Link to work:** [Day-43 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day043.c)
 
 [Back Top](#days)
 
@@ -1239,7 +1239,7 @@ Syntax: `arrayName[indexNumber];`
  
 **Thoughts:** Similar to the way to access a single dimension array with the difference that you add another number that represent the second dimension in relation to the first dimension.
  
-**Link to work:** [Day-44 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day044.c)
+**Link to work:** [Day-44 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day044.c)
  
 [Back Top](#days)
 
@@ -1254,7 +1254,7 @@ Iteration is when you want to run through the array using all the elements store
  
 I achieved this using a control flow functionality that loop through all the elements, and then print them out.
  
-**Link to work:** [Day-45 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day045.c)
+**Link to work:** [Day-45 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day045.c)
  
 [Back Top](#days)
 
@@ -1267,7 +1267,7 @@ I achieved this using a control flow functionality that loop through all the ele
  
 It is useful in a loop that will keep running unless you break out of it.
  
-**Link to work:** [Day-46 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day046.c)
+**Link to work:** [Day-46 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day046.c)
  
 [Back Top](#days)
 
@@ -1280,7 +1280,7 @@ It is useful in a loop that will keep running unless you break out of it.
  
 Continue statement will break the loop only for a moment. Like a small stop then continue running the loop. You can say it is a temporary stop.
  
-**Link to work:** [Day-47 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day047.c)
+**Link to work:** [Day-47 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day047.c)
  
 [Back Top](#days)
 
@@ -1306,7 +1306,7 @@ Both `argc` and `*argv` will tell the function how to pass data into it.
  
 There is this thing with the asterisks `*` and it has a connection with strings which I will get into them at a later day.
  
-**Link to work:** [Day-48 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day048.c)
+**Link to work:** [Day-48 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day048.c)
  
 [Back Top](#days)
 
@@ -1339,7 +1339,7 @@ _Note_: Meaningful function name enhance the readability of the program.
  
 It is advisable when defining a function without body by using the type `void`. It will tell that this function will do nothing. There are some implementations for this at the testing level of development.
  
-**Link to work:** [Day-49 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day049.c)
+**Link to work:** [Day-49 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day049.c)
  
 [Back Top](#days)
 
@@ -1373,7 +1373,7 @@ Notice the simi-colon at the end.
  
 Header files that are included at the beginning of the program is actually a file that adds the function prototype for that library. Interesting.
 
-**Link to work:** [Day-50 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day050.c)
+**Link to work:** [Day-50 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day050.c)
 
 [Back Top](#days)
 
@@ -1393,7 +1393,7 @@ _Note_:
 * `void` means no data.
 * Arguments that are specified at the call of a function must agree in type, number and sequence with the parameters in the function header.
 
-**Link to work:** [Day-51 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day051.c)
+**Link to work:** [Day-51 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day051.c)
 
 [Back Top](#days)
 
@@ -1410,7 +1410,7 @@ Returning data from a function happen at the return statement. The return statem
  
 _Syntax_: `return thingToReturn;`
  
-**Link to work:** [Day-52 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day052.c)
+**Link to work:** [Day-52 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day052.c)
  
 [Back Top](#days)
 
@@ -1425,7 +1425,7 @@ Function call is independent in its nature and will not mix its function with th
 
 _Syntax_: `my_finction_call();`
 
-**Link to work:** [Day-53 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day053.c)
+**Link to work:** [Day-53 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day053.c)
 
 [Back Top](#days)
 
@@ -1454,7 +1454,7 @@ The idea of a code block is to encapsulate small chunk of code in one place and 
 
 Global variable will always be available to the local functions. And a local variable will overwrite a global variable if they have the same name.
 
-**Link to work:** [Day-54 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day054.c)
+**Link to work:** [Day-54 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day054.c)
 
 [Back Top](#days)
 
@@ -1467,7 +1467,7 @@ Global variable will always be available to the local functions. And a local var
  
 I can see how things work now. I have a better understanding on how the computer call and uses the data.
  
-**Link to work:** [Day-55 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day055.c)
+**Link to work:** [Day-55 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day055.c)
 
 [Back Top](#days)
 
@@ -1487,7 +1487,7 @@ _Syntax_: `char stringName[size];`
 
 The size of the array will always be one less than what is specified because every array will have a `null` character at the end of it.
 
-**Link to work:** [Day-52 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day056.c)
+**Link to work:** [Day-52 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day056.c)
 
 [Back Top](#days)
 
@@ -1515,7 +1515,7 @@ Remember:
 * single quotes is a basic character
 * double quotes is an array of character and null terminated.
  
-**Link to work:** [Day-56 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day057.c)
+**Link to work:** [Day-56 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day057.c)
  
 [Back Top](#days)
 
@@ -1534,7 +1534,7 @@ however this is good to change one or two character at the most but, for a whole
  
 There is a built-in function that does this with ease. and it is called `strncpy()`
  
-**Link to work:** [Day-58 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day058.c)
+**Link to work:** [Day-58 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day058.c)
  
 [Back Top](#days)
 
@@ -1553,7 +1553,7 @@ To input a string, you don't need the `&` sign to use the address operator on th
  
 Note: Don't have space on the inputted string because anything after the space will be ignored.
  
-**Link to work:** [Day-59 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day059.c)
+**Link to work:** [Day-59 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day059.c)
  
 [Back Top](#days)
 
@@ -1570,7 +1570,7 @@ To count the size of the string I had to run through the array, character by cha
  
 To output a message, I used the string type specifier to output a message in the terminal.
  
-**Link to work:** [Day-60 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day060.c)
+**Link to work:** [Day-60 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day060.c)
  
 [Back Top](#days)
 
@@ -1590,7 +1590,7 @@ To output a message, I used the string type specifier to output a message in the
   3. Best practice to group define statements at the top of the source-code
   4. This statement has a special syntax
  
-**Link to work:** [Day-61 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day061.c)
+**Link to work:** [Day-61 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day061.c)
  
 [Back Top](#days)
 
@@ -1607,7 +1607,7 @@ In the C programming language the const modifier method is new approach so peopl
  
 _Syntax_: `const typeSpecifier = value;`
  
-**Link to work:** [Day-62 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day062.c)
+**Link to work:** [Day-62 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day062.c)
  
 [Back Top](#days)
 
@@ -1622,7 +1622,7 @@ One of the predefined functions in this library is the  `strlen` function. and i
  
 _Syntax_: `strlen()`
  
-**Link to work:** [Day-63 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day063.c)
+**Link to work:** [Day-63 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day063.c)
 
 [Back Top](#days)
 
@@ -1652,7 +1652,7 @@ strncpy() takes three arguments as parameters:
  
 strncpy() is a safer way to copy the strings.
  
-**Link to work:** [Day-64 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day064.c)
+**Link to work:** [Day-64 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day064.c)
  
 [Back Top](#days)
 
@@ -1675,7 +1675,7 @@ Now I know what the z argument. it is a buffer overflow so that it will not go o
 * y is the destination string
 * Z is the buffer overflow
  
-**Link to work:** [Day-65 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day065.c)
+**Link to work:** [Day-65 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day065.c)
  
 [Back Top](#days)
 
@@ -1698,7 +1698,7 @@ _Syntax_: `strcmp(x, y, z)`
 * y the second string
 * Z specified number of characters
  
-**Link to work:** [Day-66 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day066.c)
+**Link to work:** [Day-66 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day066.c)
  
 [Back Top](#days)
 
@@ -1718,7 +1718,7 @@ _Syntax_: `strchr(x, y)`
  
 To store the value of the specified character, you need to store the address of the character.
  
-**Link to work:** [Day-67 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day067.c)
+**Link to work:** [Day-67 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day067.c)
  
 [Back Top](#days)
 
@@ -1738,7 +1738,7 @@ _Syntax_: `strstr(x, y)`
 * x = The string to be searched
 * y = The substring to look for
  
-**Link to work:** [Day-68 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day068.c)
+**Link to work:** [Day-68 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day068.c)
  
 [Back Top](#days)
 
@@ -1758,7 +1758,7 @@ _Syntax_: `strtok(x, y)`
  
 In many readings, the second argument is explained with the word delimiter.The word can be explained as specific collection.
  
-**Link to work:** [Day-69 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day069.c)
+**Link to work:** [Day-69 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day069.c)
  
 [Back Top](#days)
 
@@ -1780,7 +1780,7 @@ Analyzing string letter case is often used nowadays and in many programming lang
 | isalpha() | Test if uppercase or lowercase        |
 | isalnum() | Test if lowercase, uppercase or digit |
  
-**Link to work:** [Day-70 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day070.c)
+**Link to work:** [Day-70 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day070.c)
  
 [Back Top](#days)
 
@@ -1801,7 +1801,7 @@ Analysis function typically return a boolean result. All these built-in-function
 | isspace()  | Test if there is any whitespace character `\n`, `\t`, `\v`, `\r`, `\f` |
  
  
-**Link to work:** [Day-71 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day071.c)
+**Link to work:** [Day-71 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day071.c)
  
 [Back Top](#days)
 
@@ -1821,7 +1821,7 @@ Still analysis functions which return a boolean answer where the argument to eac
 | isxdigit() | Test if there is hexadecimal digit                                           |
 | ispunct()  | Test for a character with no whitespace and no uppercase letter and no digit |
  
-**Link to work:** [Day-72 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day072.c)
+**Link to work:** [Day-72 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day072.c)
  
 [Back Top](#days)
 
@@ -1841,7 +1841,7 @@ This pre-defined-function available in the header library `ctype`, It will work 
  
 Both functions convert characters, but for strings you have to run through them with a loop or other method to apply this method to every character.
  
-**Link to work:** [Day-73 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day073.c)
+**Link to work:** [Day-73 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day073.c)
  
 [Back Top](#days)
 
@@ -1861,7 +1861,7 @@ Both functions convert characters, but for strings you have to run through them 
  
 Note: all the functions will ignore whitespace.
  
-**Link to work:** [Day-74 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day074.c)
+**Link to work:** [Day-74 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day074.c)
  
 [Back Top](#days)
 
@@ -1890,7 +1890,7 @@ _Syntax_: `Variable_Type *p_nameOfTHePointer;`
 4. and the name of the variable
 5. simi-colon `;`
  
-**Link to work:** [Day-75 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day075.c)
+**Link to work:** [Day-75 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day075.c)
  
 [Back Top](#days)
 
@@ -1909,7 +1909,7 @@ Note: The NULL is in the `stddef` header library, and to use it, you must includ
  
 _Syntax_: `variable_type *pnameOfThePointer = TheValue;`
  
-**Link to work:** [Day-76 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day076.c)
+**Link to work:** [Day-76 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day076.c)
  
 [Back Top](#days)
 
@@ -1926,7 +1926,7 @@ Remember, to use this technique, you need the declaration of the variable before
  
 _Syntax_: `type *pname_pointer = &name_variable;`
  
-**Link to work:** [Day-77 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day077.c)
+**Link to work:** [Day-77 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day077.c)
  
 [Back Top](#days)
 
@@ -1939,7 +1939,7 @@ _Syntax_: `type *pname_pointer = &name_variable;`
  
 The pointer will always have the 'asterisk' and the 'p', this make things a bit easier.
  
-**Link to work:** [Day-78 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day078.c)
+**Link to work:** [Day-78 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day078.c)
  
 [Back Top](#days)
 
@@ -1959,7 +1959,7 @@ _Syntax_: `variable_name = *pointer;`
  
 This is how to dereference a pointer and get the value that it's pointing to.
  
-**Link to work:** [Day-79 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day079.c)
+**Link to work:** [Day-79 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day079.c)
  
 [Back Top](#days)
 
@@ -1993,7 +1993,7 @@ printf("pbox address is: %p \n", (void*)&pbox);
 // Both output address
 ```
  
-**Link to work:** [Day-80 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day080.c)
+**Link to work:** [Day-80 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day080.c)
  
 [Back Top](#days)
 
@@ -2037,7 +2037,7 @@ Pointers can be used all over the place in the C programming language, It is one
     * subtract an integer from a pointer and get a pointer
   * incrementing and decrementing can cause an array to be out of bounds.
  
-**Link to work:** [Day-81 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day081.c)
+**Link to work:** [Day-81 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day081.c)
  
 [Back Top](#days)
 
@@ -2075,7 +2075,7 @@ Results of this operation includes:
 * You can still change the item
  
  
-**Link to work:** [Day-82 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day082.c)
+**Link to work:** [Day-82 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day082.c)
  
 [Back Top](#days)
 
@@ -2090,7 +2090,7 @@ Now, this type of pointer is available because it is a pointer that can contain 
  
 Disadvantage of the void pointer is that it cannot be dereferenced directly because it does not have a specific type.
  
-**Link to work:** [Day-83 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day083.c)
+**Link to work:** [Day-83 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day083.c)
  
 [Back Top](#days)
 
@@ -2109,7 +2109,7 @@ Assigning the array to the pointer will point to the first element in the array 
  
 Because it will make the program run more efficiently. Using pointers with arrays help make the code more clean. Using a pointer for a character will use less memory and it is faster.
  
-**Link to work:** [Day-84 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day084.c)
+**Link to work:** [Day-84 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day084.c)
  
 [Back Top](#days)
 
@@ -2130,7 +2130,7 @@ Pointer arithmetic example: `pointer_value += 1;`
  
 Here you can see how an increment and decrement operators are useful.
  
-**Link to work:** [Day-85 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day085.c)
+**Link to work:** [Day-85 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day085.c)
  
 [Back Top](#days)
 
@@ -2149,7 +2149,7 @@ By reference, means that the function arguments will be the address of the data.
  
 To pass data into a function by reference, all you need to do is to declare the function parameters as a pointer. When you want to call a pointer parameter in a function, you have to use the address operator `&`.
  
-**Link to work:** [Day-86 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day086.c)
+**Link to work:** [Day-86 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day086.c)
  
 [Back Top](#days)
 
@@ -2186,7 +2186,7 @@ free(pNumber);
 pNumber = NULL;
 ```
  
-**Link to work:** [Day-87 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day087.c)
+**Link to work:** [Day-87 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day087.c)
  
 [Back Top](#days)
 
@@ -2212,7 +2212,7 @@ Another standard library function to use in allocation memory in the heap is the
  
 _Syntax_: `DataType *PointerName = (DataType*) calloc(NumberOfDataRequired, sizeof(DataType));`
  
-**Link to work:** [Day-88 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day088.c)
+**Link to work:** [Day-88 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day088.c)
  
 [Back Top](#days)
 
@@ -2240,7 +2240,7 @@ Reminder:
   * Always release unused allocated memory
   * Be more careful in loops and memory allocation
  
-**Link to work:** [Day-89 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day089.c)
+**Link to work:** [Day-89 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day089.c)
  
 [Back Top](#days)
 
@@ -2257,7 +2257,7 @@ _Syntax_: `struct ItsName {member; anotherMember;};`
  
 Structures is a tool to group elements together. Declared as a description with the keyword `struct` with a name that has members of the structure inside a curly braces `{}`.
  
-**Link to work:** [Day-90 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day090.c)
+**Link to work:** [Day-90 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day090.c)
  
 [Back Top](#days)
 
@@ -2276,7 +2276,7 @@ Another way to initialize values is by using a dot notation. The concept of obje
  
 ah.. I need more time with structure, there is so much to read.
  
-**Link to work:** [Day-91 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day091.c)
+**Link to work:** [Day-91 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day091.c)
  
 [Back Top](#days)
 
@@ -2293,7 +2293,7 @@ You can instantly declare a variable of the type struct right after the struct b
  
 Another way to define a structure is to use unnamed structure definition. It is simply a structure with no name, defined just by the keyword and its elements. With this method, you cannot define further elements of the structure in other statements. This means you got one shot to define everything at once.
  
-**Link to work:** [Day-92 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day092.c)
+**Link to work:** [Day-92 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day092.c)
  
 [Back Top](#days)
 
@@ -2308,7 +2308,7 @@ You can create custom variables of the structure type so that they can use the e
  
 _Syntax_: `struct structName customVariableName;`
  
-**Link to work:** [Day-93 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day093.c)
+**Link to work:** [Day-93 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day093.c)
  
 [Back Top](#days)
 
@@ -2337,7 +2337,7 @@ You can also use the member notation and you can put them in any order you like:
  
 _Syntax_: `customStructvariableName = (struct structName) {.keyName = itsValue, .keyName = itsValue};`
  
-**Link to work:** [Day-94 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day094.c)
+**Link to work:** [Day-94 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day094.c)
  
 [Back Top](#days)
 
@@ -2368,7 +2368,7 @@ _Syntax_:
 x->y
 ```
  
-**Link to work:** [Day-95 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day095.c)
+**Link to work:** [Day-95 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day095.c)
  
 [Back Top](#days)
 
@@ -2409,7 +2409,7 @@ Text File Modes for reading:
 | "r"  | Open file to read   |
 | "r+" | Open file to update |
 
-**Link to work:** [Day-96 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day096.c)
+**Link to work:** [Day-96 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day096.c)
 
 [Back Top](#days)
 
@@ -2440,7 +2440,7 @@ Text File Modes for reading:
  
 The format is a C string that have a custom way of reading a string. You can customize the format by adding characters such as white space and format specifiers to create a custom format.
  
-**Link to work:** [Day-97 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day097.c)
+**Link to work:** [Day-97 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day097.c)
  
 [Back Top](#days)
 
@@ -2495,7 +2495,7 @@ int main()
  
 ```
  
-**Link to work:** [Day-98 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day098.c)
+**Link to work:** [Day-98 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day098.c)
  
 [Back Top](#days)
 
@@ -2532,7 +2532,7 @@ fseek(x, y, z)
     * `SEEK_END` = end of the file
 * Z = for text files must be `SEEK_SET` and for binary files it is relative to byte count.
  
-**Link to work:** [Day-99 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day099.c)
+**Link to work:** [Day-99 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day099.c)
  
 [Back Top](#days)
 
@@ -2545,7 +2545,7 @@ fseek(x, y, z)
  
 This program will use functions and file I/O in combination with data types. It has a simple functionality, which is to search and find out a string inside a file.
  
-**Link to work:** [Day-100 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/C/day100.c)
+**Link to work:** [Day-100 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/C/day100.c)
  
 [Back Top](#days)
 
