@@ -70,7 +70,7 @@ Comments have multiple uses, some of them are:
   * To leave documentation
   * and to have notes in the development code
 
-**Link to work:** [Day-1 sourceCode]()
+**Link to work:** [Day-1 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day001.py)
 
 [Back Top](#days)
 
