@@ -21,5 +21,6 @@ This repository serve as a small journal that document some thoughts of my own p
 
 ## Current logs and Progress
 
-* [Ruby Programming langauge](https://github.com/siralomarahmed/100DaysOfCode/blob/master/log-ruby.md) > Completed
-* [C Programming language](https://github.com/siralomarahmed/100DaysOfCode/blob/master/log-c.md) > Completed
+* [Ruby Programming langauge](https://github.com/siralomarahmed/100DaysOfCode/blob/master/LogFiles/log-ruby.md) > Completed
+* [C Programming language](https://github.com/siralomarahmed/100DaysOfCode/blob/master/LogFiles/log-c.md) > Completed
+* [Python Programming language](https://github.com/siralomarahmed/100DaysOfCode/blob/master/LogFiles/log-python.md) > In progress.. .
