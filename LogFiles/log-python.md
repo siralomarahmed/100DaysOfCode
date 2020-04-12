@@ -41,6 +41,7 @@ April 11th, 2020.
 |+ |00                              |
 |--|--------------------------------|
 |01| [Day 1](#day-1-April-11-2020)  |
+|02| [Day 2](#day-2-April-12-2020)  |
 
 ----
 ### Day 1: April 11, 2020
@@ -75,3 +76,27 @@ Comments have multiple uses, some of them are:
 [Back Top](#days)
 
 ----
+### Day 2 April 12, 2020
+
+**Today's Progress:** Hello World
+
+**Thoughts:** The hello world program is using the standard printing function to stream a string.
+
+*Syntax*: `print("string")`
+
+* `print` bilt-in function that streams to the CLI
+* `( )` The function call, which can take arguments,
+  * Here, the argument was "String"
+* `" "` The qoutes can be single, or double. python allow this flexability
+
+Python can be used for:
+
+  * Application programming
+  * Video games
+  * Data Analysis
+  * Web Development
+  * Machine learning
+
+**Link to work:** [Day-2 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day002.py)
+
+[Back Top](#days)
