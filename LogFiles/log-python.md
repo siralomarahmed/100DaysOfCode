@@ -42,6 +42,7 @@ April 11th, 2020.
 |--|--------------------------------|
 |01| [Day 1](#day-1-April-11-2020)  |
 |02| [Day 2](#day-2-April-12-2020)  |
+|03| [Day 3](#day-3-April-13-2020)  |
 
 ----
 ### Day 1: April 11, 2020
@@ -145,6 +146,6 @@ You can also use function inside a function, like using the print function to pr
 
 **Strings** are anything that is inside a quotes, well that is how you simply define a string. In reality, a string is more complex than just that. You can say that strings are a sequence of characters. I will dive more deeply in it later.
 
-**Link to work:** [Day-3 sourceCode]()
+**Link to work:** [Day-3 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day003.py)
 
 [Back Top](#days)
