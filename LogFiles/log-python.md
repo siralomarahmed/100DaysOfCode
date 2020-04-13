@@ -100,3 +100,51 @@ Python can be used for:
 **Link to work:** [Day-2 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day002.py)
 
 [Back Top](#days)
+
+----
+### Day 3: April 13, 2020
+
+**Today's Progress:** Basic Data types
+
+**Thoughts:** Python has a number of data types, but before I dive into them in details, I will explore the basics ones that I can use to advance onto other concepts. As they say, you need the building blocks before having a building!
+
+Basic Python Data Types are:
+
+  * Boolean
+  * Numbers
+    * Integers
+    * Floats
+  * Character
+  * Strings
+
+To check the type of data, there is a built-in function that does this:
+
+* *Syntax*: `type(x)`
+  * `type` is the function name
+  * `x` is a placeholder of the data you want to check the type of.
+
+You can also use function inside a function, like using the print function to print the result of the type function. I did this on the source code file of the day.
+
+**Boolean**: in python is not just zero and one, but it has keywords attached to the logic behind them. And boolean data type has only two values:
+
+* `True`
+  * Evaluate to truthy value
+  * or one
+* `False`
+  * Evaluate to falsy value
+  * or zero
+
+**Numbers** in python has two types:
+
+* Integers
+  * Represent all integers numbers
+* Floats
+  * represent all floating point numbers
+
+**Characters** are a single data or any single character in the keyboard. In python they are all treated as strings and can be added to single or double qoutes.
+
+**Strings** are anything that is inside a quotes, well that is how you simply define a string. In reality, a string is more complex than just that. You can say that strings are a sequence of characters. I will dive more deeply in it later.
+
+**Link to work:** [Day-3 sourceCode]()
+
+[Back Top](#days)
