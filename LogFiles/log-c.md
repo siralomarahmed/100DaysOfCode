@@ -48,7 +48,7 @@ April 9th, 2020.
 |09| [Day 9](#day-9-january-9-2020)    | [Day 19](#day-19-january-19-2020) | [Day 29](#day-29-january-29-2020) | [Day 39](#day-39-february-8-2020) | [Day 49](#day-49-february-18-2020) | [Day 59](#day-59-february-28-2020) | [Day 69](#day-69-march-9-2020)  | [Day 79](#day-79-march-19-2020) | [Day 89](#day-89-march-29-2020) | [Day 99](#day-99-april-8-2020)    |
 |10| [Day 10](#day-10-january-10-2020) | [Day 20](#day-20-january-20-2020) | [Day 30](#day-30-january-30-2020) | [Day 40](#day-40-february-9-2020) | [Day 50](#day-50-february-19-2020) | [Day 60](#day-60-february-29-2020) | [Day 70](#day-70-march-10-2020) | [Day 80](#day-80-march-20-2020) | [Day 90](#day-90-march-30-2020) | [Day 100](#day-100-april-9-2020)  |
 
-[Or Jump Right To Conclution!](#Conclution)
+[Or Jump Right To Conclusion!](#Conclusion)
 
 ----
 ### Day 1: January 1, 2020
