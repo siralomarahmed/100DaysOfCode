@@ -43,6 +43,7 @@ April 11th, 2020.
 |01| [Day 1](#day-1-April-11-2020)  |
 |02| [Day 2](#day-2-April-12-2020)  |
 |03| [Day 3](#day-3-April-13-2020)  |
+|04| [Day 4](#day-4-April-14-2020)  |
 
 ----
 ### Day 1: April 11, 2020
@@ -147,5 +148,54 @@ You can also use function inside a function, like using the print function to pr
 **Strings** are anything that is inside a quotes, well that is how you simply define a string. In reality, a string is more complex than just that. You can say that strings are a sequence of characters. I will dive more deeply in it later.
 
 **Link to work:** [Day-3 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day003.py)
+
+[Back Top](#days)
+
+----
+### Day 4: April 14, 2020
+
+**Today's Progress:** Arthemetic operators
+
+**Thoughts:** An operator is simply a symbol that carries out an operation. Since I have basic data types at my disposal from yesterday, I can perform operations on them. In python there are multiple types of operations what I sudied today is just the basic ones.
+
+Arthemetic operators are operation that perform math functionalities On *numbers*:
+
+* Addition
+  * Uses the Plus sign (+)
+  * Adds values on either side of the operator.
+* Subtraction
+  * Uses the minus sign (-)
+  * Subtracts right hand operand from left hand operand.
+* Multiplication
+  * Uses the astrick sign (*)
+  * Multiplies values on either side of the operator
+* Exponent
+  * Uses the double astrick sign (**)
+  * Performs exponential (power) calculation on operators
+* Division
+  * Uses the forward slash sign (/)
+  * Divides left hand operand by right hand operand
+* Floor Division
+  * Uses the double forward slash (//)
+  * Will cut off the numbers after the decimal
+  * cutting off is not a math flooring, not even rounding.
+  * Just poof! cut the numbers off, hahaha
+* Modulos
+  * Uses the persentage sign (%)
+  * Divides left hand operand by right hand operand and returns remainder
+
+Some of the arthemetic operators have an effect on *strings* Such as:
+
+* Addition
+  * Concatenate two strings together
+* Multiplication
+  * Multiply the string by a number and concatenate all of them into one string
+
+*Booleans* are special data type and has its own value:
+  * `True` has a value of one
+  * `False` has a value of zero
+  * Which mean that you can perform math operation on them as numbers.
+
+**Link to work:** [Day-4 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day004.py)
 
 [Back Top](#days)
