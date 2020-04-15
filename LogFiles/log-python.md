@@ -44,6 +44,7 @@ April 11th, 2020.
 |02| [Day 2](#day-2-April-12-2020)  |
 |03| [Day 3](#day-3-April-13-2020)  |
 |04| [Day 4](#day-4-April-14-2020)  |
+|04| [Day 5](#day-5-April-15-2020)  |
 
 ----
 ### Day 1: April 11, 2020
@@ -197,5 +198,35 @@ Some of the arthemetic operators have an effect on *strings* Such as:
   * Which mean that you can perform math operation on them as numbers.
 
 **Link to work:** [Day-4 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day004.py)
+
+[Back Top](#days)
+
+----
+### Day 5: April 15, 2020
+
+**Today's Progress:** Variables
+
+**Thoughts:** Variables are reference to an object. Usually by assigning the object to the variable. To create a variable, you have three main parts that make the syntax:
+
+1. Variable name
+2. Assignment is an operation:
+  * Utilize the equal `=` sign
+  * To assign
+  * The right side to the left side.
+3. a Value
+  * Can be any object, expression or a whole statement !
+
+Python is dynamically typed which mean that you can reassign the object by using the same assignment operation.
+
+Variable naming rules:
+
+* No python keyword is allowed
+* No spaces are allowed
+* The first character must be a letter (lowercase or uppercase) or an underscore
+* Accept only letters
+* numbers and underscores are OK only after the first character
+* Names are case-sensitive.
+
+**Link to work:** [Day-5 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day005.py)
 
 [Back Top](#days)
