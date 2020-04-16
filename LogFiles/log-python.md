@@ -44,7 +44,8 @@ April 11th, 2020.
 |02| [Day 2](#day-2-April-12-2020)  |
 |03| [Day 3](#day-3-April-13-2020)  |
 |04| [Day 4](#day-4-April-14-2020)  |
-|04| [Day 5](#day-5-April-15-2020)  |
+|05| [Day 5](#day-5-April-15-2020)  |
+|06| [Day 6](#day-6-April-16-2020)  |
 
 ----
 ### Day 1: April 11, 2020
@@ -228,5 +229,43 @@ Variable naming rules:
 * Names are case-sensitive.
 
 **Link to work:** [Day-5 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day005.py)
+
+[Back Top](#days)
+
+----
+### Day 6: April 16, 2020
+
+**Today's Progress:** Assignment Operators
+
+**Thoughts:** Assignment in python heavily uses the overload operator with the equal `=` sign. There are multiple ways to assign values to variables and especially the augmented assignment, or can be said that it is two operation in one operator thing!
+
+The same as basic arthemetic operations, you can use them with the assignment operator as follows:
+
+* Assign
+  * Uses the sign (=)
+  * Assigns values from right side operands to left side operand
+* Add and assign
+  * Uses the sign (+=)
+  * It adds right operand to the left operand and assign the result to left operand
+* Subtract and assign
+  * Uses the sign (-=)
+  * It subtracts right operand from the left operand and assign the result to left operand
+* Multiply and assign
+  * Uses the sign (*=)
+  * It multiplies right operand with the left operand and assign the result to left operand
+* Divide and assign
+  * Uses the sign (/=)
+  * It divides left operand with the right operand and assign the result to left operand
+* Modulus and assign
+  * Uses the sign (%=)
+  * It takes modulus using two operands and assign the result to left operand
+* Exponent and assign
+  * Uses the sign (**=)
+  * Performs exponential (power) calculation on operators and assign value to the left operand
+* Floor division and assign
+  * Uses the sign (//=)
+  * It performs floor division on operators and assign value to the left operand
+
+**Link to work:** [Day-6 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day006.py)
 
 [Back Top](#days)
