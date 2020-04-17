@@ -269,3 +269,44 @@ The same as basic arthemetic operations, you can use them with the assignment op
 **Link to work:** [Day-6 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day006.py)
 
 [Back Top](#days)
+
+----
+### Day 7: April 17, 2020
+
+**Today's Progress:** Strings & Escape Characters
+
+**Thoughts:** Strings are in python are objects of type `str` which is a short-word of a string! The easiest way to define strings in python is to do a literal definition of strings.
+
+When I say the word "Definition" in programming I mean two things:
+
+* Decleration
+* Initialization
+
+To define a string means to declare and initialize it. So to declare a string in python, you only need to name it. But in python, just to declare a variable without initializing it won't be of any help and sometimes may give you troubles. So, to declare and initialize a string type variable is combined into one word, which is "definition".
+
+There are three ways to create strings:
+
+1. string line
+  * using single quotes
+  * using double quotes
+2. multi-line string
+  * using three single quotes
+  * using three double quotes
+3. formatted string
+  * using a function I will get into in another day
+
+The escape character in python is the back slash `\`. It is used to escape things from the string such as quotes to not get errors. THere are other functionalities such as adding a new line and others, some of them are:
+
+| Character | Description   |
+|-----------|---------------|
+| \\        | backslash     |
+| \'        | Escape qoute  |
+| \b        | backspace     |
+| \n        | new line feed |
+| \t        | TAB           |
+
+*Row String* is a way to escape everything inside the qoutes no matter what is there. This can be achieved by using the `r` letter before the qoutes. Example: `print(r"some string inside")`
+
+**Link to work:** [Day-7 sourceCode]()
+
+[Back Top](#days)
