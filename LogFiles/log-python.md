@@ -46,6 +46,7 @@ April 11th, 2020.
 |04| [Day 4](#day-4-April-14-2020)  |
 |05| [Day 5](#day-5-April-15-2020)  |
 |06| [Day 6](#day-6-April-16-2020)  |
+|07| [Day 7](#day-7-April-17-2020)  |
 
 ----
 ### Day 1: April 11, 2020
@@ -307,6 +308,6 @@ The escape character in python is the back slash `\`. It is used to escape thing
 
 *Row String* is a way to escape everything inside the qoutes no matter what is there. This can be achieved by using the `r` letter before the qoutes. Example: `print(r"some string inside")`
 
-**Link to work:** [Day-7 sourceCode]()
+**Link to work:** [Day-7 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day007.py)
 
 [Back Top](#days)
