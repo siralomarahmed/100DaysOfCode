@@ -47,6 +47,7 @@ April 11th, 2020.
 |05| [Day 5](#day-5-April-15-2020)  |
 |06| [Day 6](#day-6-April-16-2020)  |
 |07| [Day 7](#day-7-April-17-2020)  |
+|08| [Day 8](#day-8-April-18-2020)  |
 
 ----
 ### Day 1: April 11, 2020
@@ -309,5 +310,22 @@ The escape character in python is the back slash `\`. It is used to escape thing
 *Row String* is a way to escape everything inside the qoutes no matter what is there. This can be achieved by using the `r` letter before the qoutes. Example: `print(r"some string inside")`
 
 **Link to work:** [Day-7 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day007.py)
+
+[Back Top](#days)
+
+----
+### Day 8: April 18, 2020
+
+**Today's Progress:** String Concatenation
+
+**Thoughts:** String concatenation simplly means to add two strings together. and in python, you can achieve this by using the arthemetic operator of addition, the plus `+` sign.
+
+*Syntax* : `string + string`
+
+Another way is to use *pre-formated string*. THe key is the `f` letter. this letter is added before the string quotes. This techneque utilize strings by referencing them inside a string with the curly braces `{}`
+
+*Syntax*: `print(f"The {referenced_string} jumped on the {another_referenced_string}!")`
+
+**Link to work:** [Day-8 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day008.py)
 
 [Back Top](#days)
