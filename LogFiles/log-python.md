@@ -48,6 +48,7 @@ April 11th, 2020.
 |06| [Day 6](#day-6-April-16-2020)  |
 |07| [Day 7](#day-7-April-17-2020)  |
 |08| [Day 8](#day-8-April-18-2020)  |
+|09| [Day 9](#day-9-April-19-2020)  |
 
 ----
 ### Day 1: April 11, 2020
@@ -353,6 +354,6 @@ Another way is to use *pre-formated string*. THe key is the `f` letter. this let
   * It will return the argument converted to a floating point number.
 
 
-**Link to work:** [Day-9 sourceCode]()
+**Link to work:** [Day-9 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day009.py)
 
 [Back Top](#days)
