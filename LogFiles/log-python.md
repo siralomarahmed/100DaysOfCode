@@ -329,3 +329,30 @@ Another way is to use *pre-formated string*. THe key is the `f` letter. this let
 **Link to work:** [Day-8 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day008.py)
 
 [Back Top](#days)
+
+----
+### Day 9: April 19, 2020
+
+**Today's Progress:** String and Number Conversions
+
+**Thoughts:** Because, you can't concatenate a number with a string in python. You have to convert the number into a string. Why string and not number? Because python prints everything as strings regaurdless if it is an actual number.
+
+* To convert number to string
+* `str(x)` built-in function
+  * x is the argument this function takes
+  * It will return the argument converted to a string.
+
+* To convert string to an integer number
+* `int(x)` built-in function
+  * x is the argument this function takes
+  * It will return the argument converted to an integer.
+
+* To convert string to a float number
+* `float(x)` built-in function
+  * x is the argument this function takes
+  * It will return the argument converted to a floating point number.
+
+
+**Link to work:** [Day-9 sourceCode]()
+
+[Back Top](#days)
