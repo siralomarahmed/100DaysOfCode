@@ -38,17 +38,18 @@ April 11th, 2020.
 
 ----
 ## Days:
-|+ |00                              |
-|--|--------------------------------|
-|01| [Day 1](#day-1-April-11-2020)  |
-|02| [Day 2](#day-2-April-12-2020)  |
-|03| [Day 3](#day-3-April-13-2020)  |
-|04| [Day 4](#day-4-April-14-2020)  |
-|05| [Day 5](#day-5-April-15-2020)  |
-|06| [Day 6](#day-6-April-16-2020)  |
-|07| [Day 7](#day-7-April-17-2020)  |
-|08| [Day 8](#day-8-April-18-2020)  |
-|09| [Day 9](#day-9-April-19-2020)  |
+|+ |00                               |
+|--|---------------------------------|
+|01| [Day 1](#day-1-April-11-2020)   |
+|02| [Day 2](#day-2-April-12-2020)   |
+|03| [Day 3](#day-3-April-13-2020)   |
+|04| [Day 4](#day-4-April-14-2020)   |
+|05| [Day 5](#day-5-April-15-2020)   |
+|06| [Day 6](#day-6-April-16-2020)   |
+|07| [Day 7](#day-7-April-17-2020)   |
+|08| [Day 8](#day-8-April-18-2020)   |
+|09| [Day 9](#day-9-April-19-2020)   |
+|10| [Day 10](#day-10-April-20-2020) |
 
 ----
 ### Day 1: April 11, 2020
@@ -355,5 +356,28 @@ Another way is to use *pre-formated string*. THe key is the `f` letter. this let
 
 
 **Link to work:** [Day-9 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day009.py)
+
+[Back Top](#days)
+
+----
+### Day 10: April 20, 2020
+
+**Today's Progress:** Getting User Input & String Length
+
+**Thoughts:** To make programs more intersting, we can get user input to store them in variables.
+
+* `input(x)` built-in function
+  * x : this function can have a string as an argument
+  * Ths function will wait for the user to input some data before it continue the program.
+
+There is another built-in function to get the length of a string:
+
+* `len(x)`
+  * x is the argument 
+  * x can be a string or a reference to a string
+  * when a string object passed in as an argument
+  * it will return the length of the string as an integer number
+
+**Link to work:** [Day-10 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day010.py)
 
 [Back Top](#days)
