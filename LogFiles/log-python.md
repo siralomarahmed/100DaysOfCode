@@ -38,9 +38,9 @@ April 11th, 2020.
 
 ----
 ## Days:
-|+ |00                               |
-|--|---------------------------------|
-|01| [Day 1](#day-1-April-11-2020)   |
+|+ |00                               |01                               |
+|--|---------------------------------|---------------------------------|
+|01| [Day 1](#day-1-April-11-2020)   | [Day 11](#day-11-April-21-2020) |
 |02| [Day 2](#day-2-April-12-2020)   |
 |03| [Day 3](#day-3-April-13-2020)   |
 |04| [Day 4](#day-4-April-14-2020)   |
@@ -405,6 +405,6 @@ They are called Lists, as in "an ordered list". A list can be referenced with a 
   * You can add as much as you want
   * elements are seperated by a comma
 
-**Link to work:** [Day-11 sourceCode]()
+**Link to work:** [Day-11 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day011.py)
 
 [Back Top](#days)
