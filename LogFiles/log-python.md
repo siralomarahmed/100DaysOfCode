@@ -381,3 +381,30 @@ There is another built-in function to get the length of a string:
 **Link to work:** [Day-10 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day010.py)
 
 [Back Top](#days)
+
+----
+### Day 11: April 21, 2020
+
+**Today's Progress:** Lists Data Type
+
+**Thoughts:** A list in python reflect the concept of an array in programming. It is just another symantic naming. Because lists in python:
+
+1. Store multiple data and of multiple type
+2. In order of sequence
+3. data stored can be changed
+
+They are called Lists, as in "an ordered list". A list can be referenced with a name just like a variable. In python, you can store multiple data type in one list. Lists can have lists inside them too.
+
+* *Syntax*:
+* `List_name = [element_1, element_2, and_so_on]`
+* List_name
+  * Is the reference name of the list and it follow the variable naming rules
+* elements
+  * These are the data stored in the list
+  * The order is important
+  * You can add as much as you want
+  * elements are seperated by a comma
+
+**Link to work:** [Day-11 sourceCode]()
+
+[Back Top](#days)
