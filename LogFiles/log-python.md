@@ -408,3 +408,31 @@ They are called Lists, as in "an ordered list". A list can be referenced with a 
 **Link to work:** [Day-11 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day011.py)
 
 [Back Top](#days)
+
+----
+### Day 12: April 22, 2020
+
+**Today's Progress:** Index Reference
+
+**Thoughts:** Data type like strings and lists are sequence of data in one address. which mean, each of these addresses has mini address that lead to the data stored inside.
+
+In python lists, the main address to refare to the list is the list name. But for the elements, each element has an address too. The address of each element start from zero in an acending order from the left to the right. For example, the first element in the list will have an adress of zero, the second element will have an adress of one, and so on.
+
+Index reference syntax is simple:
+
+* Using square brackets 
+* `the_list[x]`
+* the_list is a list of data
+* x is the argument, usually an integer or an expression
+* The process of this functionality is:
+  * Input : a list
+  * Process : find the data stored in the index provided as an argument
+  * Output : Data stored in the index
+
+Strings are also lists of characters in sequensial order, this mean that you can use the index reference techneque to get to the letters.
+
+You can also reassign and change data of the list elements by the same techneque. Strings in the other hand are immutable, this mean you cannot reassign string elements, you can only reference them.
+
+**Link to work:** [Day-12 sourceCode]()
+
+[Back Top](#days)
