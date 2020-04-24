@@ -459,3 +459,24 @@ You can do most of the things you can do with list to tuples, however, things su
 **Link to work:** [Day-13 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day013.py)
 
 [Back Top](#days)
+
+----
+### Day 14: April 24, 2020
+
+**Today's Progress:** Reference and Sequence Unpacking
+
+**Thoughts:** Lists and tuples are objects in python that can be unpacked, and this means that you can assign its elements (by order) into multiple variables. You can do unpacking in multiple ways, like:
+
+* By index reference
+* *Syntax*:
+* `variable_name = tuple_name[tuple_index_element]`
+* will assign each variable with the element referenced from the tuple
+
+* By sequence
+* *Syntax*:
+* `variable_one, variable_two = tuple_name`
+* will assign the elements in sequence to the variables
+
+**Link to work:** [Day-14 sourceCode]()
+
+[Back Top](#days)
