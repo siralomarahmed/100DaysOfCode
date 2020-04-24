@@ -43,7 +43,7 @@ April 11th, 2020.
 |01| [Day 1](#day-1-April-11-2020)   | [Day 11](#day-11-April-21-2020) |
 |02| [Day 2](#day-2-April-12-2020)   | [Day 12](#day-12-April-22-2020) |
 |03| [Day 3](#day-3-April-13-2020)   | [Day 13](#day-13-April-23-2020) |
-|04| [Day 4](#day-4-April-14-2020)   |
+|04| [Day 4](#day-4-April-14-2020)   | [Day 14](#day-14-April-24-2020) |
 |05| [Day 5](#day-5-April-15-2020)   |
 |06| [Day 6](#day-6-April-16-2020)   |
 |07| [Day 7](#day-7-April-17-2020)   |
@@ -477,6 +477,6 @@ You can do most of the things you can do with list to tuples, however, things su
 * `variable_one, variable_two = tuple_name`
 * will assign the elements in sequence to the variables
 
-**Link to work:** [Day-14 sourceCode]()
+**Link to work:** [Day-14 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day014.py)
 
 [Back Top](#days)
