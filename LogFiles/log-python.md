@@ -480,3 +480,29 @@ You can do most of the things you can do with list to tuples, however, things su
 **Link to work:** [Day-14 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day014.py)
 
 [Back Top](#days)
+
+----
+### Day 15: April 25, 2020
+
+**Today's Progress:** Index Bracket Notation
+
+**Thoughts:** As the name suggest it is a techneque that uses the square brackets `[]` to do things. Some of the useful functionalities that this notation does is to get data from a list by using index reference. However there is much more to these square brackets than just that. Some of the usages are:
+
+* Sliceing
+* *Syntax*:
+  * `object_name[x:y:z]`
+  * object_name : is any object, can be list, string etc...
+  * x, y, z : are the index number
+  * x : is where you want to start the selection
+    * the start is included in the selection
+    * when provided with no argument, it will start from the begining
+  * y : is where you want to end the selection
+    * the end is not included in the selection
+    * when provided with no argument will end at the end of the object
+  * z : is how many step you want to skip
+
+You can use the bracket notation on lists, tuple, strings to get the elements you want. And then you can perform tasks on them. So it is a very good way to select data from constructive objects.
+
+**Link to work:** [Day-15 sourceCode]()
+
+[Back Top](#days)
