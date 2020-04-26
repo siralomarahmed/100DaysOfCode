@@ -45,7 +45,7 @@ April 11th, 2020.
 |03| [Day 3](#day-3-April-13-2020)   | [Day 13](#day-13-April-23-2020) |
 |04| [Day 4](#day-4-April-14-2020)   | [Day 14](#day-14-April-24-2020) |
 |05| [Day 5](#day-5-April-15-2020)   | [Day 15](#day-15-April-25-2020) |
-|06| [Day 6](#day-6-April-16-2020)   |
+|06| [Day 6](#day-6-April-16-2020)   | [Day 16](#day-16-April-26-2020) |
 |07| [Day 7](#day-7-April-17-2020)   |
 |08| [Day 8](#day-8-April-18-2020)   |
 |09| [Day 9](#day-9-April-19-2020)   |
@@ -549,6 +549,6 @@ Apple_pie
 
 As you can see there, anything after the collin and inside the indentation is inside the code block. everything else is outside it.
 
-**Link to work:** [Day-16 sourceCode]()
+**Link to work:** [Day-16 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day016.py)
 
 [Back Top](#days)
