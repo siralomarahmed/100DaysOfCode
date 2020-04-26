@@ -506,3 +506,49 @@ You can use the bracket notation on lists, tuple, strings to get the elements yo
 **Link to work:** [Day-15 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day015.py)
 
 [Back Top](#days)
+
+----
+### Day 16: April 26, 2020
+
+**Today's Progress:** Function Definition
+
+**Thoughts:** Writing lines of code will accomplish a lot but, writing a block of codes and then running them at once, that is another thing. Functions are block of code that can be executed over and over again. A good way to not keep writing the same line of code again and again.
+
+* *Syntax*:
+  * `def function_name():`
+  * def, is short for defining, a keyword to start the function definition
+  * function_name, is the name of the function, follows the variable naming rules
+  * () the parenthesis is for the parameters
+  * The collin at the end `:` is important
+  * and indentation that has all the function body
+
+NTOE: you can use the keyword `pass` inside the body if you dont want to add anything inside the body of the function.
+
+Function consist of the function head, where it ends with the collin. and the function body, which is indented inside it. anything can go inside the body, like so many stuff. objects, variables and even whole statements, you can even have function inside a function.
+
+A function call is similar to the definition. as the name suggest, it calls the function to act. As in to run the function.
+
+* Function call
+* *Syntax*:
+* `function_name()`
+
+In python, to define a block of code, you need to add a collin and an indentation that encapsulate the code. For example this sudoCode:
+
+```
+Big_Burger:
+  Burger buns
+  grilled and tasty beef
+  CHese!
+  pickles
+  and more Chease!!
+
+
+Ice-Cream
+Apple_pie
+```
+
+As you can see there, anything after the collin and inside the indentation is inside the code block. everything else is outside it.
+
+**Link to work:** [Day-16 sourceCode]()
+
+[Back Top](#days)
