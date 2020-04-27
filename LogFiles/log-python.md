@@ -552,3 +552,26 @@ As you can see there, anything after the collin and inside the indentation is in
 **Link to work:** [Day-16 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day016.py)
 
 [Back Top](#days)
+
+----
+### Day 17: April 27, 2020
+
+**Today's Progress:** Arguments & Parameters
+
+**Thoughts:** The topic may be confusing for beginners, but I already know it very well. Just to put it into simple words or points:
+
+* Parameter is an expected input to the function
+* Argument is the value passed to a function
+
+You can use these two to create more dynamic functions. Example:
+
+```python
+def p(text): # text is the parameter in the function definition
+  print(text)
+
+p("Happy day") # "Happy day" is the argument in the function call
+```
+
+**Link to work:** [Day-17 sourceCode]()
+
+[Back Top](#days)
