@@ -47,7 +47,7 @@ April 11th, 2020.
 |05| [Day 5](#day-5-April-15-2020)   | [Day 15](#day-15-April-25-2020) |
 |06| [Day 6](#day-6-April-16-2020)   | [Day 16](#day-16-April-26-2020) |
 |07| [Day 7](#day-7-April-17-2020)   | [Day 17](#day-17-April-27-2020) |
-|08| [Day 8](#day-8-April-18-2020)   |
+|08| [Day 8](#day-8-April-18-2020)   | [Day 18](#day-18-April-28-2020) |
 |09| [Day 9](#day-9-April-19-2020)   |
 |10| [Day 10](#day-10-April-20-2020) |
 
@@ -573,5 +573,25 @@ p("Happy day") # "Happy day" is the argument in the function call
 ```
 
 **Link to work:** [Day-17 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day017.py)
+
+[Back Top](#days)
+
+----
+### Day 18: April 28, 2020
+
+**Today's Progress:** Built-in Functions
+
+**Thoughts:** There are many built-in functions in python and few of them I was using from the start. Built-in functions are functions that can help you do tasks that are pretty much known and have been used the past years. Tasks such as printing to the terminal will take few extra lines to write but, it is convenently provided as a function called `print()` so, explaining this function:
+
+* `print()`
+* *Syntax*:
+  * `print(*objects, sep=' ', end='\n')`
+    * `*objects` means that it can take any python object and as many as you want
+    * `sep=""` is a parameter that can take a character or characters to seperate the object with
+    * `end="\n"` is a parameter that can take a character to end the function object with
+
+Built-in functions also takes arguments that they can utilize to produce something. THere is functions that build an object sucn as the `list()` and `tuple()` functions. It is better to find how these functions work from teh documentation here https://docs.python.org/3/library/functions.html
+
+**Link to work:** [Day-18 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day018.py)
 
 [Back Top](#days)
