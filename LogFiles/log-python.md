@@ -595,3 +595,33 @@ Built-in functions also takes arguments that they can utilize to produce somethi
 **Link to work:** [Day-18 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day018.py)
 
 [Back Top](#days)
+
+----
+### Day 19: April 29, 2020
+
+**Today's Progress:** Built-in Methods
+
+**Thoughts:** The way I like to call methods is that they are functions that work on a specific object. Methods must be connected to an object somehow or they wont work properly. THe way to connect methods to an object is by using the Dot `.` operator. Yes a DOT is an operator.
+
+Some useful methods that are used to change the shape of a string are:
+* `.lower()`
+  * will convert characters into smallcase
+* `.upper()`
+  * will convert characters into uppercase
+* `.capitalize()`
+  * will capitalize the string
+* `.title()`
+  * will capitalize each first character in a word inside the string
+* `.swapcase()`
+  * will switch the casing of each character
+* `.strip()`
+  * will take off the character provided as a parameter
+  * default is a space, so it will strip the spaces from each side of the string
+  * there is `stripr()` to strip things from the right
+  * there is `stripl()` to strip things from the left
+
+Every method has a way to be used, and to find out all of them, you got to spend time in the documentation. There are methods that work on strings, lists, tuples and so on. But in the end, a method needs an object to function.
+
+**Link to work:** [Day-19 sourceCode]()
+
+[Back Top](#days)
