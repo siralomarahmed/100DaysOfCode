@@ -49,7 +49,7 @@ April 11th, 2020.
 |07| [Day 7](#day-7-April-17-2020)   | [Day 17](#day-17-April-27-2020) |
 |08| [Day 8](#day-8-April-18-2020)   | [Day 18](#day-18-April-28-2020) |
 |09| [Day 9](#day-9-April-19-2020)   | [Day 19](#day-19-April-29-2020) |
-|10| [Day 10](#day-10-April-20-2020) |
+|10| [Day 10](#day-10-April-20-2020) | [Day 20](#day-20-April-30-2020) |
 
 ----
 ### Day 1: April 11, 2020
@@ -660,6 +660,6 @@ Every method has a way to be used, and to find out all of them, you got to spend
   * Perform a string formatting operation.
   * A way to format a string taking inputs
 
-**Link to work:** [Day-20 sourceCode]()
+**Link to work:** [Day-20 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day020.py)
 
 [Back Top](#days)
