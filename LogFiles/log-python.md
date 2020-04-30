@@ -625,3 +625,41 @@ Every method has a way to be used, and to find out all of them, you got to spend
 **Link to work:** [Day-19 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day019.py)
 
 [Back Top](#days)
+
+----
+### Day 20: April 30, 2020
+
+**Today's Progress:** Strings Methods
+
+**Thoughts:** Python has good methods to apply on strings to get specific datas, such as:
+
+* `.find()`
+  * To find a character in a string
+  * *Syntax*: `str.find(sub[, start[, end]])`
+  * Return the lowest index in the string where substring sub is found
+  * Return the index number of the letter
+  * If didnt find anything it will print -1
+  * You can add 2nd parameter as a skip count `find(index, skip)`
+
+* `.count()`
+  * To check how many times a character occured in a string
+  * case sinsitive
+  * *Example*: `print("queueing".count("e")) # print 2`
+  * return integer
+
+* `.replace()`
+  * If the optional argument count is given, only the first count occurrences are replaced.
+  * `.replace(x, y)`
+    * x =  what you are looking for
+    * y = replace with this
+  * *Example*: `print("555 555 1234".relace(" ", "-"))`
+  * Return a copy of the string with all occurrences of substring old replaced by new.
+
+* `.format()`
+  * `str.format(*args, **kwargs)`
+  * Perform a string formatting operation.
+  * A way to format a string taking inputs
+
+**Link to work:** [Day-20 sourceCode]()
+
+[Back Top](#days)
