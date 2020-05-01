@@ -38,9 +38,9 @@ April 11th, 2020.
 
 ----
 ## Days:
-|+ |00                               |01                               |
-|--|---------------------------------|---------------------------------|
-|01| [Day 1](#day-1-April-11-2020)   | [Day 11](#day-11-April-21-2020) |
+|+ |00                               |01                               |02                            |
+|--|---------------------------------|---------------------------------|------------------------------|
+|01| [Day 1](#day-1-April-11-2020)   | [Day 11](#day-11-April-21-2020) | [Day 21](#day-21-May-1-2020) |
 |02| [Day 2](#day-2-April-12-2020)   | [Day 12](#day-12-April-22-2020) |
 |03| [Day 3](#day-3-April-13-2020)   | [Day 13](#day-13-April-23-2020) |
 |04| [Day 4](#day-4-April-14-2020)   | [Day 14](#day-14-April-24-2020) |
@@ -705,6 +705,6 @@ Logical operators in python has keywords instead of a symbol, they are:
   * Uses the keyword (not)
   * Used to reverse the logical state of its operand.
 
-**Link to work:** [Day-21 sourceCode]()
+**Link to work:** [Day-21 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day021.py)
 
 [Back Top](#days)
