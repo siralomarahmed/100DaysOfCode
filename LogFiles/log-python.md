@@ -663,3 +663,48 @@ Every method has a way to be used, and to find out all of them, you got to spend
 **Link to work:** [Day-20 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day020.py)
 
 [Back Top](#days)
+
+----
+### Day 21: May 1, 2020
+
+**Today's Progress:** Comparison & logical Operators
+
+**Thoughts:** Python provide good tools to add logic in programs, such tools are handful of operators and keywords.
+
+Comparison operators also called the retional operators, There are six type:
+
+* Equal
+  * Uses the sign (==)
+  * If the values of two operands are equal, then the condition becomes true.
+* Not Equal
+  * Uses the sign (!=)
+  * another sign it uses (<>)
+  * If values of two operands are not equal, then condition becomes true.
+* Greater Than
+  * Uses the sign (>)
+  * If the value of left operand is greater than the value of right operand, then condition becomes true.
+* Greater than or Equal
+  * Uses the sign (>=)
+  * If the value of left operand is greater than or equal to the value of right operand, then condition becomes true.
+* Less than
+  * Uses the sign (<)
+  * If the value of left operand is less than the value of right operand, then condition becomes true.
+* Less than or Equal
+  * Uses the sign (<=)
+  * If the value of left operand is less than or equal to the value of right operand, then condition becomes true.
+
+Logical operators in python has keywords instead of a symbol, they are:
+
+* AND
+  * Uses the keyword (and)
+  * If both the operands are true then condition becomes true.
+* OR
+  * Uses the keyword (or)
+  * If any of the two operands are non-zero then condition becomes true.
+* NOT
+  * Uses the keyword (not)
+  * Used to reverse the logical state of its operand.
+
+**Link to work:** [Day-21 sourceCode]()
+
+[Back Top](#days)
