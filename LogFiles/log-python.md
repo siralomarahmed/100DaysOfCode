@@ -708,3 +708,32 @@ Logical operators in python has keywords instead of a symbol, they are:
 **Link to work:** [Day-21 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day021.py)
 
 [Back Top](#days)
+
+----
+### Day 22: May 2, 2020
+
+**Today's Progress:** Membership & Identity Operators
+
+**Thoughts:** Usually other programming languages will have a symbol or a sign to achieve similar effect of the membership and identity operators. In python, they can be used as a keyword, which emphysise readability.
+
+Membership Operators: used to check if an object is inside an object. It has two keywords:
+
+* In
+  * uses the keyword (in)
+  * Evaluates to true if it finds a variable in the specified sequence and false otherwise.
+* Not In
+  * Uses the keyword (not in)
+  * Evaluates to true if it does not finds a variable in the specified sequence and false otherwise.
+
+Identity Operators: used often to compare objects both in value and type, for some reason, it does compare its address in the memory too. It has two keywords:
+
+* Is
+  * Uses the keyword (is)
+  * Evaluates to true if the variables on either side of the operator point to the same object and false otherwise.
+* Is Not
+  * Uses the keyword (is not)
+  * Evaluates to false if the variables on either side of the operator point to the same object and true otherwise.
+
+**Link to work:** [Day-22 sourceCode]()
+
+[Back Top](#days)
