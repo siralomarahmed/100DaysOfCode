@@ -42,7 +42,7 @@ April 11th, 2020.
 |--|---------------------------------|---------------------------------|------------------------------|
 |01| [Day 1](#day-1-April-11-2020)   | [Day 11](#day-11-April-21-2020) | [Day 21](#day-21-May-1-2020) |
 |02| [Day 2](#day-2-April-12-2020)   | [Day 12](#day-12-April-22-2020) | [Day 22](#day-22-May-2-2020) |
-|03| [Day 3](#day-3-April-13-2020)   | [Day 13](#day-13-April-23-2020) |
+|03| [Day 3](#day-3-April-13-2020)   | [Day 13](#day-13-April-23-2020) | [Day 23](#day-23-May-3-2020) |
 |04| [Day 4](#day-4-April-14-2020)   | [Day 14](#day-14-April-24-2020) |
 |05| [Day 5](#day-5-April-15-2020)   | [Day 15](#day-15-April-25-2020) |
 |06| [Day 6](#day-6-April-16-2020)   | [Day 16](#day-16-April-26-2020) |
@@ -735,5 +735,26 @@ Identity Operators: used often to compare objects both in value and type, for so
   * Evaluates to false if the variables on either side of the operator point to the same object and true otherwise.
 
 **Link to work:** [Day-22 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day022.py)
+
+[Back Top](#days)
+
+----
+### Day 23: May 3, 2020
+
+**Today's Progress:** Dictionary Data Type
+
+**Thoughts:** Dictionaries in python are an unordered list of items. items are called the element of a dectionary. and each element is consist of two things, key and value.
+
+Kyes must be an immutable data type and the are an identifier to the value. Values can be any data type and are not unique.
+
+* *Syntax*:
+* a reference name
+* that is assigned to
+* a Curly braces `{}`
+* contain the elements
+* each element consist of key value pairs seperated by a comma `,`
+* collin `:` to link the key to the value
+
+**Link to work:** [Day-23 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day023.py)
 
 [Back Top](#days)
