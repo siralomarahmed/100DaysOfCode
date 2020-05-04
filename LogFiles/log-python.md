@@ -758,3 +758,29 @@ Kyes must be an immutable data type and the are an identifier to the value. Valu
 **Link to work:** [Day-23 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day023.py)
 
 [Back Top](#days)
+
+----
+### Day 24: May 4, 2020
+
+**Today's Progress:** Dictionary Data Retrieving
+
+**Thoughts:** Retrieving data from dictionaries can be attained using the bracket notation with the key as the argument. However there is an issue that may occure if the key doesn't exist. There is built in functions and methods that solve these issues.
+
+* First using `.get()`
+* applied on a dictionary
+* takes two arguments (x, y)
+  * x is the key
+  * y is a placeholder of a value
+* if the provided key doesn't exist, the placeholder value will be returned.
+
+* Second, using `.setdefault()`
+* takes two arguments (x, y)
+  * x is the key
+  * y is the default value
+* if the key is in the dictionary, it will return the value
+* if not, it will return the default value
+* if no default value provided, it will return none
+
+**Link to work:** [Day-24 sourceCode]()
+
+[Back Top](#days)
