@@ -781,7 +781,7 @@ Kyes must be an immutable data type and the are an identifier to the value. Valu
 * if not, it will return the default value
 * if no default value provided, it will return none
 
-**Link to work:** [Day-24 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day024.py))
+**Link to work:** [Day-24 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day024.py)
 
 [Back Top](#days)
 
@@ -807,6 +807,6 @@ Kyes must be an immutable data type and the are an identifier to the value. Valu
 
 You can also delete everything inside a dictionary by using the `clear()` method.
 
-**Link to work:** [Day-25 sourceCode]()
+**Link to work:** [Day-25 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day025.py)
 
 [Back Top](#days)
