@@ -784,3 +784,29 @@ Kyes must be an immutable data type and the are an identifier to the value. Valu
 **Link to work:** [Day-24 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day024.py))
 
 [Back Top](#days)
+
+----
+### Day 25: May 5, 2020
+
+**Today's Progress:** Dictionary Data Removing
+
+**Thoughts:** removing data from dictionaries can be achieved using two methods.
+
+* using `.pop()`
+* takes two arguments (x, y)
+* x is the key you want to remove
+  * the mehtod will return an error if the key is not found
+* y is a return value
+  * this return value incase the key dosn't exist. so no error comes out
+* if the key is in the dictionary, delete it and return the value.
+
+* using `del` keyword
+* the delete keyword will not return the value
+* return a keyError if the key does not exist
+* Using the keyword on a dictionary will delet it whole!
+
+You can also delete everything inside a dictionary by using the `clear()` method.
+
+**Link to work:** [Day-25 sourceCode]()
+
+[Back Top](#days)
