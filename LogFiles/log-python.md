@@ -45,7 +45,7 @@ April 11th, 2020.
 |03| [Day 3](#day-3-April-13-2020)   | [Day 13](#day-13-April-23-2020) | [Day 23](#day-23-May-3-2020) |
 |04| [Day 4](#day-4-April-14-2020)   | [Day 14](#day-14-April-24-2020) | [Day 24](#day-24-May-4-2020) |
 |05| [Day 5](#day-5-April-15-2020)   | [Day 15](#day-15-April-25-2020) | [Day 25](#day-25-May-5-2020) |
-|06| [Day 6](#day-6-April-16-2020)   | [Day 16](#day-16-April-26-2020) |
+|06| [Day 6](#day-6-April-16-2020)   | [Day 16](#day-16-April-26-2020) | [Day 26](#day-26-May-6-2020) |
 |07| [Day 7](#day-7-April-17-2020)   | [Day 17](#day-17-April-27-2020) |
 |08| [Day 8](#day-8-April-18-2020)   | [Day 18](#day-18-April-28-2020) |
 |09| [Day 9](#day-9-April-19-2020)   | [Day 19](#day-19-April-29-2020) |
@@ -808,5 +808,30 @@ Kyes must be an immutable data type and the are an identifier to the value. Valu
 You can also delete everything inside a dictionary by using the `clear()` method.
 
 **Link to work:** [Day-25 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day025.py)
+
+[Back Top](#days)
+
+----
+### Day 26: May 6, 2020
+
+**Today's Progress:** Dictionary Modification
+
+**Thoughts:** You can create a dictionary from a nested list using the `dict()` function.
+
+The structure of the list to create a dictionary from is as follow:
+
+* a list
+* that have a list inside it
+* with two elements
+
+Another thing you can do with python dictionaries is to merge two dictionaries together. It uses a method to accomplish this
+
+* Uses `.update()` method
+  * accept, the list to be updated
+  * takes, the list to update from
+* overwrite existing keys
+* and return `none`
+
+**Link to work:** [Day-26 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day026.py)
 
 [Back Top](#days)
