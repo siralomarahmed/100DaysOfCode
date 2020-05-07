@@ -835,3 +835,32 @@ Another thing you can do with python dictionaries is to merge two dictionaries t
 **Link to work:** [Day-26 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day026.py)
 
 [Back Top](#days)
+
+----
+### Day 27: May 7, 2020
+
+**Today's Progress:** Control flow - If Statement
+
+**Thoughts:** The if statement is similar to other programming languages. It is a block of code that has a specific function that works if the condition agree.
+
+There is three levels to the if statement defined with these keywords:
+
+* `if`
+  * a block of code
+  * has a condition
+  * and a body of code that has the expression
+  * the expression has to evaluate to true or false
+* `else`
+  * fall back condition
+  * this will only execute if the first condition was false
+  * it must be the last result of the if statement
+  * the same level of indentatin of the if statement
+* `elif`
+  * extra condition
+  * to add another condition in the if statement
+
+If statements can be nested to create complex logics and conditions.
+
+**Link to work:** [Day-27 sourceCode]()
+
+[Back Top](#days)
