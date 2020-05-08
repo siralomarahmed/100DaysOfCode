@@ -864,3 +864,20 @@ If statements can be nested to create complex logics and conditions.
 **Link to work:** [Day-27 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day027.py)
 
 [Back Top](#days)
+
+----
+### Day 28: May 8, 2020
+
+**Today's Progress:** Control flow - While Loop
+
+**Thoughts:** A loop is good to have when you want to repeat a series of sintructions over and over again. In python, while loop is a block of code that has a condition, It's purpose is to control the flow of the program.
+
+* While loop will run as long as the condition is true
+* this loop is a block of code
+* The condition of a while loop is always checked first before the block of code runs.
+
+One thing to keep in mind when using a while loop is that you have to be careful to not make an infinite loop.
+
+**Link to work:** [Day-28 sourceCode]()
+
+[Back Top](#days)
