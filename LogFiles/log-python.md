@@ -48,7 +48,7 @@ April 11th, 2020.
 |06| [Day 6](#day-6-April-16-2020)   | [Day 16](#day-16-April-26-2020) | [Day 26](#day-26-May-6-2020) |
 |07| [Day 7](#day-7-April-17-2020)   | [Day 17](#day-17-April-27-2020) | [Day 27](#day-27-May-7-2020) |
 |08| [Day 8](#day-8-April-18-2020)   | [Day 18](#day-18-April-28-2020) | [Day 28](#day-28-May-8-2020) |
-|09| [Day 9](#day-9-April-19-2020)   | [Day 19](#day-19-April-29-2020) |
+|09| [Day 9](#day-9-April-19-2020)   | [Day 19](#day-19-April-29-2020) | [Day 29](#day-29-May-9-2020) |
 |10| [Day 10](#day-10-April-20-2020) | [Day 20](#day-20-April-30-2020) |
 
 ----
@@ -879,5 +879,17 @@ If statements can be nested to create complex logics and conditions.
 One thing to keep in mind when using a while loop is that you have to be careful to not make an infinite loop.
 
 **Link to work:** [Day-28 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day028.py)
+
+[Back Top](#days)
+
+----
+### Day 29: May 9, 2020
+
+**Today's Progress:** Conditional Expression
+
+**Thoughts:** I've searched for an equavelent teranary operator in python, I ended up with this. It is similar in functionality, But it uses keywords instead of operators. The idea is to simplify the if statement into one line.
+
+
+**Link to work:** [Day-29 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day029.py)
 
 [Back Top](#days)
