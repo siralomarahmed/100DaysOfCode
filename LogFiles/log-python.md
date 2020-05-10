@@ -893,3 +893,28 @@ One thing to keep in mind when using a while loop is that you have to be careful
 **Link to work:** [Day-29 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day029.py)
 
 [Back Top](#days)
+
+----
+### Day 30: May 10, 2020
+
+**Today's Progress:** For Loop
+
+**Thoughts:** One of my favorit tools in python is the for loop. It is used to iterate through everything. The syntax uses the keywords `for` and `in` as a statement that has a block of code. It is like three points logic:
+
+* use the `for` keyword
+* utilize the `in`membership operator
+* have a block of code 
+
+*Syntax*:
+
+```
+for temporary_variable in list_name:
+    Do this
+    and
+    that
+
+```
+
+**Link to work:** [Day-30 sourceCode]()
+
+[Back Top](#days)
