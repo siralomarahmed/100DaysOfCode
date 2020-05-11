@@ -918,3 +918,23 @@ for temporary_variable in list_name:
 **Link to work:** [Day-30 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day030.py)
 
 [Back Top](#days)
+
+----
+### Day 31: May 11, 2020
+
+**Today's Progress:** Break and Continue in loops
+
+**Thoughts:** A good functions that is condenced in a keyword are the break and continue. They both have a different approach, but both is used to stop the loop from going further if it is not needed. For the difference:
+
+* `break`
+* To stop the loop from inside the loop
+* Used to stop the iteration if the condition is met.
+* returns the code outside of the loop
+
+* `continue`
+* To continue the iteration
+* Used to skip specific iterations then go back to the loop
+
+**Link to work:** [Day-31 sourceCode]()
+
+[Back Top](#days)
