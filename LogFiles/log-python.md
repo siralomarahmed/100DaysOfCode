@@ -41,7 +41,7 @@ April 11th, 2020.
 |+ |00                               |01                               |02                             |03                             |
 |--|---------------------------------|---------------------------------|-------------------------------|-------------------------------|
 |01| [Day 1](#day-1-April-11-2020)   | [Day 11](#day-11-April-21-2020) | [Day 21](#day-21-May-1-2020)  | [Day 31](#day-31-May-11-2020) |
-|02| [Day 2](#day-2-April-12-2020)   | [Day 12](#day-12-April-22-2020) | [Day 22](#day-22-May-2-2020)  |
+|02| [Day 2](#day-2-April-12-2020)   | [Day 12](#day-12-April-22-2020) | [Day 22](#day-22-May-2-2020)  | [Day 32](#day-32-May-12-2020) |
 |03| [Day 3](#day-3-April-13-2020)   | [Day 13](#day-13-April-23-2020) | [Day 23](#day-23-May-3-2020)  |
 |04| [Day 4](#day-4-April-14-2020)   | [Day 14](#day-14-April-24-2020) | [Day 24](#day-24-May-4-2020)  |
 |05| [Day 5](#day-5-April-15-2020)   | [Day 15](#day-15-April-25-2020) | [Day 25](#day-25-May-5-2020)  |
@@ -936,5 +936,28 @@ for temporary_variable in list_name:
 * Used to skip specific iterations then go back to the loop
 
 **Link to work:** [Day-31 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day031.py)
+
+[Back Top](#days)
+
+----
+### Day 32: May 12, 2020
+
+**Today's Progress:** Range Object
+
+**Thoughts:** Range in python is used to create a sequence of consecutive numbers. It is a built-in function that takes three argument.
+
+* *Syntax*:
+  * `range(x, y, z)` keyword
+    * x is where the range starting from
+      * by default it starts from zero
+    * y is where the range is going to end
+      * y is not included in the range
+    * z is how many steps to skip before the next number
+
+Using the range function with one argument will assume that it is the first argument, where the range is going to end. This will also default to begin from zero. 
+
+Remember the range is a seperate object, it generate sequence of numbers. the sequence of numbers are not a list.
+
+**Link to work:** [Day-32 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day032.py)
 
 [Back Top](#days)
