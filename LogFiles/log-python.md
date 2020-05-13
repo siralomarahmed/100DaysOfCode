@@ -42,7 +42,7 @@ April 11th, 2020.
 |--|---------------------------------|---------------------------------|-------------------------------|-------------------------------|
 |01| [Day 1](#day-1-April-11-2020)   | [Day 11](#day-11-April-21-2020) | [Day 21](#day-21-May-1-2020)  | [Day 31](#day-31-May-11-2020) |
 |02| [Day 2](#day-2-April-12-2020)   | [Day 12](#day-12-April-22-2020) | [Day 22](#day-22-May-2-2020)  | [Day 32](#day-32-May-12-2020) |
-|03| [Day 3](#day-3-April-13-2020)   | [Day 13](#day-13-April-23-2020) | [Day 23](#day-23-May-3-2020)  |
+|03| [Day 3](#day-3-April-13-2020)   | [Day 13](#day-13-April-23-2020) | [Day 23](#day-23-May-3-2020)  | [Day 33](#day-33-May-13-2020) |
 |04| [Day 4](#day-4-April-14-2020)   | [Day 14](#day-14-April-24-2020) | [Day 24](#day-24-May-4-2020)  |
 |05| [Day 5](#day-5-April-15-2020)   | [Day 15](#day-15-April-25-2020) | [Day 25](#day-25-May-5-2020)  |
 |06| [Day 6](#day-6-April-16-2020)   | [Day 16](#day-16-April-26-2020) | [Day 26](#day-26-May-6-2020)  |
@@ -977,6 +977,6 @@ Remember the range is a seperate object, it generate sequence of numbers. the se
   * element is a placeholder for each element in the list
   * list_name is the name of the list to iterate on
 
-**Link to work:** [Day-33 sourceCode]()
+**Link to work:** [Day-33 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day033.py)
 
 [Back Top](#days)
