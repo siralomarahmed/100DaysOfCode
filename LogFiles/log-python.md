@@ -961,3 +961,22 @@ Remember the range is a seperate object, it generate sequence of numbers. the se
 **Link to work:** [Day-32 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day032.py)
 
 [Back Top](#days)
+
+----
+### Day 33: May 13, 2020
+
+**Today's Progress:** Enumeration
+
+**Thoughts:** enumeration in python is a type of iteration that count the index of the elements while looping through a list. It is a built-in function that generate a list. You can say it is similar to a list, but not a list! You can think of this as a special type of a for loop.
+
+* *Syntax*:
+  * `for index, element in enumerate(list_name):`
+* where:
+  * `for` and `in` is the keywords that create the loop
+  * index is a placeholder for the index of the element
+  * element is a placeholder for each element in the list
+  * list_name is the name of the list to iterate on
+
+**Link to work:** [Day-33 sourceCode]()
+
+[Back Top](#days)
