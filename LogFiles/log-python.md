@@ -980,3 +980,23 @@ Remember the range is a seperate object, it generate sequence of numbers. the se
 **Link to work:** [Day-33 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day033.py)
 
 [Back Top](#days)
+
+----
+### Day 34: May 14, 2020
+
+**Today's Progress:** List Comprehension
+
+**Thoughts:** A fancy name for one line syntax to build a list from an object. It is used to generate new list. It is a better way to handel scope in loops, as the temporary variable will not be a global variable!
+
+The syntax is kinda reversed from the normal way, you can say a yoda way of speaking!
+
+The easiest way to express the syntax is like this:
+
+variable_name = [expression loop]
+
+* where:
+* expression is before the loop
+* both expression and loop in square brackets
+* that generate a list
+
+**Link to work:** [Day-34 sourceCode]()
