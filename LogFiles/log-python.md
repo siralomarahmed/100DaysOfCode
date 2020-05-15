@@ -1000,3 +1000,38 @@ variable_name = [expression loop]
 * that generate a list
 
 **Link to work:** [Day-34 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day034.py)
+
+[Back Top](#days)
+
+----
+### Day 35: May 15, 2020
+
+**Today's Progress:** List Methods
+
+**Thoughts:** Most common activities on lists is to get the index or count stuff, split and join. I would say I just practiced using the methods. There are others if you look into the python docs.
+
+* `.count()`
+  * count how many times the value appears in a list
+  * the argument is the item that this method will search for in the list.
+
+* `.index(x, y)`
+  * return the first index position where it occure
+  * x : the element you want to search for
+  * y : the starting index position you want to start searching from
+
+* `.split()`
+  * the input is a string
+  * split a string based on the delimiter
+  * the process is to split the string from the delimeter
+    * delimeter is a string you will give to find and then slice the string into piceses
+    * dilimeter has to be at least one character
+  * the method can take another argument to determin the maximum times you want to do the operation
+  * the output will be a list
+
+* `.join()`
+  * combine a list into a single string
+  * You can add a string to cause it to be seperated by that string
+
+**Link to work:** [Day-35 sourceCode]()
+
+[Back Top](#days)
