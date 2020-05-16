@@ -1035,3 +1035,19 @@ variable_name = [expression loop]
 **Link to work:** [Day-35 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day035.py)
 
 [Back Top](#days)
+
+----
+### Day 36: May 16, 2020
+
+**Today's Progress:** Set Data Type
+
+**Thoughts:** Sets in python is a data structure that stores unordered list of immutable objects. Set itself is a mutable data type. Since set and list are similar, the both support comprehension syntax, the difference is that you use curly braces.
+
+* *Syntax*:
+  * Uses curly braces `{}`
+    * has elements seperated by commas `,`
+  * any duplicates will be deleted
+
+**Link to work:** [Day-36 sourceCode]()
+
+[Back Top](#days)
