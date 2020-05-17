@@ -1051,3 +1051,32 @@ variable_name = [expression loop]
 **Link to work:** [Day-36 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day036.py)
 
 [Back Top](#days)
+
+----
+### Day 37: May 17, 2020
+
+**Today's Progress:** Set basic Methods
+
+**Thoughts:** There are a number of functionality that you can do with sets, such as methods that are useful to add data or delete elements in the sets.
+
+* `.add()`
+* to add data to the set
+* takes one argument
+
+* `.update()`
+* to add multiple data to a set
+* can take more than one argument
+
+* `.remove()`
+* to remove one data from a set
+* will print error if the argument do not exist
+* takes one argument
+
+* `.discard()`
+* to remove one data from a set
+* will bypass the error if the argument do not exist
+* takes one argument
+
+**Link to work:** [Day-37 sourceCode]()
+
+[Back Top](#days)
