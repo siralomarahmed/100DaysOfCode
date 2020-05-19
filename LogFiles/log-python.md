@@ -1108,3 +1108,22 @@ variable_name = [expression loop]
 **Link to work:** [Day-38 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day038.py)
 
 [Back Top](#days)
+
+----
+### Day 39: May 19, 2020
+
+**Today's Progress:** Intro to Modules
+
+**Thoughts:** Modules are just collection of code that is set to be executed or used later. Although I will concentrate on existing modules in my learning here.
+
+Basically any script file can be a module, being a module means that you can import the code to another file. Python uses the keyword `import` followed by the name of the script file you want to import.
+
+Standard libraries such as the string and math modules are useful to enhance the coder productivity. As it has been said, don't reinvent the wheel. There are many functions that don't need to be rewritten, it is already there. You can just import them and use them.
+
+You can then use the attributes that is in the module by using the Dot notation.
+
+Example: `module_name.property_name`
+
+**Link to work:** [Day-39 sourceCode]()
+
+[Back Top](#days)
