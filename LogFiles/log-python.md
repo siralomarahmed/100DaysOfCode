@@ -49,7 +49,7 @@ April 11th, 2020.
 |07| [Day 7](#day-7-April-17-2020)   | [Day 17](#day-17-April-27-2020) | [Day 27](#day-27-May-7-2020)  | [Day 37](#day-37-May-17-2020) |
 |08| [Day 8](#day-8-April-18-2020)   | [Day 18](#day-18-April-28-2020) | [Day 28](#day-28-May-8-2020)  | [Day 38](#day-38-May-18-2020) |
 |09| [Day 9](#day-9-April-19-2020)   | [Day 19](#day-19-April-29-2020) | [Day 29](#day-29-May-9-2020)  | [Day 39](#day-39-May-19-2020) |
-|10| [Day 10](#day-10-April-20-2020) | [Day 20](#day-20-April-30-2020) | [Day 30](#day-30-May-10-2020) |
+|10| [Day 10](#day-10-April-20-2020) | [Day 20](#day-20-April-30-2020) | [Day 30](#day-30-May-10-2020) | [Day 40](#day-40-May-20-2020) |
 
 ----
 ### Day 1: April 11, 2020
@@ -1139,6 +1139,6 @@ It uses a specific keyword `from` to do this task. The keyword preceed the `impo
 
 When you use this suntax, make sure the attribute do not have duplicates in the program.
 
-**Link to work:** [Day-40 sourceCode]()
+**Link to work:** [Day-40 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day040.py)
 
 [Back Top](#days)
