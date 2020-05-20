@@ -1127,3 +1127,18 @@ Example: `module_name.property_name`
 **Link to work:** [Day-39 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day039.py)
 
 [Back Top](#days)
+
+----
+### Day 40: May 20, 2020
+
+**Today's Progress:** Importing Specific Attribute From a Module
+
+**Thoughts:** Instead of importing the whole module in a program, you can chose to import a specific attribute. This will decrease load time.
+
+It uses a specific keyword `from` to do this task. The keyword preceed the `import` keyword, where the import will have the value of the attribute you want to import.
+
+When you use this suntax, make sure the attribute do not have duplicates in the program.
+
+**Link to work:** [Day-40 sourceCode]()
+
+[Back Top](#days)
