@@ -1142,3 +1142,25 @@ When you use this suntax, make sure the attribute do not have duplicates in the 
 **Link to work:** [Day-40 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day040.py)
 
 [Back Top](#days)
+
+----
+### Day 41: May 21, 2020
+
+**Today's Progress:** Module Aliasing
+
+**Thoughts:** To put it into simple words, it is like giving the module a nickname.
+
+Tipically used when the module name is long. The way you can do this is by using the `as` keyword followed with the alias. Just remember that a nickname must have no conflict with already existing variables in the program.
+
+Some of the Math module attributes:
+
+* `.pi`
+  * is an attribute that print's out the pi number
+* `.floor()`
+  * is an attribute that will take a number and rounded to the floor
+* `.fabs()`
+  * is an attribute that will take a number and return the absolute value of it.
+
+**Link to work:** [Day-41 sourceCode]()
+
+[Back Top](#days)
