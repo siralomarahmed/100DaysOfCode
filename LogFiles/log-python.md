@@ -1164,3 +1164,25 @@ Some of the Math module attributes:
 **Link to work:** [Day-41 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day041.py)
 
 [Back Top](#days)
+
+----
+### Day 42: May 22, 2020
+
+**Today's Progress:** Class Definition
+
+**Thoughts:** A class is a blueprint that can produce objects.
+
+Class in python can be built using the `class` keyword. Ofcorse a class has a block of code and can take arguments.
+
+`pass` is just a keyword that can be used to tell the interpreter to pass and do nothing. I use it sometimes to bypass an error and to make a point.
+
+*Syntax*:
+
+* `class` keyword
+* name of the class
+  * must be a single word
+  * PascalCase or camelCase
+
+**Link to work:** [Day-42 sourceCode]()
+
+[Back Top](#days)
