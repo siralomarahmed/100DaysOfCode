@@ -43,7 +43,7 @@ April 11th, 2020.
 |01| [Day 1](#day-1-April-11-2020)   | [Day 11](#day-11-April-21-2020) | [Day 21](#day-21-May-1-2020)  | [Day 31](#day-31-May-11-2020) | [Day 41](#day-41-May-21-2020) |
 |02| [Day 2](#day-2-April-12-2020)   | [Day 12](#day-12-April-22-2020) | [Day 22](#day-22-May-2-2020)  | [Day 32](#day-32-May-12-2020) | [Day 42](#day-42-May-22-2020) |
 |03| [Day 3](#day-3-April-13-2020)   | [Day 13](#day-13-April-23-2020) | [Day 23](#day-23-May-3-2020)  | [Day 33](#day-33-May-13-2020) | [Day 43](#day-43-May-23-2020) |
-|04| [Day 4](#day-4-April-14-2020)   | [Day 14](#day-14-April-24-2020) | [Day 24](#day-24-May-4-2020)  | [Day 34](#day-34-May-14-2020) |
+|04| [Day 4](#day-4-April-14-2020)   | [Day 14](#day-14-April-24-2020) | [Day 24](#day-24-May-4-2020)  | [Day 34](#day-34-May-14-2020) | [Day 44](#day-44-May-24-2020) |
 |05| [Day 5](#day-5-April-15-2020)   | [Day 15](#day-15-April-25-2020) | [Day 25](#day-25-May-5-2020)  | [Day 35](#day-35-May-15-2020) |
 |06| [Day 6](#day-6-April-16-2020)   | [Day 16](#day-16-April-26-2020) | [Day 26](#day-26-May-6-2020)  | [Day 36](#day-36-May-16-2020) |
 |07| [Day 7](#day-7-April-17-2020)   | [Day 17](#day-17-April-27-2020) | [Day 27](#day-27-May-7-2020)  | [Day 37](#day-37-May-17-2020) |
@@ -1217,6 +1217,6 @@ Initialization of a class is actually the first function inside the class. The f
 
 You notice that the initialization method takes arguments inside the parenthisis. THe most important argument is itself, And that is expressed by the `self` word. must be the first argument. The word self is not a keyword, but it is a very discriptive in this situation
 
-**Link to work:** [Day-44 sourceCode]()
+**Link to work:** [Day-44 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day044.py)
 
 [Back Top](#days)
