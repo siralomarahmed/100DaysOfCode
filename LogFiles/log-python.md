@@ -1201,3 +1201,22 @@ The syntax is simple, you assign the instance to a variable using the assignment
 **Link to work:** [Day-43 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day043.py)
 
 [Back Top](#days)
+
+----
+### Day 44: May 24, 2020
+
+**Today's Progress:** Class Initialization
+
+**Thoughts:** Each class in python must be initialized if you want to make something out of them. And to intialize a class you need to use a Dunder method!
+
+Dunder is just a shortcut for double underscore. A dunder method is supposed to be used only by the python interpreter behind the scenes. Dunder mehtods usually runs automatically
+
+Initialization of a class is actually the first function inside the class. The function name however is going to be a dunder initialization mehtod `__init__`
+
+*Syntax*: `def __init__():`
+
+You notice that the initialization method takes arguments inside the parenthisis. THe most important argument is itself, And that is expressed by the `self` word. must be the first argument. The word self is not a keyword, but it is a very discriptive in this situation
+
+**Link to work:** [Day-44 sourceCode]()
+
+[Back Top](#days)
