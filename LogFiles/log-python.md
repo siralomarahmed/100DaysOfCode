@@ -1220,3 +1220,22 @@ You notice that the initialization method takes arguments inside the parenthisis
 **Link to work:** [Day-44 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day044.py)
 
 [Back Top](#days)
+
+----
+### Day 45: May 25, 2020
+
+**Today's Progress:** Class Attributes
+
+**Thoughts:** Attributes is a piece of data on the object created by the class. It is to give the class more functionalities.
+
+Attributes can be defined as things that the object of this class can do. More like what the class gives the object to do. You define attributes in the initialization method of the class. And then, you can use the attributes to objects created by this class using the DOT notation.
+
+You give the initialization mehtod an argument with the attribute name. You can also set a default value for the attribute by assigning it here inside the parentisis of the dender init method. Inside the block of code you actualy define the attribute name like this:
+
+*Syntax*: `self.attribute_name = attribute_name`
+
+You can use diffrent names, but it will only complicate things.
+
+**Link to work:** [Day-45 sourceCode]()
+
+[Back Top](#days)
