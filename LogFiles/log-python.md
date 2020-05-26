@@ -1239,3 +1239,18 @@ You can use diffrent names, but it will only complicate things.
 **Link to work:** [Day-45 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day045.py)
 
 [Back Top](#days)
+
+----
+### Day 46: May 26, 2020
+
+**Today's Progress:** Class Methods
+
+**Thoughts:** Class methods are actiually functions inside the class. They are also called instance methods.
+
+Since it is a method, you can say that it is a function that belong to the object created by the class. You can define as much instance methods as you want, but they all must be after the initialization method.
+
+Class mehtod can accept arguments and return values. THe same as for every function inside a class, THis method will have the self argument as the first one to refare to itself.
+
+**Link to work:** [Day-46 sourceCode]()
+
+[Back Top](#days)
