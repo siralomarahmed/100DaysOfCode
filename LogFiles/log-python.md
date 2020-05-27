@@ -1254,3 +1254,18 @@ Class mehtod can accept arguments and return values. THe same as for every funct
 **Link to work:** [Day-46 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day046.py)
 
 [Back Top](#days)
+
+----
+### Day 47: May 27, 2020
+
+**Today's Progress:** Class Protected Methods
+
+**Thoughts:** A protected method is just a method that are not supposed to be used directly. THis mean you dont interact with it with the DOT notation.
+
+The community has an understanding that any instance method that has an underscore before its name is a protected method.
+
+Following all the normal way of creating a class method, except the naming. The added underscore is not a keyword or a special character in the pythn interpreter, it is just a community standard.
+
+**Link to work:** [Day-47 sourceCode]()
+
+[Back Top](#days)
