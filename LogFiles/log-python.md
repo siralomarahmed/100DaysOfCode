@@ -1269,3 +1269,16 @@ Following all the normal way of creating a class method, except the naming. The 
 **Link to work:** [Day-47 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day047.py)
 
 [Back Top](#days)
+
+----
+### Day 48: May 28, 2020
+
+**Today's Progress:** Class Protected Attributes
+
+**Thoughts:** All attributes by default are public, this mean you can modify them and change them. To make them private, you use protected methods.
+
+Similar to the protected methods, attributes can be protected by using the underscore naming.
+
+**Link to work:** [Day-48 sourceCode]()
+
+[Back Top](#days)
