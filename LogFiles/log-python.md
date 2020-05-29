@@ -1282,3 +1282,21 @@ Similar to the protected methods, attributes can be protected by using the under
 **Link to work:** [Day-48 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day048.py)
 
 [Back Top](#days)
+
+
+----
+### Day 49: May 29, 2020
+
+**Today's Progress:** Function Documentation
+
+**Thoughts:** An intersting thing in python functions, that you can document what the function does inside the function. With a string that represent the documentation of the function.
+
+It is a method used to save the documentation so you can get it later on. The Rule is that this documentation must be the first string after the function definition. It is also called Doc string.
+
+You can then check the documentation of a function with the function `help()` with the function name as the argument.
+
+A short method to link decorator to a function is by using the `@` suntax. It is placed on the top of the function that you want the decorator to act on. This way you can also add the decorator to multiple functions.
+
+**Link to work:** [Day-49 sourceCode]()
+
+[Back Top](#days)
