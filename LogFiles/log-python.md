@@ -48,7 +48,7 @@ April 11th, 2020.
 |06| [Day 6](#day-6-April-16-2020)   | [Day 16](#day-16-April-26-2020) | [Day 26](#day-26-May-6-2020)  | [Day 36](#day-36-May-16-2020) | [Day 46](#day-46-May-26-2020) |
 |07| [Day 7](#day-7-April-17-2020)   | [Day 17](#day-17-April-27-2020) | [Day 27](#day-27-May-7-2020)  | [Day 37](#day-37-May-17-2020) | [Day 47](#day-47-May-27-2020) |
 |08| [Day 8](#day-8-April-18-2020)   | [Day 18](#day-18-April-28-2020) | [Day 28](#day-28-May-8-2020)  | [Day 38](#day-38-May-18-2020) | [Day 48](#day-48-May-28-2020) |
-|09| [Day 9](#day-9-April-19-2020)   | [Day 19](#day-19-April-29-2020) | [Day 29](#day-29-May-9-2020)  | [Day 39](#day-39-May-19-2020) |
+|09| [Day 9](#day-9-April-19-2020)   | [Day 19](#day-19-April-29-2020) | [Day 29](#day-29-May-9-2020)  | [Day 39](#day-39-May-19-2020) | [Day 49](#day-49-May-29-2020) |
 |10| [Day 10](#day-10-April-20-2020) | [Day 20](#day-20-April-30-2020) | [Day 30](#day-30-May-10-2020) | [Day 40](#day-40-May-20-2020) |
 
 ----
@@ -1297,6 +1297,6 @@ You can then check the documentation of a function with the function `help()` wi
 
 A short method to link decorator to a function is by using the `@` suntax. It is placed on the top of the function that you want the decorator to act on. This way you can also add the decorator to multiple functions.
 
-**Link to work:** [Day-49 sourceCode]()
+**Link to work:** [Day-49 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day049.py)
 
 [Back Top](#days)
