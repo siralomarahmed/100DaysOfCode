@@ -49,7 +49,7 @@ April 11th, 2020.
 |07| [Day 7](#day-7-April-17-2020)   | [Day 17](#day-17-April-27-2020) | [Day 27](#day-27-May-7-2020)  | [Day 37](#day-37-May-17-2020) | [Day 47](#day-47-May-27-2020) |
 |08| [Day 8](#day-8-April-18-2020)   | [Day 18](#day-18-April-28-2020) | [Day 28](#day-28-May-8-2020)  | [Day 38](#day-38-May-18-2020) | [Day 48](#day-48-May-28-2020) |
 |09| [Day 9](#day-9-April-19-2020)   | [Day 19](#day-19-April-29-2020) | [Day 29](#day-29-May-9-2020)  | [Day 39](#day-39-May-19-2020) | [Day 49](#day-49-May-29-2020) |
-|10| [Day 10](#day-10-April-20-2020) | [Day 20](#day-20-April-30-2020) | [Day 30](#day-30-May-10-2020) | [Day 40](#day-40-May-20-2020) |
+|10| [Day 10](#day-10-April-20-2020) | [Day 20](#day-20-April-30-2020) | [Day 30](#day-30-May-10-2020) | [Day 40](#day-40-May-20-2020) | [Day 50](#day-50-May-30-2020) |
 
 ----
 ### Day 1: April 11, 2020
@@ -1316,6 +1316,6 @@ You can use this type of function if you just want to use it once and then disca
   * has a body which comes after the collin `:`
   * And there is no need to specify return statement
 
-**Link to work:** [Day-50 sourceCode]()
+**Link to work:** [Day-50 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day050.py)
 
 [Back Top](#days)
