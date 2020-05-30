@@ -1300,3 +1300,22 @@ A short method to link decorator to a function is by using the `@` suntax. It is
 **Link to work:** [Day-49 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day049.py)
 
 [Back Top](#days)
+
+----
+### Day 50: May 30, 2020
+
+**Today's Progress:** Lambda Functions
+
+**Thoughts:** Lambda function are anonymous functions. This mean that the function has no name that identify it. Theory is that this came from lambada calculus.
+
+You can use this type of function if you just want to use it once and then discard it. It also have a fine one line syntax in python which make code more consise. It is a light weight and run faster than normal functions. However It seems that this type of function cannot hold itself in complex logic, in that case I suggest using the normal function.
+
+* *Syntax*:
+  * Uses the keyword `lambda`
+  * can take arguments after the keyword
+  * has a body which comes after the collin `:`
+  * And there is no need to specify return statement
+
+**Link to work:** [Day-50 sourceCode]()
+
+[Back Top](#days)
