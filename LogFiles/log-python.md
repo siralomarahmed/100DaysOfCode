@@ -38,9 +38,9 @@ April 11th, 2020.
 
 ----
 ## Days:
-|+ |00                               |01                               |02                             |03                             |04                             |
-|--|---------------------------------|---------------------------------|-------------------------------|-------------------------------|-------------------------------|
-|01| [Day 1](#day-1-April-11-2020)   | [Day 11](#day-11-April-21-2020) | [Day 21](#day-21-May-1-2020)  | [Day 31](#day-31-May-11-2020) | [Day 41](#day-41-May-21-2020) |
+|+ |00                               |01                               |02                             |03                             |04                             |05                             |
+|--|---------------------------------|---------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
+|01| [Day 1](#day-1-April-11-2020)   | [Day 11](#day-11-April-21-2020) | [Day 21](#day-21-May-1-2020)  | [Day 31](#day-31-May-11-2020) | [Day 41](#day-41-May-21-2020) | [Day 51](#day-51-May-31-2020) |
 |02| [Day 2](#day-2-April-12-2020)   | [Day 12](#day-12-April-22-2020) | [Day 22](#day-22-May-2-2020)  | [Day 32](#day-32-May-12-2020) | [Day 42](#day-42-May-22-2020) |
 |03| [Day 3](#day-3-April-13-2020)   | [Day 13](#day-13-April-23-2020) | [Day 23](#day-23-May-3-2020)  | [Day 33](#day-33-May-13-2020) | [Day 43](#day-43-May-23-2020) |
 |04| [Day 4](#day-4-April-14-2020)   | [Day 14](#day-14-April-24-2020) | [Day 24](#day-24-May-4-2020)  | [Day 34](#day-34-May-14-2020) | [Day 44](#day-44-May-24-2020) |
@@ -1317,5 +1317,18 @@ You can use this type of function if you just want to use it once and then disca
   * And there is no need to specify return statement
 
 **Link to work:** [Day-50 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day050.py)
+
+[Back Top](#days)
+
+----
+### Day 51: May 31, 2020
+
+**Today's Progress:** Nested Functions
+
+**Thoughts:** Nested functions are about function inside another function. You can make or create as many nested function as you want.
+
+All nested functions are local scoped, means that they are not to be invoked globally. They only exist within the parent function. It is used to calculate complex problems in one spot, or one function.
+
+**Link to work:** [Day-51 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day051.py)
 
 [Back Top](#days)
