@@ -1332,3 +1332,16 @@ All nested functions are local scoped, means that they are not to be invoked glo
 **Link to work:** [Day-51 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day051.py)
 
 [Back Top](#days)
+
+----
+### Day 52: June 1, 2020
+
+**Today's Progress:** Heigher Order Functions
+
+**Thoughts:** Heigh order function is just a function that accept a function as an argument. 
+
+Good practice today, It is the basics of building operators, which I did cople of days ago. So, I gave this one a go too.
+
+**Link to work:** [Day-52 sourceCode]()
+
+[Back Top](#days)
