@@ -1345,3 +1345,14 @@ Good practice today, It is the basics of building operators, which I did cople o
 **Link to work:** [Day-52 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day052.py)
 
 [Back Top](#days)
+
+----
+### Day 53: June 2, 2020
+
+**Today's Progress:** Function as an Argument
+
+**Thoughts:** Practicing with functions seems like it will never end, each day I go through a topic it just expand. As today I wanted to practice having a function as an argument so tomorrow I can practice with decorators. It is a bit tricky but logical.
+
+**Link to work:** [Day-53 sourceCode]()
+
+[Back Top](#days)
