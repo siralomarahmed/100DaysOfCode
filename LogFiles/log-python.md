@@ -1356,3 +1356,16 @@ Good practice today, It is the basics of building operators, which I did cople o
 **Link to work:** [Day-53 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day053.py)
 
 [Back Top](#days)
+
+----
+### Day 54: June 3, 2020
+
+**Today's Progress:** Function Decorator
+
+**Thoughts:** A decorator is a higher order function that accept a function as an input and returns another function as an output.
+
+As the name suggest, they are here to decorate a function. This mean you can add stuff to a function, think of it as an extender or a helper function.
+
+**Link to work:** [Day-54 sourceCode]()
+
+[Back Top](#days)
