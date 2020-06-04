@@ -1369,3 +1369,22 @@ As the name suggest, they are here to decorate a function. This mean you can add
 **Link to work:** [Day-54 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day054.py)
 
 [Back Top](#days)
+
+----
+### Day 55: June 4, 2020
+
+**Today's Progress:** Unlimited Arguments
+
+**Thoughts:** There is a way to make the function accept unlimeted number of arguments. This functionality work by using the Astrick operator `*` as an argument.
+
+*Syntax*: `*args` `**kwargs`
+
+`*args` Is the proper technical way to declare a parameter that will hold a tuple representing any number of sequential arguments.
+
+`**kwargs` Is the proper technical way to declare a parameter that will hold a dictionary representing any number of keyword arguments.
+
+Both names can be changed, but the community standard in python chose these ones.
+
+**Link to work:** [Day-55 sourceCode]()
+
+[Back Top](#days)
