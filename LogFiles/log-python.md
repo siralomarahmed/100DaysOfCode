@@ -1388,3 +1388,18 @@ Both names can be changed, but the community standard in python chose these ones
 **Link to work:** [Day-55 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day055.py)
 
 [Back Top](#days)
+
+----
+### Day 56: June 5, 2020
+
+**Today's Progress:** Constant Variables
+
+**Thoughts:** I think I missed it when I first went to variables. It is so obvious, but just to talk out my mind. A variable must be dynamic and changable, once it is static and unchangable, it is not a variable BUT!.
+
+It is known that there is this thing called constant variable. Like the name is contridicting itself. anyhow.
+
+Constant variables are variables that cannot change. Must remain static in the program. As in a name for a value that does not change over the program's execution. Usually declared in a global scope. Community standard is that the name has all capital letters. Python interpreter wont care if it is capital or small, it is just for better readability.
+
+**Link to work:** [Day-56 sourceCode]()
+
+[Back Top](#days)
