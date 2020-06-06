@@ -1403,3 +1403,24 @@ Constant variables are variables that cannot change. Must remain static in the p
 **Link to work:** [Day-56 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day056.py)
 
 [Back Top](#days)
+
+----
+### Day 57: June 6, 2020
+
+**Today's Progress:** While Loop
+
+**Thoughts:** Since I practiced for loops, I missed while loops. Personally I use them less and less so.
+
+A loop is a series of instruction that is repeated. A while loop is the same but with diffrent logic. The most bad effect that this loop can give is an infinit loop. An infnit loop is a loop that runs forever.
+
+A while loop will run as long as the condition is true, the condition of a while loop is always checked first before the clock of code runs.
+
+*Syntax*:
+```python
+while #condition:
+  #statements
+```
+
+**Link to work:** [Day-57 sourceCode]()
+
+[Back Top](#days)
