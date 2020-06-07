@@ -1424,3 +1424,30 @@ while #condition:
 **Link to work:** [Day-57 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day057.py)
 
 [Back Top](#days)
+
+----
+### Day 58: June 7, 2020
+
+**Today's Progress:** Multideminsional Lists
+
+**Thoughts:** Nested lists is a list inside another list. It is used everywhere in programming and it is a very handful way to have a record of ordered data.
+
+*Nested Lists Syntax*: You can go as deep pas you want.
+
+```python
+parent_list = [
+  ["first child list"],
+  ["second child list"],
+  ["third child list",
+    [
+      "first grand-child list"
+    ]
+  ],
+]
+```
+
+Nested lists need nested loops to iterate through them, as it is a bit tricky but very mind stimulating to think of it. 
+
+**Link to work:** [Day-58 sourceCode]()
+
+[Back Top](#days)
