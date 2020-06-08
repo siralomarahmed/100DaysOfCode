@@ -1451,3 +1451,18 @@ Nested lists need nested loops to iterate through them, as it is a bit tricky bu
 **Link to work:** [Day-58 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day058.py)
 
 [Back Top](#days)
+
+----
+### Day 59: June 8, 2020
+
+**Today's Progress:** Combining Lists
+
+**Thoughts:** Have you thought of combining two lists together? I did, and I found a way to do it using the `zip()` built-in function.
+
+When you are using this function, remember that it will create a new object of type `zip`. What can I say, Python is just crazy.
+
+`zip()` is a built in function that creates object of type `zip`. THis object can be iterated through using any iteration techneque. The zip function combines elements accross multiple lists based on a common index positions. It will also return an ignorable generator object that exposes one value from each list. Basically it return a memory location.
+
+**Link to work:** [Day-59 sourceCode]()
+
+[Back Top](#days)
