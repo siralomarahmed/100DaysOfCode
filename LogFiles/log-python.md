@@ -1466,3 +1466,18 @@ When you are using this function, remember that it will create a new object of t
 **Link to work:** [Day-59 sourceCode](https://github.com/siralomarahmed/100DaysOfCode/blob/master/SourceCode/Python/day059.py)
 
 [Back Top](#days)
+
+----
+### Day 60: June 9, 2020
+
+**Today's Progress:** Recursion
+
+**Thoughts:** Recursion is when a function calls itself.
+
+Sometimes this is actually the easiest way to solve a problem, some other times, this may complicate things. So you gotta know when to use it, or if it is actually applicable. Thing is, any problem that can be solved with recursion can be solved normally.
+
+When using recursion, you need a condition to stop it from re-occuring, or you will end up with a situation like an infinite loop.
+
+**Link to work:** [Day-60 sourceCode]()
+
+[Back Top](#days)
